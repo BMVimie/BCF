@@ -7,9 +7,11 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import bzh.bmv.bcf.contract.CreditCardContract;
+
 @Entity
-@Table(name="paymentInfos")
-public class PaymentInfos {
+@Table(name=CreditCardContract.TABLENAME)
+public class CreditCard {
 	
 	
 	@Id
@@ -64,7 +66,7 @@ public class PaymentInfos {
 	
 	//////////////////////////
 	//Constructor without primary key for it will be created automatically
-	public PaymentInfos(String creditCardNb, Integer creditCardExpMth, Integer creditCardExpYear,
+	public CreditCard(String creditCardNb, Integer creditCardExpMth, Integer creditCardExpYear,
 			Integer creditCardVerificationSecurityCode, String creditCardOwner) {
 		super();
 		this.creditCardNb = creditCardNb;
@@ -73,7 +75,7 @@ public class PaymentInfos {
 		this.creditCardVerificationSecurityCode = creditCardVerificationSecurityCode;
 		this.creditCardOwner = creditCardOwner;
 	}
-	public PaymentInfos() {
+	public CreditCard() {
 		super();
 	}
 	

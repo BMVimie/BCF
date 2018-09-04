@@ -6,12 +6,14 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import bzh.bmv.bcf.contract.AddressContract;
+
 /**
  * a user address
  */
 
 @Entity
-@Table(name = "address")
+@Table(name = AddressContract.TABLENAME)
 public class Address {
 
 	@Id
@@ -19,9 +21,9 @@ public class Address {
 	private Long addressId;
 	private String addressStreet;
 	private String addressCountry;
-	private String adressCity;
+	private String addressCity;
 	private String addressZipCode;
-	private String state;
+	private String addressState;
 	private String addressNumber;
 
 	// getters and setters
@@ -43,12 +45,12 @@ public class Address {
 		this.addressCountry = addressCountry;
 	}
 
-	public String getAdressCity() {
-		return adressCity;
+	public String getAddressCity() {
+		return addressCity;
 	}
 
-	public void setAdressCity(String adressCity) {
-		this.adressCity = adressCity;
+	public void setAddressCity(String adressCity) {
+		this.addressCity = adressCity;
 	}
 
 	public String getAddressZipCode() {
@@ -59,12 +61,12 @@ public class Address {
 		this.addressZipCode = addressZipCode;
 	}
 
-	public String getState() {
-		return state;
+	public String getAddressState() {
+		return addressState;
 	}
 
-	public void setState(String state) {
-		this.state = state;
+	public void setAddressState(String state) {
+		this.addressState = state;
 	}
 
 	public String getAddressNumber() {
@@ -85,14 +87,14 @@ public class Address {
 	public Address() {
 	}
 
-	public Address(String addressStreet, String addressCountry, String adressCity, String addressZipCode, String state,
+	public Address(String addressStreet, String addressCountry, String adressCity, String addressZipCode, String addressState,
 			String addressNumber) {
 		super();
 		this.addressStreet = addressStreet;
 		this.addressCountry = addressCountry;
-		this.adressCity = adressCity;
+		this.addressCity = adressCity;
 		this.addressZipCode = addressZipCode;
-		this.state = state;
+		this.addressState = addressState;
 		this.addressNumber = addressNumber;
 	}
 }

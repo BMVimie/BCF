@@ -1,15 +1,19 @@
 package bzh.bmv.bcf.model;
 
+import java.util.Collection;
 import java.util.Date;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
+import bzh.bmv.bcf.contract.UserContract;
+
 @Entity
-@Table(name="user")
+@Table(name=UserContract.TABLENAME)
 public class User {
 	
 	@Id
@@ -21,8 +25,12 @@ public class User {
 	private String userFamilyName;
     private String userFirstName;
     private Date userBirthDate;
-    private String phoneNumber;
+    private String userPhoneNumber;
     private String userEmail;
+    @OneToMany(targetEntity=Address.class)
+    private Collection<Address> addresses;
+    @OneToMany(targetEntity=CreditCard.class)
+    private Collection<CreditCard> creditCards;
 	
     // getter and setter
 	public Long getUserId() {
@@ -61,11 +69,11 @@ public class User {
 	public void setUserBirthDate(Date userBirthDate) {
 		this.userBirthDate = userBirthDate;
 	}
-	public String getPhoneNumber() {
-		return phoneNumber;
+	public String getUserPhoneNumber() {
+		return userPhoneNumber;
 	}
-	public void setPhoneNumber(String phoneNumber) {
-		this.phoneNumber = phoneNumber;
+	public void setUserPhoneNumber(String phoneNumber) {
+		this.userPhoneNumber = phoneNumber;
 	}
 	public String getUserEmail() {
 		return userEmail;
@@ -76,13 +84,19 @@ public class User {
 	public String getUserFamilyName() {
 		return userFamilyName;
 	}
+	public Collection<Address> getAddresses() {
+		return addresses;
+	}
+	public void setAddresses(Collection<Address> addresses) {
+		this.addresses = addresses;
+	}
 	
 	// constructor
 	public User() {
 		super();
 	}
 	public User(String userPassword, Boolean isActivate, String userLogin, String userFamilyName,
-			String userFirstName, Date userBirthDate, String phoneNumber, String userEmail) {
+			String userFirstName, Date userBirthDate, String phoneNumber, String userEmail, Collection<Address> addresses) {
 		super();
 		this.userPassword = userPassword;
 		this.isActivate = isActivate;
@@ -90,8 +104,9 @@ public class User {
 		this.userFamilyName = userFamilyName;
 		this.userFirstName = userFirstName;
 		this.userBirthDate = userBirthDate;
-		this.phoneNumber = phoneNumber;
+		this.userPhoneNumber = phoneNumber;
 		this.userEmail = userEmail;
+		this.addresses = addresses;
 	}
 	
 
