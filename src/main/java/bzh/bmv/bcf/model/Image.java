@@ -6,8 +6,10 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import bzh.bmv.bcf.contract.ImageContract;
+
 @Entity
-@Table(name="image")
+@Table(name=ImageContract.TABLENAME)
 public class Image {
 
 	@Id

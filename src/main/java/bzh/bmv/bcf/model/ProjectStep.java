@@ -6,8 +6,10 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import bzh.bmv.bcf.contract.ProjectStepContract;
+
 @Entity
-@Table(name="projectStep")
+@Table(name=ProjectStepContract.TABLENAME)
 public class ProjectStep {
 	
 	@Id

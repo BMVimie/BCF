@@ -8,8 +8,10 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import bzh.bmv.bcf.contract.CommentContract;
+
 @Entity
-@Table(name="comment")
+@Table(name=CommentContract.TABLENAME)
 public class Comment {
 	
 	@Id

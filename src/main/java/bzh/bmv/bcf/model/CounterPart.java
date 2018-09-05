@@ -6,13 +6,15 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import bzh.bmv.bcf.contract.CounterPartContract;
+
 @Entity
-@Table(name="counterpart")
+@Table(name=CounterPartContract.TABLENAME)
 public class CounterPart {
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private Long counterPartId;
-	private Integer quantity;
+	private Integer counterPartQuantity;
 	private String counterPartDescription;
 	private String counterPartName;
 	private Double counterPartPrice;
@@ -21,11 +23,11 @@ public class CounterPart {
 	public Long getCounterPartId() {
 		return counterPartId;
 	}
-	public Integer getQuantity() {
-		return quantity;
+	public Integer getCounterPartQuantity() {
+		return counterPartQuantity;
 	}
-	public void setQuantity(Integer quantity) {
-		this.quantity = quantity;
+	public void setCounterPartQuantity(Integer quantity) {
+		this.counterPartQuantity = quantity;
 	}
 	public String getCounterPartDescription() {
 		return counterPartDescription;
@@ -51,10 +53,10 @@ public class CounterPart {
 	public CounterPart() {
 		super();
 	}
-	public CounterPart(Integer quantity, String counterPartDescription, String counterPartName,
+	public CounterPart(Integer counterPartQuantity, String counterPartDescription, String counterPartName,
 			Double counterPartPrice) {
 		super();
-		this.quantity = quantity;
+		this.counterPartQuantity = counterPartQuantity;
 		this.counterPartDescription = counterPartDescription;
 		this.counterPartName = counterPartName;
 		this.counterPartPrice = counterPartPrice;

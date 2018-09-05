@@ -8,12 +8,14 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import bzh.bmv.bcf.contract.ProjectContract;
+
 /**
  * a project
  */
 
 @Entity
-@Table(name ="project")
+@Table(name =ProjectContract.TABLENAME)
 
 public class Project {
 	

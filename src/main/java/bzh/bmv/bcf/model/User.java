@@ -20,13 +20,14 @@ public class User {
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private Long userId;
 	private String userPassword;
-	private Boolean isActivate;
+	private Boolean userIsActivate;
 	private String userLogin;
 	private String userFamilyName;
     private String userFirstName;
     private Date userBirthDate;
     private String userPhoneNumber;
     private String userEmail;
+   // private Media userAvatar;
     @OneToMany(targetEntity=Address.class)
     private Collection<Address> addresses;
     @OneToMany(targetEntity=CreditCard.class)
@@ -42,11 +43,11 @@ public class User {
 	public void setUserPassword(String userPassword) {
 		this.userPassword = userPassword;
 	}
-	public Boolean getIsActivate() {
-		return isActivate;
+	public Boolean getUserIsActivate() {
+		return userIsActivate;
 	}
-	public void setIsActivate(Boolean isActivate) {
-		this.isActivate = isActivate;
+	public void setUserIsActivate(Boolean userIsActivate) {
+		this.userIsActivate = userIsActivate;
 	}
 	public String getUserLogin() {
 		return userLogin;
@@ -90,16 +91,29 @@ public class User {
 	public void setAddresses(Collection<Address> addresses) {
 		this.addresses = addresses;
 	}
+//	public Media getUserAvatar() {
+//		return userAvatar;
+//	}
+//	public void setUserAvatar(Media userAvatar) {
+//		this.userAvatar = userAvatar;
+//	}
+	public Collection<CreditCard> getCreditCards() {
+		return creditCards;
+	}
+	public void setCreditCards(Collection<CreditCard> creditCards) {
+		this.creditCards = creditCards;
+	}
+	
 	
 	// constructor
 	public User() {
 		super();
 	}
-	public User(String userPassword, Boolean isActivate, String userLogin, String userFamilyName,
+	public User(String userPassword, Boolean userIsActivate, String userLogin, String userFamilyName,
 			String userFirstName, Date userBirthDate, String phoneNumber, String userEmail, Collection<Address> addresses) {
 		super();
 		this.userPassword = userPassword;
-		this.isActivate = isActivate;
+		this.userIsActivate = userIsActivate;
 		this.userLogin = userLogin;
 		this.userFamilyName = userFamilyName;
 		this.userFirstName = userFirstName;
@@ -108,7 +122,7 @@ public class User {
 		this.userEmail = userEmail;
 		this.addresses = addresses;
 	}
-	
+
 
 	
 }
