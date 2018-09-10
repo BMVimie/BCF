@@ -8,5 +8,5 @@ public class CreditCardContract {
 	public static final String CREDITCARDYEAR = "creditCardYear";
 	public static final String CERDITCARDVERFICATIONSECURITYCODE = "creditCardVerificationSecurityCode";
 	public static final String CREDITCARDOWNER = "creditCardOwner";
-
+	public static final String CREDITCARDCONTRIBUTIONS = "creditCardContributions";
 }

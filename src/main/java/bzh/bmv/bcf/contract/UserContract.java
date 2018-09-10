@@ -12,6 +12,9 @@ public class UserContract {
 	public static final String USERPHONENUMBER = "userPhoneNumber";
 	public static final String USEREMAIL = "userId";
 	public static final String USERAVATAR = "userAvatar";
-	public static final String ADDRESSES = "addresses";
-	public static final String CREDITCARDS = "creditCards";
+	public static final String USERADDRESSES = "userAddresses";
+	public static final String USERCREDITCARDS = "userCreditCards";
+	public static final String USERPROJECTS = "userProjects";
+	public static final String USERCOMMENTS = "userComments";
+	public static final String USERIMPROVADVICES = "userImprovAdvices";
 }

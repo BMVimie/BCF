@@ -1,5 +1,10 @@
 package bzh.bmv.bcf.contract;
 
+/**
+ * Audio class contract
+ * @author REVEREAU
+ *
+ */
 public class AudioContract {
 	public static final String TABLENAME = "audio";
 	public static final String AUDIOID = "audioId";

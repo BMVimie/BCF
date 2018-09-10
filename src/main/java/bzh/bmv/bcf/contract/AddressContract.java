@@ -1,5 +1,10 @@
 package bzh.bmv.bcf.contract;
 
+/**
+ * Address class contract
+ * @author REVEREAU
+ *
+ */
 public class AddressContract {
 	public static final String TABLENAME = "address";
 	public static final String ADDRESSID = "addressId";

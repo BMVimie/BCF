@@ -4,10 +4,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import bzh.bmv.bcf.controller.base.BaseRestController;
-import bzh.bmv.bcf.model.CounterPart;
-
+import bzh.bmv.bcf.model.ProjectType;
 @RestController
-@RequestMapping(CounterPartController.BASE_URL)
-public class CounterPartController extends BaseRestController<CounterPart, Long>{
-	public static final String BASE_URL = "/counterPart";
+@RequestMapping(ProjectTypeController.BASE_URL)
+public class ProjectTypeController  extends BaseRestController<ProjectType, Long>{
+	public static final String BASE_URL = "/projectType";
 }
