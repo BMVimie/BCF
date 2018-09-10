@@ -113,6 +113,7 @@ public class Project {
      * Project comments
      * Collection<{@link Comment Comment.class}>
      */
+    @OneToMany(targetEntity=Comment.class)
     private Collection<Comment> comments;
     
 	/**
