@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"bzh.bmv.bcf"},{"l":"bzh.bmv.bcf.configuration"},{"l":"bzh.bmv.bcf.contract"},{"l":"bzh.bmv.bcf.controller"},{"l":"bzh.bmv.bcf.controller.base"},{"l":"bzh.bmv.bcf.model"},{"l":"bzh.bmv.bcf.repository"},{"l":"bzh.bmv.bcf.repository.base"}]
