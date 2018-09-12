@@ -10,7 +10,7 @@ public class UserContract {
 	public static final String USERFIRSTNAME = "userFirstName";
 	public static final String USERBIRDTHDATE = "userBirthDate";
 	public static final String USERPHONENUMBER = "userPhoneNumber";
-	public static final String USEREMAIL = "userId";
+	public static final String USEREMAIL = "userEmail";
 	public static final String USERAVATAR = "userAvatar";
 	public static final String USERADDRESSES = "userAddresses";
 	public static final String USERCREDITCARDS = "userCreditCards";

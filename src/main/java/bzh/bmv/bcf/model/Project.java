@@ -10,7 +10,11 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import bzh.bmv.bcf.contract.ProjectContract;
+import bzh.bmv.bcf.contract.UserContract;
 
 
 /**
@@ -72,6 +76,7 @@ public class Project {
 	 * Collection<{@link User User.class}>
 	 */
     @OneToMany(targetEntity=User.class)
+    @JsonIgnoreProperties(allowSetters=true,value= {UserContract.USERPROJECTS})
     private Collection<User> projectUsers;
 	/**
 	 * Project contributions

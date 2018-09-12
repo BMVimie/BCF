@@ -65,7 +65,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter  {
         		.cors()
 //        	.and()
 //    			.authorizeRequests().anyRequest().anonymous()
-//    			.antMatchers("/home","/home/**")
+//    			.antMatchers("/user","/user/**")
 //    			.permitAll()
         	;
 	}
@@ -78,8 +78,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter  {
 //	    // Ignoring only get only for M3
 //	    web.ignoring().antMatchers(HttpMethod.GET,"/M3","/M3/**");
 	    
-	    // Ignoring all methods for M3
-	    web.ignoring().antMatchers("/M3","/M3/**");
+	    // Ignoring all methods for user
+	    web.ignoring().antMatchers("/user","/user/**");
 	}
 	
 	@Bean

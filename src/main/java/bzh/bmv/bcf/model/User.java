@@ -10,6 +10,10 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+import bzh.bmv.bcf.contract.ProjectContract;
 import bzh.bmv.bcf.contract.UserContract;
 import bzh.bmv.bcf.model.security.SecurityUser;
 
@@ -53,7 +57,7 @@ public class User extends SecurityUser{
      * Date
      * Not null
      */
-    @Column(nullable=false)
+//    @Column(nullable=false)
     private Date userBirthDate;
     /**
      * User phone number
@@ -96,6 +100,7 @@ public class User extends SecurityUser{
      * Collection<{@link Project Project.class}>
      */
     @OneToMany(targetEntity=Project.class)
+    @JsonIgnoreProperties(allowSetters=true,value= {ProjectContract.PROJECTUSERS})
     private Collection<Project> userProjects;
     /**
      * User comments
