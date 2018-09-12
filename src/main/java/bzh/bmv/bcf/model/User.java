@@ -11,6 +11,7 @@ import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 import bzh.bmv.bcf.contract.UserContract;
+import bzh.bmv.bcf.model.security.SecurityUser;
 
 /**
  * <h1>User class</h1>
@@ -27,16 +28,16 @@ import bzh.bmv.bcf.contract.UserContract;
  */
 @Entity
 @Table(name=UserContract.TABLENAME)
-public class User {
+public class User extends SecurityUser{
 	
 	/**
 	 * User identifier
 	 * Long
 	 * Auto-increment
 	 */
-	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
-	private Long userId;
+//	@Id
+//	@GeneratedValue(strategy=GenerationType.AUTO)
+//	private Long userId;
 	/**
 	 * User family name
 	 * String
@@ -281,9 +282,9 @@ public class User {
 	 * Get the user identifier
 	 * @return Long
 	 */
-	public Long getUserId() {
-		return userId;
-	}
+//	public Long getUserId() {
+//		return userId;
+//	}
 
 	/**
 	 * User constructor
