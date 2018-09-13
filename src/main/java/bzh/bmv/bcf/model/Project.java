@@ -89,7 +89,7 @@ public class Project {
 	 * Collection<{@link Counterpart Counterpart.class}>
 	 */
     @OneToMany(targetEntity=Counterpart.class)
-    private Collection<Counterpart> projectCounterParts;
+    private Collection<Counterpart> projectCounterparts;
 	/**
 	 * Project steps
 	 * Collection<{@link ProjectStep ProjectStep.class}>
@@ -209,15 +209,15 @@ public class Project {
 	 * Get the project counterparts
 	 * @return Collection<{@link Counterpart Counterpart.class}>
 	 */
-	public Collection<Counterpart> getProjectCounterParts() {
-		return projectCounterParts;
+	public Collection<Counterpart> getProjectCounterparts() {
+		return projectCounterparts;
 	}
 	/**
 	 * Set a new project counterparts
-	 * @param projectCounterParts Collection<{@link Counterpart Counterpart.class}>
+	 * @param projectCounterparts Collection<{@link Counterpart Counterpart.class}>
 	 */
-	public void setProjectCounterParts(Collection<Counterpart> projectCounterParts) {
-		this.projectCounterParts = projectCounterParts;
+	public void setProjectCounterparts(Collection<Counterpart> projectCounterparts) {
+		this.projectCounterparts = projectCounterparts;
 	}
 	/**
 	 * Get the project steps
@@ -312,7 +312,7 @@ public class Project {
 	 * @param projectProjectTypes Collection<{@link ProjectType ProjectType.class}>
 	 * @param projectUsers Collection<{@link User User.class}>
 	 * @param projectContributions Collection<{@link Contribution Contribution.class}>
-	 * @param projectCounterParts Collection<{@link Counterpart Counterpart.class}>
+	 * @param projectCounterparts Collection<{@link Counterpart Counterpart.class}>
 	 * @param projectProjectSteps Collection<{@link ProjectStep ProjectStep.class}>
 	 * @param projectArticles Collection<{@link Article Article.class}>
 	 * @param projectHeader {@link Header Header.class}
@@ -321,7 +321,7 @@ public class Project {
 	 */
 	public Project(String projectName, Date projectTerm, Double projectFundingGoal,
 			Collection<ProjectType> projectProjectTypes, Collection<User> projectUsers,
-			Collection<Contribution> projectContributions, Collection<Counterpart> projectCounterParts,
+			Collection<Contribution> projectContributions, Collection<Counterpart> projectCounterparts,
 			Collection<ProjectStep> projectProjectSteps, Collection<Article> projectArticles, Header projectHeader,
 			Footer projectFooter, Collection<Comment> comments) {
 		super();
@@ -331,7 +331,7 @@ public class Project {
 		this.projectProjectTypes = projectProjectTypes;
 		this.projectUsers = projectUsers;
 		this.projectContributions = projectContributions;
-		this.projectCounterParts = projectCounterParts;
+		this.projectCounterparts = projectCounterparts;
 		this.projectProjectSteps = projectProjectSteps;
 		this.projectArticles = projectArticles;
 		this.projectHeader = projectHeader;

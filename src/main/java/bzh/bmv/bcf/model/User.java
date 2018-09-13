@@ -35,14 +35,6 @@ import bzh.bmv.bcf.model.security.SecurityUser;
 public class User extends SecurityUser{
 	
 	/**
-	 * User identifier
-	 * Long
-	 * Auto-increment
-	 */
-//	@Id
-//	@GeneratedValue(strategy=GenerationType.AUTO)
-//	private Long userId;
-	/**
 	 * User family name
 	 * String
 	 */
@@ -283,14 +275,7 @@ public class User extends SecurityUser{
 	public void setUserImprovAdvices(Collection<ImprovAdvice> userImprovAdvices) {
 		this.userImprovAdvices = userImprovAdvices;
 	}
-	/**
-	 * Get the user identifier
-	 * @return Long
-	 */
-//	public Long getUserId() {
-//		return userId;
-//	}
-
+	
 	/**
 	 * User constructor
 	 */
