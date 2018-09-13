@@ -10,7 +10,7 @@ public class AES {
 	private static final String ENCODING = "UTF-8";
 	private static final String ALGORITHM = "AES/CBC/PKCS5PADDING";
 	private static final String SECRET_ALGORITHM = "AES";
-	
+
 	public static String encrypt(String key, String initVector, String value) {
         try {
             IvParameterSpec iv = new IvParameterSpec(initVector.getBytes(ENCODING));

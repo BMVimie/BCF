@@ -16,7 +16,7 @@ import bzh.bmv.bcf.model.Comment;
 @RequestMapping(CommentController.BASE_URL)
 public class CommentController extends BaseRestController<Comment, Long> {
 	/**
-	 * path to access this controller
+	 * path to access this controller.
 	 */
 	public static final String BASE_URL = "/comment";
 }

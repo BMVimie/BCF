@@ -19,119 +19,125 @@ import bzh.bmv.bcf.contract.CommentContract;
  * @since 2018-09-07
  */
 @Entity
-@Table(name=CommentContract.TABLENAME)
+@Table(name = CommentContract.TABLENAME)
 public class Comment {
-	
+
 	/**
-	 * Comment identifier
-	 * Long
-	 * Auto-increment
+	 * Comment identifier.
+	 * Long.
+	 * Auto-increment.
 	 */
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long commentId;
+
 	/**
-	 * Comment text
-	 * String
-	 * Not null
+	 * Comment text.
+	 * String.
+	 * Not null.
 	 */
-	@Column(nullable=false)
+	@Column(nullable = false)
 	private String commentText;
+
 	/**
-	 * Comment name
-	 * String
+	 * Comment name.
+	 * String.
 	 */
 	private String commentName;
+
 	/**
-	 * Comment date
-	 * Date
-	 * Not null
+	 * Comment date.
+	 * Date.
+	 * Not null.
 	 */
-	@Column(nullable=false)
+	@Column(nullable = false)
 	private Date commentDate;
+
 	/**
-	 * Comment reply
-	 * Collection<{@link Comment Comment.class}>
+	 * Comment reply.
+	 * Collection<{@link Comment Comment.class}>.
 	 */
 	@OneToMany(targetEntity = Comment.class)
 	private Collection<Comment> commentReply;
-	
+
 	/**
-	 * Get the comment text
-	 * @return String
+	 * Get the comment text.
+	 * @return String.
 	 */
 	public String getCommentText() {
 		return commentText;
 	}
+
 	/**
-	 * Set a new comment text
-	 * @param commentText String
+	 * Set a new comment text.
+	 * @param commentText String.
 	 */
 	public void setCommentText(String commentText) {
 		this.commentText = commentText;
 	}
+
 	/**
-	 * Get the comment name
-	 * @return String
+	 * Get the comment name.
+	 * @return String.
 	 */
 	public String getCommentName() {
 		return commentName;
 	}
+
 	/**
-	 * Set a new comment name
-	 * @param commentName String
+	 * Set a new comment name.
+	 * @param commentName String.
 	 */
 	public void setCommentName(String commentName) {
 		this.commentName = commentName;
 	}
+
 	/**
-	 * Get the comment date
-	 * @return Date
+	 * Get the comment date.
+	 * @return Date.
 	 */
 	public Date getCommentDate() {
 		return commentDate;
 	}
+
 	/**
-	 * Set a new comment date
-	 * @param commentDate Date
+	 * Set a new comment date.
+	 * @param commentDate Date.
 	 */
 	public void setCommentDate(Date commentDate) {
 		this.commentDate = commentDate;
 	}
+
 	/**
-	 * Get the comment reply(replies)
-	 * @return Collection<{@link Comment Comment.class}>
+	 * Get the comment reply(replies).
+	 * @return Collection<{@link Comment Comment.class}>.
 	 */
 	public Collection<Comment> getCommentReply() {
 		return commentReply;
 	}
+
 	/**
-	 * set a new comment reply(replies)
-	 * @param commentReply Collection<{@link Comment Comment.class}>
+	 * set a new comment reply(replies).
+	 * @param commentReply Collection<{@link Comment Comment.class}>.
 	 */
 	public void setCommentReply(Collection<Comment> commentReply) {
 		this.commentReply = commentReply;
 	}
+
 	/**
-	 * Get the comment identifier
-	 * @return the commentId
+	 * Get the comment identifier.
+	 * @return the commentId.
 	 */
 	public Long getCommentId() {
 		return commentId;
 	}
-	
+
 	/**
-	 * Comment constructor
-	 */
-	public Comment() {
-		super();
-	}
-	/**
-	 * Comment constructor specifying attribute
-	 * @param commentText String
-	 * @param commentName String
-	 * @param commentDate Date
-	 * @param commentReply Collection<{@link Comment Comment.class}>
+	 * Comment constructor specifying attribute.
+	 * @param commentText String.
+	 * @param commentName String.
+	 * @param commentDate Date.
+	 * @param commentReply Collection<{@link Comment Comment.class}>.
 	 */
 	public Comment(String commentText, String commentName, Date commentDate, Collection<Comment> commentReply) {
 		super();
@@ -141,5 +147,11 @@ public class Comment {
 		this.commentReply = commentReply;
 	}
 
-	
+	/**
+	 * Comment constructor.
+	 */
+	public Comment() {
+		super();
+	}
+
 }

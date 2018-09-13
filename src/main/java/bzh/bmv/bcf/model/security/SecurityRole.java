@@ -16,42 +16,42 @@ import bzh.bmv.bcf.model.User;
 
 @Entity
 @Table(name = "security_role")
-public class SecurityRole{
+public class SecurityRole {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	@Column(name="securityRoleId")
+	@Column(name = "securityRoleId")
 	private Long securityRoleId;
 	private String role;
 
-	@ManyToMany(targetEntity=User.class)
+	@ManyToMany(targetEntity = User.class)
 	@JoinTable(name = "users_securityroles",
     	joinColumns = @JoinColumn(name = "securityRoleId"),
     	inverseJoinColumns = @JoinColumn(name = "securityUserId"))
 	private Set<User> users;
 
 	/**
-	 * @return the role
+	 * @return the role.
 	 */
 	public String getRole() {
 		return role;
 	}
 
 	/**
-	 * @param role the role to set
+	 * @param role the role to set.
 	 */
 	public void setRole(String role) {
 		this.role = role;
 	}
 
 	/**
-	 * @return the users
+	 * @return the users.
 	 */
 	public Set<User> getUsers() {
 		return users;
 	}
 
 	/**
-	 * @param users the users to set
+	 * @param users the users to set.
 	 */
 	public void setUsers(Set<User> users) {
 		this.users = users;

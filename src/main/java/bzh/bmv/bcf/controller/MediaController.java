@@ -14,9 +14,9 @@ import bzh.bmv.bcf.model.Media;
  */
 @RestController
 @RequestMapping(MediaController.BASE_URL)
-public class MediaController extends BaseRestController<Media, Long>{
+public class MediaController extends BaseRestController<Media, Long> {
 	/**
-	 * path to access this controller
+	 * path to access this controller.
 	 */
 	public static final String BASE_URL = "/media";
 }

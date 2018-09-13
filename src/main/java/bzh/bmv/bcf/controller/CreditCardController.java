@@ -15,9 +15,9 @@ import bzh.bmv.bcf.model.CreditCard;
  */
 @RestController
 @RequestMapping(CreditCardController.BASE_URL)
-public class CreditCardController extends BaseRestController<CreditCard, Long>{	
+public class CreditCardController extends BaseRestController<CreditCard, Long> {
 	/**
-	 * path to access this controller
+	 * path to access this controller.
 	 */
 	public static final String BASE_URL = "/creditCard";
 }

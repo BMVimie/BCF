@@ -6,11 +6,11 @@ import bzh.bmv.bcf.repository.base.IBaseRepository;
 
 /**
  * <h1>ProjectCrudRepository interface</h1>
- * Database access for the class {@link Project Project.class}
+ * Database access for the class {@link Project Project.class}.
  * @author REVEREAU
  * @since 11-09-2018
  */
 @Repository
-public interface ProjectCrudRepository extends IBaseRepository<Project, Long>{
+public interface ProjectCrudRepository extends IBaseRepository<Project, Long> {
 
 }

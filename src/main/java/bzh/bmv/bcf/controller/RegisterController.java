@@ -14,13 +14,13 @@ import bzh.bmv.bcf.repository.UserCrudRepository;
 @RestController
 @RequestMapping(RegisterController.BASE_URL)
 public class RegisterController {
-	
+
 	public static final String BASE_URL = "/register";
-	
+
 	@Autowired
 	UserCrudRepository crudRepository;
-	
-	@RequestMapping(path={"/", ""}, method=RequestMethod.POST)
+
+	@RequestMapping(path = {"/", ""}, method = RequestMethod.POST)
     public ResponseEntity<User> postItem(@RequestBody User item) {
     	crudRepository.save(item);
     	new ResponseEntity<User>(HttpStatus.OK);

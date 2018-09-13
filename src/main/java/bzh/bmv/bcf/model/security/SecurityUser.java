@@ -25,14 +25,14 @@ public abstract class SecurityUser {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	@Column(name="securityUserId")
+	@Column(name = "securityUserId")
 	private Long securityUserId;
 	private String login;
-	@Convert(converter=CryptoConverter.class)
+	@Convert(converter = CryptoConverter.class)
 	private String password;
 	private Boolean enable;
 
-	@ManyToMany(targetEntity=SecurityRole.class)
+	@ManyToMany(targetEntity = SecurityRole.class)
 	@JoinTable(name = "users_securityroles",
 		joinColumns = @JoinColumn(name = "user_id"),
 		inverseJoinColumns = @JoinColumn(name = "role_id"))
@@ -40,58 +40,58 @@ public abstract class SecurityUser {
 	private Set<SecurityRole> roles;
 
 	/**
-	 * @return the login
+	 * @return the login.
 	 */
 	public String getLogin() {
 		return login;
 	}
 
 	/**
-	 * @param login
-	 *            the login to set
+	 * @param login.
+	 * the login to set.
 	 */
 	public void setLogin(String login) {
 		this.login = login;
 	}
 
 	/**
-	 * @return the password
+	 * @return the password.
 	 */
 	public String getPassword() {
 		return password;
 	}
 
 	/**
-	 * @param password
-	 *            the password to set
+	 * @param password.
+	 * the password to set.
 	 */
 	public void setPassword(String password) {
 		this.password = password;
 	}
 
 	/**
-	 * @return the enable
+	 * @return the enable.
 	 */
 	public Boolean getEnable() {
 		return enable;
 	}
 
 	/**
-	 * @param enable the enable to set
+	 * @param enable the enable to set.
 	 */
 	public void setEnable(Boolean enable) {
 		this.enable = enable;
 	}
 
 	/**
-	 * @return the roles
+	 * @return the roles.
 	 */
 	public Set<SecurityRole> getRoles() {
 		return roles;
 	}
 
 	/**
-	 * @param roles the roles to set
+	 * @param roles the roles to set.
 	 */
 	public void setRoles(Set<SecurityRole> roles) {
 		this.roles = roles;

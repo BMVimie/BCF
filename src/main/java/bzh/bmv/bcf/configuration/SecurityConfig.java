@@ -63,32 +63,32 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter  {
         		.httpBasic()
         	.and()
         		.cors()
-//        	.and()
-//    			.authorizeRequests().anyRequest().anonymous()
-//    			.antMatchers("/user","/user/**")
-//    			.permitAll()
-        	;
+    //        	.and()
+    //			.authorizeRequests().anyRequest().anonymous()
+  	//			.antMatchers("/user","/user/**")
+    //			.permitAll()
+        		;
 	}
-	
+
 	@Override
 	public void configure(WebSecurity web) throws Exception {
-	    web.ignoring().antMatchers("/register","/register/**");
-//	    // Allow all GET for every controllers
-//	    web.ignoring().antMatchers(HttpMethod.GET);
-//	    // Ignoring only get only for M3
-//	    web.ignoring().antMatchers(HttpMethod.GET,"/M3","/M3/**");
+	    web.ignoring().antMatchers("/register", "/register/**");
+	//	    // Allow all GET for every controllers
+	//	    web.ignoring().antMatchers(HttpMethod.GET);
+	//	    // Ignoring only get only for M3
+	//	    web.ignoring().antMatchers(HttpMethod.GET,"/M3","/M3/**");
 	    
 	    // Ignoring all methods for user
 	    web.ignoring().antMatchers("/user","/user/**");
 	}
-	
+
 	@Bean
 	public AuthenticationManager customAuthenticationManager() throws Exception {
 	  return authenticationManager();
 	}
-	
+
 	@Bean
-	public CorsFilter corsFilter() { 
+	public CorsFilter corsFilter() {
 	    UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
 	    CorsConfiguration config = new CorsConfiguration();
 	    config.setAllowCredentials(true);

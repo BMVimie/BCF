@@ -15,188 +15,203 @@ import bzh.bmv.bcf.contract.ImageContract;
  * @since 2018-09-10
  */
 @Entity
-@Table(name=ImageContract.TABLENAME)
+@Table(name = ImageContract.TABLENAME)
 public class Image {
 
 	/**
-	 * Image identifier
-	 * Long
-	 * Auto-Increment
+	 * Image identifier.
+	 * Long.
+	 * Auto-Increment.
 	 */
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long imageId;
+
 	/**
-	 * Image name
-	 * String
-	 * Not null
+	 * Image name.
+	 * String.
+	 * Not null.
 	 */
-	@Column(nullable=false)
+	@Column(nullable = false)
 	private String imageName;
+
 	/**
-	 * Image width in pixels
-	 * Integer
-	 * Not null
+	 * Image width in pixels.
+	 * Integer.
+	 * Not null.
 	 */
-	@Column(nullable=false)
+	@Column(nullable = false)
 	private Integer imageWidth;
+
 	/**
-	 * Image height in pixels
-	 * Integer
-	 * Not null
+	 * Image height in pixels.
+	 * Integer.
+	 * Not null.
 	 */
-	@Column(nullable=false)
+	@Column(nullable = false)
 	private Integer imageHeight;
+
 	/**
-	 * Image resolution in DPI
-	 * Integer
-	 * Not null
+	 * Image resolution in DPI.
+	 * Integer.
+	 * Not null.
 	 */
-	@Column(nullable=false)
+	@Column(nullable = false)
 	private Integer imageResolution;
+
 	/**
-	 * Image source path
-	 * String
-	 * Not null, unique
+	 * Image source path.
+	 * String.
+	 * Not null, unique.
 	 */
-	@Column(nullable=false, unique=true)
+	@Column(nullable = false, unique = true)
 	private String imageSrc;
+
 	/**
-	 * Image size in byte
-	 * Double
-	 * Not null
+	 * Image size in byte.
+	 * Double.
+	 * Not null.
 	 */
-	@Column(nullable=false)
+	@Column(nullable = false)
 	private Double imageSize;
+
 	/**
-	 * Image extension
-	 * String
-	 * Not null
+	 * Image extension.
+	 * String.
+	 * Not null.
 	 */
-	@Column(nullable=false)
+	@Column(nullable = false)
 	private String imageExtension;
-	
+
 	/**
-	 * Get the image name
-	 * @return String
+	 * Get the image name.
+	 * @return String.
 	 */
 	public String getImageName() {
 		return imageName;
 	}
+
 	/**
-	 * Set a new image name
-	 * @param imageName String
+	 * Set a new image name.
+	 * @param imageName String.
 	 */
 	public void setImageName(String imageName) {
 		this.imageName = imageName;
 	}
+
 	/**
-	 * Get the image width
-	 * @return Integer
+	 * Get the image width.
+	 * @return Integer.
 	 */
 	public Integer getImageWidth() {
 		return imageWidth;
 	}
+
 	/**
-	 * Set a new image width
-	 * @param imageWidth Integer
+	 * Set a new image width.
+	 * @param imageWidth Integer.
 	 */
 	public void setImageWidth(Integer imageWidth) {
 		this.imageWidth = imageWidth;
 	}
+
 	/**
-	 * Get the image height
-	 * @return Integer
+	 * Get the image height.
+	 * @return Integer.
 	 */
 	public Integer getImageHeight() {
 		return imageHeight;
 	}
+
 	/**
-	 * Set a new image height
-	 * @param imageHeight Integer
+	 * Set a new image height.
+	 * @param imageHeight Integer.
 	 */
 	public void setImageHeight(Integer imageHeight) {
 		this.imageHeight = imageHeight;
 	}
+
 	/**
-	 * Get the image resolution
-	 * @return Integer
+	 * Get the image resolution.
+	 * @return Integer.
 	 */
 	public Integer getImageResolution() {
 		return imageResolution;
 	}
+
 	/**
-	 * Set a new image resolution
-	 * @param imageResolution Integer
+	 * Set a new image resolution.
+	 * @param imageResolution Integer.
 	 */
 	public void setImageResolution(Integer imageResolution) {
 		this.imageResolution = imageResolution;
 	}
+
 	/**
-	 * Get the image source path
-	 * @return String
+	 * Get the image source path.
+	 * @return String.
 	 */
 	public String getImageSrc() {
 		return imageSrc;
 	}
+
 	/**
-	 * Set a new image source path
-	 * @param imageSrc String
+	 * Set a new image source path.
+	 * @param imageSrc String.
 	 */
 	public void setImageSrc(String imageSrc) {
 		this.imageSrc = imageSrc;
 	}
+
 	/**
-	 * Get the image size
-	 * @return Double
+	 * Get the image size.
+	 * @return Double.
 	 */
 	public Double getImageSize() {
 		return imageSize;
 	}
+
 	/**
-	 * Set a new image size
-	 * @param imageSize Double
+	 * Set a new image size.
+	 * @param imageSize Double.
 	 */
 	public void setImageSize(Double imageSize) {
 		this.imageSize = imageSize;
 	}
+
 	/**
-	 * Get the image extension
-	 * @return String
+	 * Get the image extension.
+	 * @return String.
 	 */
 	public String getImageExtension() {
 		return imageExtension;
 	}
+
 	/**
-	 * Set a new image extension
-	 * @param imageExtension String
+	 * Set a new image extension.
+	 * @param imageExtension String.
 	 */
 	public void setImageExtension(String imageExtension) {
 		this.imageExtension = imageExtension;
 	}
+
 	/**
-	 * Get the image identifier
-	 * @return Long
+	 * Get the image identifier.
+	 * @return Long.
 	 */
 	public Long getImageId() {
 		return imageId;
 	}
-	
+
 	/**
-	 * Image constructor
-	 */
-	public Image() {
-		super();
-	}
-	/**
-	 * Image constructor specifying attribute
-	 * @param imageName String
-	 * @param imageWidth Integer
-	 * @param imageHeight Integer 
-	 * @param imageResolution Integer
-	 * @param imageSrc String
-	 * @param imageSize Double 
-	 * @param imageExtension String
+	 * Image constructor specifying attribute.
+	 * @param imageName String.
+	 * @param imageWidth Integer.
+	 * @param imageHeight Integer.
+	 * @param imageResolution Integer.
+	 * @param imageSrc String.
+	 * @param imageSize Double.
+	 * @param imageExtension String.
 	 */
 	public Image(String imageName, Integer imageWidth, Integer imageHeight, Integer imageResolution, String imageSrc,
 			Double imageSize, String imageExtension) {
@@ -209,8 +224,12 @@ public class Image {
 		this.imageSize = imageSize;
 		this.imageExtension = imageExtension;
 	}
-	
-	
-	
-	
+
+	/**
+	 * Image constructor.
+	 */
+	public Image() {
+		super();
+	}
+
 }

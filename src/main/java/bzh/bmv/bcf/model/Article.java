@@ -21,95 +21,98 @@ import bzh.bmv.bcf.contract.ArticleContract;
 @Entity
 @Table(name = ArticleContract.TABLENAME)
 public class Article {
-	
+
 	/**
-	 * Article identifier
-	 * Long
-	 * Auto-increment
+	 * Article identifier.
+	 * Long.
+	 * Auto-increment.
 	 */
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	protected Long articleId;
+
 	/**
-	 * Article text
-	 * String[]
+	 * Article text.
+	 * String[].
 	 */
 	protected String[] articleText;
+
 	/**
-	 * Article name
-	 * String
-	 * Not null, unique
+	 * Article name.
+	 * String.
+	 * Not null, unique.
 	 */
-	@Column(nullable=false, unique=true)
+	@Column(nullable = false, unique = true)
 	protected String articleName;
+
 	/**
-	 * Article medias
-	 * Collection<{@link Media Media.class}>
+	 * Article medias.
+	 * Collection<{@link Media Media.class}>.
 	 */
 	@OneToMany(targetEntity = Media.class)
 	protected Collection<Media> articleMedias;
-	
+
 	/**
-	 * Get the article text
-	 * @return String[]
+	 * Get the article text.
+	 * @return String[].
 	 */
 	public String[] getArticleText() {
 		return articleText;
 	}
+
 	/**
-	 * Set a new article text
-	 * @param articleText String[]
+	 * Set a new article text.
+	 * @param articleText String[].
 	 */
 	public void setArticleText(String[] articleText) {
 		this.articleText = articleText;
 	}
+
 	/**
-	 * Get the article name
-	 * @return String
+	 * Get the article name.
+	 * @return String.
 	 */
 	public String getArticleName() {
 		return articleName;
 	}
+
 	/**
-	 * Set a new article name
-	 * @param articleName String
+	 * Set a new article name.
+	 * @param articleName String.
 	 */
 	public void setArticleName(String articleName) {
 		this.articleName = articleName;
 	}
+
 	/**
-	 * Get the article media(s)
-	 * @return Collection<{@link Media Media.class}>
+	 * Get the article media(s).
+	 * @return Collection<{@link Media Media.class}>.
 	 */
 	public Collection<Media> getArticleMedias() {
 		return articleMedias;
 	}
+
 	/**
-	 * Set the article media(s)
-	 * @param articleMedias Collection<{@link Media Media.class}>
+	 * Set the article media(s).
+	 * @param articleMedias Collection<{@link Media Media.class}>.
 	 */
 	public void setArticleMedias(Collection<Media> articleMedias) {
 		this.articleMedias = articleMedias;
 	}
+
 	/**
-	 * Get the article identifier
-	 * @return Long
+	 * Get the article identifier.
+	 * @return Long.
 	 */
 	public Long getArticleId() {
 		return articleId;
 	}
-	
+
 	/**
-	 * Article constructor
-	 */
-	public Article() {
-		super();
-	}
-	/**
-	 * Article constructor specifying attribute
-	 * @param articleText String 
-	 * @param articleName String 
-	 * @param articleMedias Collection<{@link Media Media.class}>
+	 * Article constructor specifying attribute.
+	 * @param articleText String.
+	 * @param articleName String.
+	 * @param articleMedias Collection<{@link Media Media.class}>.
 	 */
 	public Article(String[] articleText, String articleName, Collection<Media> articleMedias) {
 		super();
@@ -118,5 +121,11 @@ public class Article {
 		this.articleMedias = articleMedias;
 	}
 
-	
+	/**
+	 * Article constructor
+	 */
+	public Article() {
+		super();
+	}
+
 }

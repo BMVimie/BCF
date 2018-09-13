@@ -6,11 +6,11 @@ import bzh.bmv.bcf.repository.base.IBaseRepository;
 
 /**
  * <h1>CounterpartTypeCrudRepository interface</h1>
- * Database access for the class {@link CounterpartType CounterpartType.class}
+ * Database access for the class {@link CounterpartType CounterpartType.class}.
  * @author REVEREAU
  * @since 11-09-2018
  */
 @Repository
-public interface CounterpartTypeCrudRepository extends IBaseRepository<CounterpartType, Long>{
+public interface CounterpartTypeCrudRepository extends IBaseRepository<CounterpartType, Long> {
 
 }

@@ -6,7 +6,7 @@ import bzh.bmv.bcf.repository.base.IBaseRepository;
 
 /**
  * <h1>HeaderCrudRepository interface</h1>
- * Database access for the class {@link Header Header.class}
+ * Database access for the class {@link Header Header.class}.
  * @author REVEREAU
  * @since 11-09-2018
  */

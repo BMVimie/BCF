@@ -6,7 +6,7 @@ import bzh.bmv.bcf.repository.base.IBaseRepository;
 
 /**
  * <h1>AddressCrudRepository interface</h1>
- * Database access for the class {@link Address Address.class}
+ * Database access for the class {@link Address Address.class}.
  * @author REVEREAU
  * @since 11-09-2018
  */

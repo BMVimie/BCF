@@ -17,23 +17,22 @@ import bzh.bmv.bcf.contract.MediaContract;
 @Entity
 @Table(name = MediaContract.TABLENAME)
 public class Media {
-	
+
 	/**
-	 * Media identifier
-	 * Long
-	 * Auto-increment
+	 * Media identifier.
+	 * Long.
+	 * Auto-increment.
 	 */
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	protected Long mediaId;
 
 	/**
-	 * Get the media identifier
-	 * @return Long
+	 * Get the media identifier.
+	 * @return Long.
 	 */
 	public Long getMediaId() {
 		return mediaId;
 	}
 
-	
 }

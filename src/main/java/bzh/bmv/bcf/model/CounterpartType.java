@@ -15,61 +15,64 @@ import bzh.bmv.bcf.contract.CounterpartTypeContract;
  * @since 2018-09-07
  */
 @Entity
-@Table(name=CounterpartTypeContract.TABLENAME)
+@Table(name = CounterpartTypeContract.TABLENAME)
 public class CounterpartType {
+
 	/**
-	 * CounterpartType identifier
-	 * Long
-	 * Auto-increment
+	 * CounterpartType identifier.
+	 * Long.
+	 * Auto-increment.
 	 */
 	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long counterpartTypeId;
+
 	/**
-	 * CounterpartType name
-	 * String
-	 * Not null
+	 * CounterpartType name.
+	 * String.
+	 * Not null.
 	 */
-	@Column(nullable=false)
+	@Column(nullable = false)
 	private String counterpartTypeName;
-	
+
 	/**
-	 * Get the counterpartType name
+	 * Get the counterpartType name.
 	 * @return String
 	 */
 	public String getCounterpartTypeName() {
 		return counterpartTypeName;
 	}
+
 	/**
-	 * Set a new counterpartType name
+	 * Set a new counterpartType name.
 	 * @param counterpartTypeName String
 	 */
 	public void setCounterpartTypeName(String counterpartTypeName) {
 		this.counterpartTypeName = counterpartTypeName;
 	}
+
 	/**
-	 * Get the counterpartType identifier
+	 * Get the counterpartType identifier.
 	 * @return Long
 	 */
 	public Long getCounterpartTypeId() {
 		return counterpartTypeId;
 	}
-	
+
 	/**
-	 * CounterpartType constructor
-	 */
-	public CounterpartType() {
-		super();
-	}
-	/**
-	 * CounterpartType constructor specifying attribute
+	 * CounterpartType constructor specifying attribute.
 	 * @param counterpartTypeName String
 	 */
 	public CounterpartType(String counterpartTypeName) {
 		super();
 		this.counterpartTypeName = counterpartTypeName;
 	}
-	
-	
-	
+
+	/**
+	 * CounterpartType constructor.
+	 */
+	public CounterpartType() {
+		super();
+	}
+
 }

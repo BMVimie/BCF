@@ -15,6 +15,5 @@ import bzh.bmv.bcf.contract.FooterContract;
 @Entity
 @Table(name = FooterContract.TABLENAME)
 public class Footer extends Article {
-	
 
 }

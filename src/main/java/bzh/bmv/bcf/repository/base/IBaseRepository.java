@@ -6,11 +6,13 @@ import org.springframework.data.repository.NoRepositoryBean;
 
 /**
  * <h1>AddressCrudRepository interface</h1>
- * Database access default interface
+ * Database access default interface.
+ * @param <ID>.
+ * @param <T>.
  * @author REVEREAU
  * @since 11-09-2018
  */
 @NoRepositoryBean
-public interface IBaseRepository<T, ID extends Serializable> extends CrudRepository<T, ID>{
+public interface IBaseRepository<T, ID extends Serializable> extends CrudRepository<T, ID> {
 }
 

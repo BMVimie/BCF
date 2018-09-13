@@ -14,9 +14,9 @@ import bzh.bmv.bcf.model.Contribution;
  */
 @RestController
 @RequestMapping(ContributionController.BASE_URL)
-public class ContributionController extends BaseRestController<Contribution, Long>{
+public class ContributionController extends BaseRestController<Contribution, Long> {
 	/**
-	 * path to access this controller
+	 * path to access this controller.
 	 */
 	public static final String BASE_URL = "/contribution";
 }

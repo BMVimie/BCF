@@ -16,120 +16,126 @@ import bzh.bmv.bcf.contract.ImprovAdviceContract;
  * @since 2018-09-10
  */
 @Entity
-@Table(name=ImprovAdviceContract.TABLENAME)
+@Table(name = ImprovAdviceContract.TABLENAME)
 public class ImprovAdvice {
-	
+
 	/**
-	 * ImprovAdvice identifier
-	 * Long
-	 * Auto-increment
+	 * ImprovAdvice identifier.
+	 * Long.
+	 * Auto-increment.
 	 */
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long improvId;
+
 	/**
-	 * ImprovAdvice text
-	 * String
-	 * Not null
+	 * ImprovAdvice text.
+	 * String.
+	 * Not null.
 	 */
-	@Column(nullable=false)
+	@Column(nullable = false)
 	private String improvText;
+
 	/**
-	 * ImprovAdvice Name
-	 * String
-	 * Not null
+	 * ImprovAdvice Name.
+	 * String.
+	 * Not null.
 	 */
-	@Column(nullable=false)
+	@Column(nullable = false)
 	private String improvName;
+
 	/**
-	 * ImprovAdvice date
-	 * Date
-	 * Not null
+	 * ImprovAdvice date.
+	 * Date.
+	 * Not null.
 	 */
-	@Column(nullable=false)
+	@Column(nullable = false)
 	private Date improvDate;
+
 	/**
-	 * ImprovAdvice reply
-	 * String
+	 * ImprovAdvice reply.
+	 * String.
 	 */
 	private String improvReply;
-	
+
 	/**
-	 * Get the improvAdvice text
-	 * @return String
+	 * Get the improvAdvice text.
+	 * @return String.
 	 */
 	public String getImprovText() {
 		return improvText;
 	}
+
 	/**
-	 * Set a new improvAdvice text
-	 * @param improvText String
+	 * Set a new improvAdvice text.
+	 * @param improvText String.
 	 */
 	public void setImprovText(String improvText) {
 		this.improvText = improvText;
 	}
+
 	/**
-	 * Get the improvAdvice name
-	 * @return String
+	 * Get the improvAdvice name.
+	 * @return String.
 	 */
 	public String getImprovName() {
 		return improvName;
 	}
+
 	/**
-	 * Set a new improvAdvice name
-	 * @param improvName String
+	 * Set a new improvAdvice name.
+	 * @param improvName String.
 	 */
 	public void setImprovName(String improvName) {
 		this.improvName = improvName;
 	}
+
 	/**
-	 * Get the improvAdvice date
-	 * @return Date
+	 * Get the improvAdvice date.
+	 * @return Date.
 	 */
 	public Date getImprovDate() {
 		return improvDate;
 	}
+
 	/**
-	 * Set a new improvAdvice date
-	 * @param improvDate Date
+	 * Set a new improvAdvice date.
+	 * @param improvDate Date.
 	 */
 	public void setImprovDate(Date improvDate) {
 		this.improvDate = improvDate;
 	}
+
 	/**
-	 * Get the improvAdvice reply
-	 * @return String
+	 * Get the improvAdvice reply.
+	 * @return String.
 	 */
 	public String getImprovReply() {
 		return improvReply;
 	}
+
 	/**
-	 * Set the improvAdvice reply
-	 * @param improvReply String
+	 * Set the improvAdvice reply.
+	 * @param improvReply String.
 	 */
 	public void setImprovReply(String improvReply) {
 		this.improvReply = improvReply;
 	}
+
 	/**
-	 * Get the improvAdvice identifier
-	 * @return Long
+	 * Get the improvAdvice identifier.
+	 * @return Long.
 	 */
 	public Long getImprovId() {
 		return improvId;
 	}
-	
+
 	/**
-	 * ImprovAdvice constructor
-	 */
-	public ImprovAdvice() {
-		super();
-	}
-	/**
-	 * ImprovAdvice constructor specifying attribute
-	 * @param improvText String
-	 * @param improvName String
-	 * @param improvDate Date
-	 * @param improvReply String
+	 * ImprovAdvice constructor specifying attribute.
+	 * @param improvText String.
+	 * @param improvName String.
+	 * @param improvDate Date.
+	 * @param improvReply String.
 	 */
 	public ImprovAdvice(String improvText, String improvName, Date improvDate, String improvReply) {
 		super();
@@ -138,6 +144,12 @@ public class ImprovAdvice {
 		this.improvDate = improvDate;
 		this.improvReply = improvReply;
 	}
-	
-	
+
+	/**
+	 * ImprovAdvice constructor.
+	 */
+	public ImprovAdvice() {
+		super();
+	}
+
 }

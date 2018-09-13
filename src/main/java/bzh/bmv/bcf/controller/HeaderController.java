@@ -16,7 +16,7 @@ import bzh.bmv.bcf.model.Header;
 @RequestMapping(HeaderController.BASE_URL)
 public class HeaderController extends BaseRestController<Header, Long> {
 	/**
-	 * path to access this controller
+	 * path to access this controller.
 	 */
 	public static final String BASE_URL = "/header";
 }

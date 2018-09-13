@@ -15,62 +15,64 @@ import bzh.bmv.bcf.contract.ProjectTypeContract;
  * @since 2018-09-10
  */
 @Entity
-@Table(name=ProjectTypeContract.TABLENAME)
+@Table(name = ProjectTypeContract.TABLENAME)
 public class ProjectType {
-	
+
 	/**
-	 * ProjectType identifier
-	 * Long
-	 * Auto-increment
+	 * ProjectType identifier.
+	 * Long.
+	 * Auto-increment.
 	 */
 	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long projectTypeId;
+
 	/**
-	 * ProjectType name
-	 * String
-	 * Not null
+	 * ProjectType name.
+	 * String.
+	 * Not null.
 	 */
-	@Column(nullable=false)
+	@Column(nullable = false)
 	private String projectTypeName;
-	
+
 	/**
-	 * Get the projectType name
-	 * @return String
+	 * Get the projectType name.
+	 * @return String.
 	 */
 	public String getProjectTypeName() {
 		return projectTypeName;
 	}
+
 	/**
-	 * Set a new projectType name
-	 * @param projectTypeName String
+	 * Set a new projectType name.
+	 * @param projectTypeName String.
 	 */
 	public void setProjectTypeName(String projectTypeName) {
 		this.projectTypeName = projectTypeName;
 	}
+
 	/**
-	 * Get the projectType identifier
-	 * @return Long
+	 * Get the projectType identifier.
+	 * @return Long.
 	 */
 	public Long getProjectTypeId() {
 		return projectTypeId;
 	}
-	
+
 	/**
-	 * ProjectType constructor
-	 */
-	public ProjectType() {
-		super();
-	}
-	/**
-	 * ProjectType constructor specifying attribute
-	 * @param projectTypeName String
+	 * ProjectType constructor specifying attribute.
+	 * @param projectTypeName String.
 	 */
 	public ProjectType(String projectTypeName) {
 		super();
 		this.projectTypeName = projectTypeName;
 	}
-	
-	
-	
+
+	/**
+	 * ProjectType constructor.
+	 */
+	public ProjectType() {
+		super();
+	}
+
 }

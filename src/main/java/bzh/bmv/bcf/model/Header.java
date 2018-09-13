@@ -16,45 +16,44 @@ import bzh.bmv.bcf.contract.HeaderContract;
 @Entity
 @Table(name = HeaderContract.TABLENAME)
 public class Header extends Article {
-	
+
 	/**
-	 * Header media
-	 * {@link Media Media.class}
+	 * Header media.
+	 * {@link Media Media.class}.
 	 */
 	@OneToOne(targetEntity = Media.class)
 	private Media media;
 
 	/**
-	 * Get the header media
-	 * @return {@link Media Media.class}
+	 * Get the header media.
+	 * @return {@link Media Media.class}.
 	 */
 	public Media getMedia() {
 		return media;
 	}
 
 	/**
-	 * Set a new header media
-	 * @param media {@link Media Media.class}
+	 * Set a new header media.
+	 * @param media {@link Media Media.class}.
 	 */
 	public void setMedia(Media media) {
 		this.media = media;
 	}
 
 	/**
-	 * Header constructor
-	 */
-	public Header() {
-		super();
-	}
-
-	/**
-	 * Header constructor specifying attribute
-	 * @param media {@link Media Media.class}
+	 * Header constructor specifying attribute.
+	 * @param media {@link Media Media.class}.
 	 */
 	public Header(Media media) {
 		super();
 		this.media = media;
 	}
 
-	
+	/**
+	 * Header constructor.
+	 */
+	public Header() {
+		super();
+	}
+
 }

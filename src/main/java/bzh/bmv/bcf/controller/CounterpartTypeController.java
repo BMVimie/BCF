@@ -14,9 +14,9 @@ import bzh.bmv.bcf.model.CounterpartType;
  */
 @RestController
 @RequestMapping(CounterpartTypeController.BASE_URL)
-public class CounterpartTypeController extends BaseRestController<CounterpartType, Long>{
+public class CounterpartTypeController extends BaseRestController<CounterpartType, Long> {
 	/**
-	 * path to access this controller
+	 * path to access this controller.
 	 */
 	public static final String BASE_URL = "/counterpartType";
 }

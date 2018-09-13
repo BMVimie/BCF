@@ -11,19 +11,19 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.stereotype.Service;
 
 @Service
-public class SecurityServiceImpl implements SecurityService{
+public class SecurityServiceImpl implements SecurityService {
     @Autowired
     private AuthenticationManager authenticationManager;
 
     @Autowired
     private UserDetailsService userDetailsService;
 
-    private static final Logger logger = LoggerFactory.getLogger(SecurityServiceImpl.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(SecurityServiceImpl.class);
 
     public String findLoggedInUsername() {
 		Object userDetails = SecurityContextHolder.getContext().getAuthentication().getDetails();
       if (userDetails instanceof UserDetails) {
-          return ((UserDetails)userDetails).getUsername();
+          return ((UserDetails) userDetails).getUsername();
       }
       return null;
 	}
@@ -36,7 +36,7 @@ public class SecurityServiceImpl implements SecurityService{
 
         if (usernamePasswordAuthenticationToken.isAuthenticated()) {
             SecurityContextHolder.getContext().setAuthentication(usernamePasswordAuthenticationToken);
-            logger.debug(String.format("Auto login %s successfully!", username));
+            LOGGER.debug(String.format("Auto login %s successfully!", username));
         }
     }
 }

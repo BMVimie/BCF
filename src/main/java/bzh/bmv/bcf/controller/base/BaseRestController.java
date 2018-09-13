@@ -13,25 +13,25 @@ import bzh.bmv.bcf.repository.base.IBaseRepository;
 
 
 /**
- * Base Rest Controller
+ * Base Rest Controller.
  * @author REVEREAU, CRONIER
  * @since 2018-09-13
  * @param <T> Object
  * @param <ID> Object identifier
  */
-public abstract class BaseRestController<T,ID extends Serializable> {
+public abstract class BaseRestController<T, ID extends Serializable> {
 
 	/**
-	 * Retrieve the application bean for the crud repository
+	 * Retrieve the application bean for the crud repository.
 	 */
 	@Autowired
     IBaseRepository<T, ID> crudRepository;
 
-	/**
-	 * Get method for read
-	 * @return Object list
-	 */
-    @RequestMapping(path={"/", ""}, method=RequestMethod.GET)
+		/**
+		 * Get method for read.
+		 * @return Object list
+		 */
+    @RequestMapping(path = {"/", ""}, method = RequestMethod.GET)
     public ResponseEntity<Iterable<T>> index() {
         Iterable<T> items = crudRepository.findAll();
         new ResponseEntity<T>(HttpStatus.OK);
@@ -39,7 +39,7 @@ public abstract class BaseRestController<T,ID extends Serializable> {
     }
 
     /**
-     * Method for read one object
+     * Method for read one object.
      * @param index Object.id
      * @return Object
      */
@@ -51,11 +51,11 @@ public abstract class BaseRestController<T,ID extends Serializable> {
     }
 
     /**
-     * Post method for create
+     * Post method for create.
      * @param item Object
      * @return created Object
      */
-    @RequestMapping(path={"/", ""}, method=RequestMethod.POST)
+    @RequestMapping(path = {"/", ""}, method = RequestMethod.POST)
     public ResponseEntity<T> postItem(@RequestBody T item) {
     	crudRepository.save(item);
     	new ResponseEntity<T>(HttpStatus.OK);
@@ -63,23 +63,23 @@ public abstract class BaseRestController<T,ID extends Serializable> {
     }
 
     /**
-     * Put method for modify
+     * Put method for modify.
      * @param item Object
      * @return modified Object
      */
-    @RequestMapping(path={"/", ""}, method=RequestMethod.PUT)
+    @RequestMapping(path = {"/", ""}, method = RequestMethod.PUT)
     public ResponseEntity<T> updateItem(@RequestBody T item) {
     	crudRepository.save(item);
     	new ResponseEntity<T>(HttpStatus.OK);
 		return ResponseEntity.ok(item);
     }
-    
+
     /**
-     * Delete method for delete
+     * Delete method for delete.
      * @param item Object
      * @return deleted Object
      */
-    @RequestMapping(path={"/", ""}, method=RequestMethod.DELETE)
+    @RequestMapping(path = {"/", ""}, method = RequestMethod.DELETE)
     public ResponseEntity<T> deleteItem(@RequestBody T item) {
     	crudRepository.delete(item);
         new ResponseEntity<T>(HttpStatus.OK);
