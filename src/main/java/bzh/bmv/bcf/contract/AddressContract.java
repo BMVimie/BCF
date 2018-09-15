@@ -7,6 +7,7 @@ package bzh.bmv.bcf.contract;
  * @since 2018-09-13
  */
 public class AddressContract {
+
 	/**
 	 * Constant to reference Address table name.
 	 * @see bzh.bmv.bcf.model.Address

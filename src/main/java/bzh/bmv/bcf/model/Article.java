@@ -122,7 +122,7 @@ public class Article {
 	}
 
 	/**
-	 * Article constructor
+	 * Article constructor.
 	 */
 	public Article() {
 		super();

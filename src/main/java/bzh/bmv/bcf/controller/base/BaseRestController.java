@@ -27,10 +27,10 @@ public abstract class BaseRestController<T, ID extends Serializable> {
 	@Autowired
     IBaseRepository<T, ID> crudRepository;
 
-		/**
-		 * Get method for read.
-		 * @return Object list
-		 */
+	/**
+	 * Get method for read.
+	 * @return Object list
+	 */
     @RequestMapping(path = {"/", ""}, method = RequestMethod.GET)
     public ResponseEntity<Iterable<T>> index() {
         Iterable<T> items = crudRepository.findAll();

@@ -15,11 +15,6 @@ import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
 
-@Configuration
-@EnableWebSecurity
-@EnableAutoConfiguration
-//@EnableGlobalMethodSecurity(prePostEnabled = true)
-@EnableGlobalMethodSecurity(securedEnabled = true)
 /**
  * For external connection use :
  * 		- 127.0.0.1:1234/login (GET)
@@ -30,6 +25,11 @@ import org.springframework.web.filter.CorsFilter;
  * @author tactfactory
  *
  */
+@Configuration
+@EnableWebSecurity
+@EnableAutoConfiguration
+//@EnableGlobalMethodSecurity(prePostEnabled = true)
+@EnableGlobalMethodSecurity(securedEnabled = true)
 public class SecurityConfig extends WebSecurityConfigurerAdapter  {
 
 	@Override
@@ -63,23 +63,22 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter  {
         		.httpBasic()
         	.and()
         		.cors()
-    //        	.and()
-    //			.authorizeRequests().anyRequest().anonymous()
-  	//			.antMatchers("/user","/user/**")
-    //			.permitAll()
         		;
+        		//.and()
+        		//.authorizeRequests().anyRequest().anonymous()
+        		//.antMatchers("/user","/user/**")
+        		//.permitAll()
 	}
 
 	@Override
 	public void configure(WebSecurity web) throws Exception {
 	    web.ignoring().antMatchers("/register", "/register/**");
-	//	    // Allow all GET for every controllers
-	//	    web.ignoring().antMatchers(HttpMethod.GET);
-	//	    // Ignoring only get only for M3
-	//	    web.ignoring().antMatchers(HttpMethod.GET,"/M3","/M3/**");
-	    
+	    //Allow all GET for every controllers
+	    //web.ignoring().antMatchers(HttpMethod.GET);
+	    //Ignoring only get only for M3
+	    //web.ignoring().antMatchers(HttpMethod.GET,"/M3","/M3/**"); 
 	    // Ignoring all methods for user
-	    web.ignoring().antMatchers("/user","/user/**");
+	    web.ignoring().antMatchers("/user", "/user/**");
 	}
 
 	@Bean

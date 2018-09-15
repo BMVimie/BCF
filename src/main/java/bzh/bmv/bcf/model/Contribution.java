@@ -18,13 +18,14 @@ import bzh.bmv.bcf.contract.ContributionContract;
 @Entity
 @Table(name = ContributionContract.TABLENAME)
 public class Contribution {
+
 	/**
 	 * Contribution identifier.
 	 * Long.
 	 * Not null.
 	 */
 	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long contributionId;
 
 	/**
@@ -71,7 +72,7 @@ public class Contribution {
 	 * Set a new contributionDate.
 	 * @param contributionDate Date.
 	 */
-	public void setContributeDate(Date contributionDate) {
+	public void setContributionDate(Date contributionDate) {
 		this.contributionDate = contributionDate;
 	}
 
