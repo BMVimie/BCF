@@ -47,10 +47,6 @@ dependencies {
 	testCompile('org.springframework.restdocs:spring-restdocs-mockmvc')
 	// Crypt
 	compile group: 'commons-codec', name: 'commons-codec', version: '1.5'
-	//import Excel File
-	compile group: 'org.apache.poi', name: 'poi', version: '4.0.0'
-	compile group: 'org.apache.poi', name: 'openxml4j', version: '1.0-beta'
-	
 }
 test {
     systemProperties 'property': 'value'

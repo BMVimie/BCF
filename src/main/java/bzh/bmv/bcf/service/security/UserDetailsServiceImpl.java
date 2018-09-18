@@ -34,10 +34,10 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 
         Set<GrantedAuthority> grantedAuthorities = new HashSet<GrantedAuthority>();
 
-        if (user.getSecurityUserEnable()) {
+        if (user.getEnable()) {
 
-            for (SecurityRole role : user.getSecurityUserRoles()) {
-                grantedAuthorities.add(new SimpleGrantedAuthority(role.getSecurityRoleRole()));
+            for (SecurityRole role : user.getRoles()) {
+                grantedAuthorities.add(new SimpleGrantedAuthority(role.getRole()));
             }
 		}
 
@@ -51,8 +51,8 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         	    new DelegatingPasswordEncoder(idForEncode, encoders);
 
         UserBuilder userBuilder = org.springframework.security.core.userdetails.User.builder();
-        userBuilder.username(user.getSecurityUserLogin());
-        userBuilder.password(passwordEncoder.encode(user.getSecurityUserPassword()));
+        userBuilder.username(user.getLogin());
+        userBuilder.password(passwordEncoder.encode(user.getPassword()));
         userBuilder.authorities(grantedAuthorities);
 
         return userBuilder.build();
