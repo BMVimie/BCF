@@ -27,74 +27,75 @@ public abstract class SecurityUser {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name = "securityUserId")
 	private Long securityUserId;
-	private String login;
+	private String securityUserLogin;
+	
 	@Convert(converter = CryptoConverter.class)
-	private String password;
-	private Boolean enable;
+	private String securityUserPassword;
+	private Boolean securityUserEnable;
 
 	@ManyToMany(targetEntity = SecurityRole.class)
 	@JoinTable(name = "users_securityroles",
 		joinColumns = @JoinColumn(name = "user_id"),
 		inverseJoinColumns = @JoinColumn(name = "role_id"))
 	@JsonIgnoreProperties(allowSetters = true, value = {"users"})
-	private Set<SecurityRole> roles;
+	private Set<SecurityRole> securityUserRoles;
 
 	/**
 	 * @return the login.
 	 */
-	public String getLogin() {
-		return login;
+	public String getSecurityUserLogin() {
+		return securityUserLogin;
 	}
 
 	/**
 	 * @param login.
 	 * the login to set.
 	 */
-	public void setLogin(String login) {
-		this.login = login;
+	public void setSecurityUserLogin(String login) {
+		this.securityUserLogin = login;
 	}
 
 	/**
 	 * @return the password.
 	 */
-	public String getPassword() {
-		return password;
+	public String getSecurityUserPassword() {
+		return securityUserPassword;
 	}
 
 	/**
 	 * @param password.
 	 * the password to set.
 	 */
-	public void setPassword(String password) {
-		this.password = password;
+	public void setSecurityUserPassword(String password) {
+		this.securityUserPassword = password;
 	}
 
 	/**
 	 * @return the enable.
 	 */
-	public Boolean getEnable() {
-		return enable;
+	public Boolean getSecurityUserEnable() {
+		return securityUserEnable;
 	}
 
 	/**
 	 * @param enable the enable to set.
 	 */
-	public void setEnable(Boolean enable) {
-		this.enable = enable;
+	public void setSecurityUserEnable(Boolean enable) {
+		this.securityUserEnable = enable;
 	}
 
 	/**
 	 * @return the roles.
 	 */
-	public Set<SecurityRole> getRoles() {
-		return roles;
+	public Set<SecurityRole> getSecurityUserRoles() {
+		return securityUserRoles;
 	}
 
 	/**
 	 * @param roles the roles to set.
 	 */
-	public void setRoles(Set<SecurityRole> roles) {
-		this.roles = roles;
+	public void setSecurityUserRoles(Set<SecurityRole> roles) {
+		this.securityUserRoles = roles;
 	}
 
 	public SecurityUser() {
