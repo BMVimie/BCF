@@ -11,7 +11,7 @@ public class CounterpartContract {
 	 * Constant to reference Counterpart table name.
 	 * @see bzh.bmv.bcf.model.Counterpart
 	 */
-	public static final String TABLENAME = "counterpart";
+	public static final String TABLENAME = "bcf_counterpart";
 	/**
 	 * Constant to reference Counterpart.counterpartId.
 	 * @see bzh.bmv.bcf.model.Counterpart

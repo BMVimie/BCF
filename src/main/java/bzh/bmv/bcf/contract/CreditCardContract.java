@@ -11,7 +11,7 @@ public class CreditCardContract {
 	 * Constant to reference CreditCard table name.
 	 * @see bzh.bmv.bcf.model.CreditCard
 	 */
-	public static final String TABLENAME = "creditcard";
+	public static final String TABLENAME = "bcf_creditcard";
 	/**
 	 * Constant to reference CreditCard.creditCardId.
 	 * @see bzh.bmv.bcf.model.CreditCard

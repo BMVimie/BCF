@@ -11,7 +11,7 @@ public class MediaContract {
 	 * Constant to reference Media table name.
 	 * @see bzh.bmv.bcf.model.Media
 	 */
-	public static final String TABLENAME = "media";
+	public static final String TABLENAME = "bcf_media";
 	/**
 	 * Constant to reference Media.mediaId.
 	 * @see bzh.bmv.bcf.model.Media

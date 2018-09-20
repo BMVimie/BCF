@@ -11,7 +11,7 @@ public class ImprovAdviceContract {
 	 * Constant to reference ImprovAdvice table name.
 	 * @see bzh.bmv.bcf.model.ImprovAdvice
 	 */
-	public static final String TABLENAME = "improvAdvice";
+	public static final String TABLENAME = "bcf_improvAdvice";
 	/**
 	 * Constant to reference ImprovAdvice.improvId.
 	 * @see bzh.bmv.bcf.model.ImprovAdvice

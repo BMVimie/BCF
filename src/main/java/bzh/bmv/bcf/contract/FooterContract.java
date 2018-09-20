@@ -11,7 +11,7 @@ public class FooterContract {
 	 * Constant to reference Footer table name.
 	 * @see bzh.bmv.bcf.model.Footer
 	 */
-	public static final String TABLENAME = "footer";
+	public static final String TABLENAME = "bcf_footer";
 	/**
 	 * Constant to reference Footer.footerId.
 	 * @see bzh.bmv.bcf.model.Footer

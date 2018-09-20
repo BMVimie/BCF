@@ -11,7 +11,7 @@ public class ProjectStepContract {
 	 * Constant to reference ProjectStep table name.
 	 * @see bzh.bmv.bcf.model.ProjectStep
 	 */
-	public static final String TABLENAME = "projectstep";
+	public static final String TABLENAME = "bcf_projectstep";
 	/**
 	 * Constant to reference ProjectStep.projectStepId.
 	 * @see bzh.bmv.bcf.model.ProjectStep
