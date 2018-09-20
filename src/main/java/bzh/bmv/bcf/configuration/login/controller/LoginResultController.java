@@ -21,6 +21,6 @@ public class LoginResultController {
 	public ResponseEntity<bzh.bmv.bcf.model.User> loginPost() {
 		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
 		User userDetails = (User) auth.getPrincipal();
-        return ResponseEntity.ok(repo.findByLogin(userDetails.getUsername()));
+        return ResponseEntity.ok(repo.findBySecurityUserLogin(userDetails.getUsername()));
 	}
 }

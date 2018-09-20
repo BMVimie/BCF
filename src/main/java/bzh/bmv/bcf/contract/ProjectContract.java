@@ -11,7 +11,7 @@ public class ProjectContract {
 	 * Constant to reference Project table name.
 	 * @see bzh.bmv.bcf.model.Project
 	 */
-	public static final String TABLENAME = "projet";
+	public static final String TABLENAME = "project";
 	/**
 	 * Constant to reference Project.projectId.
 	 * @see bzh.bmv.bcf.model.Project
