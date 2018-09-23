@@ -22,4 +22,9 @@ public class ProjectTypeContract {
 	 * @see bzh.bmv.bcf.model.ProjectType
 	 */
 	public static final String PROJECTTYPENAME = "projectTypeName";
+	/**
+	 * Constant to reference ProjectType.projectTypeProject.
+	 * @see bzh.bmv.bcf.model.ProjectType
+	 */
+	public static final String PROJECTTYPEPROJECT = "projectTypeProject";
 }

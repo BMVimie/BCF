@@ -1,10 +1,13 @@
 package bzh.bmv.bcf.model;
 
+import java.util.Collection;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 import bzh.bmv.bcf.contract.ProjectTypeContract;
 
@@ -17,7 +20,8 @@ import bzh.bmv.bcf.contract.ProjectTypeContract;
 @Entity
 @Table(name = ProjectTypeContract.TABLENAME)
 public class ProjectType {
-
+	
+	
 	/**
 	 * ProjectType identifier.
 	 * Long.
@@ -34,6 +38,23 @@ public class ProjectType {
 	 */
 	@Column(nullable = false)
 	private String projectTypeName;
+	
+	/**
+	 * Project.
+	 * Collection<{@link Project Project.class}>.
+	 */
+	@ManyToMany(targetEntity = Project.class)
+	private Collection<Project> projectTypeProject;
+	
+	
+
+	public Collection<Project> getProjectProject() {
+		return projectTypeProject;
+	}
+
+	public void setProjectProject(Collection<Project> projectProject) {
+		this.projectTypeProject = projectProject;
+	}
 
 	/**
 	 * Get the projectType name.
