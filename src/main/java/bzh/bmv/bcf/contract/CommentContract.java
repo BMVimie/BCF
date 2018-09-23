@@ -11,7 +11,7 @@ public class CommentContract {
 	 * Constant to reference Comment table name.
 	 * @see bzh.bmv.bcf.model.Comment
 	 */
-	public static final String TABLENAME = "comment";
+	public static final String TABLENAME = "bcf_comment";
 	/**
 	 * Constant to reference Comment.commentId.
 	 * @see bzh.bmv.bcf.model.Comment

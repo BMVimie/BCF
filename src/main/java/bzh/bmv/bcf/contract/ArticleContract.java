@@ -11,7 +11,7 @@ public class ArticleContract {
 	 * Constant to reference Article table name.
 	 * @see bzh.bmv.bcf.model.Article
 	 */
-	public static final String TABLENAME = "article";
+	public static final String TABLENAME = "bcf_article";
 	/**
 	 * Constant to reference Article.articleId.
 	 * @see bzh.bmv.bcf.model.Article

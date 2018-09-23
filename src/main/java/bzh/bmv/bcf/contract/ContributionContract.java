@@ -11,7 +11,7 @@ public class ContributionContract {
 	 * Constant to reference Contribution table name.
 	 * @see bzh.bmv.bcf.model.Contribution
 	 */
-	public static final String TABLENAME = "contribution";
+	public static final String TABLENAME = "bcf_contribution";
 	/**
 	 * Constant to reference Contribution.contributionId.
 	 * @see bzh.bmv.bcf.model.Contribution

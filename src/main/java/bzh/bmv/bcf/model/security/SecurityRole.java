@@ -21,40 +21,40 @@ public class SecurityRole {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name = "securityRoleId")
 	private Long securityRoleId;
-	private String role;
+	private String securityRoleRole;
 
 	@ManyToMany(targetEntity = User.class)
 	@JoinTable(name = "users_securityroles",
     	joinColumns = @JoinColumn(name = "securityRoleId"),
     	inverseJoinColumns = @JoinColumn(name = "securityUserId"))
-	private Set<User> users;
+	private Set<User> securityRoleUsers;
 
 	/**
 	 * @return the role.
 	 */
-	public String getRole() {
-		return role;
+	public String getSecurityRoleRole() {
+		return securityRoleRole;
 	}
 
 	/**
 	 * @param role the role to set.
 	 */
-	public void setRole(String role) {
-		this.role = role;
+	public void setSecurityRoleRole(String role) {
+		this.securityRoleRole = role;
 	}
 
 	/**
 	 * @return the users.
 	 */
-	public Set<User> getUsers() {
-		return users;
+	public Set<User> getSecurityRoleUsers() {
+		return securityRoleUsers;
 	}
 
 	/**
 	 * @param users the users to set.
 	 */
-	public void setUsers(Set<User> users) {
-		this.users = users;
+	public void setSecurityRoleUsers(Set<User> users) {
+		this.securityRoleUsers = users;
 	}
 
 	public SecurityRole() {

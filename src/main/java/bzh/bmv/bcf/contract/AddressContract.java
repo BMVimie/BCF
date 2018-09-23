@@ -12,7 +12,7 @@ public class AddressContract {
 	 * Constant to reference Address table name.
 	 * @see bzh.bmv.bcf.model.Address
 	 */
-	public static final String TABLENAME = "address";
+	public static final String TABLENAME = "bcf_address";
 	/**
 	 * Constant to reference Address.addressId.
 	 * @see bzh.bmv.bcf.model.Address

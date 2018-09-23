@@ -52,22 +52,17 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter  {
 					.logoutSuccessUrl("/login")
 			.and()
 				.csrf()
-					.ignoringAntMatchers("/MonModele/**")
-					.ignoringAntMatchers("/M2/**")
-					.ignoringAntMatchers("/M3/**")
-					.ignoringAntMatchers("/M4/**")
-					.ignoringAntMatchers("/M51/**")
-					.ignoringAntMatchers("/M51M52/**")
-					.ignoringAntMatchers("/M52/**")
 			.and()
         		.httpBasic()
         	.and()
         		.cors()
+//        	.and()
+//        		.authorizeRequests().anyRequest().anonymous()
+//        		.antMatchers("/project", "/project/**")
+//        		.permitAll()
+//        		.antMatchers("/user", "/user/**")
+//        		.permitAll()
         		;
-        		//.and()
-        		//.authorizeRequests().anyRequest().anonymous()
-        		//.antMatchers("/user","/user/**")
-        		//.permitAll()
 	}
 
 	@Override
@@ -79,6 +74,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter  {
 	    //web.ignoring().antMatchers(HttpMethod.GET,"/M3","/M3/**"); 
 	    // Ignoring all methods for user
 	    web.ignoring().antMatchers("/user", "/user/**");
+	    web.ignoring().antMatchers("/address", "/address/**");
+	    web.ignoring().antMatchers("/project", "/project/**");
 	}
 
 	@Bean

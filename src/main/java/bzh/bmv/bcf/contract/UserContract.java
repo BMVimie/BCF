@@ -11,7 +11,7 @@ public class UserContract {
 	 * Constant to reference User table name.
 	 * @see bzh.bmv.bcf.model.User
 	 */
-	public static final String TABLENAME = "user";
+	public static final String TABLENAME = "bcf_user";
 	/**
 	 * Constant to reference User.userFamilyName.
 	 * @see bzh.bmv.bcf.model.User

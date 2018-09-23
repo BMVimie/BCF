@@ -17,8 +17,8 @@ public class UserServiceImpl implements UserService {
     private SecurityRoleCrudRepository roleRepository;
 
     public void save(User user) {
-        user.setPassword(user.getPassword());
-        user.setRoles((Set<SecurityRole>) roleRepository.findAll());
+        user.setSecurityUserPassword(user.getSecurityUserPassword());
+        user.setSecurityUserRoles((Set<SecurityRole>) roleRepository.findAll());
         userRepository.save(user);
     }
 

@@ -11,7 +11,7 @@ public class ImageContract {
 	 * Constant to reference Image table name.
 	 * @see bzh.bmv.bcf.model.Image
 	 */
-	public static final String TABLENAME = "image";
+	public static final String TABLENAME = "bcf_image";
 	/**
 	 * Constant to reference Image.imageId.
 	 * @see bzh.bmv.bcf.model.Image

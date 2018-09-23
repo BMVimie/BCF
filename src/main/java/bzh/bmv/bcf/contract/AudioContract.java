@@ -11,7 +11,7 @@ public class AudioContract {
 	 * Constant to reference Audio table name.
 	 * @see bzh.bmv.bcf.model.Audio
 	 */
-	public static final String TABLENAME = "audio";
+	public static final String TABLENAME = "bcf_audio";
 	/**
 	 * Constant to reference Audio.audioId.
 	 * @see bzh.bmv.bcf.model.Audio
