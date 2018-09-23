@@ -120,6 +120,11 @@ public class Article {
 		this.articleName = articleName;
 		this.articleMedias = articleMedias;
 	}
+	
+	public Article(String articleName) {
+		super();
+		this.articleName=articleName;
+	}
 
 	/**
 	 * Article constructor.

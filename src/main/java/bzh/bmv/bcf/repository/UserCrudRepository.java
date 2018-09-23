@@ -12,5 +12,5 @@ import bzh.bmv.bcf.repository.base.IBaseRepository;
  */
 @Repository
 public interface UserCrudRepository extends IBaseRepository<User, Long> {
-	User findByLogin(String login);
+	User findByLogin(String securityUserlogin);
 }
