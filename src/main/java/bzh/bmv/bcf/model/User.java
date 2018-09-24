@@ -8,6 +8,7 @@ import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import bzh.bmv.bcf.contract.ProjectContract;
@@ -76,6 +77,7 @@ public class User extends SecurityUser {
      * User address.
      * Collection<{@link Address Address.class}>.
      */
+    @JsonIgnore
     @OneToMany(targetEntity = Address.class)
     private Collection<Address> userAddresses;
 
@@ -83,6 +85,7 @@ public class User extends SecurityUser {
 		 * User credit card.
 		 * Collection<{@link CreditCard CreditCard.class}>.
 		 */
+    @JsonIgnore
     @OneToMany(targetEntity = CreditCard.class)
     private Collection<CreditCard> userCreditCards;
 
@@ -90,6 +93,7 @@ public class User extends SecurityUser {
      * User contributions.
      * Collection<{@link Contribution Contribution.class}>.
      */
+    @JsonIgnore
     @OneToMany(targetEntity = Contribution.class)
     private Collection<Contribution> userContributions;
 
@@ -97,6 +101,7 @@ public class User extends SecurityUser {
      * User projects.
      * Collection<{@link Project Project.class}>.
      */
+    @JsonIgnore
     @OneToMany(targetEntity = Project.class)
     @JsonIgnoreProperties(allowSetters=true, value= {ProjectContract.PROJECTUSERS})
     private Collection<Project> userProjects;
@@ -105,6 +110,7 @@ public class User extends SecurityUser {
      * User comments.
      * Collection<{@link Comment Comment.class}>.
      */
+    @JsonIgnore
     @OneToMany(targetEntity = Comment.class)
     private Collection<Comment> userComments;
 
@@ -112,6 +118,7 @@ public class User extends SecurityUser {
      * User improve advice.
      * Collection<{@link ImprovAdvice ImprovAdvice.class}>.
      */
+    @JsonIgnore
     @OneToMany(targetEntity = ImprovAdvice.class)
     private Collection<ImprovAdvice> userImprovAdvices;
 
