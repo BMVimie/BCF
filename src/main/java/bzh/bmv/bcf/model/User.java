@@ -76,7 +76,6 @@ public class User extends SecurityUser {
      * User address.
      * Collection<{@link Address Address.class}>.
      */
-    @JsonIgnore
     @OneToMany(targetEntity = Address.class)
     private Collection<Address> userAddresses;
 
@@ -84,7 +83,6 @@ public class User extends SecurityUser {
 		 * User credit card.
 		 * Collection<{@link CreditCard CreditCard.class}>.
 		 */
-    @JsonIgnore
     @OneToMany(targetEntity = CreditCard.class)
     private Collection<CreditCard> userCreditCards;
 
@@ -92,7 +90,6 @@ public class User extends SecurityUser {
      * User contributions.
      * Collection<{@link Contribution Contribution.class}>.
      */
-    @JsonIgnore
     @OneToMany(targetEntity = Contribution.class)
     private Collection<Contribution> userContributions;
 
@@ -109,7 +106,6 @@ public class User extends SecurityUser {
      * User comments.
      * Collection<{@link Comment Comment.class}>.
      */
-    @JsonIgnore
     @OneToMany(targetEntity = Comment.class)
     private Collection<Comment> userComments;
 
@@ -117,7 +113,6 @@ public class User extends SecurityUser {
      * User improve advice.
      * Collection<{@link ImprovAdvice ImprovAdvice.class}>.
      */
-    @JsonIgnore
     @OneToMany(targetEntity = ImprovAdvice.class)
     private Collection<ImprovAdvice> userImprovAdvices;
 

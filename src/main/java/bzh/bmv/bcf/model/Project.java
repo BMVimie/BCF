@@ -92,7 +92,6 @@ public class Project {
 		 * Project contributions.
 		 * Collection<{@link Contribution Contribution.class}>.
 		 */
-    @JsonIgnore
     @OneToMany(targetEntity = Contribution.class)
     private Collection<Contribution> projectContributions;
 
@@ -100,7 +99,6 @@ public class Project {
 		 * Project counterparts.
 		 * Collection<{@link Counterpart Counterpart.class}>.
 		 */
-    @JsonIgnore
     @OneToMany(targetEntity = Counterpart.class)
     private Collection<Counterpart> projectCounterparts;
 
@@ -108,7 +106,6 @@ public class Project {
 		 * Project steps.
 		 * Collection<{@link ProjectStep ProjectStep.class}>.
 		 */
-    @JsonIgnore
     @OneToMany(targetEntity = ProjectStep.class)
     private Collection<ProjectStep> projectProjectSteps;
 
@@ -138,7 +135,6 @@ public class Project {
      * Project comments.
      * Collection<{@link Comment Comment.class}>.
      */
-    @JsonIgnore
     @OneToMany(targetEntity = Comment.class)
     private Collection<Comment> comments;
    
