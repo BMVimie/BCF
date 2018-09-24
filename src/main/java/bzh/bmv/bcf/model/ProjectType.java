@@ -9,6 +9,9 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToMany;
 import javax.persistence.Table;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import bzh.bmv.bcf.contract.ProjectTypeContract;
 
 /**
@@ -43,6 +46,7 @@ public class ProjectType {
 	 * Project.
 	 * Collection<{@link Project Project.class}>.
 	 */
+	@JsonIgnore
 	@ManyToMany(targetEntity = Project.class)
 	private Collection<Project> projectTypeProject;
 	

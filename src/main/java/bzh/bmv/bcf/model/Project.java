@@ -11,8 +11,7 @@ import javax.persistence.ManyToMany;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
-
-
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import bzh.bmv.bcf.contract.ProjectContract;
@@ -76,6 +75,7 @@ public class Project {
 		 * Project types.
 		 * Collection<{@link ProjectType ProjectType.class}>.
 		 */
+	@JsonIgnore
     @ManyToMany(targetEntity = ProjectType.class, mappedBy=ProjectTypeContract.PROJECTTYPEPROJECT)
     private Collection<ProjectType> projectProjectTypes;
    
@@ -83,6 +83,7 @@ public class Project {
 		 * Project users.
 		 * Collection<{@link User User.class}>.
 		 */
+    @JsonIgnore
     @OneToMany(targetEntity = User.class)
     @JsonIgnoreProperties(allowSetters = true, value = {UserContract.USERPROJECTS})
     private Collection<User> projectUsers;
@@ -91,6 +92,7 @@ public class Project {
 		 * Project contributions.
 		 * Collection<{@link Contribution Contribution.class}>.
 		 */
+    @JsonIgnore
     @OneToMany(targetEntity = Contribution.class)
     private Collection<Contribution> projectContributions;
 
@@ -98,6 +100,7 @@ public class Project {
 		 * Project counterparts.
 		 * Collection<{@link Counterpart Counterpart.class}>.
 		 */
+    @JsonIgnore
     @OneToMany(targetEntity = Counterpart.class)
     private Collection<Counterpart> projectCounterparts;
 
@@ -105,6 +108,7 @@ public class Project {
 		 * Project steps.
 		 * Collection<{@link ProjectStep ProjectStep.class}>.
 		 */
+    @JsonIgnore
     @OneToMany(targetEntity = ProjectStep.class)
     private Collection<ProjectStep> projectProjectSteps;
 
@@ -112,6 +116,7 @@ public class Project {
 		 * Project articles.
 		 * Collection<{@link Article Article.class}>.
 		 */
+    @JsonIgnore
     @OneToMany(targetEntity = Article.class)
     private Collection<Article> projectArticles;
 
@@ -133,6 +138,7 @@ public class Project {
      * Project comments.
      * Collection<{@link Comment Comment.class}>.
      */
+    @JsonIgnore
     @OneToMany(targetEntity = Comment.class)
     private Collection<Comment> comments;
    
