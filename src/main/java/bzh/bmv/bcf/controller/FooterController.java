@@ -15,8 +15,8 @@ import bzh.bmv.bcf.model.Footer;
 @RestController
 @RequestMapping(FooterController.BASE_URL)
 public class FooterController extends BaseRestController<Footer, Long> {
-	/**
-	 * path to access this controller.
-	 */
-	public static final String BASE_URL = "/footer";
+    /**
+     * path to access this controller.
+     */
+    public static final String BASE_URL = "/footer";
 }

@@ -15,8 +15,8 @@ import bzh.bmv.bcf.model.Project;
 @RestController
 @RequestMapping(ProjectController.BASE_URL)
 public class ProjectController extends BaseRestController<Project, Long> {
-	/**
-	 * path to access this controller.
-	 */
-	public static final String BASE_URL = "/project";
+    /**
+     * path to access this controller.
+     */
+    public static final String BASE_URL = "/project";
 }

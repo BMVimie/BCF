@@ -7,19 +7,19 @@ package bzh.bmv.bcf.contract;
  * @since 2018-09-13
  */
 public class HeaderContract {
-	/**
-	 * Constant to reference Header table name.
-	 * @see bzh.bmv.bcf.model.Header
-	 */
-	public static final String TABLENAME = "bcf_header";
-	/**
-	 * Constant to reference Header.headerId.
-	 * @see bzh.bmv.bcf.model.Header
-	 */
-	public static final String HEADERID = "headerId";
-	/**
-	 * Constant to reference Header.headerMedia.
-	 * @see bzh.bmv.bcf.model.Header
-	 */
-	public static final String HEADERMEDIA = "headerMedia";
+    /**
+     * Constant to reference Header table name.
+     * @see bzh.bmv.bcf.model.Header
+     */
+    public static final String TABLENAME = "bcf_header";
+    /**
+     * Constant to reference Header.headerId.
+     * @see bzh.bmv.bcf.model.Header
+     */
+    public static final String HEADERID = "headerId";
+    /**
+     * Constant to reference Header.headerMedia.
+     * @see bzh.bmv.bcf.model.Header
+     */
+    public static final String HEADERMEDIA = "headerMedia";
 }

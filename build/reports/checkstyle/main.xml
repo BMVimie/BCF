@@ -1,224 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="6.13">
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\BcfApplication.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\BcfApplication.java">
 <error line="6" severity="error" message="Commentaire javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="6" column="1" severity="error" message="Les classes utilitaires ne doivent pas avoir de constructeur par défaut ou public." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
-<error line="9" severity="error" message="La première ligne doit se terminer avec un point." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
-<error line="9" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 </file>
-<<<<<<< HEAD
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\ServletInitializer.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
-<error line="7" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
-<error line="13" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\ServletInitializer.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\configuration\SecurityConfig.java">
-<error line="18" severity="error" message="La première ligne doit se terminer avec un point." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
-<error line="20" column="4" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="65" column="17" severity="error" message="Il y a une espace de trop avant &apos;;&apos;." source="com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheck"/>
-<error line="74" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
-<error line="86" column="9" severity="error" message="Commentaire javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\configuration\SecurityConfig.java">
+<error line="53" column="5" severity="error" message="Commentaire javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\configuration\login\controller\LoginController.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
-=======
-<file name="C:\Users\LEDOUJET\Downloads\POEI\Projet\Code\JEE\BCF\src\main\java\bzh\bmv\bcf\ServletInitializer.java">
-<error line="7" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
-<error line="13" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-</file>
-<file name="C:\Users\LEDOUJET\Downloads\POEI\Projet\Code\JEE\BCF\src\main\java\bzh\bmv\bcf\configuration\SecurityConfig.java">
-<error line="18" severity="error" message="La première ligne doit se terminer avec un point." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
-<error line="20" column="4" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="66" column="17" severity="error" message="Il y a une espace de trop avant &apos;;&apos;." source="com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheck"/>
-<error line="79" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
-<error line="89" column="9" severity="error" message="Commentaire javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-</file>
-<file name="C:\Users\LEDOUJET\Downloads\POEI\Projet\Code\JEE\BCF\src\main\java\bzh\bmv\bcf\configuration\login\controller\LoginController.java">
->>>>>>> 31ff8eec79a147ae62ece15077c8cd5cfef1e67e
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\configuration\login\controller\LoginController.java">
 <error line="8" severity="error" message="Commentaire javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="10" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\configuration\login\controller\LoginResultController.java">
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\configuration\login\controller\LoginResultController.java">
 <error line="14" severity="error" message="Commentaire javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="17" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="18" column="28" severity="error" message="La variable &apos;repo&apos; devrait être privée et avoir des accesseurs." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
-<error line="20" column="9" severity="error" message="Commentaire javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="18" column="24" severity="error" message="La variable &apos;repo&apos; devrait être privée et avoir des accesseurs." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="20" column="5" severity="error" message="Commentaire javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\contract\AddressContract.java">
-<error line="9" column="1" severity="error" message="Les classes utilitaires ne doivent pas avoir de constructeur par défaut ou public." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
-<error line="11" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\contract\AddressContract.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\contract\ArticleContract.java">
-<error line="9" column="1" severity="error" message="Les classes utilitaires ne doivent pas avoir de constructeur par défaut ou public." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
-<error line="10" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\contract\ArticleContract.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\contract\AudioContract.java">
-<error line="9" column="1" severity="error" message="Les classes utilitaires ne doivent pas avoir de constructeur par défaut ou public." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
-<error line="10" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\contract\AudioContract.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\contract\CommentContract.java">
-<error line="9" column="1" severity="error" message="Les classes utilitaires ne doivent pas avoir de constructeur par défaut ou public." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
-<error line="10" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\contract\CommentContract.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\contract\ContributionContract.java">
-<error line="9" column="1" severity="error" message="Les classes utilitaires ne doivent pas avoir de constructeur par défaut ou public." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
-<error line="10" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\contract\ContributionContract.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\contract\CounterpartContract.java">
-<error line="9" column="1" severity="error" message="Les classes utilitaires ne doivent pas avoir de constructeur par défaut ou public." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
-<error line="10" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\contract\CounterpartContract.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\contract\CounterpartTypeContract.java">
-<error line="9" column="1" severity="error" message="Les classes utilitaires ne doivent pas avoir de constructeur par défaut ou public." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
-<error line="10" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\contract\CounterpartTypeContract.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\contract\CreditCardContract.java">
-<error line="9" column="1" severity="error" message="Les classes utilitaires ne doivent pas avoir de constructeur par défaut ou public." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
-<error line="10" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\contract\CreditCardContract.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\contract\FooterContract.java">
-<error line="9" column="1" severity="error" message="Les classes utilitaires ne doivent pas avoir de constructeur par défaut ou public." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
-<error line="10" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\contract\FooterContract.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\contract\HeaderContract.java">
-<error line="9" column="1" severity="error" message="Les classes utilitaires ne doivent pas avoir de constructeur par défaut ou public." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
-<error line="10" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\contract\HeaderContract.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\contract\ImageContract.java">
-<error line="9" column="1" severity="error" message="Les classes utilitaires ne doivent pas avoir de constructeur par défaut ou public." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
-<error line="10" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\contract\ImageContract.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\contract\ImprovAdviceContract.java">
-<error line="9" column="1" severity="error" message="Les classes utilitaires ne doivent pas avoir de constructeur par défaut ou public." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
-<error line="10" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\contract\ImprovAdviceContract.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\contract\MediaContract.java">
-<error line="9" column="1" severity="error" message="Les classes utilitaires ne doivent pas avoir de constructeur par défaut ou public." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
-<error line="10" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\contract\MediaContract.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\contract\ProjectContract.java">
-<error line="9" column="1" severity="error" message="Les classes utilitaires ne doivent pas avoir de constructeur par défaut ou public." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
-<error line="10" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\contract\ProjectContract.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\contract\ProjectStepContract.java">
-<error line="9" column="1" severity="error" message="Les classes utilitaires ne doivent pas avoir de constructeur par défaut ou public." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
-<error line="10" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\contract\ProjectStepContract.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\contract\ProjectTypeContract.java">
-<error line="9" column="1" severity="error" message="Les classes utilitaires ne doivent pas avoir de constructeur par défaut ou public." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
-<error line="10" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\contract\ProjectTypeContract.java">
 </file>
-<<<<<<< HEAD
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\contract\UserContract.java">
-=======
-<file name="C:\Users\LEDOUJET\Downloads\POEI\Projet\Code\JEE\BCF\src\main\java\bzh\bmv\bcf\contract\SecurityRoleContract.java">
-<error line="9" column="1" severity="error" message="Les classes utilitaires ne doivent pas avoir de constructeur par défaut ou public." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
-<error line="11" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\contract\SecurityRoleContract.java">
 </file>
-<file name="C:\Users\LEDOUJET\Downloads\POEI\Projet\Code\JEE\BCF\src\main\java\bzh\bmv\bcf\contract\UserContract.java">
->>>>>>> 31ff8eec79a147ae62ece15077c8cd5cfef1e67e
-<error line="9" column="1" severity="error" message="Les classes utilitaires ne doivent pas avoir de constructeur par défaut ou public." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
-<error line="10" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\contract\UserContract.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\controller\AddressController.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
-<error line="18" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\controller\AddressController.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\controller\ArticleController.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
-<error line="19" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\controller\ArticleController.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\controller\AudioController.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
-<error line="18" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\controller\AudioController.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\controller\CommentController.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
-<error line="18" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\controller\CommentController.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\controller\ContributionController.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
-<error line="18" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\controller\ContributionController.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\controller\CounterpartController.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
-<error line="18" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\controller\CounterpartController.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\controller\CounterpartTypeController.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
-<error line="18" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\controller\CounterpartTypeController.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\controller\CreditCardController.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
-<error line="19" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\controller\CreditCardController.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\controller\FooterController.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
-<error line="18" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\controller\FooterController.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\controller\HeaderController.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
-<error line="18" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\controller\HeaderController.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\controller\ImageController.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
-<error line="18" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\controller\ImageController.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\controller\ImprovAdviceController.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
-<error line="18" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\controller\ImprovAdviceController.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\controller\MediaController.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
-<error line="18" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\controller\MediaController.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\controller\ProjectController.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
-<error line="18" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\controller\ProjectController.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\controller\ProjectStepController.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
-<error line="18" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\controller\ProjectStepController.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\controller\ProjectTypeController.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
-<error line="18" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\controller\ProjectTypeController.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\controller\RegisterController.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\controller\RegisterController.java">
 <error line="14" severity="error" message="Commentaire javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="18" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="18" column="9" severity="error" message="Commentaire javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="21" column="28" severity="error" message="La variable &apos;crudRepository&apos; devrait être privée et avoir des accesseurs." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
-<error line="23" column="9" severity="error" message="Commentaire javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="18" column="5" severity="error" message="Commentaire javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="21" column="24" severity="error" message="La variable &apos;crudRepository&apos; devrait être privée et avoir des accesseurs." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="23" column="5" severity="error" message="Commentaire javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\controller\UserController.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
-<error line="18" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\controller\UserController.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\controller\base\BaseRestController.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
-<error line="24" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="28" column="28" severity="error" message="La variable &apos;crudRepository&apos; devrait être privée et avoir des accesseurs." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
-<error line="30" severity="error" message="Commentaire de bloc a le niveau dindentation incorrecte {1}, attendu est {2}, indentation devrait être au même niveau que la ligne {0}." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\controller\base\BaseRestController.java">
+<error line="27" column="28" severity="error" message="La variable &apos;crudRepository&apos; devrait être privée et avoir des accesseurs." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\converter\CryptoConverter.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\converter\CryptoConverter.java">
 <error line="8" severity="error" message="Commentaire javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="10" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="13" column="9" severity="error" message="Commentaire javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="16" column="19" severity="error" message="Catcher l&apos;exception &apos;Exception&apos; est prohibé." source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalCatchCheck"/>
-<error line="22" column="9" severity="error" message="Commentaire javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="25" column="19" severity="error" message="Catcher l&apos;exception &apos;Exception&apos; est prohibé." source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalCatchCheck"/>
+<error line="13" column="5" severity="error" message="Commentaire javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="16" column="11" severity="error" message="Catcher l&apos;exception &apos;Exception&apos; est prohibé." source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalCatchCheck"/>
+<error line="22" column="5" severity="error" message="Commentaire javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="25" column="11" severity="error" message="Catcher l&apos;exception &apos;Exception&apos; est prohibé." source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalCatchCheck"/>
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\model\Address.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\model\Address.java">
 <error line="20" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="179" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
 <error line="193" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\model\Article.java">
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\model\Article.java">
 <error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
 <error line="25" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="32" column="24" severity="error" message="La variable &apos;articleId&apos; devrait être privée et avoir des accesseurs." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
@@ -226,197 +115,176 @@
 <error line="46" column="26" severity="error" message="La variable &apos;articleName&apos; devrait être privée et avoir des accesseurs." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
 <error line="53" column="37" severity="error" message="La variable &apos;articleMedias&apos; devrait être privée et avoir des accesseurs." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
 <error line="117" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
-<error line="127" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+<error line="123" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="124" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+<error line="126" column="33" severity="error" message="Il manque une espace avant &apos;=&apos;." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="126" column="34" severity="error" message="Il manque une espace après &apos;=&apos;." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="132" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\model\Audio.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\model\Audio.java">
 <error line="22" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="142" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
 <error line="153" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\model\Comment.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
-<error line="25" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="142" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
-<error line="153" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\model\Comment.java">
+<error line="14" severity="error" message="&apos;import&apos; a plus de 1 lignes vides avant." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="27" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="144" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+<error line="155" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
 </file>
-<<<<<<< HEAD
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\model\Contribution.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
-=======
-<file name="C:\Users\LEDOUJET\Downloads\POEI\Projet\Code\JEE\BCF\src\main\java\bzh\bmv\bcf\model\Contribution.java">
->>>>>>> 31ff8eec79a147ae62ece15077c8cd5cfef1e67e
-<error line="22" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="92" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
-<error line="101" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\model\Contribution.java">
+<error line="12" severity="error" message="&apos;import&apos; a plus de 1 lignes vides avant." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="24" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="94" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+<error line="103" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\model\Counterpart.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\model\Counterpart.java">
 <error line="25" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="193" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
 <error line="208" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\model\CounterpartType.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\model\CounterpartType.java">
 <error line="21" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="66" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
 <error line="74" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\model\CreditCard.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\model\CreditCard.java">
 <error line="24" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="192" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
 <error line="207" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\model\Footer.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\model\Footer.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\model\Header.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\model\Header.java">
 <error line="20" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="47" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
 <error line="55" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\model\Image.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\model\Image.java">
 <error line="21" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="216" severity="error" message="La ligne excède 120 caractères." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
 <error line="216" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
 <error line="231" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\model\ImprovAdvice.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
-<error line="22" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="140" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
-<error line="151" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\model\ImprovAdvice.java">
+<error line="12" severity="error" message="&apos;import&apos; a plus de 1 lignes vides avant." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="24" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="142" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+<error line="153" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\model\Media.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\model\Media.java">
 <error line="21" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="28" column="24" severity="error" message="La variable &apos;mediaId&apos; devrait être privée et avoir des accesseurs." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\model\Project.java">
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\model\Project.java">
 <error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
-<error line="36" column="14" severity="error" message="Il manque une espace après &apos;=&apos;." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
-<error line="39" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="72" severity="error" message="Commentaire de bloc a le niveau dindentation incorrecte {1}, attendu est {2}, indentation devrait être au même niveau que la ligne {0}." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
-<error line="78" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
-<error line="79" severity="error" message="Commentaire de bloc a le niveau dindentation incorrecte {1}, attendu est {2}, indentation devrait être au même niveau que la ligne {0}." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
-<error line="86" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
-<error line="87" severity="error" message="Commentaire de bloc a le niveau dindentation incorrecte {1}, attendu est {2}, indentation devrait être au même niveau que la ligne {0}." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
-<error line="94" severity="error" message="Commentaire de bloc a le niveau dindentation incorrecte {1}, attendu est {2}, indentation devrait être au même niveau que la ligne {0}." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
-<error line="101" severity="error" message="Commentaire de bloc a le niveau dindentation incorrecte {1}, attendu est {2}, indentation devrait être au même niveau que la ligne {0}." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
-<error line="108" severity="error" message="Commentaire de bloc a le niveau dindentation incorrecte {1}, attendu est {2}, indentation devrait être au même niveau que la ligne {0}." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
-<error line="115" severity="error" message="Commentaire de bloc a le niveau dindentation incorrecte {1}, attendu est {2}, indentation devrait être au même niveau que la ligne {0}." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
-<error line="135" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
-<error line="351" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
-<error line="351" column="16" severity="error" message="La méthode ou le constructeur a plus de 7 paramètres." source="com.puppycrawl.tools.checkstyle.checks.sizes.ParameterNumberCheck"/>
-<error line="354" severity="error" message="La ligne excède 120 caractères." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
-<error line="374" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+<error line="38" column="14" severity="error" message="Il manque une espace après &apos;=&apos;." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="41" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="74" severity="error" message="Commentaire de bloc a le niveau dindentation incorrecte {1}, attendu est {2}, indentation devrait être au même niveau que la ligne {0}." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="79" column="59" severity="error" message="Il manque une espace avant &apos;=&apos;." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="79" column="60" severity="error" message="Il manque une espace après &apos;=&apos;." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="81" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="82" severity="error" message="Commentaire de bloc a le niveau dindentation incorrecte {1}, attendu est {2}, indentation devrait être au même niveau que la ligne {0}." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="90" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="91" severity="error" message="Commentaire de bloc a le niveau dindentation incorrecte {1}, attendu est {2}, indentation devrait être au même niveau que la ligne {0}." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="98" severity="error" message="Commentaire de bloc a le niveau dindentation incorrecte {1}, attendu est {2}, indentation devrait être au même niveau que la ligne {0}." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="105" severity="error" message="Commentaire de bloc a le niveau dindentation incorrecte {1}, attendu est {2}, indentation devrait être au même niveau que la ligne {0}." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="112" severity="error" message="Commentaire de bloc a le niveau dindentation incorrecte {1}, attendu est {2}, indentation devrait être au même niveau que la ligne {0}." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="120" severity="error" message="Commentaire de bloc a le niveau dindentation incorrecte {1}, attendu est {2}, indentation devrait être au même niveau que la ligne {0}." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="140" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="356" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+<error line="356" column="16" severity="error" message="La méthode ou le constructeur a plus de 7 paramètres." source="com.puppycrawl.tools.checkstyle.checks.sizes.ParameterNumberCheck"/>
+<error line="359" severity="error" message="La ligne excède 120 caractères." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="379" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\model\ProjectStep.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\model\ProjectStep.java">
 <error line="23" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="142" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
 <error line="154" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\model\ProjectType.java">
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\model\ProjectType.java">
 <error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
-<error line="21" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="66" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
-<error line="74" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+<error line="26" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="26" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="27" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="44" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="52" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="53" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="55" severity="error" message="&apos;METHOD_DEF&apos; a plus de 1 lignes vides avant." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="91" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+<error line="99" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\model\User.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\model\User.java">
 <error line="34" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="40" severity="error" message="Commentaire de bloc a le niveau dindentation incorrecte {1}, attendu est {2}, indentation devrait être au même niveau que la ligne {0}." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
 <error line="46" severity="error" message="Commentaire de bloc a le niveau dindentation incorrecte {1}, attendu est {2}, indentation devrait être au même niveau que la ligne {0}." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
 <error line="51" severity="error" message="Commentaire a niveau incorrect dindentation {1}, attendu est {2}, indentation devrait être au même niveau que la ligne {0}." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
 <error line="82" severity="error" message="Commentaire de bloc a le niveau dindentation incorrecte {1}, attendu est {2}, indentation devrait être au même niveau que la ligne {0}." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
-<error line="101" column="39" severity="error" message="Il manque une espace avant &apos;=&apos;." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
-<error line="101" column="40" severity="error" message="Il manque une espace après &apos;=&apos;." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
-<error line="101" column="51" severity="error" message="Il manque une espace avant &apos;=&apos;." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
-<error line="118" severity="error" message="Commentaire de bloc a le niveau dindentation incorrecte {1}, attendu est {2}, indentation devrait être au même niveau que la ligne {0}." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
-<error line="125" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
-<error line="133" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
-<error line="325" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
-<error line="325" column="16" severity="error" message="La méthode ou le constructeur a plus de 7 paramètres." source="com.puppycrawl.tools.checkstyle.checks.sizes.ParameterNumberCheck"/>
-<error line="348" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+<error line="102" column="39" severity="error" message="Il manque une espace avant &apos;=&apos;." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="102" column="40" severity="error" message="Il manque une espace après &apos;=&apos;." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="102" column="51" severity="error" message="Il manque une espace avant &apos;=&apos;." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="119" severity="error" message="Commentaire de bloc a le niveau dindentation incorrecte {1}, attendu est {2}, indentation devrait être au même niveau que la ligne {0}." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="126" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="134" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="326" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+<error line="326" column="16" severity="error" message="La méthode ou le constructeur a plus de 7 paramètres." source="com.puppycrawl.tools.checkstyle.checks.sizes.ParameterNumberCheck"/>
+<error line="349" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\model\security\SecurityRole.java">
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\model\security\SecurityRole.java">
 <error line="17" severity="error" message="Commentaire javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
 <error line="20" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="60" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\model\security\SecurityUser.java">
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\model\security\SecurityUser.java">
+<error line="20" severity="error" message="&apos;CLASS_DEF&apos; a plus de 1 lignes vides avant." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
 <error line="20" severity="error" message="Commentaire javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="26" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="100" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+<error line="24" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="98" column="9" severity="error" message="La définition des constructeurs n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\repository\AddressCrudRepository.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\repository\AddressCrudRepository.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\repository\ArticleCrudRepository.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\repository\ArticleCrudRepository.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\repository\AudioCrudRepository.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\repository\AudioCrudRepository.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\repository\CommentCrudRepository.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\repository\CommentCrudRepository.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\repository\ContributionCrudRepository.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\repository\ContributionCrudRepository.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\repository\CounterpartCrudRepository.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\repository\CounterpartCrudRepository.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\repository\CounterpartTypeCrudRepository.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\repository\CounterpartTypeCrudRepository.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\repository\CreditCardCrudRepository.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\repository\CreditCardCrudRepository.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\repository\FooterCrudRepository.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\repository\FooterCrudRepository.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\repository\HeaderCrudRepository.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\repository\HeaderCrudRepository.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\repository\ImageCrudRepository.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\repository\ImageCrudRepository.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\repository\ImprovAdviceCrudRepository.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\repository\ImprovAdviceCrudRepository.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\repository\MediaCrudRepository.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\repository\MediaCrudRepository.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\repository\ProjectCrudRepository.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\repository\ProjectCrudRepository.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\repository\ProjectStepCrudRepository.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\repository\ProjectStepCrudRepository.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\repository\ProjectTypeCrudRepository.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\repository\ProjectTypeCrudRepository.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\repository\UserCrudRepository.java">
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\repository\UserCrudRepository.java">
 <error line="15" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\repository\base\IBaseRepository.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\repository\base\IBaseRepository.java">
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\repository\security\SecurityRoleCrudRepository.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\repository\security\SecurityRoleCrudRepository.java">
 <error line="8" severity="error" message="Commentaire javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\service\security\SecurityService.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\service\security\SecurityService.java">
 <error line="3" severity="error" message="Commentaire javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\service\security\SecurityServiceImpl.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\service\security\SecurityServiceImpl.java">
 <error line="13" severity="error" message="Commentaire javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
 <error line="21" column="5" severity="error" message="La définition des variables statiques n&apos;apparait pas dans le bon ordre." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
 <error line="23" column="5" severity="error" message="Commentaire javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
@@ -424,23 +292,20 @@
 <error line="31" column="5" severity="error" message="Commentaire javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
 <error line="33" severity="error" message="La ligne excède 120 caractères." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\service\security\UserDetailsServiceImpl.java">
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\service\security\UserDetailsServiceImpl.java">
 <error line="26" severity="error" message="Commentaire javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
 <error line="31" column="5" severity="error" message="Commentaire javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
 <error line="33" column="5" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\service\security\UserService.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\service\security\UserService.java">
 <error line="5" severity="error" message="Commentaire javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\service\security\UserServiceImpl.java">
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\service\security\UserServiceImpl.java">
 <error line="12" severity="error" message="Commentaire javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
 <error line="19" column="5" severity="error" message="Commentaire javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
 </file>
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\main\java\bzh\bmv\bcf\utils\AES.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\main\java\bzh\bmv\bcf\utils\AES.java">
 <error line="8" severity="error" message="Commentaire javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="8" column="1" severity="error" message="Les classes utilitaires ne doivent pas avoir de constructeur par défaut ou public." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
 <error line="10" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="14" column="9" severity="error" message="Commentaire javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
 <error line="25" column="11" severity="error" message="Catcher l&apos;exception &apos;Exception&apos; est prohibé." source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalCatchCheck"/>

@@ -5,7 +5,6 @@ import org.springframework.web.bind.annotation.RestController;
 import bzh.bmv.bcf.controller.base.BaseRestController;
 import bzh.bmv.bcf.model.CreditCard;
 
-
 /**
  * <h1>CreditCardController Class</h1>
  * The CreditCardController class is the controller of {@link CreditCard CreditCard.class}.
@@ -16,8 +15,8 @@ import bzh.bmv.bcf.model.CreditCard;
 @RestController
 @RequestMapping(CreditCardController.BASE_URL)
 public class CreditCardController extends BaseRestController<CreditCard, Long> {
-	/**
-	 * path to access this controller.
-	 */
-	public static final String BASE_URL = "/creditCard";
+    /**
+     * path to access this controller.
+     */
+    public static final String BASE_URL = "/creditCard";
 }

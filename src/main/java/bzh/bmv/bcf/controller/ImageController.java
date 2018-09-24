@@ -15,8 +15,8 @@ import bzh.bmv.bcf.model.Image;
 @RestController
 @RequestMapping(ImageController.BASE_URL)
 public class ImageController extends BaseRestController<Image, Long> {
-	/**
-	 * path to access this controller.
-	 */
-	public static final String BASE_URL = "/image";
+    /**
+     * path to access this controller.
+     */
+    public static final String BASE_URL = "/image";
 }

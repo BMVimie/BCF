@@ -15,8 +15,8 @@ import bzh.bmv.bcf.model.Address;
 @RestController
 @RequestMapping(AddressController.BASE_URL)
 public class AddressController extends BaseRestController<Address, Long> {
-	/**
-	 * path to access this controller.
-	 */
-	public static final String BASE_URL = "/address";
+    /**
+     * path to access this controller.
+     */
+    public static final String BASE_URL = "/address";
 }

@@ -11,7 +11,7 @@ import javax.persistence.ManyToMany;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
-
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import bzh.bmv.bcf.contract.ProjectContract;
@@ -75,6 +75,7 @@ public class Project {
 		 * Project types.
 		 * Collection<{@link ProjectType ProjectType.class}>.
 		 */
+	@JsonIgnore
     @ManyToMany(targetEntity = ProjectType.class, mappedBy=ProjectTypeContract.PROJECTTYPEPROJECT)
     private Collection<ProjectType> projectProjectTypes;
    
@@ -82,6 +83,7 @@ public class Project {
 		 * Project users.
 		 * Collection<{@link User User.class}>.
 		 */
+    @JsonIgnore
     @OneToMany(targetEntity = User.class)
     @JsonIgnoreProperties(allowSetters = true, value = {UserContract.USERPROJECTS})
     private Collection<User> projectUsers;
@@ -111,6 +113,7 @@ public class Project {
 		 * Project articles.
 		 * Collection<{@link Article Article.class}>.
 		 */
+    @JsonIgnore
     @OneToMany(targetEntity = Article.class)
     private Collection<Article> projectArticles;
 

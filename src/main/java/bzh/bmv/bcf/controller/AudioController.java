@@ -15,8 +15,8 @@ import bzh.bmv.bcf.model.Audio;
 @RestController
 @RequestMapping(AudioController.BASE_URL)
 public class AudioController extends BaseRestController<Audio, Long> {
-	/**
-	 * path to access this controller.
-	 */
-	public static final String BASE_URL = "/audio";
+    /**
+     * path to access this controller.
+     */
+    public static final String BASE_URL = "/audio";
 }

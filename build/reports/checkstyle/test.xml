@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="6.13">
-<file name="C:\Users\Valentin\Programmation\Formations\IMIE\Java\BCF\src\test\java\bzh\bmv\bcf\BcfApplicationTests.java">
-<error line="0" severity="error" message="Il manque un caractère NewLine à la fin du fichier" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<file name="C:\Users\Shishi\Desktop\eclipse-workspace\BCF\src\test\java\bzh\bmv\bcf\BcfApplicationTests.java">
 <error line="8" severity="error" message="Commentaire javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
 <error line="12" column="1" severity="error" message="Fichier contient des caractères de tabulation (ce qui est le premier exemple)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 </file>

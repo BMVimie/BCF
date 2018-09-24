@@ -7,14 +7,14 @@ package bzh.bmv.bcf.contract;
  * @since 2018-09-13
  */
 public class MediaContract {
-	/**
-	 * Constant to reference Media table name.
-	 * @see bzh.bmv.bcf.model.Media
-	 */
-	public static final String TABLENAME = "bcf_media";
-	/**
-	 * Constant to reference Media.mediaId.
-	 * @see bzh.bmv.bcf.model.Media
-	 */
-	public static final String MEDIAID = "mediaId";
+    /**
+     * Constant to reference Media table name.
+     * @see bzh.bmv.bcf.model.Media
+     */
+    public static final String TABLENAME = "bcf_media";
+    /**
+     * Constant to reference Media.mediaId.
+     * @see bzh.bmv.bcf.model.Media
+     */
+    public static final String MEDIAID = "mediaId";
 }
