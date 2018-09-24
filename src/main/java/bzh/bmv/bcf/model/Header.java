@@ -1,5 +1,7 @@
 package bzh.bmv.bcf.model;
 
+import java.util.Collection;
+
 import javax.persistence.Entity;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
@@ -56,4 +58,15 @@ public class Header extends Article {
 		super();
 	}
 
+	public Header(String articleName) {
+		super(articleName);
+		// TODO Auto-generated constructor stub
+	}
+
+	public Header(String[] articleText, String articleName, Collection<Media> articleMedias) {
+		super(articleText, articleName, articleMedias);
+		// TODO Auto-generated constructor stub
+	}
+
+	
 }
