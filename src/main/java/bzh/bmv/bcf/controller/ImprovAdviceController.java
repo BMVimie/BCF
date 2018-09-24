@@ -15,8 +15,8 @@ import bzh.bmv.bcf.model.ImprovAdvice;
 @RestController
 @RequestMapping(ImprovAdviceController.BASE_URL)
 public class ImprovAdviceController extends BaseRestController<ImprovAdvice, Long> {
-	/**
-	 * path to access this controller.
-	 */
-	public static final String BASE_URL = "/improvAdvice";
+    /**
+     * path to access this controller.
+     */
+    public static final String BASE_URL = "/improvAdvice";
 }

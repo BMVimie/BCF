@@ -15,15 +15,15 @@ import bzh.bmv.bcf.repository.UserCrudRepository;
 @RequestMapping(RegisterController.BASE_URL)
 public class RegisterController {
 
-	public static final String BASE_URL = "/register";
+    public static final String BASE_URL = "/register";
 
-	@Autowired
-	UserCrudRepository crudRepository;
+    @Autowired
+    UserCrudRepository crudRepository;
 
-	@RequestMapping(path = {"/", ""}, method = RequestMethod.POST)
+    @RequestMapping(path = { "/", "" }, method = RequestMethod.POST)
     public ResponseEntity<User> postItem(@RequestBody User item) {
-    	crudRepository.save(item);
-    	new ResponseEntity<User>(HttpStatus.OK);
-		return ResponseEntity.ok(item);
+        crudRepository.save(item);
+        new ResponseEntity<User>(HttpStatus.OK);
+        return ResponseEntity.ok(item);
     }
 }

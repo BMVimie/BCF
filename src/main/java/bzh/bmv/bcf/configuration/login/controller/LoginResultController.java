@@ -14,13 +14,13 @@ import bzh.bmv.bcf.repository.UserCrudRepository;
 @Controller
 public class LoginResultController {
 
-	@Autowired
-	UserCrudRepository repo;
+    @Autowired
+    UserCrudRepository repo;
 
-	@RequestMapping(path = "/loginResult", method = RequestMethod.GET)
-	public ResponseEntity<bzh.bmv.bcf.model.User> loginPost() {
-		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
-		User userDetails = (User) auth.getPrincipal();
+    @RequestMapping(path = "/loginResult", method = RequestMethod.GET)
+    public ResponseEntity<bzh.bmv.bcf.model.User> loginPost() {
+        Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+        User userDetails = (User) auth.getPrincipal();
         return ResponseEntity.ok(repo.findByLogin(userDetails.getUsername()));
-	}
+    }
 }

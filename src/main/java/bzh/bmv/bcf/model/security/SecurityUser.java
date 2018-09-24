@@ -16,11 +16,9 @@ import javax.persistence.MappedSuperclass;
 import bzh.bmv.bcf.converter.CryptoConverter;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
-// If abstract
+
 @MappedSuperclass
 @Inheritance
-//@Entity
-//@Table(name = "security_user")
 public abstract class SecurityUser {
 
 	@Id

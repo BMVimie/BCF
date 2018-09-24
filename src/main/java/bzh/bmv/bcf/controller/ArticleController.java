@@ -16,8 +16,8 @@ import bzh.bmv.bcf.model.Article;
 @RestController
 @RequestMapping(ArticleController.BASE_URL)
 public class ArticleController extends BaseRestController<Article, Long> {
-	/**
-	 * path to access this controller.
-	 */
-	public static final String BASE_URL = "/article";
+    /**
+     * path to access this controller.
+     */
+    public static final String BASE_URL = "/article";
 }

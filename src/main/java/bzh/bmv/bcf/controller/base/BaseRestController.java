@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import bzh.bmv.bcf.repository.base.IBaseRepository;
 
-
 /**
  * Base Rest Controller.
  * @author REVEREAU, CRONIER
@@ -21,21 +20,21 @@ import bzh.bmv.bcf.repository.base.IBaseRepository;
  */
 public abstract class BaseRestController<T, ID extends Serializable> {
 
-	/**
-	 * Retrieve the application bean for the crud repository.
-	 */
-	@Autowired
+    /**
+     * Retrieve the application bean for the crud repository.
+     */
+    @Autowired
     IBaseRepository<T, ID> crudRepository;
 
-	/**
-	 * Get method for read.
-	 * @return Object list
-	 */
-    @RequestMapping(path = {"/", ""}, method = RequestMethod.GET)
+    /**
+     * Get method for read.
+     * @return Object list
+     */
+    @RequestMapping(path = { "/", "" }, method = RequestMethod.GET)
     public ResponseEntity<Iterable<T>> index() {
         Iterable<T> items = crudRepository.findAll();
         new ResponseEntity<T>(HttpStatus.OK);
-		return ResponseEntity.ok(items);
+        return ResponseEntity.ok(items);
     }
 
     /**
@@ -46,8 +45,8 @@ public abstract class BaseRestController<T, ID extends Serializable> {
     @RequestMapping("/{index}")
     public ResponseEntity<Optional<T>> getByIndex(@PathVariable("index") ID index) {
         Optional<T> item = crudRepository.findById(index);
-    	new ResponseEntity<T>(HttpStatus.OK);
-		return ResponseEntity.ok(item);
+        new ResponseEntity<T>(HttpStatus.OK);
+        return ResponseEntity.ok(item);
     }
 
     /**
@@ -55,11 +54,11 @@ public abstract class BaseRestController<T, ID extends Serializable> {
      * @param item Object
      * @return created Object
      */
-    @RequestMapping(path = {"/", ""}, method = RequestMethod.POST)
+    @RequestMapping(path = { "/", "" }, method = RequestMethod.POST)
     public ResponseEntity<T> postItem(@RequestBody T item) {
-    	crudRepository.save(item);
-    	new ResponseEntity<T>(HttpStatus.OK);
-		return ResponseEntity.ok(item);
+        crudRepository.save(item);
+        new ResponseEntity<T>(HttpStatus.OK);
+        return ResponseEntity.ok(item);
     }
 
     /**
@@ -67,11 +66,11 @@ public abstract class BaseRestController<T, ID extends Serializable> {
      * @param item Object
      * @return modified Object
      */
-    @RequestMapping(path = {"/", ""}, method = RequestMethod.PUT)
+    @RequestMapping(path = { "/", "" }, method = RequestMethod.PUT)
     public ResponseEntity<T> updateItem(@RequestBody T item) {
-    	crudRepository.save(item);
-    	new ResponseEntity<T>(HttpStatus.OK);
-		return ResponseEntity.ok(item);
+        crudRepository.save(item);
+        new ResponseEntity<T>(HttpStatus.OK);
+        return ResponseEntity.ok(item);
     }
 
     /**
@@ -79,10 +78,10 @@ public abstract class BaseRestController<T, ID extends Serializable> {
      * @param item Object
      * @return deleted Object
      */
-    @RequestMapping(path = {"/", ""}, method = RequestMethod.DELETE)
+    @RequestMapping(path = { "/", "" }, method = RequestMethod.DELETE)
     public ResponseEntity<T> deleteItem(@RequestBody T item) {
-    	crudRepository.delete(item);
+        crudRepository.delete(item);
         new ResponseEntity<T>(HttpStatus.OK);
-		return ResponseEntity.ok(item);
+        return ResponseEntity.ok(item);
     }
 }

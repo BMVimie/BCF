@@ -15,8 +15,8 @@ import bzh.bmv.bcf.model.User;
 @RestController
 @RequestMapping(UserController.BASE_URL)
 public class UserController extends BaseRestController<User, Long> {
-	/**
-	 * path to access this controller.
-	 */
-	public static final String BASE_URL = "/user";
+    /**
+     * path to access this controller.
+     */
+    public static final String BASE_URL = "/user";
 }

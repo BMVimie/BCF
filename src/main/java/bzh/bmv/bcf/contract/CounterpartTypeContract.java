@@ -7,19 +7,19 @@ package bzh.bmv.bcf.contract;
  * @since 2018-09-13
  */
 public class CounterpartTypeContract {
-	/**
-	 * Constant to reference CounterpartType table name.
-	 * @see bzh.bmv.bcf.model.CounterpartType
-	 */
-	public static final String TABLENAME = "bcf_counterpartType";
-	/**
-	 * Constant to reference CounterpartType.counterpartTypeId.
-	 * @see bzh.bmv.bcf.model.CounterpartType
-	 */
-	public static final String COUNTERPARTTYPEID = "counterpartTypeId";
-	/**
-	 * Constant to reference CounterpartType.counterpartTypeName.
-	 * @see bzh.bmv.bcf.model.CounterpartType
-	 */
-	public static final String COUNTERPARTTYPENAME = "counterpartTypeName";
+    /**
+     * Constant to reference CounterpartType table name.
+     * @see bzh.bmv.bcf.model.CounterpartType
+     */
+    public static final String TABLENAME = "bcf_counterpartType";
+    /**
+     * Constant to reference CounterpartType.counterpartTypeId.
+     * @see bzh.bmv.bcf.model.CounterpartType
+     */
+    public static final String COUNTERPARTTYPEID = "counterpartTypeId";
+    /**
+     * Constant to reference CounterpartType.counterpartTypeName.
+     * @see bzh.bmv.bcf.model.CounterpartType
+     */
+    public static final String COUNTERPARTTYPENAME = "counterpartTypeName";
 }
