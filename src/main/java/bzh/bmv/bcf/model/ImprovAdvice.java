@@ -13,7 +13,7 @@ import bzh.bmv.bcf.contract.ImprovAdviceContract;
 
 /**
  * <h1>ImprovAdvice class</h1>
- * The class improvAdvice implements improve advice.
+ * The class improvAdvice represents improve advice.
  * @author REVEREAU
  * @since 2018-09-10
  */

@@ -10,7 +10,7 @@ import bzh.bmv.bcf.contract.MediaContract;
 
 /**
  * <h1>Media class</h1>
- * The class media implements one media.
+ * The class media represents one media.
  * @author REVEREAU, DUPITIER
  * @since 2018-09-10
  */

@@ -15,7 +15,7 @@ import bzh.bmv.bcf.contract.CommentContract;
 
 /**
  * <h1>Comment class</h1>
- * The class comment implements one comment.
+ * The class comment represents one comment.
  * A comment may contain other comment(s).
  * @author REVEREAU, LE DOUJET
  * @since 2018-09-07

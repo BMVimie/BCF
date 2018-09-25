@@ -10,7 +10,7 @@ import bzh.bmv.bcf.contract.CounterpartTypeContract;
 
 /**
  * <h1>CounterpartType class</h1>
- * The class counterpartType implements one counterpartType.
+ * The class counterpartType represents one counterpartType.
  * @author REVEREAU
  * @since 2018-09-07
  */

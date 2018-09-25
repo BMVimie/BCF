@@ -10,7 +10,7 @@ import bzh.bmv.bcf.contract.HeaderContract;
 
 /**
  * <h1>Header class</h1>
- * The class Header implements one header.
+ * The class Header represents one header.
  * A header is a child of the class Article.
  * @author REVEREAU, DUPITIER
  * @since 2018-09-10

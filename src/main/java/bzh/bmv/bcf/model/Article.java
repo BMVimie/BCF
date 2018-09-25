@@ -13,7 +13,7 @@ import bzh.bmv.bcf.contract.ArticleContract;
 
 /**
  * <h1>Article class</h1>
- * The class article implements one article.
+ * The class article represents one article.
  * An article may contain media(s).
  * @author REVEREAU, DUPITIER
  * @since 2018-09-07

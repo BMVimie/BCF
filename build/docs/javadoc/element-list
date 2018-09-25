@@ -7,7 +7,6 @@ bzh.bmv.bcf.controller.base
 bzh.bmv.bcf.converter
 bzh.bmv.bcf.model
 bzh.bmv.bcf.model.security
-bzh.bmv.bcf.model.serializer
 bzh.bmv.bcf.repository
 bzh.bmv.bcf.repository.base
 bzh.bmv.bcf.repository.security

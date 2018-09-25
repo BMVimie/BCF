@@ -16,7 +16,7 @@ import bzh.bmv.bcf.model.security.SecurityUser;
 
 /**
  * <h1>User class</h1>
- * The class user implements one user.
+ * The class user represents one user.
  * A user may contain one image.
  * A user may contain address(es).
  * A user may contain credit card(s).

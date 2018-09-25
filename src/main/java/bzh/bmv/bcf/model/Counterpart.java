@@ -13,7 +13,7 @@ import bzh.bmv.bcf.contract.CounterpartContract;
 
 /**
  * <h1>Counterpart class</h1>
- * The class counterpart implements one counterpart.
+ * The class counterpart represents one counterpart.
  * An counterpart may contain contribution(s).
  * @author REVEREAU, DUPITIER
  * @since 2018-09-07

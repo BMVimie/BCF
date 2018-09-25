@@ -21,7 +21,7 @@ import bzh.bmv.bcf.contract.UserContract;
 
 /**
  * <h1>Project class</h1>
- * The class project implements one project.
+ * The class project represents one project.
  * A project may contain projectType(s).
  * A project may contain User(s).
  * A project may contain contribution(s).

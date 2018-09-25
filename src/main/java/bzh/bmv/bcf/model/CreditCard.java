@@ -12,7 +12,7 @@ import bzh.bmv.bcf.contract.CreditCardContract;
 
 /**
  * <h1>CreditCard class</h1>
- * The class creditCard implements one credit card.
+ * The class creditCard represents one credit card.
  * A credit card may contain contribution(s).
  * @author REVEREAU, LE DOUJET
  * @since 2018-09-07

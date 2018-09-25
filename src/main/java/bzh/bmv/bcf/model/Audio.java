@@ -11,7 +11,7 @@ import bzh.bmv.bcf.contract.AudioContract;
 
 /**
  * <h1>Audio class</h1>
- * The class audio implement one audio elements.
+ * The class audio represents one audio elements.
  * @author REVEREAU
  * @since 2018-09-07
  */

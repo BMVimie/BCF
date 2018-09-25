@@ -9,7 +9,7 @@ import bzh.bmv.bcf.contract.AddressContract;
 
 /**
  * <h1>Address class</h1>
- * The class addresses implements an postal address.
+ * The class addresses represents an postal address.
  * @author REVEREAU
  * @since 2018-09-07
  */

@@ -13,7 +13,7 @@ import bzh.bmv.bcf.contract.ContributionContract;
 
 /**
  * <h1>Contribution Class</h1>
- * The class contribution implement one contribution.
+ * The class contribution represents one contribution.
  * @author REVEREAU
  * @since 2018-09-07
  */

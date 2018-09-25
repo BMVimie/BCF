@@ -11,7 +11,7 @@ import bzh.bmv.bcf.contract.ProjectStepContract;
 
 /**
  * <h1>ProjetStep class</h1>
- * The class projectStep implements one projectStep.
+ * The class projectStep represents one projectStep.
  * A projectStep contain one image.
  * @author REVEREAU, LE DOUJET
  * @since 2018-09-10

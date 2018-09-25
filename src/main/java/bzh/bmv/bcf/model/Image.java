@@ -10,7 +10,7 @@ import bzh.bmv.bcf.contract.ImageContract;
 
 /**
  * <h1>Image class</h1>
- * The class Image implements one image.
+ * The class Image represents one image.
  * @author REVEREAU, LE DOUJET
  * @since 2018-09-10
  */

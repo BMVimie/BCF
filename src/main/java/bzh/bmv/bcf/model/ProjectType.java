@@ -16,7 +16,7 @@ import bzh.bmv.bcf.contract.ProjectTypeContract;
 
 /**
  * <h1>ProjectType class</h1>
- * The class projectType implements one project type.
+ * The class projectType represents one project type.
  * @author REVEREAU
  * @since 2018-09-10
  */
