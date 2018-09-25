@@ -35,6 +35,7 @@ public class Article {
 	 * Article text.
 	 * String[].
 	 */
+	@Column(length=2000)
 	protected String[] articleText;
 
 	/**

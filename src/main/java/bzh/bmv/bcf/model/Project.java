@@ -68,9 +68,7 @@ public class Project {
      * Boolean.
      * 1: Public.
      * 0: Private.
-     * Not Null.
      */
-	@Column(nullable=false)
     private Boolean projectVisibility;
 
 	/**

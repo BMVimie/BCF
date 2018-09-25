@@ -41,7 +41,7 @@ public class Audio {
 	 * String.
 	 * Not null, unique.
 	 */
-	@Column(nullable = false, unique = true)
+	@Column(nullable = false, unique = true, length=500)
 	private String audioSrc;
 
 	/**

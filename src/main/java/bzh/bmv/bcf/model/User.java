@@ -70,10 +70,8 @@ public class User extends SecurityUser {
      * Boolean.
      * 1: Activated.
      * 0: Disabled.
-     * Not Null.
      */
-    @Column(nullable=false)
-    private Boolean userActivate;
+    private Boolean userActivate=true;
     
     /**
      * User avatar.
