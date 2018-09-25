@@ -38,6 +38,11 @@ public class UserContract {
      */
     public static final String USEREMAIL = "userEmail";
     /**
+     * Constant to reference User.userActivate.
+     * @see bzh.bmv.bcf.model.User
+     */
+    public static final String USERACTIVATE = "userActivate";
+    /**
      * Constant to reference User.userAvatar.
      * @see bzh.bmv.bcf.model.User
      */

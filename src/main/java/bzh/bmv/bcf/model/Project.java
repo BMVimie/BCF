@@ -62,6 +62,16 @@ public class Project {
 	 */
 	@Column(nullable = false)
     private Date projectTerm;
+	
+	/**
+     * Project visibility.
+     * Boolean.
+     * 1: Public.
+     * 0: Private.
+     * Not Null.
+     */
+	@Column(nullable=false)
+    private Boolean projectVisibility;
 
 	/**
 	 * Project funding goal.
@@ -170,6 +180,22 @@ public class Project {
 		this.projectTerm = projectTerm;
 	}
 
+    /**
+     * Get the project visibility.
+     * @return projectVisibility Boolean.
+     */
+    public Boolean getProjectVisibility() {
+        return projectVisibility;
+    }
+
+    /**
+     * Set a new project visibility.
+     * @param projectVisibility Boolean.
+     */
+    public void setProjectVisibility(Boolean projectVisibility) {
+        this.projectVisibility = projectVisibility;
+    }
+    
 	/**
 	 * Get the project funding goal.
 	 * @return Double.
@@ -342,6 +368,7 @@ public class Project {
 	 * Project constructor specifying attributes.
 	 * @param projectName String.
 	 * @param projectTerm Date.
+	 * @param projectVisibility Boolean.
 	 * @param projectFundingGoal Double.
 	 * @param projectProjectTypes Collection<{@link ProjectType ProjectType.class}>.
 	 * @param projectUsers Collection<{@link User User.class}>.
@@ -353,7 +380,7 @@ public class Project {
 	 * @param projectFooter {@link Footer Footer.class}.
 	 * @param comments Collection<{@link Comment Comment.class}.
 	 */
-	public Project(String projectName, Date projectTerm, Double projectFundingGoal,
+	public Project(String projectName, Date projectTerm, Boolean projectVisibility, Double projectFundingGoal,
 			Collection<ProjectType> projectProjectTypes, Collection<User> projectUsers,
 			Collection<Contribution> projectContributions, Collection<Counterpart> projectCounterparts,
 			Collection<ProjectStep> projectProjectSteps, Collection<Article> projectArticles, Header projectHeader,
@@ -361,6 +388,7 @@ public class Project {
 		super();
 		this.projectName = projectName;
 		this.projectTerm = projectTerm;
+		this.projectVisibility = projectVisibility;
 		this.projectFundingGoal = projectFundingGoal;
 		this.projectProjectTypes = projectProjectTypes;
 		this.projectUsers = projectUsers;
@@ -380,4 +408,5 @@ public class Project {
 		super();
 	}
 
+	
 }

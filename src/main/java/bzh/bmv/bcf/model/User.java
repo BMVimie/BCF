@@ -48,7 +48,7 @@ public class User extends SecurityUser {
 	     * Date.
 	     * Not null.
 	     */
-	//    @Column(nullable=false)
+	@Column(nullable=false)
     private Date userBirthDate;
 
     /**
@@ -64,7 +64,17 @@ public class User extends SecurityUser {
      */
     @Column(nullable = false, unique = true)
     private String userEmail;
-
+    
+    /**
+     * User account state.
+     * Boolean.
+     * 1: Activated.
+     * 0: Disabled.
+     * Not Null.
+     */
+    @Column(nullable=false)
+    private Boolean userActivate;
+    
     /**
      * User avatar.
      * {@link Image Image.class}.
@@ -195,6 +205,22 @@ public class User extends SecurityUser {
 	public void setUserEmail(String userEmail) {
 		this.userEmail = userEmail;
 	}
+	
+    /**
+     * Get the user account state.
+     * @return the userActivate.
+     */
+    public Boolean getUserActivate() {
+        return userActivate;
+    }
+
+    /**
+     * Set a new user account state.
+     * @param userActivate Boolean.
+     */
+    public void setUserActivate(Boolean userActivate) {
+        this.userActivate = userActivate;
+    }
 
 	/**
 	 * Get the user avatar.
@@ -315,6 +341,7 @@ public class User extends SecurityUser {
 	 * @param userBirthDate.
 	 * @param userPhoneNumber.
 	 * @param userEmail.
+	 * @param userActivate
 	 * @param userAvatar {@link Image Image.class}.
 	 * @param userAddresses Collection<{@link Address Address.class}>.
 	 * @param userCreditCards Collection<{@link CreditCard CreditCard.class}>.
@@ -324,7 +351,7 @@ public class User extends SecurityUser {
 	 * @param userImprovAdvices Collection<{@link ImprovAdvice ImprovAdvice.class}>.
 	 */
 	public User(String userFamilyName, String userFirstName, Date userBirthDate, String userPhoneNumber,
-			String userEmail, Image userAvatar, Collection<Address> userAddresses,
+			String userEmail, Boolean userActivate, Image userAvatar, Collection<Address> userAddresses,
 			Collection<CreditCard> userCreditCards, Collection<Contribution> userContributions,
 			Collection<Project> userProjects, Collection<Comment> userComments,
 			Collection<ImprovAdvice> userImprovAdvices) {
@@ -334,6 +361,7 @@ public class User extends SecurityUser {
 		this.userBirthDate = userBirthDate;
 		this.userPhoneNumber = userPhoneNumber;
 		this.userEmail = userEmail;
+		this.userActivate = userActivate;
 		this.userAvatar = userAvatar;
 		this.userAddresses = userAddresses;
 		this.userCreditCards = userCreditCards;
@@ -350,4 +378,5 @@ public class User extends SecurityUser {
 		super();
 	}
 
+	
 }

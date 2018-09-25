@@ -28,6 +28,11 @@ public class ProjectContract {
      */
     public static final String PROJECTTERM = "projectTerm";
     /**
+     * Constant to reference Project.projectVisibility.
+     * @see bzh.bmv.bcf.model.Project
+     */
+    public static final String PROJECTVISIBILITY = "projectVisibility";
+    /**
      * Constant to reference Project.projectGoal.
      * @see bzh.bmv.bcf.model.Project
      */
