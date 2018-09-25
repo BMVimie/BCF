@@ -1,4 +1,4 @@
---SQL login
+--SQL login sans accent
 --------------------------------------------------------------------
 --------------------------------------------------------------------
 --COUNTERPART TYPE INITIALIZATION
@@ -2008,20 +2008,20 @@ INSERT INTO bcf_project_type (project_type_id,project_type_name) VALUES (2,"Art 
 INSERT INTO bcf_project_type (project_type_id,project_type_name) VALUES (3,"Artisanat et cuisine");
 INSERT INTO bcf_project_type (project_type_id,project_type_name) VALUES (4,"Autres projets");
 INSERT INTO bcf_project_type (project_type_id,project_type_name) VALUES (5,"BD et illustrations");
-INSERT INTO bcf_project_type (project_type_id,project_type_name) VALUES (6,"Écologie");
+INSERT INTO bcf_project_type (project_type_id,project_type_name) VALUES (6,"Ecologie");
 INSERT INTO bcf_project_type (project_type_id,project_type_name) VALUES (7,"Edition et journalisme");
-INSERT INTO bcf_project_type (project_type_id,project_type_name) VALUES (8,"Enfance et éducation");
+INSERT INTO bcf_project_type (project_type_id,project_type_name) VALUES (8,"Enfance et education");
 INSERT INTO bcf_project_type (project_type_id,project_type_name) VALUES (9,"Entrepreneuriat");
 INSERT INTO bcf_project_type (project_type_id,project_type_name) VALUES (10,"Jeux");
 INSERT INTO bcf_project_type (project_type_id,project_type_name) VALUES (11,"Mode et Design");
 INSERT INTO bcf_project_type (project_type_id,project_type_name) VALUES (12,"Musique");
 INSERT INTO bcf_project_type (project_type_id,project_type_name) VALUES (13,"Patrimoine");
-INSERT INTO bcf_project_type (project_type_id,project_type_name) VALUES (14,"Santé");
+INSERT INTO bcf_project_type (project_type_id,project_type_name) VALUES (14,"Sante");
 INSERT INTO bcf_project_type (project_type_id,project_type_name) VALUES (15,"Solidaire et Citoyen");
 INSERT INTO bcf_project_type (project_type_id,project_type_name) VALUES (16,"Spectacle vivant");
 INSERT INTO bcf_project_type (project_type_id,project_type_name) VALUES (17,"Sports");
 INSERT INTO bcf_project_type (project_type_id,project_type_name) VALUES (18,"Technologie");
-INSERT INTO bcf_project_type (project_type_id,project_type_name) VALUES (19,"Vidéo");
+INSERT INTO bcf_project_type (project_type_id,project_type_name) VALUES (19,"Video");
 
 
 
@@ -4012,7 +4012,7 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("13","Clarens","France","55","PLACE MARCEL PAGNOL","65300");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("15","Collemiers","France","4","PLACE NEPTUNE","89100");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("17","Domprix","France","34","RUE MAURICE MAUMENEE","54490");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("19","Ecouché","France","63","ALLEE DE LA BISQUINE","61150");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("19","Ecouche","France","63","ALLEE DE LA BISQUINE","61150");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("21","Escoussens","France","17","CHEMIN DE LA CROIX BERTHO","81290");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("23","Felluns","France","2","RUE LOUIS LUMIERE","66730");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("25","Fournols","France","49","RUE SAINTE BEUVE","63980");
@@ -4028,8 +4028,8 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("45","Saint-Aubin-des-Ormeaux","France","83","RUE DES VIGNES DU CLOS","85130");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("47","Saint-Gildas","France","12","IMPASSE DU NANTAIS","22800");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("49","Saint-Jean-des-Baisants","France","22","RUE DU SOLEIL LEVANT","50810");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("51","Scey-sur-Saône-et-Saint-Albin","France","64","VENELLE JEAN BAPTISTE JOURDAN","70360");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("53","Servières-le-Château","France","96","AVENUE DE LA HAVANE","19220");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("51","Scey-sur-Saone-et-Saint-Albin","France","64","VENELLE JEAN BAPTISTE JOURDAN","70360");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("53","Servieres-le-Chateau","France","96","AVENUE DE LA HAVANE","19220");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("55","Sommervieu","France","93","RUE LA CROIX AMISSE","14400");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("57","Tilly-la-Campagne","France","55","BOULEVARD EMILE ZOLA","14540");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("59","Argenton-Notre-Dame","France","78","CHEMIN DU MOULIN DES ROCHELLES","53290");
@@ -4038,10 +4038,10 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("65","Boueilh-Boueilho-Lasque","France","86","PASSAGE VICTOR MARRE","64330");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("67","Cahuzac","France","54","RUE DE L ILE DU BIGNON","81540");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("69","Caumont","France","35","ALLEE STAN GETZ","33540");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("71","Cercié","France","74","RUE JOHN SCOTT","69220");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("71","Cercie","France","74","RUE JOHN SCOTT","69220");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("73","Chassy","France","99","CHEMIN DE LA PLAGE","89110");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("75","Conty","France","9","RUE DE LA VIREE DE LA CROIX","80160");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("77","Cossé-d'Anjou","France","6","RUE JEAN PIERRE DUFREXOU","49120");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("77","Cosse-d'Anjou","France","6","RUE JEAN PIERRE DUFREXOU","49120");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("79","Dompierre-les-Tilleuls","France","72","CHEMIN DU PETIT GAVY","25560");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("81","Eparcy","France","5","QUAI DU PORT DE MEAN","02500");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("83","Foissy","France","45","RUE DU DOLMEN","21230");
@@ -4054,56 +4054,56 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("97","Le Clerjus","France","82","ROND-POINT DU CORMIER","88240");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("99","Le Pouget","France","65","RUE HENRI LE DEAN","34230");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("101","Les Billaux","France","43","ROUTE DE KER DAVID","33500");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("103","Maizières-la-Grande-Paroisse","France","52","ALLEE STEPHANE GRAPPELLI","10510");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("103","Maizieres-la-Grande-Paroisse","France","52","ALLEE STEPHANE GRAPPELLI","10510");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("105","Marnhagues-et-Latour","France","71","IMPASSE DU PONT DE LESNAIS","12540");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("107","Martel","France","14","RUE SEVERINE","46600");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("109","Moëze","France","7","SQUARE ALCIDE BENOIST","17780");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("109","Moeze","France","7","SQUARE ALCIDE BENOIST","17780");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("111","Montbellet","France","66","RUE CHARLES LONGUET","71260");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("113","Montolieu","France","12","CHEMIN DES VIREES ROUILLARD","11170");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("115","Mours-Saint-Eusèbe","France","39","ALLEE DE LA HOUSSAIE","26540");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("115","Mours-Saint-Eusebe","France","39","ALLEE DE LA HOUSSAIE","26540");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("117","Nesle-le-Repons","France","41","RUE DU MOULIN DE LA NOE","51700");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("119","Pléven","France","8","ALLEE DU MUGUET","22130");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("119","Pleven","France","8","ALLEE DU MUGUET","22130");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("121","Quincy-Basse","France","8","RUE BLAISE PASCAL","02380");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("123","Saint-Aignan-sur-Ry","France","79","RUE JOSEPH LAKANAL","76116");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("125","Saint-André-de-la-Marche","France","77","RUE D OUESSANT","49450");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("125","Saint-Andre-de-la-Marche","France","77","RUE D OUESSANT","49450");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("127","Saint-Didier-des-Bois","France","32","ROUTE DU CHAMP PLAT","27370");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("129","Saint-Jean-du-Doigt","France","75","QUAI DES CHARBONNIERS","29630");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("131","Saint-Marc-à-Loubaud","France","39","PASSAGE DU FORT DE L EVE","23460");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("131","Saint-Marc-a-Loubaud","France","39","PASSAGE DU FORT DE L EVE","23460");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("133","Saint-Martin-de-Gurson","France","3","RUE JEAN DE LA FONTAINE","24610");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("135","Saint-Trivier-sur-Moignans","France","31","SQUARE DES AVIATEURS","01990");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("137","Sartrouville","France","78","PLACE DU DAUPHINE","78500");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("139","Sévérac-l'Eglise","France","57","RUE GABRIEL FAURE","12310");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("139","Severac-l'Eglise","France","57","RUE GABRIEL FAURE","12310");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("141","Sillas","France","22","ALLEE DES TULIPES","33690");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("143","Villaudric","France","73","RUE JEAN D ALEMBERT","31620");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("145","Woël","France","95","PLACE DU 18 JUIN 1940","55210");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("145","Woel","France","95","PLACE DU 18 JUIN 1940","55210");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("147","Aigues-Vives","France","1","RUE ALFRED DE MUSSET","30670");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("149","Bislée","France","11","RUE DES CABOTEURS","55300");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("151","Bouhans-lès-Lure","France","24","ALLEE ALFRED SISLEY","70200");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("149","Bislee","France","11","RUE DES CABOTEURS","55300");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("151","Bouhans-les-Lure","France","24","ALLEE ALFRED SISLEY","70200");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("153","Broussy-le-Grand","France","88","PLACE ATHANASE LABORDE","51230");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("155","Cassaniouze","France","23","IMPASSE LA PEROUSE","15340");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("157","Couvron-et-Aumencourt","France","7","RUE AUGUSTIN FRESNEL","02270");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("159","Curzay-sur-Vonne","France","51","ALLEE DOMINIQUE LARREY","86600");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("161","Darcey","France","3","CHEMIN DE LA SOURCE","21150");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("163","Fauconcourt","France","96","VOIE AMERICAINE","88700");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("165","Gréez-sur-Roc","France","36","BOULEVARD PIERRE DE MAUPERTUIS","72320");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("165","Greez-sur-Roc","France","36","BOULEVARD PIERRE DE MAUPERTUIS","72320");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("167","Kergrist","France","1","RUE ANTOINE DE CONDORCET","56300");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("169","La Chapelle-Vaupelteigne","France","67","CHEMIN DE LA BARRIERE","89800");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("171","Lauzach","France","41","AVENUE DU COMMANDO","56190");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("173","Les Chapelles-Bourbon","France","1","RUE DE L ILE DU PE","77610");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("175","Mangonville","France","82","BOULEVARD VICTOR HUGO","54290");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("177","Méobecq","France","82","RUE DES ARMATEURS","36500");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("177","Meobecq","France","82","RUE DES ARMATEURS","36500");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("179","Metz-Tessy","France","13","RUE LOUISON BOBET","74370");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("181","Montigny-l'Allier","France","37","PASSAGE RENE GUILLOUZO","02810");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("183","Moulins-sur-Orne","France","51","RUE PIERRE BROSSOLETTE","61200");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("185","Pie-d'Orezza","France","86","RUE MARC SANGNIER","20229");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("187","Pissotte","France","95","RUE JEAN BAUDIN","85200");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("189","Pontonx-sur-l'Adour","France","17","RUE DU TRAICT","40465");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("191","Rémondans-Vaivre","France","31","IMPASSE DE LA LANDE DE CLEUX","25150");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("191","Remondans-Vaivre","France","31","IMPASSE DE LA LANDE DE CLEUX","25150");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("193","Saint-Cirgues","France","15","BOULEVARD DE LA LIBERTE","43380");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("195","Saint-Germain-Chassenay","France","43","ROUTE DE PONT BRIEN","58300");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("197","Saint-Martin-des-Noyers","France","9","RUE EMILE OLLIVAUD","85140");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("199","Saint-Usuge","France","18","SQUARE ALLANET HENRI","71500");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("201","Trézioux","France","57","ALLEE PIERRE BROUSSONET","63520");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("201","Trezioux","France","57","ALLEE PIERRE BROUSSONET","63520");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("203","Vassimont-et-Chapelaine","France","1","ALLEE FREDERIC BAZILLE","51320");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("205","Vignoles","France","4","RUE JULES ROMAINS","21200");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("207","Ytrac","France","5","PARKING DU COMMANDANT GATE","15000");
@@ -4116,27 +4116,27 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("221","Courbouzon","France","37","ALLEE DU GRAND PARC","39570");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("223","Dagneux","France","79","IMPASSE DE GONON","01120");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("225","Fessevillers","France","89","CHEMIN DE LA PTE PATURE","25470");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("227","Feuquières","France","49","RUE MARIA VERONE","60960");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("229","Fresnoy-la-Rivière","France","86","ROND-POINT DU PONT BOULLET","60127");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("227","Feuquieres","France","49","RUE MARIA VERONE","60960");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("229","Fresnoy-la-Riviere","France","86","ROND-POINT DU PONT BOULLET","60127");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("231","Geffosses","France","81","CHEMIN DES FREMAUDIERES","50560");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("233","Giromagny","France","87","ROUTE DE SAINT ANDRE DES EAUX","90200");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("235","Heurtevent","France","71","ALLEE DES CAPUCINES","14140");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("237","L'Hospitalet","France","25","RUE FREDERIC MISTRAL","04150");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("239","L'Houmeau","France","5","ALLEE DU GRAND JARDIN","17137");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("241","L'Isle-sur-le-Doubs","France","97","RUE ANDERS CELSIUS","25250");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("243","La Forêt-du-Temple","France","64","ALLEE MADAME DE SEGUR","23360");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("243","La Foret-du-Temple","France","64","ALLEE MADAME DE SEGUR","23360");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("245","La Perche","France","82","QUAI DE LA PRISE D EAU","18200");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("247","Le Gault-Saint-Denis","France","16","IMPASSE LE CLOS DU GRAND PARC","28800");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("249","Lésigny","France","4","IMPASSE DU GRAND PARC","86270");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("249","Lesigny","France","4","IMPASSE DU GRAND PARC","86270");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("251","Magny-le-Hongre","France","3","ALLEE DES VIGNES DU CLOS","77700");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("253","Martigné-Briand","France","84","PARKING GARE SUD","49540");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("253","Martigne-Briand","France","84","PARKING GARE SUD","49540");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("255","Meursac","France","56","RUE JEAN DAURAT","17120");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("257","Montpezat-sous-Bauzon","France","9","PARKING JULES MANSART","07560");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("259","Olmet","France","69","CHEMIN BIGNON BAGUET","63880");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("261","Ringendorf","France","6","CHEMIN DES LAURIERS","67350");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("263","Saint-Christophe-des-Bois","France","1","ALLEE LOUIS APPERE","35210");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("265","Saint-Didier-d'Allier","France","76","RUE DES MESANGES","43580");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("267","Saint-Julien-lès-Montbéliard","France","59","SQUARE PAUL MALNOE","25550");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("267","Saint-Julien-les-Montbeliard","France","59","SQUARE PAUL MALNOE","25550");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("269","Saint-Maime","France","6","ALLEE DES PERDRIX","04300");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("271","Saint-Mont","France","68","BOULEVARD GEORGES CHARPAK","32400");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("273","Saint-Priest-la-Prugne","France","2","RUE DE L ILE DE RETON","42830");
@@ -4146,7 +4146,7 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("281","Saussy","France","66","CHEMIN DE LA GARNERIE","21380");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("283","Seloncourt","France","28","RUE ALBERT EINSTEIN","25230");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("285","Somme-Vesle","France","55","IMPASSE BELLE HAUTIERE","51460");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("287","Sucé-sur-Erdre","France","36","RUE CHEVALIER DE SAINT GEORGE","44240");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("287","Suce-sur-Erdre","France","36","RUE CHEVALIER DE SAINT GEORGE","44240");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("289","Tanlay","France","4","RUE PIERRE MARIE JURET","89430");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("291","Vendres","France","78","QUAI DU PONT ROULANT","34350");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("293","Viellenave-de-Navarrenx","France","17","AVENUE CDT DE L HERMINIER","64190");
@@ -4155,16 +4155,16 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("299","Arbrissel","France","96","RUE DE STALINGRAD","35130");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("301","Bassac","France","36","RUE JULES SIMON","16120");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("303","Bazailles","France","8","ROUTE DU LANDREAU","54620");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("305","Bissey-la-Côte","France","82","PONT DES DEUX SIECLES","21520");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("307","Bruyères-et-Montbérault","France","28","AVENUE DE BEARN","02860");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("309","Bussy-lès-Poix","France","5","RUE DES FAUVETTES","80290");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("305","Bissey-la-Cote","France","82","PONT DES DEUX SIECLES","21520");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("307","Bruyeres-et-Montberault","France","28","AVENUE DE BEARN","02860");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("309","Bussy-les-Poix","France","5","RUE DES FAUVETTES","80290");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("311","Chaix","France","45","SQUARE JEAN PAUL SARTRE","85200");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("313","Champ-Dolent","France","42","CHEMIN DES MARES THOMAS","27190");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("315","Condac","France","11","ALLEE DE LA BALTIQUE","16700");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("317","Gené","France","47","ALLEE DU CHASSE MAREE","49220");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("317","Gene","France","47","ALLEE DU CHASSE MAREE","49220");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("319","Gevigney-et-Mercey","France","31","CHEMIN DE TREGOUET","70500");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("321","La Balme","France","58","RUE LOUIS CARRE","73170");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("323","La Vespière","France","59","RUE DES BOULEAUX","14290");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("323","La Vespiere","France","59","RUE DES BOULEAUX","14290");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("325","Lachapelle-sous-Gerberoy","France","89","IMPASSE DE LA PIERRE DENION","60380");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("327","Lavau-sur-Loire","France","4","ROUTE DES LANDES DE BRAIS","44260");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("329","Le Mesnil-Garnier","France","19","ROND-POINT DE RETON","50450");
@@ -4175,15 +4175,15 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("339","Rethondes","France","88","ALLEE DE LA TOUR DU COMMERCE","60153");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("341","Revel-Tourdan","France","84","ALLEE JEAN COCTEAU","38270");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("343","Saint-Illide","France","13","RUE ANTOINE PARMENTIER","15310");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("345","Saint-Lézin","France","57","PASSAGE DE LA LIBERATION","49120");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("345","Saint-Lezin","France","57","PASSAGE DE LA LIBERATION","49120");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("347","Sauguis-Saint-Etienne","France","78","RUE LOUIS NEEL","64470");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("349","Tréméloir","France","43","AVENUE DES CHENES","22590");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("349","Tremeloir","France","43","AVENUE DES CHENES","22590");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("351","Vaudoncourt","France","5","ALLEE LOUIS DAQUIN","88140");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("353","Vaux","France","73","SQUARE DES MILLAUX","86700");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("355","Vignats","France","97","ROND-POINT DE VILLENEUVE","14700");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("357","Bosroger","France","1","RUE FRANCOIS DE CHATEAUBRIAND","23200");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("359","Bourisp","France","","RUE DU PRE DE CRAN","65170");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("361","Bussières","France","2","AVENUE DE VILLENEUVE","63330");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("361","Bussieres","France","2","AVENUE DE VILLENEUVE","63330");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("363","Celles-en-Bassigny","France","28","RUE DE LA CROIX FRAICHE","52360");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("365","Champsevraine","France","42","RUE PIERRE VERGNIAUD","52500");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("367","Charette-Varennes","France","85","CHEMIN DES PIERRERIES","71270");
@@ -4207,7 +4207,7 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("403","Pin-Balma","France","76","ALLEE JACQUES NECKER","31130");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("405","Pommiers","France","48","RUE DES COMMANDIERES","02200");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("407","Rigny-Saint-Martin","France","11","RUE DU LAVOIR","55140");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("409","Saint-André-de-Najac","France","62","CHEMIN DE LA PERRIERE","12270");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("409","Saint-Andre-de-Najac","France","62","CHEMIN DE LA PERRIERE","12270");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("411","Saint-Aquilin","France","8","SQUARE ALFRED PICHON","24110");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("413","Saint-Germain-Langot","France","34","ALLEE DES MAGNOLIAS","14700");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("415","Saint-Hippolyte","France","45","RUE ALEXANDRE DUMAS","15400");
@@ -4215,7 +4215,7 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("419","Sillars","France","7","IMPASSE DE BEL AIR","86320");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("421","Thiembronne","France","89","AVENUE DES CHANTERELLES","62560");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("423","Tramain","France","31","RUE DE L ILE DE FRANCE","22640");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("425","Trévières","France","7","RUE PHILIBERT DELORME","14710");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("425","Trevieres","France","7","RUE PHILIBERT DELORME","14710");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("427","Vaumoise","France","87","RUE DES CEDRES","60117");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("429","Vaux-Lavalette","France","75","RUE DE LA GUYANE","16320");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("431","Verneuil-en-Halatte","France","97","ALLEE BARBARA","60550");
@@ -4225,7 +4225,7 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("439","Arvillard","France","1","ROUTE DE SAINT SEBASTIEN","73110");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("441","Auchy-la-Montagne","France","28","PLACE ABRAHAM DUQUESNE","60360");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("443","Augnat","France","25","RUE HENRI MATISSE","63340");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("445","Authieux-Ratiéville","France","5","ALLEE SARAH BERNHARDT","76690");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("445","Authieux-Ratieville","France","5","ALLEE SARAH BERNHARDT","76690");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("447","Avressieux","France","21","CHEMIN DES DAMES","73240");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("449","Beaumont-en-Argonne","France","81","RUE DE LA CROIX DE MEAN","08210");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("451","Beneuvre","France","83","RUE JACQUES CARTIER","21290");
@@ -4235,19 +4235,19 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("459","Diusse","France","66","PASSAGE DE BEL AIR","64330");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("461","Drap","France","15","ROUTE DE PASSOUER","06340");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("463","Estouy","France","31","ALLEE JOHN DOS PASSOS","45300");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("465","Fleuré","France","67","SQUARE DES VIREES MARTIN","61200");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("467","Forêt-la-Folie","France","83","RUE ALFRED KASTLER","27510");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("465","Fleure","France","67","SQUARE DES VIREES MARTIN","61200");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("467","Foret-la-Folie","France","83","RUE ALFRED KASTLER","27510");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("469","Gonnehem","France","5","RUE MADAME DE SEVIGNE","62920");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("471","Gy-les-Nonains","France","77","AVENUE DE SAINT NAZAIRE","45220");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("473","Jasseron","France","43","RUE DE LA VIEILLE EGLISE","01250");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("475","La Boissière-en-Gâtine","France","12","ALLEE DES ALOUETTES","79310");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("475","La Boissiere-en-Gatine","France","12","ALLEE DES ALOUETTES","79310");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("477","Laurens","France","3","RUE ROLAND GARROS","34480");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("479","Lennon","France","95","ALLEE ALICE NOVIAL","29190");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("481","Lentigny","France","25","RUE DU PORT","42155");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("483","Marambat","France","26","CHEMIN DE LA VILLES CRENEAU","32190");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("485","Messimy-sur-Saône","France","34","SQUARE FRANCOIS GUIZOT","01480");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("487","Môlay","France","46","AVENUE DU PERTUIS","89310");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("489","Péré","France","44","ALLEE RENE CANCOIS","65130");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("485","Messimy-sur-Saone","France","34","SQUARE FRANCOIS GUIZOT","01480");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("487","Molay","France","46","AVENUE DU PERTUIS","89310");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("489","Pere","France","44","ALLEE RENE CANCOIS","65130");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("491","Ruoms","France","94","RUE GASPARD MONGE","07120");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("493","Saint-Martin-Saint-Firmin","France","17","PLACE DE LA RAMPE","27450");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("495","Salles-Curan","France","98","ALLEE DES FAISANS","12410");
@@ -4260,13 +4260,13 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("509","Wiry-au-Mont","France","34","CHEMIN DE LA BUTTE DU CHATEAU","80270");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("511","Antheuil","France","79","ALLEE DES PAQUERETTES","21360");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("513","Arracourt","France","8","RUE DES AJONCS","54370");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("515","Arthès","France","58","RUE DE LA BRIANDAIS","81160");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("515","Arthes","France","58","RUE DE LA BRIANDAIS","81160");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("517","Auberchicourt","France","12","RUE PIERRE LAROUSSE","59165");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("519","Azé","France","11","RUE ALPHONSE DAUDET","53200");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("519","Aze","France","11","RUE ALPHONSE DAUDET","53200");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("521","Baulay","France","99","RUE JEAN BAPTISTE COLBERT","70160");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("523","Brion","France","87","RUE ROGER SALENGRO","38590");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("525","Castries","France","58","IMPASSE DU PASSOUER","34160");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("527","Chenières","France","83","RUE ALBERT SCHWEITZER","54720");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("527","Chenieres","France","83","RUE ALBERT SCHWEITZER","54720");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("529","Cobrieux","France","16","QUAI DES DARSES","59830");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("531","Crugey","France","37","BOULEVARD EMILE BROODCOORENS","21360");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("533","Eschbach-au-Val","France","18","CHEMIN DES BRESINIERES","68140");
@@ -4279,12 +4279,12 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("547","Lilhac","France","97","RUE DES DENTELIERES","31230");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("549","Marquixanes","France","22","RUE FRANCOIS VOLTAIRE","66320");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("551","Millebosc","France","25","ALLEE NINA SIMONE","76260");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("553","Monmarvès","France","98","ALLEE ERNEST HEMINGWAY","24560");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("553","Monmarves","France","98","ALLEE ERNEST HEMINGWAY","24560");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("555","Mouzay","France","8","CHEMIN DE L ISLE DES RIVAUX","37600");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("557","Parey-Saint-Césaire","France","6","CHEMIN DE LA PIERRE DENION","54330");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("557","Parey-Saint-Cesaire","France","6","CHEMIN DE LA PIERRE DENION","54330");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("559","Peille","France","86","ALLEE VINCENT VAN GOGH","06440");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("561","Plobsheim","France","77","SQUARE DE LA MUTUALITE","67115");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("563","Portel-des-Corbières","France","21","RUE LOUIS THENARD","11490");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("563","Portel-des-Corbieres","France","21","RUE LOUIS THENARD","11490");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("565","Puisserguier","France","98","RUE CHARLES GARNIER","34620");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("567","Quincieu","France","48","RUE ELISEE NEGRIN 1903-1930","38470");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("569","Rans","France","42","RUE DU LERIOUX","39700");
@@ -4302,7 +4302,7 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("593","Bellecombe","France","2","ROUTE DES QUEBRAIS","39310");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("595","Betton","France","83","RUE AUGUSTE RENOIR","35830");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("597","Ceaulmont","France","47","CHEMIN DE BERRIEN","36200");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("599","Culètre","France","83","CHEMIN DE LA CHAUSSEE GAUTHIER","21230");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("599","Culetre","France","83","CHEMIN DE LA CHAUSSEE GAUTHIER","21230");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("601","Domvallier","France","6","CHEMIN DE GERAUD","88500");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("603","Ecutigny","France","75","IMPASSE JEAN DE NEYMAN","21360");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("605","Epinoy","France","79","AVENUE DE LA VERA CRUZ","62860");
@@ -4316,20 +4316,20 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("621","Landerneau","France","8","ALLEE DES AVOCETTES","29800");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("623","Lannepax","France","6","PLACE FRANCOIS BLANCHO","32190");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("625","Le Bourg","France","93","RUE JEAN SYLVAIN BAILLY","46120");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("627","Lépron-les-Vallées","France","93","RUE PIERRE MENDES FRANCE","08150");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("627","Lepron-les-Vallees","France","93","RUE PIERRE MENDES FRANCE","08150");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("629","Limogne-en-Quercy","France","88","RUE DE LA BERTHAUDERIE","46260");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("631","Olmo","France","52","RUE JEAN GUTENBERG","20290");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("633","Pins-Justaret","France","21","ALLEE DES CROCUS","31860");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("635","Plaisia","France","55","RUE ANTOINE LAVOISIER","39270");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("637","Plombières-les-Bains","France","29","CENTRE CIAL DE TREBALE","88370");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("637","Plombieres-les-Bains","France","29","CENTRE CIAL DE TREBALE","88370");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("639","Pommerol","France","84","RUE CHARLES BAUDELAIRE","26470");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("641","Poueyferré","France","41","ALLEE JEAN BAPTISTE CAMILL COROT","65100");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("641","Poueyferre","France","41","ALLEE JEAN BAPTISTE CAMILL COROT","65100");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("643","Prisches","France","7","CHEMIN DE LA MAISON NANTAISE","59550");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("645","Saint-Alban","France","46","ALLEE PIERRE PERCEE","22400");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("647","Saint-Eloi-de-Fourques","France","32","ROUTE DES QUATRE VENTS","27800");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("649","Saint-Georges-sur-Layon","France","31","PARKING DE L HOTEL DE VILLE","49700");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("651","Saint-Martial-le-Mont","France","97","ROUTE DE L ILE JACQUETTE","23150");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("653","Saint-Médard-d'Excideuil","France","25","RUE DE TRIGNAC","24160");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("653","Saint-Medard-d'Excideuil","France","25","RUE DE TRIGNAC","24160");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("655","Saint-Vital","France","98","CHEMIN DE L'ILE DU MARY","73460");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("657","Tollent","France","68","RUE JACQUES JOLLINIER","62390");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("659","Umpeau","France","92","ALLEE ANDRE GIDE","28700");
@@ -4341,22 +4341,22 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("671","Beynac-et-Cazenac","France","29","ALLEE DES CIGOGNES","24220");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("673","Bizonnes","France","31","RUE NUNGESSER ET COLI","38690");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("675","Champagney","France","11","ROUTE DES GRENOUILLERES","70290");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("677","Charbonnières-les-Varennes","France","22","QUAI DE LA VILLE HALLUARD","63410");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("677","Charbonnieres-les-Varennes","France","22","QUAI DE LA VILLE HALLUARD","63410");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("679","Chauvigny","France","1","ROUTE DE GEORAMA","86300");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("681","Chauvigny-du-Perche","France","56","RUE MARCEL CARNE","41270");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("683","Chemilli","France","24","RUE DU PLESSIS","61360");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("685","Chouilly","France","41","SQUARE DES FRERES BELLEC","51200");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("687","Cier-de-Rivière","France","3","ALLEE DES COQUARRIERES","31510");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("687","Cier-de-Riviere","France","3","ALLEE DES COQUARRIERES","31510");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("689","Couturelle","France","92","RUE DE LA JAMAIQUE","62158");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("691","Dargnies","France","81","ROUTE DE LA VIREE DE DEVANT","80570");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("693","Déservillers","France","3","PLACE SIMONE DE BEAUVOIR","25330");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("693","Deservillers","France","3","PLACE SIMONE DE BEAUVOIR","25330");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("695","Desnes","France","84","SQUARE DES FRERES BERTHAUD","39140");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("697","Dollot","France","76","ROND-POINT DES ROCHELLES","89150");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("699","Dourgne","France","41","RUE DE L ILE DES ROCHELLES","81110");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("701","Druillat","France","74","PLACE JEAN BAPTISTE LULLI","01160");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("703","Ettendorf","France","86","ALLEE DES MACAREUX","67350");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("705","Fétigny","France","8","CENTRE REPUBLIQUE","39240");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("707","Gée-Rivière","France","4","ALLEE JEAN BEAUVILAIN","32720");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("705","Fetigny","France","8","CENTRE REPUBLIQUE","39240");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("707","Gee-Riviere","France","4","ALLEE JEAN BEAUVILAIN","32720");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("709","Gimat","France","58","ALLEE MARIA CALLAS","82500");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("711","Herly","France","61","ALLEE DU BRICK","80190");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("713","Hinsbourg","France","34","RUE ALBERT CAMUS","67290");
@@ -4367,18 +4367,18 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("723","Le Russey","France","91","RUE CESAR FRANCK","25210");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("725","Montgaillard-sur-Save","France","27","RUE ALAIN GERBAULT","31350");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("727","Monties","France","8","ROUTE DU SABOT D OR","32420");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("729","Nançois-sur-Ornain","France","9","RUE AUTEL DES DRUIDES","55500");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("729","Nancois-sur-Ornain","France","9","RUE AUTEL DES DRUIDES","55500");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("731","Oermingen","France","29","QUAI DES FORMES DE RADOUB","67970");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("733","Plouray","France","97","AVENUE DES SPORTS","56770");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("735","Plumaugat","France","84","RUE D'AVILES","22250");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("737","Rosey","France","36","AVENUE DE LA VIEILLE VILLE","71390");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("739","Saint-Cirgues-en-Montagne","France","15","RUE DES CORMORANS","07510");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("741","Saint-Côme","France","67","ALLEE DE L'ILE DU PRE GARREAU","33430");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("741","Saint-Come","France","67","ALLEE DE L'ILE DU PRE GARREAU","33430");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("743","Saint-Georges-Motel","France","33","RUE MARGUERITE YOURCENAR","27710");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("745","Saint-Hilaire-du-Harcouët","France","63","ALLEE DU PETIT BOIS","50600");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("745","Saint-Hilaire-du-Harcouet","France","63","ALLEE DU PETIT BOIS","50600");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("747","Sausses","France","28","PARKING DE SAINT HUBERT","04320");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("749","Tarare","France","32","ALLEE DES ANEMONES","69170");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("751","Trévoux","France","57","RUE EDGAR DEGAS","01600");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("751","Trevoux","France","57","RUE EDGAR DEGAS","01600");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("753","Villeneuve-les-Sablons","France","69","IMPASSE FRANCOIS BROUSSAIS","60175");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("755","Vitry-sur-Seine","France","81","RUE DU DOCTEUR ALBERT CALMETTE","94400");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("757","Agy","France","65","SQUARE DES ACACIAS","14400");
@@ -4387,75 +4387,75 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("763","Boulogne-sur-Mer","France","54","ALLEE DE LA PEPINIERE","62200");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("765","Boureuilles","France","17","CITE DE BEAUREGARD","55270");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("767","Camparan","France","63","ALLEE DES GUILLEMOTS","65170");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("769","Cargèse","France","1","IMPASSE DES BROSSES","20130");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("769","Cargese","France","1","IMPASSE DES BROSSES","20130");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("771","Cerdon","France","89","ALLEE DU GALION","01450");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("773","Chalais","France","7","SQUARE LOUISE WEISS","36370");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("775","Chérence","France","73","IMPASSE DE TOUTES AIDES","95510");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("775","Cherence","France","73","IMPASSE DE TOUTES AIDES","95510");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("777","Comps","France","3","ROUTE DE LA PIERRE","30300");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("779","Donzy-le-National","France","54","ALLEE DES BLES D OR","71250");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("781","Dourdan","France","92","ROUTE DU HAUT ROCHER","91410");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("783","Echavanne","France","59","RUE DESIREE TARTOUE","70400");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("785","Feuilla","France","4","ROUTE DE MARSAC","11510");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("787","Fixin","France","2","RUE DE LA VIGNE ROSEE","21220");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("789","Frépillon","France","13","ROUTE DE L ILE DE L ETIER","95740");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("789","Frepillon","France","13","ROUTE DE L ILE DE L ETIER","95740");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("791","Germigny","France","97","QUAI DES FORMES DE RADOUB","51390");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("793","Guebwiller","France","85","BOULEVARD DE LA RENAISSANCE","68500");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("795","La Goulafrière","France","59","IMPASSE DES ROCHELLES","27390");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("795","La Goulafriere","France","59","IMPASSE DES ROCHELLES","27390");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("797","La Guiche","France","24","CHEMIN DU PETIT MARSAC","71220");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("799","Labescau","France","7","RUE YOURI GAGARINE","33690");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("801","Landécourt","France","29","ALLEE CHARLES LINNE","54360");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("803","Larçay","France","4","RUE STEPHANE MALLARME","37270");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("801","Landecourt","France","29","ALLEE CHARLES LINNE","54360");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("803","Larcay","France","4","RUE STEPHANE MALLARME","37270");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("805","Les Ulmes","France","73","AVENUE ERNEST RENAN","49700");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("807","Lingolsheim","France","71","ROND-POINT DES AMANDIERS","67380");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("809","Lucenay-l'Evêque","France","37","RUE CHARLES BRUNELLIERE","71540");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("809","Lucenay-l'Eveque","France","37","RUE CHARLES BRUNELLIERE","71540");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("811","Luigny","France","79","RUE DU DR FRANCOISE DOLTO","28420");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("813","Marçay","France","1","ALLEE PAUL CEZANNE","86370");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("813","Marcay","France","1","ALLEE PAUL CEZANNE","86370");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("815","Maxey-sur-Vaise","France","9","RUE DE TOURAINE","55140");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("817","Pas-de-Jeu","France","71","RUE ANCIEN HOPITAL","79100");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("819","Rocher","France","1","ALLEE DE LA CARRIERE","07110");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("821","Saint-Aubin-d'Aubigné","France","85","RUE PIERRE CURIE","35250");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("821","Saint-Aubin-d'Aubigne","France","85","RUE PIERRE CURIE","35250");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("823","Saint-Gelven","France","4","ALLEE DES HARLES","22570");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("825","Saint-Hilaire-sur-Yerre","France","98","RUE PETIT BRETON","28220");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("827","Saint-Jacques-d'Atticieux","France","87","RUE GRAHAM BELL","07340");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("829","Saint-Laurent-de-la-Salanque","France","91","RUE HONORE DAUMIER","66250");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("831","Saint-Martin-Sepert","France","55","RUE CELESTIN FREINET","19210");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("833","Saint-Ythaire","France","4","CHEMIN DE L ECUMIERE","71460");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("835","Sainte-Cécile","France","43","RUE DES MOUETTES","85110");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("835","Sainte-Cecile","France","43","RUE DES MOUETTES","85110");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("837","Sainte-Eulalie","France","73","ROUTE DU PETIT LERIOUX","33560");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("839","Sainte-Savine","France","64","RUE FERDINAND BUISSON","10300");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("841","Sarcey","France","41","RUE NICEPHORE NIEPCE","69490");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("843","Talissieu","France","14","ROUTE DES CARROIS DE CUNEIX","01510");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("845","Tillé","France","5","ALLEE DE SUFFREN","60000");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("845","Tille","France","5","ALLEE DE SUFFREN","60000");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("847","Antigny","France","28","RUE DENIS PAPIN","85120");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("849","Bambecque","France","64","ALLEE BERTHE MORISOT","59470");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("851","Barisey-au-Plain","France","18","ROUTE DE CUNEIX","54170");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("853","Beire-le-Fort","France","19","ROND-POINT DE BRAIS","21110");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("855","Châteaubourg","France","27","ROUTE DU GRAND AVALIX","07130");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("857","Curçay-sur-Dive","France","69","RUE GUSTAVE FLAUBERT","86120");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("855","Chateaubourg","France","27","ROUTE DU GRAND AVALIX","07130");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("857","Curcay-sur-Dive","France","69","RUE GUSTAVE FLAUBERT","86120");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("859","Duranville","France","8","CHEMIN CAMP DE LA TORPILLE","27230");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("861","Englancourt","France","94","AVENUE PIERRE DE COUBERTIN","02260");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("863","Fauguernon","France","36","RUE GEORGES VILLEBOIS MAREUIL","14100");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("865","Grézieux-le-Fromental","France","79","BOULEVARD DUMONT D URVILLE","42600");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("865","Grezieux-le-Fromental","France","79","BOULEVARD DUMONT D URVILLE","42600");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("867","La Chapelle-Saint-Ursin","France","61","BOULEVARD DE L HOPITAL (RN771)","18570");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("869","Meillonnas","France","51","RUE JEAN BAPTISTE LAMARCK","01370");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("871","Monéteau","France","11","CHEMIN DES PECHEURS","89470");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("871","Moneteau","France","11","CHEMIN DES PECHEURS","89470");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("873","Percey-le-Grand","France","26","RUE PAUL VERLAINE","70600");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("875","Pont-et-Massène","France","16","AVENUE DES ROCHES NOIRES","21140");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("877","Saint-Jean-de-Maruéjols-et-Avéjan","France","91","ROUTE DEPARTEMENTAL 492 (RD492)","30430");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("875","Pont-et-Massene","France","16","AVENUE DES ROCHES NOIRES","21140");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("877","Saint-Jean-de-Maruejols-et-Avejan","France","91","ROUTE DEPARTEMENTAL 492 (RD492)","30430");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("879","Saint-Just-le-Martel","France","53","RUE DU GRAND ORMEAU","87590");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("881","Saint-Pierre-le-Chastel","France","21","CHEMIN DU VALLIOUX","63230");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("883","Saint-Ulrich","France","4","ALLEE DES DAHLIAS","68210");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("885","Sainte-Anne-sur-Brivet","France","63","RUE DE PORNICHET","44160");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("887","Séez","France","3","ALLEE DES ALCYONS","73700");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("889","Thiénans","France","1","RUE JEAN MARIE PERRET","70230");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("887","Seez","France","3","ALLEE DES ALCYONS","73700");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("889","Thienans","France","1","RUE JEAN MARIE PERRET","70230");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("891","Veuilly-la-Poterie","France","73","PLACE JEAN BOUIN","02810");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("893","Villard-d'Héry","France","53","RUE LOUISE MICHEL","73800");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("893","Villard-d'Hery","France","53","RUE LOUISE MICHEL","73800");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("895","Villenave-de-Rions","France","81","RUE RENE CASSIN","33550");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("897","Villesèquelande","France","2","RUE PIERRE DE MARIVAUX","11170");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("897","Villesequelande","France","2","RUE PIERRE DE MARIVAUX","11170");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("899","Wicres","France","2","RUE DU PERTHUISCHAUD","59134");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("901","Bascons","France","75","RUE BENJAMIN FRANKLIN","40090");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("903","Bercloux","France","8","CHEMIN DE BERREGAS","17770");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("905","Calès","France","86","BOULEVARD DE VERDUN","24150");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("905","Cales","France","86","BOULEVARD DE VERDUN","24150");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("907","Cavignac","France","14","RUE CLAUDE BERTHOLLET","33620");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("909","Chambain","France","75","BOULEVARD ALBERT 1ER","21290");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("911","Chevincourt","France","84","CHEMIN DES DEMOISELLES","60150");
@@ -4468,18 +4468,18 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("925","Estry","France","46","LOTISSEMENT ILE DU PE","14410");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("927","Franxault","France","47","AVENUE J PARIS DE LA BOLLARDIERE","21170");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("929","Gergueil","France","28","ROUTE DE LA MOTTE ALLEMAND","21410");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("931","Grésy-sur-Aix","France","23","PASSAGE JEAN JAURES","73100");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("931","Gresy-sur-Aix","France","23","PASSAGE JEAN JAURES","73100");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("933","Grilly","France","7","RUE EDGAR QUINET","01220");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("935","Guchan","France","97","RUE DES ORMES","65170");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("937","Guevenatten","France","2","AVENUE DES FREGATES","68210");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("939","Guipel","France","13","ALLEE DE L'ILE DES NICOLAS","35440");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("941","Guitinières","France","44","IMPASSE DU SAUT DU LOUP","17500");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("941","Guitinieres","France","44","IMPASSE DU SAUT DU LOUP","17500");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("943","Hasnon","France","63","BOULEVARD LEON GAMBETTA","59178");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("945","Le Gault-Perche","France","7","ALLEE MILES DAVIS","41270");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("947","Marieulles","France","89","RUE PAUL BERT","57420");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("949","Martigny-les-Gerbonvaux","France","9","PLACE DE LA PAJODIERE","88300");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("951","Montpellier","France","49","PLACE DE BEL AIR","34000");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("953","Nanteuil-en-Vallée","France","49","ALLEE DE L'ILE DE BOURDI","16700");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("953","Nanteuil-en-Vallee","France","49","ALLEE DE L'ILE DE BOURDI","16700");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("955","Neauphlette","France","51","ALLEE DES ROSEAUX","78980");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("957","Nerbis","France","31","ALLEE FLORA TRISTAN","40250");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("959","Odars","France","34","ALLEE DE LA GOELETTE","31450");
@@ -4488,7 +4488,7 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("965","Pradelles","France","29","CHEMIN DU RELAIS","43420");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("967","Saint-Etienne-de-Montluc","France","92","RUE JEAN RICHEPIN","44360");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("969","Saint-Jean-d'Illac","France","6","ROUTE DE L ANGLE","33127");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("971","Saint-Jean-de-la-Blaquière","France","9","RUE AUGUSTE BRIZEUX","34700");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("971","Saint-Jean-de-la-Blaquiere","France","9","RUE AUGUSTE BRIZEUX","34700");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("973","Saint-Laurent-de-Cognac","France","3","IMPASSE ERNEST RENAN","16100");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("975","Saint-Laurent-en-Brionnais","France","71","ALLEE DES COQUELICOTS","71800");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("977","Saint-Oradoux-de-Chirouze","France","48","ALLEE DE PENGOT","23100");
@@ -4501,13 +4501,13 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("991","Violaines","France","6","ROND-POINT DE FONDELINE","62138");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("993","Yvetot","France","43","IMPASSE DES VIREES BONNE FEMME","76190");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("995","Acqueville","France","95","RUE ALBERT THOMAS","14220");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("997","Agnières-en-Dévoluy","France","63","CHEMIN DU CLOS DOFEUVRE","05250");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("997","Agnieres-en-Devoluy","France","63","CHEMIN DU CLOS DOFEUVRE","05250");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("999","Alzonne","France","19","QUAI DES FREGATES","11170");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1001","Arronville","France","66","ALLEE MARC ALLEGRET","95810");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1003","Bun","France","78","BOULEVARD SUNDERLAND","65400");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1005","Drain","France","29","RUE ETIENNE DE CONDILLAC","49530");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1007","Escombres-et-le-Chesnois","France","56","RUE JULIE DAUBIE","08110");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1009","Fabrègues","France","67","ROND-POINT DE L'ETOILE DU MATIN","34690");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1009","Fabregues","France","67","ROND-POINT DE L'ETOILE DU MATIN","34690");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1011","Flacey-en-Bresse","France","67","ROUTE DU PONT DE LESNAIS","71580");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1013","Hescamps","France","85","QUAI DE KRIBI","80290");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1015","Kergloff","France","47","RUE LOUIS BRAILLE","29270");
@@ -4519,80 +4519,80 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1027","Marthod","France","41","RUE DES GAUVIGNETS","73400");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1029","Maslives","France","22","PLACE DU DOLMEN","41250");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1031","Mions","France","69","RUE JEAN BAPTISTE GREUZE","69780");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1033","Missècle","France","39","ALLEE ALEXANDER FLEMING","81300");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1035","Moyencourt-lès-Poix","France","68","CHEMIN DU RATEAU","80290");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1037","Onglières","France","31","ALLEE RENE ROSS","39250");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1033","Missecle","France","39","ALLEE ALEXANDER FLEMING","81300");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1035","Moyencourt-les-Poix","France","68","CHEMIN DU RATEAU","80290");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1037","Onglieres","France","31","ALLEE RENE ROSS","39250");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1039","Pont-Saint-Pierre","France","72","ALLEE GEORGES ROLLAND","27360");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1041","Quéven","France","1","IMPASSE DE KER FAOUET","56530");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1041","Queven","France","1","IMPASSE DE KER FAOUET","56530");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1043","Requeil","France","23","SQUARE DE LA MUTUALITE","72510");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1045","Saint-Denis-de-Villenette","France","93","CHEMIN DES SANSIVES","61330");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1047","Saint-Jean-sur-Veyle","France","99","ROUTE DE SAINT EUGENE","01290");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1049","Saint-Joachim","France","76","RUE DU STADE DE PORCE","44720");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1051","Saint-Julien-en-Vercors","France","42","CHEMIN DE LA VILLES OURS","26420");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1053","Saint-Maurice-sous-les-Côtes","France","53","RUE JEAN JAURES","55210");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1053","Saint-Maurice-sous-les-Cotes","France","53","RUE JEAN JAURES","55210");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1055","Saint-Sigismond","France","55","PLACE DU COMMERCE","45310");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1057","Thèbe","France","76","PASSAGE DE LA VILLES OURS","65370");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1057","Thebe","France","76","PASSAGE DE LA VILLES OURS","65370");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1059","Thiel-sur-Acolin","France","87","RUE DU CORPS DE GARDE","03230");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1061","Ungersheim","France","7","CHEMIN DE BRANCIEUX","68190");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1063","Attancourt","France","45","ALLEE DU COURTIL PREVOT","52130");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1065","Beautiran","France","95","RUE FRANCOIS VILLON","33640");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1067","Bédouès","France","83","ALLEE HENRI DECOIN","48400");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1069","Bérigny","France","45","RUE DE LA VILLE ETABLE","50810");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1067","Bedoues","France","83","ALLEE HENRI DECOIN","48400");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1069","Berigny","France","45","RUE DE LA VILLE ETABLE","50810");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1071","Bertren","France","57","ALLEE INGRID BERGMAN","65370");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1073","Bonneval","France","65","IMPASSE DE VINCENNES","28800");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1075","Bouvigny-Boyeffles","France","95","ROND-POINT DE L'ISAU","62172");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1077","Buigny-lès-Gamaches","France","74","BOULEVARD PAUL PERRIN","80220");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1077","Buigny-les-Gamaches","France","74","BOULEVARD PAUL PERRIN","80220");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1079","Calonne-sur-la-Lys","France","7","CHEMIN DU PONT D Y","62350");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1081","Cassagne","France","29","VENELLE CLAIRE LACOMBE","31260");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1083","Cépet","France","75","RUE JEANNE BARRET","31620");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1083","Cepet","France","75","RUE JEANNE BARRET","31620");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1085","Chariez","France","57","PLACE ANNA POLITKOVSKAIA","70000");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1087","Esquerchin","France","2","RUE MAURICE GARIN","59553");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1089","Evran","France","47","BOULEVARD DE LA FRATERNITE","22630");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1091","Féchain","France","18","RUE DE LA VILLE HALLUARD","59247");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1093","Fougeré","France","14","ALLEE DU CLOS DES BROSSES","85480");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1091","Fechain","France","18","RUE DE LA VILLE HALLUARD","59247");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1093","Fougere","France","14","ALLEE DU CLOS DES BROSSES","85480");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1095","Grandvilliers","France","49","RUE CLEMENT MAROT","27240");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1097","Hérenguerville","France","52","ROUTE DE GUINDREFF","50660");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1097","Herenguerville","France","52","ROUTE DE GUINDREFF","50660");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1099","Lansac","France","56","RUE JOSEPH ET E. MONTGOLFIER","66720");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1101","Louches","France","59","SQUARE LOUIS DELZIEUX","62610");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1103","Marsangis","France","24","CHEMIN DE PORT CHARLOTTE","51260");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1105","Mazeray","France","59","RUE THEOPHILE LEFEBVRE","17400");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1107","Omonville-la-Rogue","France","18","ROUTE DE TREBALE","50440");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1109","Oyes","France","37","RUE LAZARE HOCHE","51120");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1111","Péret-Bel-Air","France","47","RUE DE L ETOILE DU MATIN","19300");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1111","Peret-Bel-Air","France","47","RUE DE L ETOILE DU MATIN","19300");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1113","Quintal","France","29","RUE DE PREZEGAT","74600");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1115","Saint-Amand-de-Belvès","France","65","RUE DU FORT","24170");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1115","Saint-Amand-de-Belves","France","65","RUE DU FORT","24170");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1117","Saint-Julien-aux-Bois","France","65","AVENUE ALBERT DE MUN","19220");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1119","Saint-Marcel-Campes","France","8","ROUTE DE COSTEBELLE","81170");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1121","Sainte-Marie-Cappel","France","63","QUAI DES DARSES","59670");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1123","Touffreville","France","77","RUE RENE DESCARTES","27440");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1125","Achères-la-Forêt","France","","RUE FERNAND NOUVION","77760");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1125","Acheres-la-Foret","France","","RUE FERNAND NOUVION","77760");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1127","Autun","France","53","RUE DE L ANCIEN HOTEL DE VILLE","71400");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1129","Balagny-sur-Thérain","France","88","CHEMIN DES NOES","60250");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1129","Balagny-sur-Therain","France","88","CHEMIN DES NOES","60250");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1131","Barneville-la-Bertran","France","17","QUAI DU BRIVET","14600");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1133","Blancfossé","France","13","ALLEE CLAUDE MONET","60120");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1133","Blancfosse","France","13","ALLEE CLAUDE MONET","60120");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1135","Bougainville","France","83","CHEMIN DE L'ILE DES NOELES","80540");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1137","Cademène","France","39","RUE PIERRE DE RONSARD","25290");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1137","Cademene","France","39","RUE PIERRE DE RONSARD","25290");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1139","Caumont-sur-Durance","France","11","ALLEE DES CHEVREFEUILLES","84510");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1141","Etalon","France","78","CHEMIN DES VIREES NAULAY","80190");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1143","Fontenelle","France","8","RUE GIRARD DE LA CANTRIE","90340");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1145","Gambais","France","48","PASSAGE HENRI SOULAS","78950");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1147","Joncourt","France","97","RUE EMILE COMBES","02420");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1149","La Neuville-sur-Ressons","France","57","ALLEE EST","60490");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1151","La Prétière","France","6","RUE FRANCOIS MARCEAU","25250");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1151","La Pretiere","France","6","RUE FRANCOIS MARCEAU","25250");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1153","La Vaivre","France","3","ALLEE DU MERVENT","70320");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1155","Layrac","France","18","RUE SAINT JUST","47390");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1157","Le Tronchet","France","63","ROND-POINT DU SOLEIL LEVANT","35540");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1159","Lécluse","France","1","SQUARE THEOPHILE LEFEBVRE","59259");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1159","Lecluse","France","1","SQUARE THEOPHILE LEFEBVRE","59259");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1161","Les Islettes","France","1","PARKING JEAN MACE","55120");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1163","Marcilly-et-Dracy","France","57","CHEMIN DES LANDES AUX MURES","21350");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1165","Merten","France","1","CHEMIN DU PHARE DE PORCE","57550");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1167","Mézangers","France","76","ALLEE DES BECASSINES","53600");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1167","Mezangers","France","76","ALLEE DES BECASSINES","53600");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1169","Molliens-Dreuil","France","17","RUE ARTHUR RIMBAUD","80540");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1171","Murol","France","2","AVENUE RENE COTY","63790");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1173","Oderen","France","22","PLACE DULCIE SEPTEMBER","68830");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1175","Petiville","France","62","QUAI DES MAREES","76330");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1177","Pontamafrey-Montpascal","France","38","IMPASSE BAPTISTE MARCET","73300");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1179","Puéchoursi","France","87","CHEMIN DES COMMANDIERES","81470");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1179","Puechoursi","France","87","CHEMIN DES COMMANDIERES","81470");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1181","Puymoyen","France","96","RUE DANIEL AUBER","16400");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1183","Rilhac-Xaintrie","France","93","SQUARE JACQUES CASSARD","19220");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1185","Sabazan","France","43","IMPASSE DE TRIGNAC","32290");
@@ -4601,22 +4601,22 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1191","Sermaise","France","11","RUE FRANCOISE SAGAN","49140");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1193","Villars-sous-Dampjoux","France","54","RUE MAX JACOB","25190");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1195","Vulaines-sur-Seine","France","7","AVENUE DE PENHOET","77870");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1197","Amécourt","France","8","PASSAGE HENRI BECQUEREL","27140");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1197","Amecourt","France","8","PASSAGE HENRI BECQUEREL","27140");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1199","Amfreville","France","53","ROUTE DE BRAIS","50480");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1201","Anjeux","France","43","ALLEE DU PARC FONTAINE","70800");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1203","Arrodets","France","13","RUE DU CAPITAINE DAUCE","65130");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1205","Bénarville","France","37","AVENUE DU COMMANDANT COUSTEAU","76110");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1205","Benarville","France","37","AVENUE DU COMMANDANT COUSTEAU","76110");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1207","Boubiers","France","43","CHEMIN DE L ILE DU MOULIN","60240");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1209","Burret","France","93","RUE DE TOUTES AIDES","09000");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1211","Cagnes-sur-Mer","France","55","RUE DE LA COMMUNE DE PARIS","06800");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1213","Caupenne-d'Armagnac","France","23","ROUTE DU CORMIER","32110");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1215","Cescau","France","9","ALLEE DES FOUGERES","09800");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1217","Châtillon-sur-Oise","France","36","ALLEE DU SIROCCO","02240");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1217","Chatillon-sur-Oise","France","36","ALLEE DU SIROCCO","02240");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1219","Coaraze","France","1","ALLEE GEORGES DANTON","06390");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1221","Cosne-Cours-sur-Loire","France","76","RUE GEORGES ESCOULAN","58200");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1223","Craponne-sur-Arzon","France","93","ESPLANADE DROITS DE L'HOMME ET DU CI","43500");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1225","Croignon","France","8","CHEMIN DU GONLE","33750");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1227","Ferrières","France","12","ROUTE DES MOTTAIS","17170");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1227","Ferrieres","France","12","ROUTE DES MOTTAIS","17170");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1229","Friaize","France","19","ROUTE DES FORGES","28240");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1231","Garrevaques","France","53","AVENUE DE SANTANDER","81700");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1233","Guillaucourt","France","59","RUE ANDRE LE NOTRE","80170");
@@ -4625,7 +4625,7 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1239","Loupeigne","France","93","RUE HONORE DE MIRABEAU","02130");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1241","Luxe-Sumberraute","France","4","RUE DES PEUPLIERS","64120");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1243","Mesnil-Saint-Georges","France","35","ALLEE ANTOINE GOUAN","80500");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1245","Oulchy-le-Château","France","25","ALLEE DES PELICANS","02210");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1245","Oulchy-le-Chateau","France","25","ALLEE DES PELICANS","02210");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1247","Puget-Rostang","France","97","ROUTE DE LA COTE D AMOUR","06260");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1249","Quingey","France","98","CHEMIN DU HAUT BRANCIEUX","25440");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1251","Remoncourt","France","62","ALLEE DE LA NATURE","88800");
@@ -4649,22 +4649,22 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1287","Chidrac","France","38","CHEMIN DE LA VILLES ROBERT","63320");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1289","Courcerac","France","86","RUE DE LA COTE D'OPALE","17160");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1291","Dijon","France","87","RUE CHARLES LEBRUN","21000");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1293","Dissé-sous-le-Lude","France","43","RUE GEORGES BIZET","72800");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1293","Disse-sous-le-Lude","France","43","RUE GEORGES BIZET","72800");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1295","Dommary-Baroncourt","France","64","BOULEVARD DU DOC RENE LAENNEC","55240");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1297","Egry","France","4","ALLEE DE LA GALERNE","45340");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1299","Gabriac","France","1","ALLEE DE LA REJANNERIE","12340");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1301","Ivory","France","88","RUE FERNAND DE MAGELLAN","39110");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1303","La Bonneville","France","47","BOULEVARD BOUGAINVILLE","50360");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1305","Larrivière","France","74","IMPASSE DES FRECHAILLES","40270");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1305","Larriviere","France","74","IMPASSE DES FRECHAILLES","40270");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1307","Le Rove","France","8","RUE DE CARDURAND","13740");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1309","Lénault","France","26","CHEMIN DES COULETTES","14770");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1309","Lenault","France","26","CHEMIN DES COULETTES","14770");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1311","Les Hermites","France","51","IMPASSE MICHEL ANGE","37110");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1313","Ligré","France","2","ROUTE DU BOIS DE BRAIS","37500");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1315","Lorry-lès-Metz","France","74","PLACE SALVATORE ALLENDE","57050");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1313","Ligre","France","2","ROUTE DU BOIS DE BRAIS","37500");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1315","Lorry-les-Metz","France","74","PLACE SALVATORE ALLENDE","57050");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1317","Mansac","France","27","RUE DU CAMPUS","19520");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1319","Margny","France","89","CHEMIN DES DOUANIERS","51210");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1321","Mignaloux-Beauvoir","France","85","ALLEE DE LA TREGONNAIS","86550");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1323","Molières","France","4","RUE ETIENNE JODELLE","82220");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1323","Molieres","France","4","RUE ETIENNE JODELLE","82220");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1325","Niderhoff","France","25","IMPASSE DU GRAND MOULIN","57560");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1327","Penchard","France","67","ALLEE DES VIOLETTES","77124");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1329","Pluzunet","France","95","ROND-POINT DE L'ILE DE L'ETIER","22140");
@@ -4672,7 +4672,7 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1333","Saint-Victor-de-Morestel","France","67","RUE A SANTOS DUMONT","38510");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1335","Thorigny","France","82","IMPASSE ALBERT THOMAS","85480");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1337","Tourcelles-Chaumont","France","34","RUE ANITA CONTI","08400");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1339","Trie-Château","France","6","RUE PHILIPPE LEBON","60590");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1339","Trie-Chateau","France","6","RUE PHILIPPE LEBON","60590");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1341","Vigeois","France","23","ROUTE DES FOSSES MARTINEAUX","19410");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1343","Volstroff","France","4","RUE DU PARC A L EAU","57940");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1345","Arthon","France","11","AVENUE DES DRYADES","36330");
@@ -4684,20 +4684,20 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1357","Eleu-dit-Leauwette","France","84","RUE DE BRETAGNE","62300");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1359","Fierville-Bray","France","21","RUE FRANCOIS COPPEE","14190");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1361","Flavignerot","France","63","ALLEE SARAH VAUGHAN","21160");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1363","Garéoult","France","48","RUE DANIEL MAYER","83136");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1363","Gareoult","France","48","RUE DANIEL MAYER","83136");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1365","Havelu","France","93","CHEMIN DE L ISLE DES RIVAUX","28410");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1367","La Coulonche","France","53","ROND-POINT EDISON","61220");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1369","La Ferté-Milon","France","9","QUAI DE LA VIEILLE ENTREE","02460");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1369","La Ferte-Milon","France","9","QUAI DE LA VIEILLE ENTREE","02460");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1371","Latette (La)","France","2","ALLEE DES EDELWEISS","39250");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1373","Magny-Lambert","France","19","RUE DE LA COTE DE JADE","21450");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1375","Marcé","France","34","PLACE FRANCOIS MARCEAU","49140");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1375","Marce","France","34","PLACE FRANCOIS MARCEAU","49140");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1377","Montaigut-sur-Save","France","13","QUAI DES GRANDS PUITS","31530");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1379","Montceaux-lès-Provins","France","16","RUE ANTOINE DE JUSSIEU","77151");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1379","Montceaux-les-Provins","France","16","RUE ANTOINE DE JUSSIEU","77151");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1381","Montesquieu-Guittaut","France","85","RUE FRANCOIS ARAGO","31230");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1383","Montrollet","France","7","RUE PIERRE DE BEAUMARCHAIS","16420");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1385","Moularès","France","3","ROUTE DE GUERANDE (RN771)","81190");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1387","Moyrazès","France","1","PLACE HENRI FOGEL","12160");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1389","Oyé","France","11","ROND-POINT MERMOZ","71610");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1385","Moulares","France","3","ROUTE DE GUERANDE (RN771)","81190");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1387","Moyrazes","France","1","PLACE HENRI FOGEL","12160");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1389","Oye","France","11","ROND-POINT MERMOZ","71610");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1391","Randevillers","France","21","CHEMIN DES PIETINS","25430");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1393","Ranspach-le-Bas","France","2","QUAI DU PONT ROULANT","68730");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1395","Relanges","France","39","RUE GUILLAUME APOLLINAIRE","88260");
@@ -4706,8 +4706,8 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1401","Saint-Pey-d'Armens","France","62","ROND-POINT DE LA CROIX AMISSE","33330");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1403","Saint-Sulpice-les-Bois","France","47","RUE AUGUSTE BAPTISTE LECHAT","19250");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1405","Saint-Vaast-sur-Seulles","France","12","RUE CLAUDE CHAPPE","14250");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1407","Sévignacq-Meyracq","France","53","RUE ANTOINE DE BAIF","64260");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1409","Taizé-Aizie","France","87","RUE ALEXANDRE LEDRU ROLLIN","16700");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1407","Sevignacq-Meyracq","France","53","RUE ANTOINE DE BAIF","64260");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1409","Taize-Aizie","France","87","RUE ALEXANDRE LEDRU ROLLIN","16700");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1411","Tosse","France","9","RUE JACQUES OFFENBACH","40230");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1413","Valleret","France","2","ROND-POINT DE GAVY","52130");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1415","Vaudreuille","France","62","PLACE VICTOR BOUET","31250");
@@ -4718,34 +4718,34 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1425","Bezange-la-Grande","France","65","ALLEE ROMY SCHNEIDER","54370");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1427","Bonvillers","France","37","RUE HENRI SELLIER","60120");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1429","Bozas","France","78","ROUTE DE FONDELINE","07410");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1431","Cérilly","France","46","PLACE JACQUES TATI","03350");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1431","Cerilly","France","46","PLACE JACQUES TATI","03350");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1433","Chevillard","France","4","SQUARE FRANCOIS GUIZOT","01430");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1435","Cortambert","France","1","PARC DES NOMADES","71250");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1437","Créhange","France","39","IMPASSE DE GAVY","57690");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1437","Crehange","France","39","IMPASSE DE GAVY","57690");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1439","Eynesse","France","6","ROUTE DES FRECHETS","33220");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1441","Gémozac","France","2","CHEMIN DE GONON","17260");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1441","Gemozac","France","2","CHEMIN DE GONON","17260");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1443","Issamoulenc","France","32","VENELLE JACQUES DAVID","07190");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1445","Jonchery","France","46","RUE GEORGES CLEMENCEAU","52000");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1447","La Riche","France","4","CHEMIN DES MILLAUDS","37520");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1449","Labège","France","57","ROUTE DE L ETANG","31670");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1449","Labege","France","57","ROUTE DE L ETANG","31670");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1451","Lamballe","France","73","RUE JEAN BAPTISTE MOLIERE","22400");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1453","Meillac","France","","RUE DE LA PETITE PATURE","35270");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1455","Méjannes-lès-Alès","France","39","RUE PIERRE DE BAYARD","30340");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1457","Ménétreux-le-Pitois","France","3","ALLEE DU BOUCARD","21150");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1455","Mejannes-les-Ales","France","39","RUE PIERRE DE BAYARD","30340");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1457","Menetreux-le-Pitois","France","3","ALLEE DU BOUCARD","21150");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1459","Monthenault","France","33","ALLEE DES PRES PACAUX","02860");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1461","Orcenais","France","75","RUE ADRIEN PICHON","18200");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1463","Parlan","France","8","RUE DE L ECLUSE","15290");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1465","Plainville","France","83","ROUTE DU GRILLON","27300");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1467","Provins","France","45","ALLEE JULIEN DUVIVIER","77160");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1469","Richtolsheim","France","27","RUE JULES VERNE","67390");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1471","Saint-Agnan-de-Cernières","France","83","ROUTE DES VIREES GILLES","27390");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1473","Saint-Félix-de-Lodez","France","38","ALLEE RENE CLAIR","34725");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1471","Saint-Agnan-de-Cernieres","France","83","ROUTE DES VIREES GILLES","27390");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1473","Saint-Felix-de-Lodez","France","38","ALLEE RENE CLAIR","34725");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1475","Saint-Jean-en-Royans","France","16","AVENUE DEMANGE","26190");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1477","Saint-Michel-de-Montjoie","France","42","RUE DES NOISETIERS","50670");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1479","Saint-Paul-en-Born","France","15","ALLEE DU CLOS HEMERY","40200");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1481","Saint-Vincent-Sterlanges","France","39","RUE DU BRIVET","85110");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1483","Salazac","France","21","ALLEE DES MYOSOTIS","30760");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1485","Savigné","France","57","RUE DU HONDURAS","86400");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1485","Savigne","France","57","RUE DU HONDURAS","86400");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1487","Sciecq","France","58","CHEMIN DE LA VILLA MINE","79000");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1489","Thil","France","26","SQUARE DE LA MUTUALITE","10200");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1491","Vincey","France","52","RUE ANDRE AMPERE","88450");
@@ -4753,8 +4753,8 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1495","Wargnies","France","9","ALLEE DES CARAIBES","80670");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1497","Bacqueville","France","77","PLACE GEORGES BRASSENS","27440");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1499","Barro","France","96","RUE MARCEL SEMBAT","16700");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1501","Batilly-en-Gâtinais","France","38","RUE DE LA VECQUERIE","45340");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1503","Bény","France","59","CHEMIN DE LA COURANCE","01370");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1501","Batilly-en-Gatinais","France","38","RUE DE LA VECQUERIE","45340");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1503","Beny","France","59","CHEMIN DE LA COURANCE","01370");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1505","Bionville-sur-Nied","France","82","RUE JOSEPH LE BRIX","57220");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1507","Bourgogne","France","33","RUE LEON BOURGEOIS","51110");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1509","Bretonvillers","France","81","RUE ALEXANDRE VEZIN","25380");
@@ -4767,16 +4767,16 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1523","Dunkerque","France","72","RUE MICHEL DE MONTAIGNE","59140");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1525","Euzet","France","87","RUE DES TROENES","30360");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1527","Gevry","France","93","RUE FRANZ SCHUBERT","39100");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1529","Hannogne-Saint-Rémy","France","14","ALLEE DE L ANCOLIE","08220");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1529","Hannogne-Saint-Remy","France","14","ALLEE DE L ANCOLIE","08220");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1531","L'Etrat","France","33","RUE ANDRE CHENIER","42580");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1533","Lagarde","France","15","PASSAGE DU TALWEG","31290");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1535","Le Montellier","France","86","ALLEE DES ROSES","01800");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1537","Le Plessis-Grimoult","France","76","PARKING DU BOIS SAVARY","14770");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1539","Marseillan","France","28","PASSAGE DU GRAND PRE","65350");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1541","Moulézan","France","79","RUE HENRI DE MONFREID","30350");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1541","Moulezan","France","79","RUE HENRI DE MONFREID","30350");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1543","Oudeuil","France","69","CHEMIN DU GRAND FOSSE","60860");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1545","Pianello","France","57","RUE HONORE DE BALZAC","20272");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1547","Piégut-Pluviers","France","12","BOULEVARD DE SARRELOUIS","24360");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1547","Piegut-Pluviers","France","12","BOULEVARD DE SARRELOUIS","24360");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1549","Plainoiseau","France","32","PLACE DES 8 ET 11 MAI 1945","39210");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1551","Rochefort-Samson","France","47","ROUTE DE L ILE DE LEAUFOUIS","26300");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1553","Sailly-Flibeaucourt","France","13","RUE DES MARRONNIERS","80970");
@@ -4787,7 +4787,7 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1563","Turqueville","France","99","RUE PITRE GRENAPIN","50480");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1565","Verdun","France","9","QUAI DEMANGE","09310");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1567","Verneuil-Grand","France","98","AVENUE SUZANNE LENGLEN","55600");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1569","Villiers-sur-Chizé","France","82","ALLEE DU DOCTEUR SCHWEITZER","79170");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1569","Villiers-sur-Chize","France","82","ALLEE DU DOCTEUR SCHWEITZER","79170");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1571","Aizelles","France","39","ROUTE DE LA FIN","02820");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1573","Bertrancourt","France","72","PARKING PHILIPPE LEBON","80560");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1575","Bourghelles","France","58","RUE DES ABATTOIRS","59830");
@@ -4800,11 +4800,11 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1589","Labastide-Saint-Sernin","France","6","ALLEE SYDNEY BECHET","31620");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1591","Le Grand-Bornand","France","38","RUE DE TOULOUSE LAUTREC","74450");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1593","Leurville","France","88","IMPASSE DE L OCEAN","52700");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1595","Mérens-les-Vals","France","67","PLACE DU COMMANDO","09110");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1597","Moncheaux-lès-Frévent","France","23","ROUTE DES GRANDS CHAMPS","62270");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1595","Merens-les-Vals","France","67","PLACE DU COMMANDO","09110");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1597","Moncheaux-les-Frevent","France","23","ROUTE DES GRANDS CHAMPS","62270");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1599","Munster","France","93","PASSAGE PAUL PERRIN","57670");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1601","Neuviller-lès-Badonviller","France","76","RUE GUSTAVE EIFFEL","54540");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1603","Oléac-Dessus","France","8","ALLEE LEON FOUCAULT","65190");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1601","Neuviller-les-Badonviller","France","76","RUE GUSTAVE EIFFEL","54540");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1603","Oleac-Dessus","France","8","ALLEE LEON FOUCAULT","65190");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1605","Orville","France","95","ROUTE DE LA NOE D ARMANGEO","36210");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1607","Ovillers-la-Boisselle","France","57","ALLEE DES SOPHORAS","80300");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1609","Paroy-en-Othe","France","35","ALLEE DES JONQUILLES","89210");
@@ -4818,57 +4818,57 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1625","Saint-Sulpice-d'Excideuil","France","75","CHEMIN DE LA MOISSONNERIE","24800");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1627","Saint-Victor-des-Oules","France","7","PASSAGE CHAMPS DU MOULIN DE MEAN","30700");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1629","Sainte-Foy-d'Aigrefeuille","France","29","PLACE DE L EGLISE DE MEAN","31570");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1631","Tassé","France","45","ALLEE ARISTIDE MAILLOL","72430");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1633","Théville","France","64","RUE EDOUARD VAILLANT","50330");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1631","Tasse","France","45","ALLEE ARISTIDE MAILLOL","72430");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1633","Theville","France","64","RUE EDOUARD VAILLANT","50330");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1635","Treignat","France","44","QUAI DE MEAN","03380");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1637","Us","France","86","PASSAGE CDT GATE","95450");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1639","Villard-Reculas","France","49","RUE JEAN GIRAUDOUX","38114");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1641","Villers-lès-Guise","France","91","RUE JEAN JOSEPH MOUNIER","02120");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1641","Villers-les-Guise","France","91","RUE JEAN JOSEPH MOUNIER","02120");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1643","Asnois","France","11","ALLEE MARCEL ACHARD","58190");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1645","Avignon-lès-Saint-Claude","France","82","CHEMIN DES BROSSES","39200");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1645","Avignon-les-Saint-Claude","France","82","CHEMIN DES BROSSES","39200");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1647","Baillestavy","France","94","RUE DOCTEUR XAVIER BICHAT","66320");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1649","Beauziac","France","1","RUE EUGENE CORNET","47700");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1651","Besse","France","15","RUE DES FRENES","15140");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1653","Brouckerque","France","6","ROUTE DE LA CHAPONNERIE","59630");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1655","Brûlain","France","27","RUE DE NORMANDIE","79230");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1655","Brulain","France","27","RUE DE NORMANDIE","79230");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1657","Cayeux-en-Santerre","France","37","IMPASSE DE L'ILE DES FRECHAILLES","80720");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1659","Châteaudouble","France","1","CHEMIN DE LA SETRAIE","83300");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1661","Chézy-sur-Marne","France","4","QUAI DE PENHOET","02570");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1659","Chateaudouble","France","1","CHEMIN DE LA SETRAIE","83300");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1661","Chezy-sur-Marne","France","4","QUAI DE PENHOET","02570");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1663","Fontaine-les-Bassets","France","8","RUE EDMOND ROSTAND","61160");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1665","Fontenoy-sur-Moselle","France","38","SQUARE DU SOUVENIR FRANCAIS","54840");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1667","Fouchères","France","51","CHEMIN DE CHEMOULIN","89150");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1667","Foucheres","France","51","CHEMIN DE CHEMOULIN","89150");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1669","Franqueville","France","84","RUE DU MENHIR","27800");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1671","Fresse","France","4","RUE DE LA TRINITE","70270");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1673","Ghisoni","France","37","RUE DU CDT GUSTAVE GATE","20227");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1675","Grièges","France","88","ALLEE AGATHA CHRISTIE","01290");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1675","Grieges","France","88","ALLEE AGATHA CHRISTIE","01290");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1677","Hagenthal-le-Bas","France","71","IMPASSE DES ROSIERES","68220");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1679","Hottot-les-Bagues","France","52","ROND-POINT LAENNEC","14250");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1681","Joncherey","France","33","RUE RENE LESAGE","90100");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1683","L'Abergement-de-Varey","France","85","ALLEE DES RENONCULES","01640");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1685","La Touche","France","23","CHEMIN DE L'ILE D'ARMANGEO","26160");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1687","Laferté-sur-Aube","France","14","ALLEE DES JACINTHES","52120");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1687","Laferte-sur-Aube","France","14","ALLEE DES JACINTHES","52120");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1689","Landelles","France","99","PLACE MARTYRS RESISTANCE","28190");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1691","Lebetain","France","19","RUE DE LA PETITE CALIFORNIE","90100");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1693","Les Roches-de-Condrieu","France","38","PARKING DES QUATRE Z'HORLOGES","38370");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1695","Loreux","France","79","PLACE PARC DU 19 MARS 1962","41200");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1697","Magny-Danigon","France","38","ROUTE DU BOIS JOALLAND (RN771)","70200");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1699","Méménil","France","2","ROND-POINT DU FOUR A PAIN","88600");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1701","Mercey-sur-Saône","France","54","CHEMIN DES VIREES DES LANDES","70130");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1699","Memenil","France","2","ROND-POINT DU FOUR A PAIN","88600");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1701","Mercey-sur-Saone","France","54","CHEMIN DES VIREES DES LANDES","70130");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1703","Parly","France","33","QUAI DES FREGATES","89240");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1705","Querrien","France","74","ALLEE MICHEL PETRUCCIANI","29310");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1707","Quetteville","France","56","BOULEVARD PRESIDENT WILSON","14130");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1709","Quincampoix-Fleuzy","France","9","AVENUE DE LA PRISE D EAU","60220");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1711","Réchicourt-le-Château","France","41","RUE VINCENT AURIOL","57810");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1713","Saint-Denis-du-Béhélan","France","32","RUE DE L HIPPODROME","27160");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1711","Rechicourt-le-Chateau","France","41","RUE VINCENT AURIOL","57810");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1713","Saint-Denis-du-Behelan","France","32","RUE DE L HIPPODROME","27160");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1715","Saint-Julien-de-l'Herms","France","55","RUE DU DOC PIERRE ROUX","38122");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1717","Saint-Quentin-les-Chardonnets","France","5","ALLEE DE L EPINE BLANCHE","61800");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1719","Saint-Salvy-de-la-Balme","France","79","RUE THOMAS EDISON","81490");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1721","Saint-Sébastien","France","17","ALLEE DES HORTENSIAS","38710");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1721","Saint-Sebastien","France","17","ALLEE DES HORTENSIAS","38710");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1723","Sainte-Florence","France","1","PASSAGE DE CARDURAND","85140");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1725","Sompt","France","58","ALLEE DES FOUS DE BASSAN","79110");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1727","Thil","France","58","RUE JOACHIM DU BELLAY","31530");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1729","Vairé","France","68","RUE GAULOISE","85150");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1731","Vielleségure","France","97","BOULEVARD MOULIN DE LA BUTTE","64150");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1729","Vaire","France","68","RUE GAULOISE","85150");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1731","Viellesegure","France","97","BOULEVARD MOULIN DE LA BUTTE","64150");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1733","Villeneuve-d'Olmes","France","99","ROUTE DU BAS LEAUFOUIS","09300");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1735","Villers-Allerand","France","4","RUE GASTON GUILLORE","51500");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1737","Wargemoulin-Hurlus","France","19","RUE DE LA MATTE","51800");
@@ -4878,14 +4878,14 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1745","Basse-Terre","France","95","ALLEE DES SALICAIRES","97100");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1747","Beauchalot","France","15","ROUTE DE LA VILLES HEULIN","31360");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1749","Blagny","France","54","RUE EUGENE DAVIERS","08110");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1751","Boëssé-le-Sec","France","8","RUE DES FRERES PEREIRE","72400");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1751","Boesse-le-Sec","France","8","RUE DES FRERES PEREIRE","72400");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1753","Brainville","France","24","ALLEE DES JASMINS","54800");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1755","Camarès","France","3","ALLEE MADAME DE STAEL","12360");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1755","Camares","France","3","ALLEE MADAME DE STAEL","12360");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1757","Clairy-Saulchoix","France","31","ALLEE PIERRE JEAN RONARC'H","80540");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1759","Coulogne","France","74","CHEMIN DES POULS HAUTS","62137");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1761","Cuzac","France","7","RUE MICHAEL FARADAY","46270");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1763","Déville-lès-Rouen","France","41","ROUTE DES AUBINAIS","76250");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1765","Esplas-de-Sérou","France","95","ROND-POINT DE CRAN NEUF","09420");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1763","Deville-les-Rouen","France","41","ROUTE DES AUBINAIS","76250");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1765","Esplas-de-Serou","France","95","ROND-POINT DE CRAN NEUF","09420");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1767","Fornex","France","78","SQUARE DE LA FONTAINE NOYAU","09350");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1769","Fourdrain","France","6","RUE DES ERABLES","02870");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1771","Heimsbrunn","France","89","SQUARE DES ACACIAS","68990");
@@ -4907,7 +4907,7 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1803","Saint-Laurent-de-Mure","France","94","IMPASSE DES FAUVETTES","69720");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1805","Saint-Outrille","France","47","CENTRE CIAL DE KERLEDE","18310");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1807","Saint-Palais","France","97","RUE PAUL BROUSSE","03370");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1809","Teillé","France","9","RUE DES SORBIERS","44440");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1809","Teille","France","9","RUE DES SORBIERS","44440");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1811","Urbanya","France","71","RUE PIERRE LOTI","66500");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1813","Valence","France","8","ROUTE DES CHAMPS LAMBERT","82400");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1815","Villepot","France","34","ROUTE DE LA FONTAINE TUAUD","44110");
@@ -4918,41 +4918,41 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1825","Andouque","France","32","IMPASSE DES VIREES ROUILLARD","81350");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1827","Anoux","France","1","ALLEE DU BOIS DE CHAPELLE","54150");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1829","Arquettes-en-Val","France","44","RUE DU FOUR","11220");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1831","Arquèves","France","2","RUE DES GOELANDS","80560");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1831","Arqueves","France","2","RUE DES GOELANDS","80560");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1833","Bayas","France","96","PLACE DES QUATRE Z'HORLOGES","33230");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1835","Brantigny","France","87","ROUTE DE GAVY","88130");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1837","Bussy","France","87","IMPASSE DU PETIT BOIS","18130");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1839","Charix","France","61","ROND-POINT DU PLESSIS","01130");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1841","Chézery-Forens","France","98","CHEMIN DU CALVAIRE DES ROCHELLES","01200");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1841","Chezery-Forens","France","98","CHEMIN DU CALVAIRE DES ROCHELLES","01200");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1843","Condorcet","France","2","IMPASSE EDOUARD VAILLANT","26110");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1845","Contres","France","42","ROND-POINT DE LA MISSAUDIERE","18130");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1847","Courtes","France","97","RUE NEUVE","01560");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1849","Dampierre-sur-Moivre","France","41","ALLEE DU CHEBEC","51240");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1851","Epégard","France","58","ALLEE JEAN PIERRE MELVILLE","27110");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1851","Epegard","France","58","ALLEE JEAN PIERRE MELVILLE","27110");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1853","Evian-les-Bains","France","76","ALLEE LOUIS DELLUC","74500");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1855","Fontaine-lès-Clercs","France","46","ALLEE LOUIS PERGAUD","02680");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1855","Fontaine-les-Clercs","France","46","ALLEE LOUIS PERGAUD","02680");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1857","Forest-l'Abbaye","France","36","RUE RENE GUILLOUZO","80150");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1859","Francazal","France","99","IMPASSE LOUISE MICHEL","31260");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1861","Gorrevod","France","98","ALLEE FRANCOIS TRUFFAUT","01190");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1863","Herm","France","65","RUE LOUIS BLANC","40990");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1865","Mérobert","France","68","RUE DU MARCHE","91780");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1865","Merobert","France","68","RUE DU MARCHE","91780");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1867","Monchy-Cayeux","France","97","ALLEE ANDRE PILLIAIRE","62134");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1869","Monclar-de-Quercy","France","23","QUAI DEMANGE","82230");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1871","Montesquieu","France","27","ALLEE DE LA TRAMONTANE","34320");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1873","Nevers","France","28","RUE DES HETRES","58000");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1875","Névez","France","27","ROUTE DE LA LAMBERDERIE","29920");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1875","Nevez","France","27","ROUTE DE LA LAMBERDERIE","29920");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1877","Petit-Failly","France","66","RUE ANATOLE FRANCE","54260");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1879","Planches-en-Montagne (Les)","France","93","RUE BAC DE MINDIN","39150");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1881","Pranzac","France","25","ALLEE DES CAMELIAS","16110");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1883","Prémont","France","44","RUE ETIENNE DOLET","02110");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1883","Premont","France","44","RUE ETIENNE DOLET","02110");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1885","Prunelli-di-Casacconi","France","17","ALLEE DES PLUVIERS","20290");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1887","Saint-Armel","France","95","ALLEE DES AIGRETTES","35230");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1889","Saint-Martin-de-Lerm","France","3","ALLEE ROSA PARKS","33540");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1891","Saint-Même-les-Carrières","France","89","AVENUE DE LA FALAISE","16720");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1891","Saint-Meme-les-Carrieres","France","89","AVENUE DE LA FALAISE","16720");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1893","Saint-Michel-de-Chabrillanoux","France","24","IMPASSE DU BIGNON","07360");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1895","Santeau","France","15","ALLEE DES CAREX","45170");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1897","Soréac","France","27","RUE EDMOND ABOUT","65350");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1899","Vésigneul-sur-Marne","France","36","PLACE MARCEL PAUL","51240");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1897","Soreac","France","27","RUE EDMOND ABOUT","65350");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1899","Vesigneul-sur-Marne","France","36","PLACE MARCEL PAUL","51240");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1901","Arganchy","France","45","LOTISSEMENT BLANDEAU","14400");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1903","Armancourt","France","83","RUE DE MEXICO","60880");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1905","Auberives-en-Royans","France","79","IMPASSE DES MULES","38680");
@@ -4970,29 +4970,29 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1929","La Creuse","France","78","RUE EMILE LITTRE","70240");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1931","La Turbie","France","99","RUE AMIRAL COURBET","06320");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1933","Lanas","France","34","RUE JEAN MACE","07200");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1935","Larivière-Arnoncourt","France","15","QUAI DU PORT DE MEAN","52400");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1937","Mignères","France","56","IMPASSE DE BEAC","45490");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1939","Montreuil-Juigné","France","71","QUAI DE LA VIEILLE VILLE","49460");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1935","Lariviere-Arnoncourt","France","15","QUAI DU PORT DE MEAN","52400");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1937","Migneres","France","56","IMPASSE DE BEAC","45490");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1939","Montreuil-Juigne","France","71","QUAI DE LA VIEILLE VILLE","49460");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1941","Moulinet","France","59","ALLEE DES FLAMANTS","06380");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1943","Saint-Calais","France","97","RUE BERNARD PALISSY","72120");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1945","Saint-Clément-à-Arnes","France","59","PASSAGE DU DOLMEN","08310");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1945","Saint-Clement-a-Arnes","France","59","PASSAGE DU DOLMEN","08310");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1947","Saint-Deniscourt","France","28","RUE GEORGE SAND","60380");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1949","Saint-Genest","France","28","ROND-POINT OCEANIS","88700");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1951","Saint-Jean-de-la-Léqueraye","France","45","QUAI DES ANTIQUES","27560");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1951","Saint-Jean-de-la-Lequeraye","France","45","QUAI DES ANTIQUES","27560");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1953","Seilh","France","91","ALLEE ANDRE MICHAUX","31840");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1955","Tallud-Sainte-Gemme","France","86","RUE ETIENNE CHAILLON","85390");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1957","Troissy","France","33","RUE FRANCOIS ADRIEN BOIELDIEU","51700");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1959","Ugine","France","3","IMPASSE ANDRE GIDE","73400");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1961","Vieux-Reng","France","95","RUE DES CHANTIERS","59600");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1963","Vy-lès-Lure","France","15","BOULEVARD DE L'ATLANTIQUE","70200");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1963","Vy-les-Lure","France","15","BOULEVARD DE L'ATLANTIQUE","70200");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1965","Beaumont-les-Nonains","France","66","ALLEE ELLA FITZGERALD","60390");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1967","Berchères-les-Pierres","France","55","RUE D YPRES","28630");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1967","Bercheres-les-Pierres","France","55","RUE D YPRES","28630");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1969","Bindernheim","France","94","ALLEE DES VOLUBILIS","67600");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1971","Changé","France","6","ALLEE DES COURLIS","53810");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1971","Change","France","6","ALLEE DES COURLIS","53810");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1973","Cuiry-Housse","France","4","CHEMIN DE LA FIN","02220");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1975","Faches-Thumesnil","France","85","ALLEE DES EIDERS","59155");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1977","Faverolles","France","25","RUE PAUL GAUGUIN","28210");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1979","Genté","France","96","RUE DE LA VILLE AUX FEVES","16130");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1979","Gente","France","96","RUE DE LA VILLE AUX FEVES","16130");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1981","Grugies","France","62","RUE FERNAND GASNIER","02680");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1983","Jullouville","France","68","nom","50610");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("1985","La Haye-du-Puits","France","67","RUE DE L ILE DU LIN","50250");
@@ -5012,7 +5012,7 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("2013","Saint-Hippolyte-de-Caton","France","35","CHEMIN DE LA DUNEVESSE","30360");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("2015","Saint-Maurice-en-Quercy","France","94","ROUTE DE LA VILLEZ PIERRE","46120");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("2017","Saint-Paul","France","17","ROND-POINT D'HEINLEX","33390");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("2019","Saint-Rémy-des-Landes","France","4","IMPASSE JEANNE D ARC","50580");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("2019","Saint-Remy-des-Landes","France","4","IMPASSE JEANNE D ARC","50580");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("2021","Saint-Sigismond-de-Clermont","France","53","RUE PAUL-EMILE VICTOR","17240");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("2023","Ternant","France","9","RUE CAMILLE DESMOULINS","21220");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("2025","Treffieux","France","37","RUE LOUIS BLANQUI","44170");
@@ -5025,21 +5025,21 @@ INSERT INTO bcf_address (address_id,address_city,address_country,address_number,
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("2039","Antony","France","22","PLACE DE L ANCIENNE CHAPELLE","92160");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("2041","Barembach","France","44","PLACE PARC DU MARCHE","67130");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("2043","Bouaye","France","89","RUE HENRI GAUTIER","44830");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("2045","Castelnau-de-Médoc","France","12","ALLEE DES BOSQUETS","33480");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("2045","Castelnau-de-Medoc","France","12","ALLEE DES BOSQUETS","33480");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("2047","Chappes","France","78","RUE DE LA FLORIDE","10260");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("2049","Droué","France","96","ALLEE DES LIERRES","41270");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("2049","Droue","France","96","ALLEE DES LIERRES","41270");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("2051","Epenouse","France","7","SQUARE GEORGES BENIGUEL","25530");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("2053","Floursies","France","14","RUE DE NORMANDIE NIEMEN","59440");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("2055","Graissac","France","24","CHEMIN DE PORCE","12420");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("2057","Huchenneville","France","1","RUE AMBROISE PARE","80132");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("2059","Laperche","France","27","RUE JEAN PHILIPPE RAMEAU","47800");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("2061","Le Lion-d'Angers","France","75","RUE FRANCIS DE PRESSENSE","49220");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("2063","Les Métairies","France","56","RUE PIERRE LAPLACE","16200");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("2063","Les Metairies","France","56","RUE PIERRE LAPLACE","16200");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("2065","Lias-d'Armagnac","France","2","CHEMIN DU PRAZILLON","32240");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("2067","Limay","France","35","AVENUE D HERBINS","78520");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("2069","Linthelles","France","56","RUE DE SAINTONGE","51230");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("2071","Mimet","France","56","RUE CLAUDE DEBUSSY","13105");
-INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("2073","Montréal","France","86","VENELLE FRANCOIS GOSSEC","89420");
+INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("2073","Montreal","France","86","VENELLE FRANCOIS GOSSEC","89420");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("2075","Pontaubault","France","88","RUE DES AMANDIERS","50220");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("2077","Port-Mort","France","73","RUE DES ARDOISES","27940");
 INSERT INTO bcf_address (address_id,address_city,address_country,address_number,address_street,address_zip_code) VALUES ("2079","Rhodes","France","44","RUE AUGUSTE COMTE","57810");
@@ -10003,101 +10003,101 @@ INSERT INTO bcf_media (media_id) VALUES (1066);
 --ARTICLE INITIALIZATION
 --------------------------------------------------------------------
 --------------------------------------------------------------------
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Header',"1","Header projet 1","Le seul moyen de se délivrer de la tentation, c'est d'y céder.#Oscar Wilde");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Header',"1","Header projet 1","Le seul moyen de se delivrer de la tentation, c'est d'y ceder.#Oscar Wilde");
 INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Header',"2","Header projet 2","Le mariage est la cause principale de divorce.#Oscar Wilde");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Header',"3","Header projet 3","Mourir, ce n'est rien. Commence donc par vivre. C'est moins drôle et c'est plus long#Jean Anouilh");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Header',"3","Header projet 3","Mourir, ce n'est rien. Commence donc par vivre. C'est moins drole et c'est plus long#Jean Anouilh");
 INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Header',"4","Header projet 4","Les raisons d'aimer et de vivre varient comme font les saisons.#Louis Aragon");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Header',"5","Header projet 5","Le temps d'apprendre à vivre, il est déjà trop tard.#Louis Aragon");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Header',"6","Header projet 6","La vie n'est jamais aussi compliquée que se plaisent à l'imaginer les têtes faibles.#Marcel Aymé");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Header',"7","Header projet 7","La vie est pleine de désillusions, de malheurs et de souffrances, et le pire c'est qu'elle est beaucoup trop courte.#Woody Allen");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Header',"8","Header projet 8","Si je recommençais ma vie je tâcherais de faire mes rêves encore plus grands ; parce que la vie est infiniment plus belle et plus grande que je n'avais cru, même en rêve.#Georges Bernanos");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Header',"9","Header projet 9","L'homme devrait mettre autant d'ardeur à simplifier sa vie qu'il en met à la compliquer.#Henri Bergson");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Footer',"10","Footer projet 1","Personne ne peut savoir si le monde est fantastique ou réel, et non plus s'il existe une différence entre rêver et vivre.#Jorge Luis Borges");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Footer',"11","Footer projet 2","Vivre, c'est ne pas se résigner.#Albert Camus");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Footer',"12","Footer projet 3","Heureuse ou malheureuse, la vie est le seul trésor que l'homme possède, et ceux qui ne l'aiment pas n'en sont pas dignes.#Giacomo Casanova");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Footer',"13","Footer projet 4","Il n'y a que deux conduites avec la vie : ou on la rêve ou on l'accomplit.#René Char");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Footer',"14","Footer projet 5","La vie ? Le voyage vaut d'être fait, au moins une fois.#Winston Churchill");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Footer',"15","Footer projet 6","Travaille comme si tu n'avais pas besoin d'argent, aime comme si personne ne t'avait jamais fait souffrir, danse comme si personne ne te regardait, chante comme si personne ne t'écoutait, vis comme si le paradis était sur la terre.#Dalaï-Lama");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Footer',"16","Footer projet 7","Du matin au soir, ils disent du mal de la vie, et ils ne peuvent se résoudre à la quitter !#Denis Diderot");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Footer',"17","Footer projet 8","Le secret de l'existence humaine consiste non pas seulement à vivre, mais à trouver un motif de vivre.#Fedor Dostoïevski");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Footer',"18","Footer projet 9","Avant d'aller chercher le sens de la vie, aime la vie. Si tu aimes la vie, tu deviens un vivant.#Fedor Dostoïevski");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"19","article 1 du projet 1","Je pense donc je suis.#René Descartes");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"20","article 2 du projet 1","La vie est une aventure, elle doit être sans cesse disputée à la mort.#Albert Einstein");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"21","article 3 du projet 1","La vie, c'est comme une bicyclette, il faut avancer pour ne pas perdre l'équilibre.#Albert Einstein");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Header',"5","Header projet 5","Le temps d'apprendre a vivre, il est deja trop tard.#Louis Aragon");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Header',"6","Header projet 6","La vie n'est jamais aussi compliquee que se plaisent a l'imaginer les tetes faibles.#Marcel Ayme");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Header',"7","Header projet 7","La vie est pleine de desillusions, de malheurs et de souffrances, et le pire c'est qu'elle est beaucoup trop courte.#Woody Allen");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Header',"8","Header projet 8","Si je recommencais ma vie je tacherais de faire mes reves encore plus grands ; parce que la vie est infiniment plus belle et plus grande que je n'avais cru, meme en reve.#Georges Bernanos");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Header',"9","Header projet 9","L'homme devrait mettre autant d'ardeur a simplifier sa vie qu'il en met a la compliquer.#Henri Bergson");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Footer',"10","Footer projet 1","Personne ne peut savoir si le monde est fantastique ou reel, et non plus s'il existe une difference entre rever et vivre.#Jorge Luis Borges");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Footer',"11","Footer projet 2","Vivre, c'est ne pas se resigner.#Albert Camus");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Footer',"12","Footer projet 3","Heureuse ou malheureuse, la vie est le seul tresor que l'homme possede, et ceux qui ne l'aiment pas n'en sont pas dignes.#Giacomo Casanova");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Footer',"13","Footer projet 4","Il n'y a que deux conduites avec la vie : ou on la reve ou on l'accomplit.#Rene Char");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Footer',"14","Footer projet 5","La vie ? Le voyage vaut d'etre fait, au moins une fois.#Winston Churchill");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Footer',"15","Footer projet 6","Travaille comme si tu n'avais pas besoin d'argent, aime comme si personne ne t'avait jamais fait souffrir, danse comme si personne ne te regardait, chante comme si personne ne t'ecoutait, vis comme si le paradis etait sur la terre.#Dalai-Lama");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Footer',"16","Footer projet 7","Du matin au soir, ils disent du mal de la vie, et ils ne peuvent se resoudre a la quitter !#Denis Diderot");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Footer',"17","Footer projet 8","Le secret de l'existence humaine consiste non pas seulement a vivre, mais a trouver un motif de vivre.#Fedor Dostoievski");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Footer',"18","Footer projet 9","Avant d'aller chercher le sens de la vie, aime la vie. Si tu aimes la vie, tu deviens un vivant.#Fedor Dostoievski");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"19","article 1 du projet 1","Je pense donc je suis.#Rene Descartes");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"20","article 2 du projet 1","La vie est une aventure, elle doit etre sans cesse disputee a la mort.#Albert Einstein");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"21","article 3 du projet 1","La vie, c'est comme une bicyclette, il faut avancer pour ne pas perdre l'equilibre.#Albert Einstein");
 INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"22","article 4 du projet 1","Aimes tu la vie ? Alors ne gaspille pas ton temps, car il est l'essence de la vie.#Benjamin Franklin");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"23","article 5 du projet 1","Ne prenez pas la vie au sérieux. De toute façon, vous n'en sortirez pas vivant.#Bernard Le Bouyer de Fontenelle");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"24","article 6 du projet 1","Je me rappelais que mon père avait coutume de dire que le but de la vie, c'est de se préparer à rester mort très longtemps.#William Faulkner");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"25","article 7 du projet 1","Soudain, le chant d'un oiseau, le soleil sur le feuillage ou les bourgeons d'un taillis me rappellent que la vie, depuis qu'elle parût sur la Terre, livre un combat qu'elle n'a jamais perdu.#Charles de Gaulle");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"23","article 5 du projet 1","Ne prenez pas la vie au serieux. De toute facon, vous n'en sortirez pas vivant.#Bernard Le Bouyer de Fontenelle");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"24","article 6 du projet 1","Je me rappelais que mon pere avait coutume de dire que le but de la vie, c'est de se preparer a rester mort tres longtemps.#William Faulkner");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"25","article 7 du projet 1","Soudain, le chant d'un oiseau, le soleil sur le feuillage ou les bourgeons d'un taillis me rappellent que la vie, depuis qu'elle parut sur la Terre, livre un combat qu'elle n'a jamais perdu.#Charles de Gaulle");
 INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"26","article 8 du projet 1","Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.#Gandhi");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"27","article 9 du projet 1","La vie est un mystère qu'il faut vivre, et non un problème à résoudre.#Gandhi");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"27","article 9 du projet 1","La vie est un mystere qu'il faut vivre, et non un probleme a resoudre.#Gandhi");
 INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"28","article 1 du projet 2","Vous ne pouvez pas attendre de la vie d'avoir un sens, vous devez lui en donner un.#Romain Gary");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"29","article 2 du projet 2","Si je ne savais pas d'avance que je vais mourir un jour, si je n'étais pas certain de ne pas avoir tout le temps, je ne me soucierais pas de ma vie. Ce n'est donc pas la mort qui nous vient du temps, mais le temps qui nous vient de la mort.#Heidegger");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"29","article 2 du projet 2","Si je ne savais pas d'avance que je vais mourir un jour, si je n'etais pas certain de ne pas avoir tout le temps, je ne me soucierais pas de ma vie. Ce n'est donc pas la mort qui nous vient du temps, mais le temps qui nous vient de la mort.#Heidegger");
 INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"30","article 3 du projet 2","Je ne suis rien, je le sais, mais je compose mon rien avec un petit morceau de tout.#Victor Hugo");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"31","article 4 du projet 2","La vie est une succession de leçons qu'il faut avoir vécues pour les comprendre.#Helen Keller");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"32","article 5 du projet 2","Si moi, sourde et aveugle, je trouve la vie riche et intéressante, que doit-elle être pour vous qui possédez vos cinq sens ! #Helen Keller");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"33","article 6 du projet 2","Il n'y a pour l'homme que trois événements : naître, vivre et mourir. Il ne se sent pas naître, il souffre à mourir, et il oublie de vivre.#Jean de La Bruyère");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"34","article 7 du projet 2","La vie pour qui tente de vivre droit, c'est chose de sucré et salé, douce et amère, convulsive et sereine.#Jean Lurçat");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"35","article 8 du projet 2","Une vie ne vaut rien, mais rien ne vaut une vie.#André Malraux");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"36","article 9 du projet 2","Notre vie est ce qu'en font nos pensées.#Marc Aurèle");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"37","article 1 du projet 3","Voici la morale parfaite : vivre chaque jour comme si c'était le dernier, ne pas s'agiter, ne pas sommeiller, ne pas faire semblant.#Marc Aurèle");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"38","article 2 du projet 3","La vie est un combat, accepte-le.#Mère Teresa");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"39","article 3 du projet 3","La vie est une chance, saisis-la.#Mère Teresa");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"40","article 4 du projet 3","Qui apprendrait aux hommes à mourir, leur apprendrait à vivre.#Michel de Montaigne");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"41","article 5 du projet 3","C'est un malheur qu'il y a trop peu d'intervalle entre le temps où l'on est trop jeune et le temps où l'on est trop vieux.#Montesquieu");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"42","article 6 du projet 3","Aller sur la Lune, ce n'est pas si loin. Le voyage le plus lointain, c'est à l'intérieur de soi-même.#Anaïs Nin");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"31","article 4 du projet 2","La vie est une succession de lecons qu'il faut avoir vecues pour les comprendre.#Helen Keller");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"32","article 5 du projet 2","Si moi, sourde et aveugle, je trouve la vie riche et interessante, que doit-elle etre pour vous qui possedez vos cinq sens ! #Helen Keller");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"33","article 6 du projet 2","Il n'y a pour l'homme que trois evenements : naitre, vivre et mourir. Il ne se sent pas naitre, il souffre a mourir, et il oublie de vivre.#Jean de La Bruyere");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"34","article 7 du projet 2","La vie pour qui tente de vivre droit, c'est chose de sucre et sale, douce et amere, convulsive et sereine.#Jean Lurcat");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"35","article 8 du projet 2","Une vie ne vaut rien, mais rien ne vaut une vie.#Andre Malraux");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"36","article 9 du projet 2","Notre vie est ce qu'en font nos pensees.#Marc Aurele");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"37","article 1 du projet 3","Voici la morale parfaite : vivre chaque jour comme si c'etait le dernier, ne pas s'agiter, ne pas sommeiller, ne pas faire semblant.#Marc Aurele");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"38","article 2 du projet 3","La vie est un combat, accepte-le.#Mere Teresa");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"39","article 3 du projet 3","La vie est une chance, saisis-la.#Mere Teresa");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"40","article 4 du projet 3","Qui apprendrait aux hommes a mourir, leur apprendrait a vivre.#Michel de Montaigne");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"41","article 5 du projet 3","C'est un malheur qu'il y a trop peu d'intervalle entre le temps ou l'on est trop jeune et le temps ou l'on est trop vieux.#Montesquieu");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"42","article 6 du projet 3","Aller sur la Lune, ce n'est pas si loin. Le voyage le plus lointain, c'est a l'interieur de soi-meme.#Anais Nin");
 INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"43","article 7 du projet 3","Il faut avoir une grande musique en soi si l'on veut faire danser la vie.#Friedrich Nietzsche");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"44","article 8 du projet 3","Nous avons autant besoin de raisons de vivre que de quoi vivre.#Abbé Pierre");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"45","article 9 du projet 3","Plus j'avance en âge et plus je suis convaincu qu'il y a deux choses essentielles dans la vie à ne pas rater : aimer et mourir.#Abbé Pierre");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"46","article 1 du projet 4","Il y a sur cette terre des gens qui s'entretuent : c'est pas gai. Je sais. Il y a aussi des gens qui s'entrevivent. J'irai les rejoindre.#Jacques Prévert");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"47","article 2 du projet 4","La vie, c'est comme un autobus. Quand tu te retournes, tu t'aperçois qu'il y en a beaucoup qui sont déjà descendus.#Marcel Pagnol");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"44","article 8 du projet 3","Nous avons autant besoin de raisons de vivre que de quoi vivre.#Abbe Pierre");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"45","article 9 du projet 3","Plus j'avance en age et plus je suis convaincu qu'il y a deux choses essentielles dans la vie a ne pas rater : aimer et mourir.#Abbe Pierre");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"46","article 1 du projet 4","Il y a sur cette terre des gens qui s'entretuent : c'est pas gai. Je sais. Il y a aussi des gens qui s'entrevivent. J'irai les rejoindre.#Jacques Prevert");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"47","article 2 du projet 4","La vie, c'est comme un autobus. Quand tu te retournes, tu t'apercois qu'il y en a beaucoup qui sont deja descendus.#Marcel Pagnol");
 INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"48","article 3 du projet 4","Ce dont il faut faire le plus de cas, ce n'est pas de vivre, mais de vivre bien.#Platon");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"49","article 4 du projet 4","On doit vivre sa vie en essayant d'en faire un modèle pour d'autres.#Rosa Parks");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"50","article 5 du projet 4","La vie ? Un rien l'amène, un rien l'anime, un rien la mine, un rien l'emmène.#Raymond Queneau");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"51","article 6 du projet 4","Vivez, si m'en croyez, n'attendez à demain : Cueillez dès aujourd'hui les roses de la vie.#Pierre de Ronsard");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"52","article 7 du projet 4","Fais de ta vie un rêve, et d'un rêve, une réalité.#Antoine de Saint-Exupéry");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"53","article 8 du projet 4","La vie est trop courte pour être prise au sérieux.#George Bernard Shaw");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"54","article 9 du projet 4","Oser vivre la vie, c'est prendre le risque de se mettre au monde en permanence.#Jacques Salomé");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"55","article 1 du projet 5","Le plus grand obstacle à la vie est l'attente qui espère demain et néglige aujourd'hui.#Sénèque");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"56","article 2 du projet 5","La vie n'est pas d'attendre que l'orage passe. C'est d'apprendre à danser sous la pluie.#Sénèque");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"57","article 3 du projet 5","La vie ressemble à un conte, ce qui importe ce n'est pas sa longueur, mais sa valeur.#Sénèque");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"58","article 4 du projet 5","L'art de vivre, il faut toute la vie pour l'apprendre ; et ce qui vous surprendra peut-être davantage, toute la vie il faut apprendre à mourir.#Sénèque");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"59","article 5 du projet 5","C'est la vie qui nous apprend et non l'école.#Sénèque");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"60","article 6 du projet 5","Hâte-toi de bien vivre et songe que chaque jour est à lui seul une vie.#Sénèque");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"61","article 7 du projet 5","Une vie qui n'est pas réfléchie ne vaut pas d'être vécue.#Socrate");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"62","article 8 du projet 5","Une belle vie, c'est un rêve de jeunesse réalisé dans l'âge mûr.#Alfred de Vigny");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"63","article 9 du projet 5","Vivre, c'est se réveiller la nuit dans l'impatience du jour à venir, c'est s'émerveiller de ce que le miracle quotidien se reproduise pour nous une fois encore, c'est avoir des insomnies de joie.#Paul-Emile Victor");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"64","article 1 du projet 6","Impossible de vous dire mon âge, il change tout le temps.#Alphonse Allais");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"65","article 2 du projet 6","On n'est vieux que le jour où on le décide.#Jean Anouilh");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"66","article 3 du projet 6","La trentaine est un âge difficile. La vie est finie, l'existence commence.#André Bay");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"67","article 4 du projet 6","Chaque âge a ses plaisirs, son esprit et ses mœurs.#Nicolas Boileau");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"68","article 5 du projet 6","Qu'est-ce qu'un adulte ? Un enfant gonflé d'âge.#Simone de Beauvoir");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"69","article 6 du projet 6","L'âge, l'âge véritable, celui qui compte, ce n'est pas le nombre des années que nous avons vécues, c'est le nombre des années qui nous restent à vivre.#Alfred Capus");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"70","article 7 du projet 6","On peut naître vieux, comme on peut mourir jeune.#Jean Cocteau");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"71","article 8 du projet 6","À 20 ans c'est la volonté qui règne, à 30 ans, l'esprit, et à 40, le jugement.#Benjamin Franklin");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"72","article 9 du projet 6","À quoi cela sert-il de vieillir ? Peut-être, justement, à rien d'autre qu'à élargir la vue, à ouvrir l'horizon.#Luc Ferry");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"73","article 1 du projet 7","Le secret d'une bonne vieillesse n'était rien d'autre que la conclusion d'un pacte honorable avec la solitude.#Gabriel Garcia Marquez");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"74","article 2 du projet 7","Elle était tellement paresseuse qu'elle ne faisait même pas son âge.#Sacha Guitry");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"75","article 3 du projet 7","Vouloir être de son temps, c'est déjà être dépassé.#Eugène Ionesco");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"76","article 4 du projet 7","Les vieillards aiment à donner de bons préceptes pour se consoler de n'être plus en état de donner de mauvais exemples.#François de La Rochefoucauld");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"77","article 5 du projet 7","Nous arrivons tous nouveaux aux divers âges de la vie, et nous y manquons souvent d'expérience malgré le nombre des années.#François de La Rochefoucauld");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"49","article 4 du projet 4","On doit vivre sa vie en essayant d'en faire un modele pour d'autres.#Rosa Parks");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"50","article 5 du projet 4","La vie ? Un rien l'amene, un rien l'anime, un rien la mine, un rien l'emmene.#Raymond Queneau");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"51","article 6 du projet 4","Vivez, si m'en croyez, n'attendez a demain : Cueillez des aujourd'hui les roses de la vie.#Pierre de Ronsard");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"52","article 7 du projet 4","Fais de ta vie un reve, et d'un reve, une realite.#Antoine de Saint-Exupery");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"53","article 8 du projet 4","La vie est trop courte pour etre prise au serieux.#George Bernard Shaw");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"54","article 9 du projet 4","Oser vivre la vie, c'est prendre le risque de se mettre au monde en permanence.#Jacques Salome");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"55","article 1 du projet 5","Le plus grand obstacle a la vie est l'attente qui espere demain et neglige aujourd'hui.#Seneque");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"56","article 2 du projet 5","La vie n'est pas d'attendre que l'orage passe. C'est d'apprendre a danser sous la pluie.#Seneque");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"57","article 3 du projet 5","La vie ressemble a un conte, ce qui importe ce n'est pas sa longueur, mais sa valeur.#Seneque");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"58","article 4 du projet 5","L'art de vivre, il faut toute la vie pour l'apprendre ; et ce qui vous surprendra peut-etre davantage, toute la vie il faut apprendre a mourir.#Seneque");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"59","article 5 du projet 5","C'est la vie qui nous apprend et non l'ecole.#Seneque");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"60","article 6 du projet 5","Hate-toi de bien vivre et songe que chaque jour est a lui seul une vie.#Seneque");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"61","article 7 du projet 5","Une vie qui n'est pas reflechie ne vaut pas d'etre vecue.#Socrate");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"62","article 8 du projet 5","Une belle vie, c'est un reve de jeunesse realise dans l'age mur.#Alfred de Vigny");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"63","article 9 du projet 5","Vivre, c'est se reveiller la nuit dans l'impatience du jour a venir, c'est s'emerveiller de ce que le miracle quotidien se reproduise pour nous une fois encore, c'est avoir des insomnies de joie.#Paul-Emile Victor");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"64","article 1 du projet 6","Impossible de vous dire mon age, il change tout le temps.#Alphonse Allais");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"65","article 2 du projet 6","On n'est vieux que le jour ou on le decide.#Jean Anouilh");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"66","article 3 du projet 6","La trentaine est un age difficile. La vie est finie, l'existence commence.#Andre Bay");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"67","article 4 du projet 6","Chaque age a ses plaisirs, son esprit et ses mœurs.#Nicolas Boileau");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"68","article 5 du projet 6","Qu'est-ce qu'un adulte ? Un enfant gonfle d'age.#Simone de Beauvoir");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"69","article 6 du projet 6","L'age, l'age veritable, celui qui compte, ce n'est pas le nombre des annees que nous avons vecues, c'est le nombre des annees qui nous restent a vivre.#Alfred Capus");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"70","article 7 du projet 6","On peut naitre vieux, comme on peut mourir jeune.#Jean Cocteau");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"71","article 8 du projet 6","A 20 ans c'est la volonte qui regne, a 30 ans, l'esprit, et a 40, le jugement.#Benjamin Franklin");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"72","article 9 du projet 6","A quoi cela sert-il de vieillir ? Peut-etre, justement, a rien d'autre qu'a elargir la vue, a ouvrir l'horizon.#Luc Ferry");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"73","article 1 du projet 7","Le secret d'une bonne vieillesse n'etait rien d'autre que la conclusion d'un pacte honorable avec la solitude.#Gabriel Garcia Marquez");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"74","article 2 du projet 7","Elle etait tellement paresseuse qu'elle ne faisait meme pas son age.#Sacha Guitry");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"75","article 3 du projet 7","Vouloir etre de son temps, c'est deja etre depasse.#Eugene Ionesco");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"76","article 4 du projet 7","Les vieillards aiment a donner de bons preceptes pour se consoler de n'etre plus en etat de donner de mauvais exemples.#Francois de La Rochefoucauld");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"77","article 5 du projet 7","Nous arrivons tous nouveaux aux divers ages de la vie, et nous y manquons souvent d'experience malgre le nombre des annees.#Francois de La Rochefoucauld");
 INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"78","article 6 du projet 7","Je n'ai pas vieilli, j'ai simplement connu plusieurs jeunesses successives#Henri Lacordaire");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"79","article 7 du projet 7","C'est merveilleux la vieillesse, dommage que ça finisse si mal !#François Mauriac");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"80","article 8 du projet 7","L’âge n’est pas un sujet intéressant. Tout le monde peut vieillir. La seule chose à faire est de vivre assez longtemps.#Groucho Marx");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"81","article 9 du projet 7","Dans chaque vieux, il y a un jeune qui se demande ce qui s'est passé.#Groucho Marx");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"82","article 1 du projet 8","Les souvenirs, c'est quelque chose qui vous réchauffe de l'intérieur. Et qui vous déchire violemment le cœur en même temps.#Haruki Murakami");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"83","article 2 du projet 8","40 ans est un âge terrible, car c'est l'âge où nous devenons ce que nous sommes.#Charles Péguy");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"84","article 3 du projet 8","On met très longtemps à devenir jeune.#Pablo Picasso");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"85","article 4 du projet 8","Une belle vie, c'est un rêve de jeunesse réalisé dans l'âge mûr.#Alfred de Vigny");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"86","article 5 du projet 8","Les animaux sont entre nos mains le gage du paradis perdu.#Léon Bloy");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"87","article 6 du projet 8","Le jour où l'on comprendra qu'une pensée sans langage existe chez les animaux, nous mourrons de honte de les avoir enfermés dans des zoos et de les avoir humiliés par nos rires.#Boris Cyrulnik");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"79","article 7 du projet 7","C'est merveilleux la vieillesse, dommage que ca finisse si mal !#Francois Mauriac");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"80","article 8 du projet 7","L’age n’est pas un sujet interessant. Tout le monde peut vieillir. La seule chose a faire est de vivre assez longtemps.#Groucho Marx");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"81","article 9 du projet 7","Dans chaque vieux, il y a un jeune qui se demande ce qui s'est passe.#Groucho Marx");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"82","article 1 du projet 8","Les souvenirs, c'est quelque chose qui vous rechauffe de l'interieur. Et qui vous dechire violemment le cœur en meme temps.#Haruki Murakami");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"83","article 2 du projet 8","40 ans est un age terrible, car c'est l'age ou nous devenons ce que nous sommes.#Charles Peguy");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"84","article 3 du projet 8","On met tres longtemps a devenir jeune.#Pablo Picasso");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"85","article 4 du projet 8","Une belle vie, c'est un reve de jeunesse realise dans l'age mur.#Alfred de Vigny");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"86","article 5 du projet 8","Les animaux sont entre nos mains le gage du paradis perdu.#Leon Bloy");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"87","article 6 du projet 8","Le jour ou l'on comprendra qu'une pensee sans langage existe chez les animaux, nous mourrons de honte de les avoir enfermes dans des zoos et de les avoir humilies par nos rires.#Boris Cyrulnik");
 INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"88","article 7 du projet 8","Ce qu'il y a de meilleur dans l'homme, c'est le chien.#Toussaint Nicolas Charlet");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"89","article 8 du projet 8","Les animaux sont des amis tellement agréables - ils ne posent jamais de questions, ils ne font aucune critique.#George Eliot");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"90","article 9 du projet 8","Un homme cruel avec les animaux ne peut être un homme bon.#Gandhi");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"89","article 8 du projet 8","Les animaux sont des amis tellement agreables - ils ne posent jamais de questions, ils ne font aucune critique.#George Eliot");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"90","article 9 du projet 8","Un homme cruel avec les animaux ne peut etre un homme bon.#Gandhi");
 INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"91","article 1 du projet 9","L'homme est un loup pour l'homme.#Thomas Hobbes");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"92","article 2 du projet 9","Dieu a inventé le chat pour que l'homme ait un tigre à caresser chez lui.#Victor Hugo");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"93","article 3 du projet 9","L'homme est un animal métaphysique.#Arthur Schopenhauer");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"92","article 2 du projet 9","Dieu a invente le chat pour que l'homme ait un tigre a caresser chez lui.#Victor Hugo");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"93","article 3 du projet 9","L'homme est un animal metaphysique.#Arthur Schopenhauer");
 INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"94","article 4 du projet 9","Les animaux sont mes amis... et je ne mange pas mes amis.#George Bernard Shaw");
-INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"95","article 5 du projet 9","On met très longtemps à devenir jeune.#Pablo Picasso");
+INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Article',"95","article 5 du projet 9","On met tres longtemps a devenir jeune.#Pablo Picasso");
 
 
 
@@ -12003,339 +12003,339 @@ INSERT INTO bcf_article (dtype,article_id,article_name,article_text) VALUES ('Ar
 --COMMENT INITIALIZATION
 --------------------------------------------------------------------
 --------------------------------------------------------------------
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (1,"Le pré est vénéneux mais","Le pré est vénéneux mais joli en automne -Les vaches y paissant lentement s'empoisonnent -Les colchiques couleur de cerne et de lilas. Y fleurit tes yeux sont comme cette fleur-là -Violâtres comme leur cerne et comme cet automne#Guillaume Apollinaire","20170510");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (1,"Le pre est veneneux mais","Le pre est veneneux mais joli en automne -Les vaches y paissant lentement s'empoisonnent -Les colchiques couleur de cerne et de lilas. Y fleurit tes yeux sont comme cette fleur-la -Violatres comme leur cerne et comme cet automne#Guillaume Apollinaire","20170510");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (2,"Les raisons d'aimer et de","Les raisons d'aimer et de vivre varient comme font les saisons.#Louis Aragon","20180211");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (3,"Je suis plein du silence","Je suis plein du silence assourdissant d'aimer.#Louis Aragon","20170119");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (4,"Je vous dis que l’homme","Je vous dis que l’homme est né pour la femme et né pour l’amour.#Louis Aragon","20171230");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (5,"L'amour, c'est être toujours inquiet","L'amour, c'est être toujours inquiet de l'autre.#Marcel Achard","20180922");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (6,"Quand on aime quelqu'un, on","Quand on aime quelqu'un, on a toujours quelque chose à lui dire ou à lui écrire, jusqu'à la fin des temps.#Christian Bobin","20180609");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (7,"L'amour, c'est quand quelqu'un se","L'amour, c'est quand quelqu'un se met à vous parler comme une rivière, comme une étoile, ou comme la fleur du chèvrefeuille...#Christian Bobin","20170130");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (8,"Chaque minute loin de l'être","Chaque minute loin de l'être aimé est une minute cédée au néant#François Bégaudeau","20180831");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (9,"Dans l'amour d'un couple, trouver","Dans l'amour d'un couple, trouver la distance juste est essentiel. Cela demande beaucoup de patience, de perspicacité et d'imagination, en un mot, d'esprit.#Jacques de Bourbon Busset","20180915");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (10,"Le verbe aimer est difficile","Le verbe aimer est difficile à conjuguer : son passé n'est pas simple, son présent n'est qu'indicatif, et son futur est toujours conditionnel.#Jean Cocteau","20170719");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (11,"Sans te chercher, je te","Sans te chercher, je te trouve de tous les côtés, principalement quand je ferme les yeux...#Julio Cortazar","20170507");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (12,"L'amour plaît plus que le","L'amour plaît plus que le mariage, par la raison que les romans sont plus amusants que l'histoire.#Nicolas Chamfort","20180704");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (4,"Je vous dis que l’homme","Je vous dis que l’homme est ne pour la femme et ne pour l’amour.#Louis Aragon","20171230");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (5,"L'amour, c'est etre toujours inquiet","L'amour, c'est etre toujours inquiet de l'autre.#Marcel Achard","20180922");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (6,"Quand on aime quelqu'un, on","Quand on aime quelqu'un, on a toujours quelque chose a lui dire ou a lui ecrire, jusqu'a la fin des temps.#Christian Bobin","20180609");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (7,"L'amour, c'est quand quelqu'un se","L'amour, c'est quand quelqu'un se met a vous parler comme une riviere, comme une etoile, ou comme la fleur du chevrefeuille...#Christian Bobin","20170130");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (8,"Chaque minute loin de l'etre","Chaque minute loin de l'etre aime est une minute cedee au neant#Francois Begaudeau","20180831");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (9,"Dans l'amour d'un couple, trouver","Dans l'amour d'un couple, trouver la distance juste est essentiel. Cela demande beaucoup de patience, de perspicacite et d'imagination, en un mot, d'esprit.#Jacques de Bourbon Busset","20180915");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (10,"Le verbe aimer est difficile","Le verbe aimer est difficile a conjuguer : son passe n'est pas simple, son present n'est qu'indicatif, et son futur est toujours conditionnel.#Jean Cocteau","20170719");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (11,"Sans te chercher, je te","Sans te chercher, je te trouve de tous les cotes, principalement quand je ferme les yeux...#Julio Cortazar","20170507");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (12,"L'amour plait plus que le","L'amour plait plus que le mariage, par la raison que les romans sont plus amusants que l'histoire.#Nicolas Chamfort","20180704");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (13,"Les yeux dans les yeux,","Les yeux dans les yeux, il prit son sourire et le lui rendit.#Paul Claudel","20180417");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (14,"J'ai tant rêvé de toi","J'ai tant rêvé de toi que tu perds ta réalité.#Robert Desnos","20170903");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (15,"La courbe de tes yeux","La courbe de tes yeux fait le tour de mon cœur.#Paul Éluard","20180201");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (16,"L’amour est comme l’opéra, on","L’amour est comme l’opéra, on s’y ennuie, mais on y retourne.#Gustave Flaubert","20170128");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (14,"J'ai tant reve de toi","J'ai tant reve de toi que tu perds ta realite.#Robert Desnos","20170903");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (15,"La courbe de tes yeux","La courbe de tes yeux fait le tour de mon cœur.#Paul Eluard","20180201");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (16,"L’amour est comme l’opera, on","L’amour est comme l’opera, on s’y ennuie, mais on y retourne.#Gustave Flaubert","20170128");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (17,"L'homme commence par aimer l'amour","L'homme commence par aimer l'amour et finit par aimer une femme. La femme commence par aimer un homme et finit par aimer l'amour.#Remy de Gourmont","20170705");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (18,"Un très grand amour, ce","Un très grand amour, ce sont deux rêves qui se rencontrent et, complices, échappent jusqu'au bout à la réalité.#Romain Gary","20170911");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (19,"L'amour, c'est comme un papillon","L'amour, c'est comme un papillon : il est hors de portée quand on le chasse, mais si on le laisse tranquille, il peut très bien venir se poser sur votre épaule.#Nathaniel Hawthorne","20180211");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (18,"Un tres grand amour, ce","Un tres grand amour, ce sont deux reves qui se rencontrent et, complices, echappent jusqu'au bout a la realite.#Romain Gary","20170911");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (19,"L'amour, c'est comme un papillon","L'amour, c'est comme un papillon : il est hors de portee quand on le chasse, mais si on le laisse tranquille, il peut tres bien venir se poser sur votre epaule.#Nathaniel Hawthorne","20180211");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (20,"Aimer, c'est savoir dire je","Aimer, c'est savoir dire je t'aime sans parler.#Victor Hugo","20170313");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (21,"Le premier symptôme de l'amour","Le premier symptôme de l'amour vrai chez un jeune homme, c'est la timidité, chez une jeune fille, c'est la hardiesse.#Victor Hugo","20180729");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (22,"Aimer, c'est la moitié de","Aimer, c'est la moitié de croire.#Victor Hugo","20180730");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (23,"Aimons-nous des êtres réels, ou","Aimons-nous des êtres réels, ou bien l'opinion que nous nous faisons d'eux ?#Alexandre Jardin","20180722");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (24,"Vous m'avez regardé avec toute","Vous m'avez regardé avec toute votre âme. Vous m'avez regardé longtemps comme un ciel bleu. J'ai mis votre regard à l'ombre de mes yeux... Que ce regard était passionné et calme...#Francis Jammes","20170901");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (21,"Le premier symptome de l'amour","Le premier symptome de l'amour vrai chez un jeune homme, c'est la timidite, chez une jeune fille, c'est la hardiesse.#Victor Hugo","20180729");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (22,"Aimer, c'est la moitie de","Aimer, c'est la moitie de croire.#Victor Hugo","20180730");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (23,"Aimons-nous des etres reels, ou","Aimons-nous des etres reels, ou bien l'opinion que nous nous faisons d'eux ?#Alexandre Jardin","20180722");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (24,"Vous m'avez regarde avec toute","Vous m'avez regarde avec toute votre ame. Vous m'avez regarde longtemps comme un ciel bleu. J'ai mis votre regard a l'ombre de mes yeux... Que ce regard etait passionne et calme...#Francis Jammes","20170901");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (25,"Aimer, c'est n'avoir plus droit","Aimer, c'est n'avoir plus droit au soleil de tout le monde. On a le sien.#Marcel Jouhandeau","20180318");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (26,"Aimer, c'est se réjouir du","Aimer, c'est se réjouir du bonheur d'un autre.#Gottfried Wilhelm Leibniz","20180906");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (27,"Tout peut s'en aller à","Tout peut s'en aller à vau-l'eau dans ce monde, sauf l'amour. L'amour ne peut pas faiblir. S'il trébuche en chemin et s'effondre comme une chiffe, c'est que ce n'était pas de l'amour.#Jack London","20180805");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (28,"Il arrive quelquefois qu'une femme","Il arrive quelquefois qu'une femme cache à un homme toute la passion qu'elle sent pour lui, pendant que de son côté il feint pour elle toute celle qu'il ne sent pas.#Jean de La Bruyère","20171116");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (29,"Je ne sais où va","Je ne sais où va mon chemin mais je marche mieux quand ma main serre la tienne.#Alfred de Musset","20170421");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (30,"Ne laissez personne venir à","Ne laissez personne venir à vous et repartir sans être plus heureux.#Mère Teresa","20180830");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (31,"Ce qui se fait par","Ce qui se fait par amour se fait toujours par-delà le bien et le mal.#Friedrich Nietzsche","20170721");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (32,"Plus j'avance en âge et","Plus j'avance en âge et plus je suis convaincu qu'il y a deux choses essentielles dans la vie à ne pas rater : aimer et mourir.#Abbé Pierre","20180212");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (33,"Le cœur a ses raisons","Le cœur a ses raisons que la raison ne connaît pas.#Blaise Pascal","20170815");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (34,"À force de parler d'amour,","À force de parler d'amour, on devient amoureux, il n'y a rien de si aisé. C'est la passion la plus naturelle de l'homme.#Blaise Pascal","20170829");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (35,"L'amour est nu comme la","L'amour est nu comme la main.#Jacques Prévert","20180404");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (36,"Aimer, ce n'est point se","Aimer, ce n'est point se regarder l'un l'autre, mais regarder ensemble dans la même direction.#Antoine de Saint-Exupéry","20171222");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (37,"L'amour véritable est un don,","L'amour véritable est un don, pur, mais un don de chacun à l'autre dans le respect de ce qu'il a encore à donner.#Antoine de Saint-Exupéry","20170816");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (38,"Le paradis, c'est la fusion","Le paradis, c'est la fusion de deux âmes dans un baiser d'amour...#George Sand","20170101");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (26,"Aimer, c'est se rejouir du","Aimer, c'est se rejouir du bonheur d'un autre.#Gottfried Wilhelm Leibniz","20180906");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (27,"Tout peut s'en aller a","Tout peut s'en aller a vau-l'eau dans ce monde, sauf l'amour. L'amour ne peut pas faiblir. S'il trebuche en chemin et s'effondre comme une chiffe, c'est que ce n'etait pas de l'amour.#Jack London","20180805");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (28,"Il arrive quelquefois qu'une femme","Il arrive quelquefois qu'une femme cache a un homme toute la passion qu'elle sent pour lui, pendant que de son cote il feint pour elle toute celle qu'il ne sent pas.#Jean de La Bruyere","20171116");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (29,"Je ne sais ou va","Je ne sais ou va mon chemin mais je marche mieux quand ma main serre la tienne.#Alfred de Musset","20170421");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (30,"Ne laissez personne venir a","Ne laissez personne venir a vous et repartir sans etre plus heureux.#Mere Teresa","20180830");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (31,"Ce qui se fait par","Ce qui se fait par amour se fait toujours par-dela le bien et le mal.#Friedrich Nietzsche","20170721");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (32,"Plus j'avance en age et","Plus j'avance en age et plus je suis convaincu qu'il y a deux choses essentielles dans la vie a ne pas rater : aimer et mourir.#Abbe Pierre","20180212");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (33,"Le cœur a ses raisons","Le cœur a ses raisons que la raison ne connait pas.#Blaise Pascal","20170815");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (34,"A force de parler d'amour,","A force de parler d'amour, on devient amoureux, il n'y a rien de si aise. C'est la passion la plus naturelle de l'homme.#Blaise Pascal","20170829");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (35,"L'amour est nu comme la","L'amour est nu comme la main.#Jacques Prevert","20180404");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (36,"Aimer, ce n'est point se","Aimer, ce n'est point se regarder l'un l'autre, mais regarder ensemble dans la meme direction.#Antoine de Saint-Exupery","20171222");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (37,"L'amour veritable est un don,","L'amour veritable est un don, pur, mais un don de chacun a l'autre dans le respect de ce qu'il a encore a donner.#Antoine de Saint-Exupery","20170816");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (38,"Le paradis, c'est la fusion","Le paradis, c'est la fusion de deux ames dans un baiser d'amour...#George Sand","20170101");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (39,"Et, dans son essence, le","Et, dans son essence, le projet de se faire aimer.#Jean-Paul Sartre","20180514");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (40,"Aimer est, dans son essence,","Aimer est, dans son essence, le projet de se faire aimer.#Jean-Paul Sartre","20180515");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (41,"La mesure de l'amour, c'est","La mesure de l'amour, c'est d'aimer sans mesure.#Saint Augustin","20170426");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (42,"Aime, et ce que tu","Aime, et ce que tu veux, fais-le ! Si tu te tais, tais-toi par amour ; si tu parles, parle par amour ; si tu corriges, corrige par amour ; si tu pardonnes, pardonne par amour..#Saint Augustin","20180301");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (43,"Aimer, c'est avoir du plaisir","Aimer, c'est avoir du plaisir à voir, toucher, sentir par tous les sens, et d'aussi près que possible un objet aimable et qui nous aime.#Stendhal","20170821");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (44,"L'amour ne regarde pas avec","L'amour ne regarde pas avec les yeux, mais avec l'âme.#William Shakespeare","20170213");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (45,"Dans l'amour entre l'homme et","Dans l'amour entre l'homme et la femme, il y a toujours une minute où cet amour atteint son plus haut degré, où il n'a plus rien de réfléchi ni rien de sensuel, où il est l'entière union de deux êtres en un seul.#Léon Tolstoï","20170707");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (46,"L'homme veut être le premier","L'homme veut être le premier amour de la femme, alors que la femme veut être le dernier amour de l'homme.#Oscar Wilde","20180804");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (47,"Aimer un être, c'est tout","Aimer un être, c'est tout simplement reconnaître qu'il existe autant que vous.#Simone Weil","20171204");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (48,"On ne peut ni raisonner","On ne peut ni raisonner ni prévoir au sujet du bonheur : il faut l'avoir maintenant. Quand il paraît être dans l'avenir, songez-y bien, c'est que vous l'avez déjà. Espérer, c'est être heureux.#Alain","20180518");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (43,"Aimer, c'est avoir du plaisir","Aimer, c'est avoir du plaisir a voir, toucher, sentir par tous les sens, et d'aussi pres que possible un objet aimable et qui nous aime.#Stendhal","20170821");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (44,"L'amour ne regarde pas avec","L'amour ne regarde pas avec les yeux, mais avec l'ame.#William Shakespeare","20170213");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (45,"Dans l'amour entre l'homme et","Dans l'amour entre l'homme et la femme, il y a toujours une minute ou cet amour atteint son plus haut degre, ou il n'a plus rien de reflechi ni rien de sensuel, ou il est l'entiere union de deux etres en un seul.#Leon Tolstoi","20170707");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (46,"L'homme veut etre le premier","L'homme veut etre le premier amour de la femme, alors que la femme veut etre le dernier amour de l'homme.#Oscar Wilde","20180804");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (47,"Aimer un etre, c'est tout","Aimer un etre, c'est tout simplement reconnaitre qu'il existe autant que vous.#Simone Weil","20171204");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (48,"On ne peut ni raisonner","On ne peut ni raisonner ni prevoir au sujet du bonheur : il faut l'avoir maintenant. Quand il parait etre dans l'avenir, songez-y bien, c'est que vous l'avez deja. Esperer, c'est etre heureux.#Alain","20180518");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (49,"L'homme n'est heureux que de","L'homme n'est heureux que de vouloir et d'inventer.#Alain","20171222");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (50,"Il y a plus de","Il y a plus de volonté qu'on ne croit dans le bonheur.#Alain","20180308");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (51,"L'effort qu'on fait pour être","L'effort qu'on fait pour être heureux n'est jamais perdu.#Alain","20170226");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (50,"Il y a plus de","Il y a plus de volonte qu'on ne croit dans le bonheur.#Alain","20180308");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (51,"L'effort qu'on fait pour etre","L'effort qu'on fait pour etre heureux n'est jamais perdu.#Alain","20170226");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (52,"C'est plein de disputes, un","C'est plein de disputes, un bonheur.#Jean Anouilh","20180719");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (53,"La seule façon d’être heureux","La seule façon d’être heureux c’est d’aimer souffrir.#Woody Allen","20170119");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (54,"Pour être heureux, il faut","Pour être heureux, il faut penser au bonheur d'un autre.#Gaston Bachelard","20170627");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (55,"Être capable de trouver sa","Être capable de trouver sa joie dans la joie de l'autre : voilà le secret du bonheur.#Georges Bernanos","20180114");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (56,"Le bonheur est une bulle","Le bonheur est une bulle de savon qui change de couleur comme l'iris et qui éclate quand on la touche.#Honoré de Balzac","20170506");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (57,"Le secret du bonheur et","Le secret du bonheur et le comble de l'art, c'est de vivre comme tout le monde, en n'étant comme personne.#Simone de Beauvoir","20180122");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (58,"Il y a autant de","Il y a autant de manières d'être heureux qu'il y a d'individus.#Denis Diderot","20180425");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (53,"La seule facon d’etre heureux","La seule facon d’etre heureux c’est d’aimer souffrir.#Woody Allen","20170119");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (54,"Pour etre heureux, il faut","Pour etre heureux, il faut penser au bonheur d'un autre.#Gaston Bachelard","20170627");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (55,"Etre capable de trouver sa","Etre capable de trouver sa joie dans la joie de l'autre : voila le secret du bonheur.#Georges Bernanos","20180114");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (56,"Le bonheur est une bulle","Le bonheur est une bulle de savon qui change de couleur comme l'iris et qui eclate quand on la touche.#Honore de Balzac","20170506");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (57,"Le secret du bonheur et","Le secret du bonheur et le comble de l'art, c'est de vivre comme tout le monde, en n'etant comme personne.#Simone de Beauvoir","20180122");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (58,"Il y a autant de","Il y a autant de manieres d'etre heureux qu'il y a d'individus.#Denis Diderot","20180425");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (59,"L'homme le plus heureux est","L'homme le plus heureux est celui qui fait le bonheur d'un plus grand nombre d'autres.#Denis Diderot","20180313");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (60,"Il n'y a qu'une route","Il n'y a qu'une route vers le bonheur, c'est de renoncer aux choses qui ne dépendent pas de notre volonté.#Epictète","20170912");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (61,"Il ne dépend pas de","Il ne dépend pas de toi d'être riche, mais il dépend de toi d'être heureux.#Epictète","20171112");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (62,"Être heureux, c'est savoir se","Être heureux, c'est savoir se contenter de peu.#Epicure","20180709");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (63,"Les hommes veulent tout avoir,","Les hommes veulent tout avoir, et ils se rendent malheureux par le désir du superflu ; s'ils voulaient vivre simplement et se contenter de satisfaire aux vrais besoins, on verrait partout l'abondance, la joie, la paix.#Fénelon","20180614");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (64,"Nous ne sommes jamais vraiment","Nous ne sommes jamais vraiment heureux si nous n'essayons pas d'éclairer la vie des autres.#Helen Keller","20170712");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (65,"Le bonheur n'est pas un","Le bonheur n'est pas un événement, c'est une aptitude.#François de La Rochefoucauld","20170610");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (66,"Il faut rire avant d'être","Il faut rire avant d'être heureux, de peur de mourir sans avoir ri.#Jean de La Bruyère","20180510");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (60,"Il n'y a qu'une route","Il n'y a qu'une route vers le bonheur, c'est de renoncer aux choses qui ne dependent pas de notre volonte.#Epictete","20170912");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (61,"Il ne depend pas de","Il ne depend pas de toi d'etre riche, mais il depend de toi d'etre heureux.#Epictete","20171112");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (62,"Etre heureux, c'est savoir se","Etre heureux, c'est savoir se contenter de peu.#Epicure","20180709");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (63,"Les hommes veulent tout avoir,","Les hommes veulent tout avoir, et ils se rendent malheureux par le desir du superflu ; s'ils voulaient vivre simplement et se contenter de satisfaire aux vrais besoins, on verrait partout l'abondance, la joie, la paix.#Fenelon","20180614");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (64,"Nous ne sommes jamais vraiment","Nous ne sommes jamais vraiment heureux si nous n'essayons pas d'eclairer la vie des autres.#Helen Keller","20170712");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (65,"Le bonheur n'est pas un","Le bonheur n'est pas un evenement, c'est une aptitude.#Francois de La Rochefoucauld","20170610");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (66,"Il faut rire avant d'etre","Il faut rire avant d'etre heureux, de peur de mourir sans avoir ri.#Jean de La Bruyere","20180510");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (67,"Il n'y a point de","Il n'y a point de chemin vers le bonheur. Le bonheur, c'est le chemin.#Lao-Tse","20170904");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (68,"L'homme content de son sort","L'homme content de son sort ne connaît pas la ruine.#Lao-Tse","20180510");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (69,"Chacun cherche sa route ;","Chacun cherche sa route ; nous cherchons la nôtre et nous pensons que le jour où le règne de la liberté et de l'égalité sera arrivé, le genre humain sera heureux.#Louise Michel","20180416");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (70,"On est heureux quand on","On est heureux quand on a dépassé l'inquiétude du bonheur.#Maurice Maeterlinck","20170809");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (71,"Ne laissez personne venir à","Ne laissez personne venir à vous et repartir sans être plus heureux.#Mère Teresa","20171209");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (72,"Si on ne voulait qu'être","Si on ne voulait qu'être heureux, cela serait bientôt fait. Mais on veut être plus heureux que les autres et cela est presque toujours difficile parce que nous croyons les autres plus heureux qu'ils ne sont.#Montesquieu","20170103");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (73,"J'ai reconnu le bonheur au","J'ai reconnu le bonheur au bruit qu'il a fait en partant.#Jacques Prévert","20170909");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (74,"Tout homme veut être heureux","Tout homme veut être heureux ; mais, pour parvenir à l'être, il faudrait commencer par savoir ce que c'est que le bonheur.#Jean-Jacques Rousseau","20180605");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (75,"Je ne désire rien du","Je ne désire rien du passé. Je ne compte plus sur l'avenir. Le présent me suffit. Je suis un homme heureux, car j'ai renoncé au bonheur.#Jules Renard","20180721");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (76,"Le but, c'est d'être heureux.","Le but, c'est d'être heureux. On n'y arrive que lentement. Il y faut une application quotidienne. Quand on l'est, il reste beaucoup à faire : à consoler les autres.#Jules Renard","20171101");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (77,"Le bonheur est, en quelque","Le bonheur est, en quelque sorte, ce qui met un point d'arrêt à la fuite en avant du désir.#Paul Ricoeur","20170913");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (78,"Il y a qu'une erreur","Il y a qu'une erreur innée : celle qui consiste à croire que nous existons pour être heureux.#Arthur Schopenhauer","20180908");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (79,"Le bonheur, c'est de continuer","Le bonheur, c'est de continuer à désirer ce qu'on possède.#Saint Augustin","20170211");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (80,"On ne peut être heureux","On ne peut être heureux quand on ne vit que pour soi, quand on rapporte tout à son propre intérêt. On ne vit vraiment pour soi qu’en vivant pour un autre.#Sénèque","20180502");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (81,"La vie heureuse, est celle","La vie heureuse, est celle qui est en accord avec sa propre nature.#Sénèque","20180921");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (68,"L'homme content de son sort","L'homme content de son sort ne connait pas la ruine.#Lao-Tse","20180510");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (69,"Chacun cherche sa route ;","Chacun cherche sa route ; nous cherchons la notre et nous pensons que le jour ou le regne de la liberte et de l'egalite sera arrive, le genre humain sera heureux.#Louise Michel","20180416");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (70,"On est heureux quand on","On est heureux quand on a depasse l'inquietude du bonheur.#Maurice Maeterlinck","20170809");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (71,"Ne laissez personne venir a","Ne laissez personne venir a vous et repartir sans etre plus heureux.#Mere Teresa","20171209");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (72,"Si on ne voulait qu'etre","Si on ne voulait qu'etre heureux, cela serait bientot fait. Mais on veut etre plus heureux que les autres et cela est presque toujours difficile parce que nous croyons les autres plus heureux qu'ils ne sont.#Montesquieu","20170103");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (73,"J'ai reconnu le bonheur au","J'ai reconnu le bonheur au bruit qu'il a fait en partant.#Jacques Prevert","20170909");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (74,"Tout homme veut etre heureux","Tout homme veut etre heureux ; mais, pour parvenir a l'etre, il faudrait commencer par savoir ce que c'est que le bonheur.#Jean-Jacques Rousseau","20180605");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (75,"Je ne desire rien du","Je ne desire rien du passe. Je ne compte plus sur l'avenir. Le present me suffit. Je suis un homme heureux, car j'ai renonce au bonheur.#Jules Renard","20180721");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (76,"Le but, c'est d'etre heureux.","Le but, c'est d'etre heureux. On n'y arrive que lentement. Il y faut une application quotidienne. Quand on l'est, il reste beaucoup a faire : a consoler les autres.#Jules Renard","20171101");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (77,"Le bonheur est, en quelque","Le bonheur est, en quelque sorte, ce qui met un point d'arret a la fuite en avant du desir.#Paul Ricoeur","20170913");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (78,"Il y a qu'une erreur","Il y a qu'une erreur innee : celle qui consiste a croire que nous existons pour etre heureux.#Arthur Schopenhauer","20180908");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (79,"Le bonheur, c'est de continuer","Le bonheur, c'est de continuer a desirer ce qu'on possede.#Saint Augustin","20170211");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (80,"On ne peut etre heureux","On ne peut etre heureux quand on ne vit que pour soi, quand on rapporte tout a son propre interet. On ne vit vraiment pour soi qu’en vivant pour un autre.#Seneque","20180502");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (81,"La vie heureuse, est celle","La vie heureuse, est celle qui est en accord avec sa propre nature.#Seneque","20180921");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (82,"Soyez heureux, agissez dans le","Soyez heureux, agissez dans le bonheur, sentez-vous heureux, sans aucune raison.#Socrate","20180516");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (83,"On ne possède pas le","On ne possède pas le bonheur comme une acquisition définitive. Il s'agit à chaque instant de faire jaillir une étincelle de joie. Ne l'oublions pas : souris au monde et le monde te sourira.#Sœur Emmanuelle","20170522");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (84,"Toutes les familles heureuses se","Toutes les familles heureuses se ressemblent ; les familles malheureuses le sont chacune à leur façon.#Léon Tolstoï","20170410");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (85,"Ce n'est pas notre condition,","Ce n'est pas notre condition, c'est la trempe de notre âme qui nous rend heureux.#Voltaire","20180722");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (83,"On ne possede pas le","On ne possede pas le bonheur comme une acquisition definitive. Il s'agit a chaque instant de faire jaillir une etincelle de joie. Ne l'oublions pas : souris au monde et le monde te sourira.#Sœur Emmanuelle","20170522");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (84,"Toutes les familles heureuses se","Toutes les familles heureuses se ressemblent ; les familles malheureuses le sont chacune a leur facon.#Leon Tolstoi","20170410");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (85,"Ce n'est pas notre condition,","Ce n'est pas notre condition, c'est la trempe de notre ame qui nous rend heureux.#Voltaire","20180722");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (86,"Le bonheur est souvent la","Le bonheur est souvent la seule chose qu'on puisse donner sans l'avoir et c'est en le donnant qu'on l'acquiert.#Voltaire","20180708");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (87,"Impossible de vous dire mon","Impossible de vous dire mon âge, il change tout le temps.#Alphonse Allais","20180704");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (88,"Je m'intéresse beaucoup à l'avenir,","Je m'intéresse beaucoup à l'avenir, car c'est là que j'ai décidé de passer le reste de mes jours.#Woody Allen","20180401");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (89,"La seule façon d’être heureux","La seule façon d’être heureux c’est d’aimer souffrir.#Woody Allen","20171124");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (90,"L'avantage d'être intelligent, c'est qu'on","L'avantage d'être intelligent, c'est qu'on peut toujours faire l'imbécile, alors que l'inverse est totalement impossible.#Woody Allen","20180213");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (91,"La vie est pleine de","La vie est pleine de désillusions, de malheurs et de souffrances, et le pire c'est qu'elle est beaucoup trop courte.#Woody Allen","20180430");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (92,"Il y a deux organes","Il y a deux organes inutiles, la prostate et la Présidence de la République.#Georges Clémenceau","20180803");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (93,"Pour mes obsèques, je ne","Pour mes obsèques, je ne veux que le strict nécessaire, c'est-à-dire moi.#Georges Clémenceau","20170404");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (94,"Entre le « oui »","Entre le « oui » et le « non » d'une femme, il n'y a guère de place pour une épingle.#Miguel de Cervantes","20180326");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (95,"Ne prenez pas la vie","Ne prenez pas la vie au sérieux. De toute façon, vous n'en sortirez pas vivant.#Bernard Le Bouyer de Fontenelle","20180801");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (96,"L’amour est comme l’opéra, on","L’amour est comme l’opéra, on s’y ennuie, mais on y retourne.#Gustave Flaubert","20180307");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (97,"Après trente ans passés à","Après trente ans passés à étudier la psychologie féminine, je n'ai toujours pas trouvé de réponse à la grande question : que veulent-elles au juste ?#Sigmund Freud","20180914");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (98,"Il faut toujours se marier","Il faut toujours se marier avec une belle femme : vous trouverez toujours quelqu'un pour vous en débarrasser.#Sacha Guitry","20180818");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (99,"Elle était tellement paresseuse qu'elle","Elle était tellement paresseuse qu'elle ne faisait même pas son âge.#Sacha Guitry","20180520");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (100,"Il y a des hommes","Il y a des hommes qui n'ont que ce qu'ils méritent. Les autres sont célibataires.#Sacha Guitry","20171017");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (101,"A quoi bon apprendre ce","A quoi bon apprendre ce qu'il y a dans les livres puisque ça y est ? #Sacha Guitry","20171013");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (102,"Le meilleur moyen de faire","Le meilleur moyen de faire tourner la tête à une femme, c'est de lui dire qu'elle a un joli profil.#Sacha Guitry","20180808");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (103,"Le Sénat est une assemblée","Le Sénat est une assemblée d'hommes à idées fixes, heureusement corrigée par une abondante mortalité.#Edouard Herriot","20170906");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (104,"L'éternité c'est long, surtout vers","L'éternité c'est long, surtout vers la fin.#Franz Kafka","20170907");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (105,"Mieux vaut rester silencieux et","Mieux vaut rester silencieux et passer pour un imbécile que parler et n'en laisser aucun doute.#Abraham Lincoln","20171015");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (106,"L’âge n’est pas un sujet","L’âge n’est pas un sujet intéressant. Tout le monde peut vieillir. La seule chose à faire est de vivre assez longtemps.#Groucho Marx","20170224");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (107,"Je trouve que la télévision","Je trouve que la télévision est très favorable à la culture. Chaque fois que quelqu'un l'allume chez moi, je vais dans la pièce à côté et je lis.#Groucho Marx","20180920");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (108,"Ma mère adorait les enfants","Ma mère adorait les enfants ; elle aurait donné n’importe quoi pour que j’en sois un.#Groucho Marx","20171223");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (109,"Parti de rien, je suis","Parti de rien, je suis arrivé à pas grand chose.#Groucho Marx","20170815");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (110,"Elle avait un nez superbe,","Elle avait un nez superbe, qu'elle tenait de son père, chirurgien esthétique.#Groucho Marx","20170121");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (111,"Un seul verre me suffit","Un seul verre me suffit pour être saoul mais je ne sais jamais si c'est le treizième ou le quatorzième.#Groucho Marx","20180527");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (112,"Dans chaque vieux, il y","Dans chaque vieux, il y a un jeune qui se demande ce qui s'est passé.#Groucho Marx","20170101");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (113,"La politique, c'est l'art de","La politique, c'est l'art de chercher les problèmes, de les trouver, de les sous-évaluer et ensuite d'appliquer de manière inadéquate les mauvais remèdes.#Groucho Marx","20170124");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (114,"L'argent ne fait pas le","L'argent ne fait pas le bonheur, et c’est absolument vrai, mais, c'est une chose bougrement agréable à posséder dans un foyer.#Groucho Marx","20170103");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (115,"Au plus élevé trône du","Au plus élevé trône du monde, nous ne sommes assis que sur notre cul.#Michel de Montaigne","20171124");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (87,"Impossible de vous dire mon","Impossible de vous dire mon age, il change tout le temps.#Alphonse Allais","20180704");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (88,"Je m'interesse beaucoup a l'avenir,","Je m'interesse beaucoup a l'avenir, car c'est la que j'ai decide de passer le reste de mes jours.#Woody Allen","20180401");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (89,"La seule facon d’etre heureux","La seule facon d’etre heureux c’est d’aimer souffrir.#Woody Allen","20171124");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (90,"L'avantage d'etre intelligent, c'est qu'on","L'avantage d'etre intelligent, c'est qu'on peut toujours faire l'imbecile, alors que l'inverse est totalement impossible.#Woody Allen","20180213");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (91,"La vie est pleine de","La vie est pleine de desillusions, de malheurs et de souffrances, et le pire c'est qu'elle est beaucoup trop courte.#Woody Allen","20180430");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (92,"Il y a deux organes","Il y a deux organes inutiles, la prostate et la Presidence de la Republique.#Georges Clemenceau","20180803");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (93,"Pour mes obseques, je ne","Pour mes obseques, je ne veux que le strict necessaire, c'est-a-dire moi.#Georges Clemenceau","20170404");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (94,"Entre le « oui »","Entre le « oui » et le « non » d'une femme, il n'y a guere de place pour une epingle.#Miguel de Cervantes","20180326");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (95,"Ne prenez pas la vie","Ne prenez pas la vie au serieux. De toute facon, vous n'en sortirez pas vivant.#Bernard Le Bouyer de Fontenelle","20180801");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (96,"L’amour est comme l’opera, on","L’amour est comme l’opera, on s’y ennuie, mais on y retourne.#Gustave Flaubert","20180307");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (97,"Apres trente ans passes a","Apres trente ans passes a etudier la psychologie feminine, je n'ai toujours pas trouve de reponse a la grande question : que veulent-elles au juste ?#Sigmund Freud","20180914");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (98,"Il faut toujours se marier","Il faut toujours se marier avec une belle femme : vous trouverez toujours quelqu'un pour vous en debarrasser.#Sacha Guitry","20180818");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (99,"Elle etait tellement paresseuse qu'elle","Elle etait tellement paresseuse qu'elle ne faisait meme pas son age.#Sacha Guitry","20180520");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (100,"Il y a des hommes","Il y a des hommes qui n'ont que ce qu'ils meritent. Les autres sont celibataires.#Sacha Guitry","20171017");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (101,"A quoi bon apprendre ce","A quoi bon apprendre ce qu'il y a dans les livres puisque ca y est ? #Sacha Guitry","20171013");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (102,"Le meilleur moyen de faire","Le meilleur moyen de faire tourner la tete a une femme, c'est de lui dire qu'elle a un joli profil.#Sacha Guitry","20180808");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (103,"Le Senat est une assemblee","Le Senat est une assemblee d'hommes a idees fixes, heureusement corrigee par une abondante mortalite.#Edouard Herriot","20170906");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (104,"L'eternite c'est long, surtout vers","L'eternite c'est long, surtout vers la fin.#Franz Kafka","20170907");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (105,"Mieux vaut rester silencieux et","Mieux vaut rester silencieux et passer pour un imbecile que parler et n'en laisser aucun doute.#Abraham Lincoln","20171015");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (106,"L’age n’est pas un sujet","L’age n’est pas un sujet interessant. Tout le monde peut vieillir. La seule chose a faire est de vivre assez longtemps.#Groucho Marx","20170224");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (107,"Je trouve que la television","Je trouve que la television est tres favorable a la culture. Chaque fois que quelqu'un l'allume chez moi, je vais dans la piece a cote et je lis.#Groucho Marx","20180920");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (108,"Ma mere adorait les enfants","Ma mere adorait les enfants ; elle aurait donne n’importe quoi pour que j’en sois un.#Groucho Marx","20171223");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (109,"Parti de rien, je suis","Parti de rien, je suis arrive a pas grand chose.#Groucho Marx","20170815");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (110,"Elle avait un nez superbe,","Elle avait un nez superbe, qu'elle tenait de son pere, chirurgien esthetique.#Groucho Marx","20170121");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (111,"Un seul verre me suffit","Un seul verre me suffit pour etre saoul mais je ne sais jamais si c'est le treizieme ou le quatorzieme.#Groucho Marx","20180527");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (112,"Dans chaque vieux, il y","Dans chaque vieux, il y a un jeune qui se demande ce qui s'est passe.#Groucho Marx","20170101");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (113,"La politique, c'est l'art de","La politique, c'est l'art de chercher les problemes, de les trouver, de les sous-evaluer et ensuite d'appliquer de maniere inadequate les mauvais remedes.#Groucho Marx","20170124");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (114,"L'argent ne fait pas le","L'argent ne fait pas le bonheur, et c’est absolument vrai, mais, c'est une chose bougrement agreable a posseder dans un foyer.#Groucho Marx","20170103");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (115,"Au plus eleve trone du","Au plus eleve trone du monde, nous ne sommes assis que sur notre cul.#Michel de Montaigne","20171124");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (116,"Un bon mariage serait celui","Un bon mariage serait celui d'une femme aveugle avec un mari sourd.#Michel de Montaigne","20170429");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (117,"Amitié : mariage de deux","Amitié : mariage de deux êtres qui ne peuvent pas coucher ensemble.#Jules Renard","20180801");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (117,"Amitie : mariage de deux","Amitie : mariage de deux etres qui ne peuvent pas coucher ensemble.#Jules Renard","20180801");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (118,"L'humoriste, c'est un homme de","L'humoriste, c'est un homme de bonne mauvaise humeur.#Jules Renard","20171024");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (119,"Une femme s'inquiète de l'avenir","Une femme s'inquiète de l'avenir jusqu'à ce qu'elle ait trouvé un mari, tandis qu'un homme ne s'inquiète de l'avenir que lorsqu'il a trouvé une femme.#George Bernard Shaw","20180704");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (120,"Il ne sait rien et","Il ne sait rien et croît tout savoir. Cela présage indubitablement une carrière politique.#George Bernard Shaw","20170405");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (119,"Une femme s'inquiete de l'avenir","Une femme s'inquiete de l'avenir jusqu'a ce qu'elle ait trouve un mari, tandis qu'un homme ne s'inquiete de l'avenir que lorsqu'il a trouve une femme.#George Bernard Shaw","20180704");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (120,"Il ne sait rien et","Il ne sait rien et croit tout savoir. Cela presage indubitablement une carriere politique.#George Bernard Shaw","20170405");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (121,"La seule excuse de Dieu,","La seule excuse de Dieu, c’est qu’il n’existe pas.#Stendhal","20171205");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (122,"Il y a trois choses","Il y a trois choses qu'une femme est capable de réaliser avec rien : un chapeau, une salade et une scène de ménage.#Mark Twain","20180922");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (123,"Il y a des gens","Il y a des gens qui, à propos de certains problèmes, font preuve d'une grande tolérance. C'est souvent parce qu'ils s'en foutent.#Mark Twain","20171028");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (124,"Il me semble parfois qu'en","Il me semble parfois qu'en créant l'homme Dieu ait surestimé ses possibilités.#Oscar Wilde","20180712");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (125,"Le seul moyen de se","Le seul moyen de se délivrer de la tentation, c'est d'y céder.#Oscar Wilde","20180414");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (122,"Il y a trois choses","Il y a trois choses qu'une femme est capable de realiser avec rien : un chapeau, une salade et une scene de menage.#Mark Twain","20180922");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (123,"Il y a des gens","Il y a des gens qui, a propos de certains problemes, font preuve d'une grande tolerance. C'est souvent parce qu'ils s'en foutent.#Mark Twain","20171028");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (124,"Il me semble parfois qu'en","Il me semble parfois qu'en creant l'homme Dieu ait surestime ses possibilites.#Oscar Wilde","20180712");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (125,"Le seul moyen de se","Le seul moyen de se delivrer de la tentation, c'est d'y ceder.#Oscar Wilde","20180414");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (126,"Le mariage est la cause","Le mariage est la cause principale de divorce.#Oscar Wilde","20180130");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (127,"Mourir, ce n'est rien. Commence","Mourir, ce n'est rien. Commence donc par vivre. C'est moins drôle et c'est plus long#Jean Anouilh","20170604");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (127,"Mourir, ce n'est rien. Commence","Mourir, ce n'est rien. Commence donc par vivre. C'est moins drole et c'est plus long#Jean Anouilh","20170604");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (128,"Les raisons d'aimer et de","Les raisons d'aimer et de vivre varient comme font les saisons.#Louis Aragon","20170610");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (129,"Le temps d'apprendre à vivre,","Le temps d'apprendre à vivre, il est déjà trop tard.#Louis Aragon","20180503");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (130,"La vie n'est jamais aussi","La vie n'est jamais aussi compliquée que se plaisent à l'imaginer les têtes faibles.#Marcel Aymé","20170918");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (131,"La vie est pleine de","La vie est pleine de désillusions, de malheurs et de souffrances, et le pire c'est qu'elle est beaucoup trop courte.#Woody Allen","20170222");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (132,"Si je recommençais ma vie","Si je recommençais ma vie je tâcherais de faire mes rêves encore plus grands ; parce que la vie est infiniment plus belle et plus grande que je n'avais cru, même en rêve.#Georges Bernanos","20170103");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (133,"L'homme devrait mettre autant d'ardeur","L'homme devrait mettre autant d'ardeur à simplifier sa vie qu'il en met à la compliquer.#Henri Bergson","20180924");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (134,"Personne ne peut savoir si","Personne ne peut savoir si le monde est fantastique ou réel, et non plus s'il existe une différence entre rêver et vivre.#Jorge Luis Borges","20170410");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (135,"Vivre, c'est ne pas se","Vivre, c'est ne pas se résigner.#Albert Camus","20171206");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (136,"Heureuse ou malheureuse, la vie","Heureuse ou malheureuse, la vie est le seul trésor que l'homme possède, et ceux qui ne l'aiment pas n'en sont pas dignes.#Giacomo Casanova","20171222");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (137,"Il n'y a que deux","Il n'y a que deux conduites avec la vie : ou on la rêve ou on l'accomplit.#René Char","20180217");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (138,"La vie ? Le voyage","La vie ? Le voyage vaut d'être fait, au moins une fois.#Winston Churchill","20170704");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (139,"Travaille comme si tu n'avais","Travaille comme si tu n'avais pas besoin d'argent, aime comme si personne ne t'avait jamais fait souffrir, danse comme si personne ne te regardait, chante comme si personne ne t'écoutait, vis comme si le paradis était sur la terre.#Dalaï-Lama","20170118");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (140,"Du matin au soir, ils","Du matin au soir, ils disent du mal de la vie, et ils ne peuvent se résoudre à la quitter !#Denis Diderot","20170105");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (141,"Le secret de l'existence humaine","Le secret de l'existence humaine consiste non pas seulement à vivre, mais à trouver un motif de vivre.#Fedor Dostoïevski","20170501");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (142,"Avant d'aller chercher le sens","Avant d'aller chercher le sens de la vie, aime la vie. Si tu aimes la vie, tu deviens un vivant.#Fedor Dostoïevski","20170717");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (143,"Je pense donc je suis.#René","Je pense donc je suis.#René Descartes","20170102");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (144,"La vie est une aventure,","La vie est une aventure, elle doit être sans cesse disputée à la mort.#Albert Einstein","20180922");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (145,"La vie, c'est comme une","La vie, c'est comme une bicyclette, il faut avancer pour ne pas perdre l'équilibre.#Albert Einstein","20180725");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (129,"Le temps d'apprendre a vivre,","Le temps d'apprendre a vivre, il est deja trop tard.#Louis Aragon","20180503");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (130,"La vie n'est jamais aussi","La vie n'est jamais aussi compliquee que se plaisent a l'imaginer les tetes faibles.#Marcel Ayme","20170918");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (131,"La vie est pleine de","La vie est pleine de desillusions, de malheurs et de souffrances, et le pire c'est qu'elle est beaucoup trop courte.#Woody Allen","20170222");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (132,"Si je recommencais ma vie","Si je recommencais ma vie je tacherais de faire mes reves encore plus grands ; parce que la vie est infiniment plus belle et plus grande que je n'avais cru, meme en reve.#Georges Bernanos","20170103");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (133,"L'homme devrait mettre autant d'ardeur","L'homme devrait mettre autant d'ardeur a simplifier sa vie qu'il en met a la compliquer.#Henri Bergson","20180924");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (134,"Personne ne peut savoir si","Personne ne peut savoir si le monde est fantastique ou reel, et non plus s'il existe une difference entre rever et vivre.#Jorge Luis Borges","20170410");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (135,"Vivre, c'est ne pas se","Vivre, c'est ne pas se resigner.#Albert Camus","20171206");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (136,"Heureuse ou malheureuse, la vie","Heureuse ou malheureuse, la vie est le seul tresor que l'homme possede, et ceux qui ne l'aiment pas n'en sont pas dignes.#Giacomo Casanova","20171222");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (137,"Il n'y a que deux","Il n'y a que deux conduites avec la vie : ou on la reve ou on l'accomplit.#Rene Char","20180217");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (138,"La vie ? Le voyage","La vie ? Le voyage vaut d'etre fait, au moins une fois.#Winston Churchill","20170704");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (139,"Travaille comme si tu n'avais","Travaille comme si tu n'avais pas besoin d'argent, aime comme si personne ne t'avait jamais fait souffrir, danse comme si personne ne te regardait, chante comme si personne ne t'ecoutait, vis comme si le paradis etait sur la terre.#Dalai-Lama","20170118");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (140,"Du matin au soir, ils","Du matin au soir, ils disent du mal de la vie, et ils ne peuvent se resoudre a la quitter !#Denis Diderot","20170105");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (141,"Le secret de l'existence humaine","Le secret de l'existence humaine consiste non pas seulement a vivre, mais a trouver un motif de vivre.#Fedor Dostoievski","20170501");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (142,"Avant d'aller chercher le sens","Avant d'aller chercher le sens de la vie, aime la vie. Si tu aimes la vie, tu deviens un vivant.#Fedor Dostoievski","20170717");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (143,"Je pense donc je suis.#Rene","Je pense donc je suis.#Rene Descartes","20170102");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (144,"La vie est une aventure,","La vie est une aventure, elle doit etre sans cesse disputee a la mort.#Albert Einstein","20180922");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (145,"La vie, c'est comme une","La vie, c'est comme une bicyclette, il faut avancer pour ne pas perdre l'equilibre.#Albert Einstein","20180725");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (146,"Aimes tu la vie ?","Aimes tu la vie ? Alors ne gaspille pas ton temps, car il est l'essence de la vie.#Benjamin Franklin","20170821");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (147,"Ne prenez pas la vie","Ne prenez pas la vie au sérieux. De toute façon, vous n'en sortirez pas vivant.#Bernard Le Bouyer de Fontenelle","20170528");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (148,"Je me rappelais que mon","Je me rappelais que mon père avait coutume de dire que le but de la vie, c'est de se préparer à rester mort très longtemps.#William Faulkner","20170210");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (149,"Soudain, le chant d'un oiseau,","Soudain, le chant d'un oiseau, le soleil sur le feuillage ou les bourgeons d'un taillis me rappellent que la vie, depuis qu'elle parût sur la Terre, livre un combat qu'elle n'a jamais perdu.#Charles de Gaulle","20171014");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (147,"Ne prenez pas la vie","Ne prenez pas la vie au serieux. De toute facon, vous n'en sortirez pas vivant.#Bernard Le Bouyer de Fontenelle","20170528");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (148,"Je me rappelais que mon","Je me rappelais que mon pere avait coutume de dire que le but de la vie, c'est de se preparer a rester mort tres longtemps.#William Faulkner","20170210");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (149,"Soudain, le chant d'un oiseau,","Soudain, le chant d'un oiseau, le soleil sur le feuillage ou les bourgeons d'un taillis me rappellent que la vie, depuis qu'elle parut sur la Terre, livre un combat qu'elle n'a jamais perdu.#Charles de Gaulle","20171014");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (150,"Vis comme si tu devais","Vis comme si tu devais mourir demain. Apprends comme si tu devais vivre toujours.#Gandhi","20170701");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (151,"La vie est un mystère","La vie est un mystère qu'il faut vivre, et non un problème à résoudre.#Gandhi","20180902");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (151,"La vie est un mystere","La vie est un mystere qu'il faut vivre, et non un probleme a resoudre.#Gandhi","20180902");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (152,"Vous ne pouvez pas attendre","Vous ne pouvez pas attendre de la vie d'avoir un sens, vous devez lui en donner un.#Romain Gary","20180630");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (153,"Si je ne savais pas","Si je ne savais pas d'avance que je vais mourir un jour, si je n'étais pas certain de ne pas avoir tout le temps, je ne me soucierais pas de ma vie. Ce n'est donc pas la mort qui nous vient du temps, mais le temps qui nous vient de la mort.#Heidegger","20170205");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (153,"Si je ne savais pas","Si je ne savais pas d'avance que je vais mourir un jour, si je n'etais pas certain de ne pas avoir tout le temps, je ne me soucierais pas de ma vie. Ce n'est donc pas la mort qui nous vient du temps, mais le temps qui nous vient de la mort.#Heidegger","20170205");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (154,"Je ne suis rien, je","Je ne suis rien, je le sais, mais je compose mon rien avec un petit morceau de tout.#Victor Hugo","20171015");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (155,"La vie est une succession","La vie est une succession de leçons qu'il faut avoir vécues pour les comprendre.#Helen Keller","20171108");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (156,"Si moi, sourde et aveugle,","Si moi, sourde et aveugle, je trouve la vie riche et intéressante, que doit-elle être pour vous qui possédez vos cinq sens ! #Helen Keller","20170727");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (157,"Il n'y a pour l'homme","Il n'y a pour l'homme que trois événements : naître, vivre et mourir. Il ne se sent pas naître, il souffre à mourir, et il oublie de vivre.#Jean de La Bruyère","20180312");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (158,"La vie pour qui tente","La vie pour qui tente de vivre droit, c'est chose de sucré et salé, douce et amère, convulsive et sereine.#Jean Lurçat","20180826");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (159,"Une vie ne vaut rien,","Une vie ne vaut rien, mais rien ne vaut une vie.#André Malraux","20180610");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (160,"Notre vie est ce qu'en","Notre vie est ce qu'en font nos pensées.#Marc Aurèle","20170228");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (161,"Voici la morale parfaite :","Voici la morale parfaite : vivre chaque jour comme si c'était le dernier, ne pas s'agiter, ne pas sommeiller, ne pas faire semblant.#Marc Aurèle","20180127");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (162,"La vie est un combat,","La vie est un combat, accepte-le.#Mère Teresa","20180917");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (163,"La vie est une chance,","La vie est une chance, saisis-la.#Mère Teresa","20170109");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (164,"Qui apprendrait aux hommes à","Qui apprendrait aux hommes à mourir, leur apprendrait à vivre.#Michel de Montaigne","20170420");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (165,"C'est un malheur qu'il y","C'est un malheur qu'il y a trop peu d'intervalle entre le temps où l'on est trop jeune et le temps où l'on est trop vieux.#Montesquieu","20171118");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (166,"Aller sur la Lune, ce","Aller sur la Lune, ce n'est pas si loin. Le voyage le plus lointain, c'est à l'intérieur de soi-même.#Anaïs Nin","20180114");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (155,"La vie est une succession","La vie est une succession de lecons qu'il faut avoir vecues pour les comprendre.#Helen Keller","20171108");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (156,"Si moi, sourde et aveugle,","Si moi, sourde et aveugle, je trouve la vie riche et interessante, que doit-elle etre pour vous qui possedez vos cinq sens ! #Helen Keller","20170727");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (157,"Il n'y a pour l'homme","Il n'y a pour l'homme que trois evenements : naitre, vivre et mourir. Il ne se sent pas naitre, il souffre a mourir, et il oublie de vivre.#Jean de La Bruyere","20180312");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (158,"La vie pour qui tente","La vie pour qui tente de vivre droit, c'est chose de sucre et sale, douce et amere, convulsive et sereine.#Jean Lurcat","20180826");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (159,"Une vie ne vaut rien,","Une vie ne vaut rien, mais rien ne vaut une vie.#Andre Malraux","20180610");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (160,"Notre vie est ce qu'en","Notre vie est ce qu'en font nos pensees.#Marc Aurele","20170228");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (161,"Voici la morale parfaite :","Voici la morale parfaite : vivre chaque jour comme si c'etait le dernier, ne pas s'agiter, ne pas sommeiller, ne pas faire semblant.#Marc Aurele","20180127");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (162,"La vie est un combat,","La vie est un combat, accepte-le.#Mere Teresa","20180917");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (163,"La vie est une chance,","La vie est une chance, saisis-la.#Mere Teresa","20170109");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (164,"Qui apprendrait aux hommes a","Qui apprendrait aux hommes a mourir, leur apprendrait a vivre.#Michel de Montaigne","20170420");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (165,"C'est un malheur qu'il y","C'est un malheur qu'il y a trop peu d'intervalle entre le temps ou l'on est trop jeune et le temps ou l'on est trop vieux.#Montesquieu","20171118");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (166,"Aller sur la Lune, ce","Aller sur la Lune, ce n'est pas si loin. Le voyage le plus lointain, c'est a l'interieur de soi-meme.#Anais Nin","20180114");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (167,"Il faut avoir une grande","Il faut avoir une grande musique en soi si l'on veut faire danser la vie.#Friedrich Nietzsche","20180507");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (168,"Nous avons autant besoin de","Nous avons autant besoin de raisons de vivre que de quoi vivre.#Abbé Pierre","20170215");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (169,"Plus j'avance en âge et","Plus j'avance en âge et plus je suis convaincu qu'il y a deux choses essentielles dans la vie à ne pas rater : aimer et mourir.#Abbé Pierre","20180131");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (170,"Il y a sur cette","Il y a sur cette terre des gens qui s'entretuent : c'est pas gai. Je sais. Il y a aussi des gens qui s'entrevivent. J'irai les rejoindre.#Jacques Prévert","20170923");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (171,"La vie, c'est comme un","La vie, c'est comme un autobus. Quand tu te retournes, tu t'aperçois qu'il y en a beaucoup qui sont déjà descendus.#Marcel Pagnol","20180415");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (168,"Nous avons autant besoin de","Nous avons autant besoin de raisons de vivre que de quoi vivre.#Abbe Pierre","20170215");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (169,"Plus j'avance en age et","Plus j'avance en age et plus je suis convaincu qu'il y a deux choses essentielles dans la vie a ne pas rater : aimer et mourir.#Abbe Pierre","20180131");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (170,"Il y a sur cette","Il y a sur cette terre des gens qui s'entretuent : c'est pas gai. Je sais. Il y a aussi des gens qui s'entrevivent. J'irai les rejoindre.#Jacques Prevert","20170923");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (171,"La vie, c'est comme un","La vie, c'est comme un autobus. Quand tu te retournes, tu t'apercois qu'il y en a beaucoup qui sont deja descendus.#Marcel Pagnol","20180415");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (172,"Ce dont il faut faire","Ce dont il faut faire le plus de cas, ce n'est pas de vivre, mais de vivre bien.#Platon","20170826");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (173,"On doit vivre sa vie","On doit vivre sa vie en essayant d'en faire un modèle pour d'autres.#Rosa Parks","20170814");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (174,"La vie ? Un rien","La vie ? Un rien l'amène, un rien l'anime, un rien la mine, un rien l'emmène.#Raymond Queneau","20170903");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (175,"Vivez, si m'en croyez, n'attendez","Vivez, si m'en croyez, n'attendez à demain : Cueillez dès aujourd'hui les roses de la vie.#Pierre de Ronsard","20171019");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (176,"Fais de ta vie un","Fais de ta vie un rêve, et d'un rêve, une réalité.#Antoine de Saint-Exupéry","20170707");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (177,"La vie est trop courte","La vie est trop courte pour être prise au sérieux.#George Bernard Shaw","20170107");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (178,"Oser vivre la vie, c'est","Oser vivre la vie, c'est prendre le risque de se mettre au monde en permanence.#Jacques Salomé","20180110");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (179,"Le plus grand obstacle à","Le plus grand obstacle à la vie est l'attente qui espère demain et néglige aujourd'hui.#Sénèque","20170620");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (180,"La vie n'est pas d'attendre","La vie n'est pas d'attendre que l'orage passe. C'est d'apprendre à danser sous la pluie.#Sénèque","20170311");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (181,"La vie ressemble à un","La vie ressemble à un conte, ce qui importe ce n'est pas sa longueur, mais sa valeur.#Sénèque","20180501");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (182,"L'art de vivre, il faut","L'art de vivre, il faut toute la vie pour l'apprendre ; et ce qui vous surprendra peut-être davantage, toute la vie il faut apprendre à mourir.#Sénèque","20170821");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (183,"C'est la vie qui nous","C'est la vie qui nous apprend et non l'école.#Sénèque","20170723");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (184,"Hâte-toi de bien vivre et","Hâte-toi de bien vivre et songe que chaque jour est à lui seul une vie.#Sénèque","20180718");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (185,"Une vie qui n'est pas","Une vie qui n'est pas réfléchie ne vaut pas d'être vécue.#Socrate","20170405");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (186,"Une belle vie, c'est un","Une belle vie, c'est un rêve de jeunesse réalisé dans l'âge mûr.#Alfred de Vigny","20180517");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (187,"Vivre, c'est se réveiller la","Vivre, c'est se réveiller la nuit dans l'impatience du jour à venir, c'est s'émerveiller de ce que le miracle quotidien se reproduise pour nous une fois encore, c'est avoir des insomnies de joie.#Paul-Emile Victor","20170710");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (188,"Impossible de vous dire mon","Impossible de vous dire mon âge, il change tout le temps.#Alphonse Allais","20171029");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (189,"On n'est vieux que le","On n'est vieux que le jour où on le décide.#Jean Anouilh","20180615");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (190,"La trentaine est un âge","La trentaine est un âge difficile. La vie est finie, l'existence commence.#André Bay","20170317");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (191,"Chaque âge a ses plaisirs,","Chaque âge a ses plaisirs, son esprit et ses mœurs.#Nicolas Boileau","20180830");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (192,"Qu'est-ce qu'un adulte ? Un","Qu'est-ce qu'un adulte ? Un enfant gonflé d'âge.#Simone de Beauvoir","20180612");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (193,"L'âge, l'âge véritable, celui qui","L'âge, l'âge véritable, celui qui compte, ce n'est pas le nombre des années que nous avons vécues, c'est le nombre des années qui nous restent à vivre.#Alfred Capus","20180505");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (194,"On peut naître vieux, comme","On peut naître vieux, comme on peut mourir jeune.#Jean Cocteau","20180607");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (195,"À 20 ans c'est la","À 20 ans c'est la volonté qui règne, à 30 ans, l'esprit, et à 40, le jugement.#Benjamin Franklin","20180521");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (196,"À quoi cela sert-il de","À quoi cela sert-il de vieillir ? Peut-être, justement, à rien d'autre qu'à élargir la vue, à ouvrir l'horizon.#Luc Ferry","20180316");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (197,"Le secret d'une bonne vieillesse","Le secret d'une bonne vieillesse n'était rien d'autre que la conclusion d'un pacte honorable avec la solitude.#Gabriel Garcia Marquez","20180916");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (198,"Elle était tellement paresseuse qu'elle","Elle était tellement paresseuse qu'elle ne faisait même pas son âge.#Sacha Guitry","20171005");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (199,"Vouloir être de son temps,","Vouloir être de son temps, c'est déjà être dépassé.#Eugène Ionesco","20171214");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (200,"Les vieillards aiment à donner","Les vieillards aiment à donner de bons préceptes pour se consoler de n'être plus en état de donner de mauvais exemples.#François de La Rochefoucauld","20180501");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (201,"Nous arrivons tous nouveaux aux","Nous arrivons tous nouveaux aux divers âges de la vie, et nous y manquons souvent d'expérience malgré le nombre des années.#François de La Rochefoucauld","20180828");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (173,"On doit vivre sa vie","On doit vivre sa vie en essayant d'en faire un modele pour d'autres.#Rosa Parks","20170814");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (174,"La vie ? Un rien","La vie ? Un rien l'amene, un rien l'anime, un rien la mine, un rien l'emmene.#Raymond Queneau","20170903");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (175,"Vivez, si m'en croyez, n'attendez","Vivez, si m'en croyez, n'attendez a demain : Cueillez des aujourd'hui les roses de la vie.#Pierre de Ronsard","20171019");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (176,"Fais de ta vie un","Fais de ta vie un reve, et d'un reve, une realite.#Antoine de Saint-Exupery","20170707");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (177,"La vie est trop courte","La vie est trop courte pour etre prise au serieux.#George Bernard Shaw","20170107");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (178,"Oser vivre la vie, c'est","Oser vivre la vie, c'est prendre le risque de se mettre au monde en permanence.#Jacques Salome","20180110");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (179,"Le plus grand obstacle a","Le plus grand obstacle a la vie est l'attente qui espere demain et neglige aujourd'hui.#Seneque","20170620");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (180,"La vie n'est pas d'attendre","La vie n'est pas d'attendre que l'orage passe. C'est d'apprendre a danser sous la pluie.#Seneque","20170311");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (181,"La vie ressemble a un","La vie ressemble a un conte, ce qui importe ce n'est pas sa longueur, mais sa valeur.#Seneque","20180501");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (182,"L'art de vivre, il faut","L'art de vivre, il faut toute la vie pour l'apprendre ; et ce qui vous surprendra peut-etre davantage, toute la vie il faut apprendre a mourir.#Seneque","20170821");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (183,"C'est la vie qui nous","C'est la vie qui nous apprend et non l'ecole.#Seneque","20170723");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (184,"Hate-toi de bien vivre et","Hate-toi de bien vivre et songe que chaque jour est a lui seul une vie.#Seneque","20180718");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (185,"Une vie qui n'est pas","Une vie qui n'est pas reflechie ne vaut pas d'etre vecue.#Socrate","20170405");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (186,"Une belle vie, c'est un","Une belle vie, c'est un reve de jeunesse realise dans l'age mur.#Alfred de Vigny","20180517");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (187,"Vivre, c'est se reveiller la","Vivre, c'est se reveiller la nuit dans l'impatience du jour a venir, c'est s'emerveiller de ce que le miracle quotidien se reproduise pour nous une fois encore, c'est avoir des insomnies de joie.#Paul-Emile Victor","20170710");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (188,"Impossible de vous dire mon","Impossible de vous dire mon age, il change tout le temps.#Alphonse Allais","20171029");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (189,"On n'est vieux que le","On n'est vieux que le jour ou on le decide.#Jean Anouilh","20180615");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (190,"La trentaine est un age","La trentaine est un age difficile. La vie est finie, l'existence commence.#Andre Bay","20170317");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (191,"Chaque age a ses plaisirs,","Chaque age a ses plaisirs, son esprit et ses mœurs.#Nicolas Boileau","20180830");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (192,"Qu'est-ce qu'un adulte ? Un","Qu'est-ce qu'un adulte ? Un enfant gonfle d'age.#Simone de Beauvoir","20180612");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (193,"L'age, l'age veritable, celui qui","L'age, l'age veritable, celui qui compte, ce n'est pas le nombre des annees que nous avons vecues, c'est le nombre des annees qui nous restent a vivre.#Alfred Capus","20180505");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (194,"On peut naitre vieux, comme","On peut naitre vieux, comme on peut mourir jeune.#Jean Cocteau","20180607");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (195,"A 20 ans c'est la","A 20 ans c'est la volonte qui regne, a 30 ans, l'esprit, et a 40, le jugement.#Benjamin Franklin","20180521");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (196,"A quoi cela sert-il de","A quoi cela sert-il de vieillir ? Peut-etre, justement, a rien d'autre qu'a elargir la vue, a ouvrir l'horizon.#Luc Ferry","20180316");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (197,"Le secret d'une bonne vieillesse","Le secret d'une bonne vieillesse n'etait rien d'autre que la conclusion d'un pacte honorable avec la solitude.#Gabriel Garcia Marquez","20180916");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (198,"Elle etait tellement paresseuse qu'elle","Elle etait tellement paresseuse qu'elle ne faisait meme pas son age.#Sacha Guitry","20171005");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (199,"Vouloir etre de son temps,","Vouloir etre de son temps, c'est deja etre depasse.#Eugene Ionesco","20171214");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (200,"Les vieillards aiment a donner","Les vieillards aiment a donner de bons preceptes pour se consoler de n'etre plus en etat de donner de mauvais exemples.#Francois de La Rochefoucauld","20180501");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (201,"Nous arrivons tous nouveaux aux","Nous arrivons tous nouveaux aux divers ages de la vie, et nous y manquons souvent d'experience malgre le nombre des annees.#Francois de La Rochefoucauld","20180828");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (202,"Je n'ai pas vieilli, j'ai","Je n'ai pas vieilli, j'ai simplement connu plusieurs jeunesses successives#Henri Lacordaire","20171018");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (203,"C'est merveilleux la vieillesse, dommage","C'est merveilleux la vieillesse, dommage que ça finisse si mal !#François Mauriac","20170821");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (204,"L’âge n’est pas un sujet","L’âge n’est pas un sujet intéressant. Tout le monde peut vieillir. La seule chose à faire est de vivre assez longtemps.#Groucho Marx","20170626");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (205,"Dans chaque vieux, il y","Dans chaque vieux, il y a un jeune qui se demande ce qui s'est passé.#Groucho Marx","20170724");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (206,"Les souvenirs, c'est quelque chose","Les souvenirs, c'est quelque chose qui vous réchauffe de l'intérieur. Et qui vous déchire violemment le cœur en même temps.#Haruki Murakami","20180527");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (207,"40 ans est un âge","40 ans est un âge terrible, car c'est l'âge où nous devenons ce que nous sommes.#Charles Péguy","20170703");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (208,"On met très longtemps à","On met très longtemps à devenir jeune.#Pablo Picasso","20171215");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (209,"Une belle vie, c'est un","Une belle vie, c'est un rêve de jeunesse réalisé dans l'âge mûr.#Alfred de Vigny","20170110");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (210,"Les animaux sont entre nos","Les animaux sont entre nos mains le gage du paradis perdu.#Léon Bloy","20180831");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (211,"Le jour où l'on comprendra","Le jour où l'on comprendra qu'une pensée sans langage existe chez les animaux, nous mourrons de honte de les avoir enfermés dans des zoos et de les avoir humiliés par nos rires.#Boris Cyrulnik","20180624");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (203,"C'est merveilleux la vieillesse, dommage","C'est merveilleux la vieillesse, dommage que ca finisse si mal !#Francois Mauriac","20170821");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (204,"L’age n’est pas un sujet","L’age n’est pas un sujet interessant. Tout le monde peut vieillir. La seule chose a faire est de vivre assez longtemps.#Groucho Marx","20170626");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (205,"Dans chaque vieux, il y","Dans chaque vieux, il y a un jeune qui se demande ce qui s'est passe.#Groucho Marx","20170724");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (206,"Les souvenirs, c'est quelque chose","Les souvenirs, c'est quelque chose qui vous rechauffe de l'interieur. Et qui vous dechire violemment le cœur en meme temps.#Haruki Murakami","20180527");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (207,"40 ans est un age","40 ans est un age terrible, car c'est l'age ou nous devenons ce que nous sommes.#Charles Peguy","20170703");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (208,"On met tres longtemps a","On met tres longtemps a devenir jeune.#Pablo Picasso","20171215");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (209,"Une belle vie, c'est un","Une belle vie, c'est un reve de jeunesse realise dans l'age mur.#Alfred de Vigny","20170110");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (210,"Les animaux sont entre nos","Les animaux sont entre nos mains le gage du paradis perdu.#Leon Bloy","20180831");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (211,"Le jour ou l'on comprendra","Le jour ou l'on comprendra qu'une pensee sans langage existe chez les animaux, nous mourrons de honte de les avoir enfermes dans des zoos et de les avoir humilies par nos rires.#Boris Cyrulnik","20180624");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (212,"Ce qu'il y a de","Ce qu'il y a de meilleur dans l'homme, c'est le chien.#Toussaint Nicolas Charlet","20171027");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (213,"Les animaux sont des amis","Les animaux sont des amis tellement agréables - ils ne posent jamais de questions, ils ne font aucune critique.#George Eliot","20170621");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (214,"Un homme cruel avec les","Un homme cruel avec les animaux ne peut être un homme bon.#Gandhi","20180827");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (213,"Les animaux sont des amis","Les animaux sont des amis tellement agreables - ils ne posent jamais de questions, ils ne font aucune critique.#George Eliot","20170621");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (214,"Un homme cruel avec les","Un homme cruel avec les animaux ne peut etre un homme bon.#Gandhi","20180827");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (215,"L'homme est un loup pour","L'homme est un loup pour l'homme.#Thomas Hobbes","20171006");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (216,"Dieu a inventé le chat","Dieu a inventé le chat pour que l'homme ait un tigre à caresser chez lui.#Victor Hugo","20171105");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (217,"L'homme est un animal métaphysique.#Arthur","L'homme est un animal métaphysique.#Arthur Schopenhauer","20171231");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (216,"Dieu a invente le chat","Dieu a invente le chat pour que l'homme ait un tigre a caresser chez lui.#Victor Hugo","20171105");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (217,"L'homme est un animal metaphysique.#Arthur","L'homme est un animal metaphysique.#Arthur Schopenhauer","20171231");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (218,"Les animaux sont mes amis...","Les animaux sont mes amis... et je ne mange pas mes amis.#George Bernard Shaw","20171116");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (219,"Le chat semble mettre un","Le chat semble mettre un point d'honneur à ne servir à rien, ce qui ne l'empêche pas de revendiquer au foyer une place meilleure que celle du chien.#Michel Tournier","20170715");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (220,"Le jour viendra où les","Le jour viendra où les personnes comme moi regarderont le meurtre des animaux comme ils regardent aujourd'hui le meurtre des êtres humains.#Léonard de Vinci","20170822");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (221,"Il y a cette immense","Il y a cette immense liberté de l'animal, enfermé certes dans les limites de son espèce, mais vivant sans plus sa réalité d'être, sans tout le faux que nous ajoutons à la sensation d'exister.#Marguerite Yourcenar","20170321");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (222,"Là, tout n'est qu'ordre et","Là, tout n'est qu'ordre et beauté, Luxe, calme et volupté.#Charles Baudelaire","20170505");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (223,"On a bien raison de","On a bien raison de dire qu'il n'y a rien de plus beau que frégate à la voile, cheval au galop et femme qui danse.#Honoré de Balzac","20170322");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (224,"Être belle et aimée, ce","Être belle et aimée, ce n'est être que femme. Être laide et savoir se faire aimer, c'est être princesse.#Jules Barbey d'Aurevilly","20170724");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (225,"La beauté est un fragment","La beauté est un fragment d'éternité que le temps finit toujours par détruire.#Pascal Bruckner","20180709");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (226,"Combien faudra-t-il d'œuvres d'art pour","Combien faudra-t-il d'œuvres d'art pour mettre la beauté dans le monde ?#Mathias Enard","20170309");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (227,"Le beau plait immédiatement. Il","Le beau plait immédiatement. Il plaît en dehors de tout intérêt.#Emmanuel Kant","20180523");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (228,"Un beau visage est le","Un beau visage est le plus doux de tous les spectacles.#Jean de La Bruyère","20180109");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (229,"Si pauvre qu'il soit, un","Si pauvre qu'il soit, un homme ne vit pas que de pain. Il a droit, comme les riches, à la beauté.#Octave Mirbeau","20180801");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (230,"Peu importe ce qui fait","Peu importe ce qui fait que c'est beau tant nous importe ce que la beauté nous fait. Elle nous arrête dans nos hâtes inutiles et nous laisse deviner, sous la surface qui étincelle, la profondeur de ce qui s'agite en nous.#Charles Pépin","20180526");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (231,"La beauté n'est pas dans","La beauté n'est pas dans les couleurs, mais dans leur harmonie.#Marcel Proust","20170116");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (219,"Le chat semble mettre un","Le chat semble mettre un point d'honneur a ne servir a rien, ce qui ne l'empeche pas de revendiquer au foyer une place meilleure que celle du chien.#Michel Tournier","20170715");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (220,"Le jour viendra ou les","Le jour viendra ou les personnes comme moi regarderont le meurtre des animaux comme ils regardent aujourd'hui le meurtre des etres humains.#Leonard de Vinci","20170822");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (221,"Il y a cette immense","Il y a cette immense liberte de l'animal, enferme certes dans les limites de son espece, mais vivant sans plus sa realite d'etre, sans tout le faux que nous ajoutons a la sensation d'exister.#Marguerite Yourcenar","20170321");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (222,"La, tout n'est qu'ordre et","La, tout n'est qu'ordre et beaute, Luxe, calme et volupte.#Charles Baudelaire","20170505");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (223,"On a bien raison de","On a bien raison de dire qu'il n'y a rien de plus beau que fregate a la voile, cheval au galop et femme qui danse.#Honore de Balzac","20170322");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (224,"Etre belle et aimee, ce","Etre belle et aimee, ce n'est etre que femme. Etre laide et savoir se faire aimer, c'est etre princesse.#Jules Barbey d'Aurevilly","20170724");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (225,"La beaute est un fragment","La beaute est un fragment d'eternite que le temps finit toujours par detruire.#Pascal Bruckner","20180709");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (226,"Combien faudra-t-il d'œuvres d'art pour","Combien faudra-t-il d'œuvres d'art pour mettre la beaute dans le monde ?#Mathias Enard","20170309");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (227,"Le beau plait immediatement. Il","Le beau plait immediatement. Il plait en dehors de tout interet.#Emmanuel Kant","20180523");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (228,"Un beau visage est le","Un beau visage est le plus doux de tous les spectacles.#Jean de La Bruyere","20180109");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (229,"Si pauvre qu'il soit, un","Si pauvre qu'il soit, un homme ne vit pas que de pain. Il a droit, comme les riches, a la beaute.#Octave Mirbeau","20180801");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (230,"Peu importe ce qui fait","Peu importe ce qui fait que c'est beau tant nous importe ce que la beaute nous fait. Elle nous arrete dans nos hates inutiles et nous laisse deviner, sous la surface qui etincelle, la profondeur de ce qui s'agite en nous.#Charles Pepin","20180526");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (231,"La beaute n'est pas dans","La beaute n'est pas dans les couleurs, mais dans leur harmonie.#Marcel Proust","20170116");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (232,"Laissons les jolies femmes aux","Laissons les jolies femmes aux hommes sans imagination.#Marcel Proust","20180309");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (233,"Je ne sais pas ce","Je ne sais pas ce qui est beau, mais je sais ce que j'aime et je trouve ça amplement suffisant.#Boris Vian","20180411");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (234,"La définition du Beau est","La définition du Beau est facile : il est ce qui désespère.#Paul Valéry","20180413");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (235,"Dans l'amour d'un couple, trouver","Dans l'amour d'un couple, trouver la distance juste est essentiel. Cela demande beaucoup de patience, de perspicacité et d'imagination, en un mot, d'esprit.#Jacques de Bourbon Busset","20171217");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (236,"Le couple aimant ne recherche","Le couple aimant ne recherche pas une chimérique fusion. C'est l'expression de la dualité créatrice, de l'union dans la différence, de l'ardente alliance de deux libertés.#Jacques de Bourbon Busset","20170202");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (237,"Je veux bien être embêté","Je veux bien être embêté toute ma vie par les femmes, mais pas par la même.#Alfred Capus","20180323");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (238,"Un couple, ce n'est pas","Un couple, ce n'est pas un homme plus une femme, c'est une troisième personne qu'ils forment ensemble.#Françoise Giroud","20180110");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (239,"Libre, c'est le mot que","Libre, c'est le mot que l'on emploie pour les hommes. Des femmes en rupture de mariage ou de liaison, on dit qu'elles sont seules.#Françoise Giroud","20170916");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (240,"Il faut toujours se marier","Il faut toujours se marier avec une belle femme : vous trouverez toujours quelqu'un pour vous en débarrasser.#Sacha Guitry","20170704");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (241,"Ne vous fiez pas aux","Ne vous fiez pas aux couples qui se tiennent par la main. S’ils ne se lâchent pas, c’est parce qu’ils ont peur de s’entre-tuer.#Groucho Marx","20170910");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (242,"Il arrive qu'une femme rencontre","Il arrive qu'une femme rencontre une épave et qu'elle décide d'en faire un homme sain. Elle y réussit parfois. Il arrive qu'une femme rencontre un homme sain et décide d'en faire une épave. Elle y réussit toujours.#Cesare Pavese","20170510");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (243,"Il est vraiment rare qu'on","Il est vraiment rare qu'on se quitte bien, car si on était bien, on ne se quitterait pas.#Marcel Proust","20170905");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (244,"Une femme s'inquiète de l'avenir","Une femme s'inquiète de l'avenir jusqu'à ce qu'elle ait trouvé un mari, tandis qu'un homme ne s'inquiète de l'avenir que lorsqu'il a trouvé une femme.#George Bernard Shaw","20171019");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (245,"L'homme est une création du","L'homme est une création du désir, non pas une création du besoin.#Gaston Bachelard","20170604");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (246,"J'ai tant rêvé de toi","J'ai tant rêvé de toi que tu perds ta réalité.#Robert Desnos","20180727");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (247,"Achète-toi tout ce que tu","Achète-toi tout ce que tu veux, ça ne remplira jamais le vide qui dévore ton cœur.#Virginie Despentes","20171128");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (248,"Ne désire que ce qui","Ne désire que ce qui dépend de toi.#Epictète","20170307");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (249,"On désire toujours, par-dessus tout,","On désire toujours, par-dessus tout, l'inaccessible, avec avidité.#Milan Kundera","20170606");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (250,"Le désir, c'est la distance","Le désir, c'est la distance à parcourir entre la soif et la fontaine qui recule au fur et à mesure qu'on avance vers elle.#Dany Laferrière","20170903");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (251,"Ce n'est pas la pauvreté","Ce n'est pas la pauvreté qui nous afflige, mais le désir de richesse.#Marc Aurèle","20170210");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (252,"On en vient à aimer","On en vient à aimer son désir et non plus l'objet de son désir.#Friedrich Nietzsche","20170127");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (253,"On obtient les choses quand","On obtient les choses quand on ne les désire plus.#Cesare Pavese","20180720");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (254,"Le désir fleurit, la possession","Le désir fleurit, la possession flétrit toutes choses.#Marcel Proust","20170106");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (255,"Malheur à qui n'a plus","Malheur à qui n'a plus rien à désirer ! Il perd pour ainsi dire tout ce qu'il possède. On jouit moins de ce qu'on obtient que de ce qu'on espère et l'on n'est heureux qu'avant d'être heureux.#Jean-Jacques Rousseau","20180124");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (256,"Il y a deux catastrophes","Il y a deux catastrophes dans l'existence : la première, c'est quand nos désirs ne sont pas satisfaits ; le seconde, c'est quand ils le sont.#George Bernard Shaw","20170728");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (257,"Quand on rentre en soi-même,","Quand on rentre en soi-même, on s'aperçoit qu'on possède exactement ce que l'on désirait.#Simone Weil","20170704");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (258,"Le monde va être jugé","Le monde va être jugé par les enfants.#Georges Bernanos","20170114");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (233,"Je ne sais pas ce","Je ne sais pas ce qui est beau, mais je sais ce que j'aime et je trouve ca amplement suffisant.#Boris Vian","20180411");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (234,"La definition du Beau est","La definition du Beau est facile : il est ce qui desespere.#Paul Valery","20180413");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (235,"Dans l'amour d'un couple, trouver","Dans l'amour d'un couple, trouver la distance juste est essentiel. Cela demande beaucoup de patience, de perspicacite et d'imagination, en un mot, d'esprit.#Jacques de Bourbon Busset","20171217");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (236,"Le couple aimant ne recherche","Le couple aimant ne recherche pas une chimerique fusion. C'est l'expression de la dualite creatrice, de l'union dans la difference, de l'ardente alliance de deux libertes.#Jacques de Bourbon Busset","20170202");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (237,"Je veux bien etre embete","Je veux bien etre embete toute ma vie par les femmes, mais pas par la meme.#Alfred Capus","20180323");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (238,"Un couple, ce n'est pas","Un couple, ce n'est pas un homme plus une femme, c'est une troisieme personne qu'ils forment ensemble.#Francoise Giroud","20180110");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (239,"Libre, c'est le mot que","Libre, c'est le mot que l'on emploie pour les hommes. Des femmes en rupture de mariage ou de liaison, on dit qu'elles sont seules.#Francoise Giroud","20170916");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (240,"Il faut toujours se marier","Il faut toujours se marier avec une belle femme : vous trouverez toujours quelqu'un pour vous en debarrasser.#Sacha Guitry","20170704");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (241,"Ne vous fiez pas aux","Ne vous fiez pas aux couples qui se tiennent par la main. S’ils ne se lachent pas, c’est parce qu’ils ont peur de s’entre-tuer.#Groucho Marx","20170910");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (242,"Il arrive qu'une femme rencontre","Il arrive qu'une femme rencontre une epave et qu'elle decide d'en faire un homme sain. Elle y reussit parfois. Il arrive qu'une femme rencontre un homme sain et decide d'en faire une epave. Elle y reussit toujours.#Cesare Pavese","20170510");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (243,"Il est vraiment rare qu'on","Il est vraiment rare qu'on se quitte bien, car si on etait bien, on ne se quitterait pas.#Marcel Proust","20170905");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (244,"Une femme s'inquiete de l'avenir","Une femme s'inquiete de l'avenir jusqu'a ce qu'elle ait trouve un mari, tandis qu'un homme ne s'inquiete de l'avenir que lorsqu'il a trouve une femme.#George Bernard Shaw","20171019");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (245,"L'homme est une creation du","L'homme est une creation du desir, non pas une creation du besoin.#Gaston Bachelard","20170604");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (246,"J'ai tant reve de toi","J'ai tant reve de toi que tu perds ta realite.#Robert Desnos","20180727");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (247,"Achete-toi tout ce que tu","Achete-toi tout ce que tu veux, ca ne remplira jamais le vide qui devore ton cœur.#Virginie Despentes","20171128");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (248,"Ne desire que ce qui","Ne desire que ce qui depend de toi.#Epictete","20170307");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (249,"On desire toujours, par-dessus tout,","On desire toujours, par-dessus tout, l'inaccessible, avec avidite.#Milan Kundera","20170606");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (250,"Le desir, c'est la distance","Le desir, c'est la distance a parcourir entre la soif et la fontaine qui recule au fur et a mesure qu'on avance vers elle.#Dany Laferriere","20170903");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (251,"Ce n'est pas la pauvrete","Ce n'est pas la pauvrete qui nous afflige, mais le desir de richesse.#Marc Aurele","20170210");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (252,"On en vient a aimer","On en vient a aimer son desir et non plus l'objet de son desir.#Friedrich Nietzsche","20170127");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (253,"On obtient les choses quand","On obtient les choses quand on ne les desire plus.#Cesare Pavese","20180720");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (254,"Le desir fleurit, la possession","Le desir fleurit, la possession fletrit toutes choses.#Marcel Proust","20170106");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (255,"Malheur a qui n'a plus","Malheur a qui n'a plus rien a desirer ! Il perd pour ainsi dire tout ce qu'il possede. On jouit moins de ce qu'on obtient que de ce qu'on espere et l'on n'est heureux qu'avant d'etre heureux.#Jean-Jacques Rousseau","20180124");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (256,"Il y a deux catastrophes","Il y a deux catastrophes dans l'existence : la premiere, c'est quand nos desirs ne sont pas satisfaits ; le seconde, c'est quand ils le sont.#George Bernard Shaw","20170728");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (257,"Quand on rentre en soi-meme,","Quand on rentre en soi-meme, on s'apercoit qu'on possede exactement ce que l'on desirait.#Simone Weil","20170704");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (258,"Le monde va etre juge","Le monde va etre juge par les enfants.#Georges Bernanos","20170114");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (259,"On est toujours l'enfant de","On est toujours l'enfant de quelqu'un.#Pierre-Augustin Caron de Beaumarchais","20170610");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (260,"De toutes les écoles que","De toutes les écoles que j'ai fréquentées, c'est l'école buissonnière qui m'a paru la meilleure.#Anatole France","20170618");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (261,"La meilleure odeur est celle","La meilleure odeur est celle du pain, le meilleur goût, celui du sel, le meilleur amour, celui des enfants.#Graham Greene","20180413");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (262,"Vos enfants : vous pouvez","Vos enfants : vous pouvez vous efforcer d'être comme eux, mais ne tentez pas de les faire comme vous.#Khalil Gibran","20170630");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (263,"Vos enfants ne sont pas","Vos enfants ne sont pas vos enfants. (...) Ils viennent par vous mais non de vous. Et bien qu'il soient avec vous, ce n'est pas à vous qu'ils appartiennent.#Khalil Gibran","20170430");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (264,"Lorsque l'enfant paraît, le cercle","Lorsque l'enfant paraît, le cercle de famille applaudit à grands cris. Son doux regard qui brille fait briller tous les yeux.#Victor Hugo","20170129");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (265,"Ma mère adorait les enfants","Ma mère adorait les enfants ; elle aurait donné n’importe quoi pour que j’en sois un.#Groucho Marx","20171129");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (266,"Les enfants sont des énigmes","Les enfants sont des énigmes lumineuses.#Daniel Pennac","20171203");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (267,"Il y a des adultes","Il y a des adultes qui jamais n'ont été des enfants.#Jacques Prévert","20180607");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (268,"Quand l'enfant quitte la maison,","Quand l'enfant quitte la maison, il emporte la main de sa mère.#Proverbe chinois","20170616");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (269,"Chagrin d'enfant et rosée du","Chagrin d'enfant et rosée du matin n'ont pas de durée.#George Sand","20180131");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (270,"Les enfants sont d'une incroyable","Les enfants sont d'une incroyable habileté pour réveiller, pour restimuler l'ex-enfant qui est en chacun de nous !#Jacques Salomé","20180603");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (271,"Faites comme les petits enfants","Faites comme les petits enfants qui de l'une des mains se tiennent à leur père, et de l'autre cueillent des fraises ou des mûres le long des haies (...).#Saint François de Sales","20171202");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (272,"Le courage nourrit les guerres,","Le courage nourrit les guerres, mais c'est la peur qui les fait naître.#Alain","20180426");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (260,"De toutes les ecoles que","De toutes les ecoles que j'ai frequentees, c'est l'ecole buissonniere qui m'a paru la meilleure.#Anatole France","20170618");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (261,"La meilleure odeur est celle","La meilleure odeur est celle du pain, le meilleur gout, celui du sel, le meilleur amour, celui des enfants.#Graham Greene","20180413");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (262,"Vos enfants : vous pouvez","Vos enfants : vous pouvez vous efforcer d'etre comme eux, mais ne tentez pas de les faire comme vous.#Khalil Gibran","20170630");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (263,"Vos enfants ne sont pas","Vos enfants ne sont pas vos enfants. (...) Ils viennent par vous mais non de vous. Et bien qu'il soient avec vous, ce n'est pas a vous qu'ils appartiennent.#Khalil Gibran","20170430");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (264,"Lorsque l'enfant parait, le cercle","Lorsque l'enfant parait, le cercle de famille applaudit a grands cris. Son doux regard qui brille fait briller tous les yeux.#Victor Hugo","20170129");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (265,"Ma mere adorait les enfants","Ma mere adorait les enfants ; elle aurait donne n’importe quoi pour que j’en sois un.#Groucho Marx","20171129");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (266,"Les enfants sont des enigmes","Les enfants sont des enigmes lumineuses.#Daniel Pennac","20171203");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (267,"Il y a des adultes","Il y a des adultes qui jamais n'ont ete des enfants.#Jacques Prevert","20180607");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (268,"Quand l'enfant quitte la maison,","Quand l'enfant quitte la maison, il emporte la main de sa mere.#Proverbe chinois","20170616");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (269,"Chagrin d'enfant et rosee du","Chagrin d'enfant et rosee du matin n'ont pas de duree.#George Sand","20180131");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (270,"Les enfants sont d'une incroyable","Les enfants sont d'une incroyable habilete pour reveiller, pour restimuler l'ex-enfant qui est en chacun de nous !#Jacques Salome","20180603");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (271,"Faites comme les petits enfants","Faites comme les petits enfants qui de l'une des mains se tiennent a leur pere, et de l'autre cueillent des fraises ou des mures le long des haies (...).#Saint Francois de Sales","20171202");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (272,"Le courage nourrit les guerres,","Le courage nourrit les guerres, mais c'est la peur qui les fait naitre.#Alain","20180426");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (273,"C’est l’ignorance, et non la","C’est l’ignorance, et non la connaissance, qui dresse les hommes les uns contre les autres.#Kofi Annan","20170424");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (274,"La guerre ! C'est une","La guerre ! C'est une chose trop grave pour la confier à des militaires.#Georges Clémenceau","20180830");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (275,"Je ne sais pas comment","Je ne sais pas comment sera la troisième guerre mondiale, mais je sais qu'il n'y aura plus beaucoup de monde pour voir la quatrième.#Albert Einstein","20170805");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (276,"Dans la paix, les fils","Dans la paix, les fils ensevelissent leur père ; dans la guerre, les pères ensevelissent leurs fils.#Hérodote","20180415");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (277,"La première victime d'une guerre,","La première victime d'une guerre, c'est la vérité.#Rudyard Kipling","20170804");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (278,"Si on part du principe","Si on part du principe que la vie vaut d'être vécue, que l'humanité a le droit de survivre, il faut trouver une alternative à la guerre.#Martin Luther King","20170104");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (279,"La politique est une guerre","La politique est une guerre sans effusion de sang et la guerre une politique avec effusion de sang.#Mao-Tsé-Toung","20180402");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (274,"La guerre ! C'est une","La guerre ! C'est une chose trop grave pour la confier a des militaires.#Georges Clemenceau","20180830");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (275,"Je ne sais pas comment","Je ne sais pas comment sera la troisieme guerre mondiale, mais je sais qu'il n'y aura plus beaucoup de monde pour voir la quatrieme.#Albert Einstein","20170805");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (276,"Dans la paix, les fils","Dans la paix, les fils ensevelissent leur pere ; dans la guerre, les peres ensevelissent leurs fils.#Herodote","20180415");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (277,"La premiere victime d'une guerre,","La premiere victime d'une guerre, c'est la verite.#Rudyard Kipling","20170804");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (278,"Si on part du principe","Si on part du principe que la vie vaut d'etre vecue, que l'humanite a le droit de survivre, il faut trouver une alternative a la guerre.#Martin Luther King","20170104");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (279,"La politique est une guerre","La politique est une guerre sans effusion de sang et la guerre une politique avec effusion de sang.#Mao-Tse-Toung","20180402");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (280,"On fait la guerre quand","On fait la guerre quand on veut, on la termine quand on peut.#Nicolas Machiavel","20170911");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (281,"Vous devez donc savoir qu'il","Vous devez donc savoir qu'il y a deux manières de combattre, l'une avec des lois, l'autre avec la force. La première est propre aux hommes, l'autre nous est commune avec les bêtes.#Nicolas Machiavel","20170313");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (281,"Vous devez donc savoir qu'il","Vous devez donc savoir qu'il y a deux manieres de combattre, l'une avec des lois, l'autre avec la force. La premiere est propre aux hommes, l'autre nous est commune avec les betes.#Nicolas Machiavel","20170313");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (282,"Les vrais vaincus de la","Les vrais vaincus de la guerre, ce sont les morts.#Ernest Renan","20170521");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (283,"La guerre n'est pas une","La guerre n'est pas une aventure. La guerre est une maladie. Comme le typhus.#Antoine de Saint-Exupéry","20180122");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (284,"Il suffit qu'un seul homme","Il suffit qu'un seul homme en haïsse un autre pour que la haine gagne de proche en proche l'humanité entière.#Jean-Paul Sartre","20170909");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (283,"La guerre n'est pas une","La guerre n'est pas une aventure. La guerre est une maladie. Comme le typhus.#Antoine de Saint-Exupery","20180122");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (284,"Il suffit qu'un seul homme","Il suffit qu'un seul homme en haisse un autre pour que la haine gagne de proche en proche l'humanite entiere.#Jean-Paul Sartre","20170909");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (285,"Quand les riches se font","Quand les riches se font la guerre, ce sont les pauvres qui meurent.#Jean-Paul Sartre","20170922");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (286,"Se préparer à la guerre","Se préparer à la guerre est le meilleur moyen de préserver la paix.#George Washington","20170131");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (287,"L'avenir de l'humanité reste indéterminé","L'avenir de l'humanité reste indéterminé parce qu'il dépend d'elle.#Henri Bergson","20170411");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (288,"Toute l'humanité est impliquée dans","Toute l'humanité est impliquée dans un processus simple, et tous les hommes sont frères. Quand je fais du mal à mon frère, quoi qu'il me fasse, je me fais autant de mal à moi-même.#Martin Luther King","20180411");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (289,"Je tremble toujours qu'on ne","Je tremble toujours qu'on ne parvienne, à la fin, à découvrir quelque secret qui fournisse une voie plus abrégée pour faire périr les hommes, détruire les peuples et les nations entières.#Montesquieu","20180622");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (290,"Je pense que l'humanité n'est","Je pense que l'humanité n'est pas nécessairement la favorite de la nature, que l'humanité peut très bien disparaître, que nous ne sommes pas une espèce sacrée#Hubert Reeves","20170327");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (291,"L'avantage d'être intelligent, c'est qu'on","L'avantage d'être intelligent, c'est qu'on peut toujours faire l'imbécile, alors que l'inverse est totalement impossible.#Woody Allen","20180518");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (292,"Rien n'existe dans notre intelligence","Rien n'existe dans notre intelligence qui n'ait d'abord été dans nos sens.#Démocrite","20180209");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (293,"Les maîtres d'école sont des","Les maîtres d'école sont des jardiniers en intelligences humaines.#Victor Hugo","20171016");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (294,"On mesure l'intelligence d'un individu","On mesure l'intelligence d'un individu à la quantité d'incertitudes qu'il est capable de supporter.#Emmanuel Kant","20170113");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (295,"L'intelligence est la faculté à","L'intelligence est la faculté à l'aide de laquelle nous comprenons finalement que tout est incompréhensible.#Claude Lévi-Strauss","20170816");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (296,"Celui qui en sait beaucoup","Celui qui en sait beaucoup sur les autres est peut-être instruit, mais celui qui se comprend lui-même est plus intelligent.#Lao-Tseu","20170503");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (297,"L'hésitation est le propre de","L'hésitation est le propre de l'intelligence.#Henri de Montherlant","20171204");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (298,"L'intelligence ne vaut qu'au service","L'intelligence ne vaut qu'au service de l'amour.#Antoine de Saint-Exupéry","20170105");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (286,"Se preparer a la guerre","Se preparer a la guerre est le meilleur moyen de preserver la paix.#George Washington","20170131");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (287,"L'avenir de l'humanite reste indetermine","L'avenir de l'humanite reste indetermine parce qu'il depend d'elle.#Henri Bergson","20170411");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (288,"Toute l'humanite est impliquee dans","Toute l'humanite est impliquee dans un processus simple, et tous les hommes sont freres. Quand je fais du mal a mon frere, quoi qu'il me fasse, je me fais autant de mal a moi-meme.#Martin Luther King","20180411");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (289,"Je tremble toujours qu'on ne","Je tremble toujours qu'on ne parvienne, a la fin, a decouvrir quelque secret qui fournisse une voie plus abregee pour faire perir les hommes, detruire les peuples et les nations entieres.#Montesquieu","20180622");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (290,"Je pense que l'humanite n'est","Je pense que l'humanite n'est pas necessairement la favorite de la nature, que l'humanite peut tres bien disparaitre, que nous ne sommes pas une espece sacree#Hubert Reeves","20170327");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (291,"L'avantage d'etre intelligent, c'est qu'on","L'avantage d'etre intelligent, c'est qu'on peut toujours faire l'imbecile, alors que l'inverse est totalement impossible.#Woody Allen","20180518");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (292,"Rien n'existe dans notre intelligence","Rien n'existe dans notre intelligence qui n'ait d'abord ete dans nos sens.#Democrite","20180209");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (293,"Les maitres d'ecole sont des","Les maitres d'ecole sont des jardiniers en intelligences humaines.#Victor Hugo","20171016");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (294,"On mesure l'intelligence d'un individu","On mesure l'intelligence d'un individu a la quantite d'incertitudes qu'il est capable de supporter.#Emmanuel Kant","20170113");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (295,"L'intelligence est la faculte a","L'intelligence est la faculte a l'aide de laquelle nous comprenons finalement que tout est incomprehensible.#Claude Levi-Strauss","20170816");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (296,"Celui qui en sait beaucoup","Celui qui en sait beaucoup sur les autres est peut-etre instruit, mais celui qui se comprend lui-meme est plus intelligent.#Lao-Tseu","20170503");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (297,"L'hesitation est le propre de","L'hesitation est le propre de l'intelligence.#Henri de Montherlant","20171204");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (298,"L'intelligence ne vaut qu'au service","L'intelligence ne vaut qu'au service de l'amour.#Antoine de Saint-Exupery","20170105");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (299,"Le malheur avec un type","Le malheur avec un type intelligent, c'est qu'il n'est jamais assez intelligent pour ne pas se dire qu'il est le plus intelligent.#Boris Vian","20170714");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (300,"Si l'homme échoue à concilier","Si l'homme échoue à concilier la justice et la liberté, alors il échoue à tout.#Albert Camus","20180910");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (300,"Si l'homme echoue a concilier","Si l'homme echoue a concilier la justice et la liberte, alors il echoue a tout.#Albert Camus","20180910");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (301,"Rendez le bien pour le","Rendez le bien pour le bien et la justice pour le mal.#Confucius","20171219");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (302,"Il est effrayant de penser","Il est effrayant de penser que cette chose qu'on a en soi, le jugement, n'est pas la justice. Le jugement, c'est le relatif. La justice, c'est l'absolu. Réfléchissez à la différence entre un juge et juste.#Victor Hugo","20170107");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (302,"Il est effrayant de penser","Il est effrayant de penser que cette chose qu'on a en soi, le jugement, n'est pas la justice. Le jugement, c'est le relatif. La justice, c'est l'absolu. Reflechissez a la difference entre un juge et juste.#Victor Hugo","20170107");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (303,"Une injustice commise quelque part","Une injustice commise quelque part est une menace pour la justice dans le monde entier.#Martin Luther King","20180512");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (304,"Il n'y a point de","Il n'y a point de plus cruelle tyrannie que celle que l'on exerce à l'ombre des lois et avec les couleurs de la justice.#Montesquieu","20170204");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (304,"Il n'y a point de","Il n'y a point de plus cruelle tyrannie que celle que l'on exerce a l'ombre des lois et avec les couleurs de la justice.#Montesquieu","20170204");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (305,"Un acte de justice et","Un acte de justice et de douceur a souvent plus de pouvoir sur le coeur des hommes que la violence et la barbarie.#Nicolas Machiavel","20170720");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (306,"L'affection ou la haine change","L'affection ou la haine change la justice de face. Et combien un avocat bien payé par avance trouve-t-il plus juste la cause qu'il plaide ! #Blaise Pascal","20180831");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (306,"L'affection ou la haine change","L'affection ou la haine change la justice de face. Et combien un avocat bien paye par avance trouve-t-il plus juste la cause qu'il plaide ! #Blaise Pascal","20180831");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (307,"Le bon juge ne sera","Le bon juge ne sera pas un jeune homme, il faut qu'il soit vieux et qu'il ait acquis une connaissance de l'injustice.#Platon","20170503");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (308,"La justice de l'intelligence est","La justice de l'intelligence est la sagesse. Le sage n'est pas celui qui sait beaucoup de choses, mais celui qui voit leur juste mesure.#Platon","20180830");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (309,"Où il n'y a point","Où il n'y a point de justice, il n'y a point de république.#Saint Augustin","20180804");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (309,"Ou il n'y a point","Ou il n'y a point de justice, il n'y a point de republique.#Saint Augustin","20180804");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (310,"Il vaut mieux hasarder de","Il vaut mieux hasarder de sauver un coupable que de condamner un innocent.#Voltaire","20171206");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (311,"Il a fallu des siècles","Il a fallu des siècles pour rendre justice à l'humanité, pour sentir qu'il est horrible que le grand nombre semât et que le petit nombre recueillît.#Voltaire","20180702");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (312,"Le cœur d'une mère est","Le cœur d'une mère est un abîme au fond duquel se trouve toujours un pardon.#Honoré de Balzac","20180127");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (313,"L'asile le plus sûr est","L'asile le plus sûr est le sein d'une mère.#Jean-Pierre Claris de Florian","20180317");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (314,"Avec l'amour maternel, la vie","Avec l'amour maternel, la vie nous a fait à l'aube une promesse qu'elle ne tient jamais.#Romain Gary","20171210");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (315,"O l'amour d'une mère !","O l'amour d'une mère ! Amour que nul n'oublie ! Pain merveilleux qu'un dieu partage et multiplie !#Victor Hugo","20170826");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (316,"Quand on est bonne mère,","Quand on est bonne mère, on sait tout pardonner.#Emile Zola","20170209");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (317,"Mourir, ce n'est rien. Commence","Mourir, ce n'est rien. Commence donc par vivre. C'est moins drôle et c'est plus long#Jean Anouilh","20180920");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (318,"Ce n'est pas que j'aie","Ce n'est pas que j'aie vraiment peur de mourir, mais je préfère ne pas être là quand ça arrivera.#Woody Allen","20171004");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (319,"Pour mes obsèques, je ne","Pour mes obsèques, je ne veux que le strict nécessaire, c'est-à-dire moi.#Georges Clémenceau","20180425");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (311,"Il a fallu des siecles","Il a fallu des siecles pour rendre justice a l'humanite, pour sentir qu'il est horrible que le grand nombre semat et que le petit nombre recueillit.#Voltaire","20180702");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (312,"Le cœur d'une mere est","Le cœur d'une mere est un abime au fond duquel se trouve toujours un pardon.#Honore de Balzac","20180127");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (313,"L'asile le plus sur est","L'asile le plus sur est le sein d'une mere.#Jean-Pierre Claris de Florian","20180317");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (314,"Avec l'amour maternel, la vie","Avec l'amour maternel, la vie nous a fait a l'aube une promesse qu'elle ne tient jamais.#Romain Gary","20171210");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (315,"O l'amour d'une mere !","O l'amour d'une mere ! Amour que nul n'oublie ! Pain merveilleux qu'un dieu partage et multiplie !#Victor Hugo","20170826");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (316,"Quand on est bonne mere,","Quand on est bonne mere, on sait tout pardonner.#Emile Zola","20170209");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (317,"Mourir, ce n'est rien. Commence","Mourir, ce n'est rien. Commence donc par vivre. C'est moins drole et c'est plus long#Jean Anouilh","20180920");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (318,"Ce n'est pas que j'aie","Ce n'est pas que j'aie vraiment peur de mourir, mais je prefere ne pas etre la quand ca arrivera.#Woody Allen","20171004");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (319,"Pour mes obseques, je ne","Pour mes obseques, je ne veux que le strict necessaire, c'est-a-dire moi.#Georges Clemenceau","20180425");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (320,"La mort ne m'aura pas","La mort ne m'aura pas vivant.#Jean Cocteau","20170929");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (321,"Qui ne craint point la","Qui ne craint point la mort ne craint point les menaces.#Pierre Corneille","20180711");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (322,"L'homme naît sans dents, sans","L'homme naît sans dents, sans cheveux et sans illusions, et il meurt de même, sans cheveux, sans dents et sans illusions.#Alexandre Dumas","20170522");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (323,"La vie est une aventure,","La vie est une aventure, elle doit être sans cesse disputée à la mort.#Albert Einstein","20170813");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (324,"Ne sais-tu pas que la","Ne sais-tu pas que la source de toutes les misères de l'homme, ce n'est pas la mort, mais la crainte de la mort ?#Epictète","20171208");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (325,"Chacun de nous quitte la","Chacun de nous quitte la vie avec le sentiment qu'il vient à peine de naître.#Epicure","20180502");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (326,"Je me rappelais que mon","Je me rappelais que mon père avait coutume de dire que le but de la vie, c'est de se préparer à rester mort très longtemps.#William Faulkner","20170717");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (322,"L'homme nait sans dents, sans","L'homme nait sans dents, sans cheveux et sans illusions, et il meurt de meme, sans cheveux, sans dents et sans illusions.#Alexandre Dumas","20170522");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (323,"La vie est une aventure,","La vie est une aventure, elle doit etre sans cesse disputee a la mort.#Albert Einstein","20170813");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (324,"Ne sais-tu pas que la","Ne sais-tu pas que la source de toutes les miseres de l'homme, ce n'est pas la mort, mais la crainte de la mort ?#Epictete","20171208");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (325,"Chacun de nous quitte la","Chacun de nous quitte la vie avec le sentiment qu'il vient a peine de naitre.#Epicure","20180502");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (326,"Je me rappelais que mon","Je me rappelais que mon pere avait coutume de dire que le but de la vie, c'est de se preparer a rester mort tres longtemps.#William Faulkner","20170717");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (327,"La fin de l'espoir est","La fin de l'espoir est le commencement de la mort.#Charles de Gaulle","20170824");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (328,"Si je ne savais pas","Si je ne savais pas d'avance que je vais mourir un jour, si je n'étais pas certain de ne pas avoir tout le temps, je ne me soucierais pas de ma vie. Ce n'est donc pas la mort qui nous vient du temps, mais le temps qui nous vient de la mort.#Heidegger","20180117");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (329,"Apprendre à voir la mort","Apprendre à voir la mort comme un compagnon invisible, mais amical dans le voyage de la vie. Qui vous rappelle doucement de ne pas remettre à demain ce que vous voulez faire. C'est apprendre à vivre sa vie plutôt qu'à la traverser.#Elisabeth Kübler-Ross","20180717");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (330,"La mort ne surprend point","La mort ne surprend point le sage : Il est toujours prêt à partir.#Jean de La Fontaine","20170429");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (328,"Si je ne savais pas","Si je ne savais pas d'avance que je vais mourir un jour, si je n'etais pas certain de ne pas avoir tout le temps, je ne me soucierais pas de ma vie. Ce n'est donc pas la mort qui nous vient du temps, mais le temps qui nous vient de la mort.#Heidegger","20180117");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (329,"Apprendre a voir la mort","Apprendre a voir la mort comme un compagnon invisible, mais amical dans le voyage de la vie. Qui vous rappelle doucement de ne pas remettre a demain ce que vous voulez faire. C'est apprendre a vivre sa vie plutot qu'a la traverser.#Elisabeth Kubler-Ross","20180717");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (330,"La mort ne surprend point","La mort ne surprend point le sage : Il est toujours pret a partir.#Jean de La Fontaine","20170429");
 INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (331,"Mais tu ne meurs pas","Mais tu ne meurs pas de ce que tu es malade ; tu meurs de ce que tu es vivant.#Michel de Montaigne","20170613");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (332,"Philosopher c'est apprendre à mourir.#Michel","Philosopher c'est apprendre à mourir.#Michel de Montaigne","20170510");
-INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (333,"La perspective certaine de la","La perspective certaine de la mort pourrait mêler à la vie une goutte délicieuse et parfumée d’insouciance - mais, âmes bizarres d’apothicaires, vous avez fait de cette goutte un infect poison, qui rend répugnante la vie toute entière !#Nietzsche","20170302");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (332,"Philosopher c'est apprendre a mourir.#Michel","Philosopher c'est apprendre a mourir.#Michel de Montaigne","20170510");
+INSERT INTO bcf_comment (comment_id,comment_name,comment_text,comment_date) VALUES (333,"La perspective certaine de la","La perspective certaine de la mort pourrait meler a la vie une goutte delicieuse et parfumee d’insouciance - mais, ames bizarres d’apothicaires, vous avez fait de cette goutte un infect poison, qui rend repugnante la vie toute entiere !#Nietzsche","20170302");
 
 
 
@@ -16008,24 +16008,24 @@ INSERT INTO bcf_counterpart (counterpart_id,counterpart_description,counterpart_
 INSERT INTO bcf_counterpart (counterpart_id,counterpart_description,counterpart_name,counterpart_price,counterpart_quantity,counterpart_type_counterpart_type_id) VALUES (3,"je vous donne un style, un autographe et un bout de papier","Bout de papier",20,"10",2);
 INSERT INTO bcf_counterpart (counterpart_id,counterpart_description,counterpart_name,counterpart_price,counterpart_quantity,counterpart_type_counterpart_type_id) VALUES (4,"pour vous, une motte de beurre","Beurre",100,"1000000",1);
 INSERT INTO bcf_counterpart (counterpart_id,counterpart_description,counterpart_name,counterpart_price,counterpart_quantity,counterpart_type_counterpart_type_id) VALUES (5,"pour vous, deux mottes de beurre","Beurre double",200,"1000000",2);
-INSERT INTO bcf_counterpart (counterpart_id,counterpart_description,counterpart_name,counterpart_price,counterpart_quantity,counterpart_type_counterpart_type_id) VALUES (6,"pour vous, deux mottes de beurre et votre nom au générique","Beurre et remerciements",500,"1000000",2);
+INSERT INTO bcf_counterpart (counterpart_id,counterpart_description,counterpart_name,counterpart_price,counterpart_quantity,counterpart_type_counterpart_type_id) VALUES (6,"pour vous, deux mottes de beurre et votre nom au generique","Beurre et remerciements",500,"1000000",2);
 INSERT INTO bcf_counterpart (counterpart_id,counterpart_description,counterpart_name,counterpart_price,counterpart_quantity,counterpart_type_counterpart_type_id) VALUES (7,"je vous coupe les cheveux gratuitement","Coupe de cheveux",10,"50",1);
 INSERT INTO bcf_counterpart (counterpart_id,counterpart_description,counterpart_name,counterpart_price,counterpart_quantity,counterpart_type_counterpart_type_id) VALUES (8,"je vous coupe les cheveux gratuitement et je les schampouine","Schampoing",25,"50",1);
 INSERT INTO bcf_counterpart (counterpart_id,counterpart_description,counterpart_name,counterpart_price,counterpart_quantity,counterpart_type_counterpart_type_id) VALUES (9,"je vous coupe les cheveux gratuitement et je les schampouine avec du savon","Schampoing deluxe",35,"50",2);
 INSERT INTO bcf_counterpart (counterpart_id,counterpart_description,counterpart_name,counterpart_price,counterpart_quantity,counterpart_type_counterpart_type_id) VALUES (10,"je range votre chambre","Chambre",7,"1000000",1);
 INSERT INTO bcf_counterpart (counterpart_id,counterpart_description,counterpart_name,counterpart_price,counterpart_quantity,counterpart_type_counterpart_type_id) VALUES (11,"je range votre maison","Maison",60,"1000000",1);
 INSERT INTO bcf_counterpart (counterpart_id,counterpart_description,counterpart_name,counterpart_price,counterpart_quantity,counterpart_type_counterpart_type_id) VALUES (12,"je range votre maison et votre garage","Garage",120,"1000000",2);
-INSERT INTO bcf_counterpart (counterpart_id,counterpart_description,counterpart_name,counterpart_price,counterpart_quantity,counterpart_type_counterpart_type_id) VALUES (13,"je vérifie la pression des pneus","Pneus",10,"1000000",2);
-INSERT INTO bcf_counterpart (counterpart_id,counterpart_description,counterpart_name,counterpart_price,counterpart_quantity,counterpart_type_counterpart_type_id) VALUES (14,"je vérifie la pression des pneus et je lave le pare-brise","Pare-Brise",20,"1000000",2);
-INSERT INTO bcf_counterpart (counterpart_id,counterpart_description,counterpart_name,counterpart_price,counterpart_quantity,counterpart_type_counterpart_type_id) VALUES (15,"je vérifie la pression des pneus, lave le pare-brise et mets à jour les cartes du GPS","GPS",40,"1000000",2);
-INSERT INTO bcf_counterpart (counterpart_id,counterpart_description,counterpart_name,counterpart_price,counterpart_quantity,counterpart_type_counterpart_type_id) VALUES (16,"vous recevrez mes remerciements les plus sincères","Merci",5,"1000000",1);
-INSERT INTO bcf_counterpart (counterpart_id,counterpart_description,counterpart_name,counterpart_price,counterpart_quantity,counterpart_type_counterpart_type_id) VALUES (17,"vous recevrez mes remerciements les plus sincères ainsi que mon amitié","Amitié",50,"1000000",2);
-INSERT INTO bcf_counterpart (counterpart_id,counterpart_description,counterpart_name,counterpart_price,counterpart_quantity,counterpart_type_counterpart_type_id) VALUES (18,"vous recevrez mes remerciements les plus sincères ainsi que mon amour éternel","Amour",70,"1000000",2);
+INSERT INTO bcf_counterpart (counterpart_id,counterpart_description,counterpart_name,counterpart_price,counterpart_quantity,counterpart_type_counterpart_type_id) VALUES (13,"je verifie la pression des pneus","Pneus",10,"1000000",2);
+INSERT INTO bcf_counterpart (counterpart_id,counterpart_description,counterpart_name,counterpart_price,counterpart_quantity,counterpart_type_counterpart_type_id) VALUES (14,"je verifie la pression des pneus et je lave le pare-brise","Pare-Brise",20,"1000000",2);
+INSERT INTO bcf_counterpart (counterpart_id,counterpart_description,counterpart_name,counterpart_price,counterpart_quantity,counterpart_type_counterpart_type_id) VALUES (15,"je verifie la pression des pneus, lave le pare-brise et mets a jour les cartes du GPS","GPS",40,"1000000",2);
+INSERT INTO bcf_counterpart (counterpart_id,counterpart_description,counterpart_name,counterpart_price,counterpart_quantity,counterpart_type_counterpart_type_id) VALUES (16,"vous recevrez mes remerciements les plus sinceres","Merci",5,"1000000",1);
+INSERT INTO bcf_counterpart (counterpart_id,counterpart_description,counterpart_name,counterpart_price,counterpart_quantity,counterpart_type_counterpart_type_id) VALUES (17,"vous recevrez mes remerciements les plus sinceres ainsi que mon amitie","Amitie",50,"1000000",2);
+INSERT INTO bcf_counterpart (counterpart_id,counterpart_description,counterpart_name,counterpart_price,counterpart_quantity,counterpart_type_counterpart_type_id) VALUES (18,"vous recevrez mes remerciements les plus sinceres ainsi que mon amour eternel","Amour",70,"1000000",2);
 INSERT INTO bcf_counterpart (counterpart_id,counterpart_description,counterpart_name,counterpart_price,counterpart_quantity,counterpart_type_counterpart_type_id) VALUES (19,"pour vous le vaccin contre le sida","Vaccin sida",2000,"1000000",2);
 INSERT INTO bcf_counterpart (counterpart_id,counterpart_description,counterpart_name,counterpart_price,counterpart_quantity,counterpart_type_counterpart_type_id) VALUES (20,"pour vous le vaccin contre le cancer","Vaccin cancer",10000,"1000000",2);
 INSERT INTO bcf_counterpart (counterpart_id,counterpart_description,counterpart_name,counterpart_price,counterpart_quantity,counterpart_type_counterpart_type_id) VALUES (21,"pour vous le vaccin contre le cancer et contre le sida","Vaccin cancer et sida",11000,"1000000",2);
-INSERT INTO bcf_counterpart (counterpart_id,counterpart_description,counterpart_name,counterpart_price,counterpart_quantity,counterpart_type_counterpart_type_id) VALUES (22,"je cuisine une entrée","Entrée",6,"1000000",1);
-INSERT INTO bcf_counterpart (counterpart_id,counterpart_description,counterpart_name,counterpart_price,counterpart_quantity,counterpart_type_counterpart_type_id) VALUES (23,"je cuisine entrée et dessert","Entrée et dessert",16,"1000000",2);
+INSERT INTO bcf_counterpart (counterpart_id,counterpart_description,counterpart_name,counterpart_price,counterpart_quantity,counterpart_type_counterpart_type_id) VALUES (22,"je cuisine une entree","Entree",6,"1000000",1);
+INSERT INTO bcf_counterpart (counterpart_id,counterpart_description,counterpart_name,counterpart_price,counterpart_quantity,counterpart_type_counterpart_type_id) VALUES (23,"je cuisine entree et dessert","Entree et dessert",16,"1000000",2);
 INSERT INTO bcf_counterpart (counterpart_id,counterpart_description,counterpart_name,counterpart_price,counterpart_quantity,counterpart_type_counterpart_type_id) VALUES (24,"je cuisine un menu complet","Menu complet",26,"1000000",2);
 INSERT INTO bcf_counterpart (counterpart_id,counterpart_description,counterpart_name,counterpart_price,counterpart_quantity,counterpart_type_counterpart_type_id) VALUES (25,"je murmure","Murmurer",1,"1000000",2);
 INSERT INTO bcf_counterpart (counterpart_id,counterpart_description,counterpart_name,counterpart_price,counterpart_quantity,counterpart_type_counterpart_type_id) VALUES (26,"je chantonne","Chantonner",2,"1000000",2);
@@ -18025,7 +18025,7 @@ INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_y
 INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("58","4","2015","5139721501656410","Paqu","147");
 INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("61","10","2017","5206377965442920","Smajlaj","331");
 INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("64","7","2017","5443339130840830","Mannella","957");
-INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("67","7","2016","5453334758363640","Máselník","779");
+INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("67","7","2016","5453334758363640","Maselnik","779");
 INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("70","10","2016","5215301034994270","Amari","105");
 INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("73","4","2020","30191234554583","Chokethajjsi","850");
 INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("76","8","2018","4970290373766930","Telele","857");
@@ -18229,7 +18229,7 @@ INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_y
 INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("670","6","2021","5701259289172600","Nagamine","589");
 INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("673","1","2018","5165461538899860","Apalkov","576");
 INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("676","4","2017","4976038411795200","Goitia","443");
-INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("679","1","2016","8919479934090330","Mårtensson","560");
+INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("679","1","2016","8919479934090330","Martensson","560");
 INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("682","11","2017","36392093513546","Kaikaso","982");
 INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("685","9","2017","3720341197808630","Galue","1517");
 INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("688","1","2020","5191656799560110","Vecozols","519");
@@ -18255,7 +18255,7 @@ INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_y
 INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("748","1","2015","4418697948438","Luks","954");
 INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("751","10","2020","5191163453214700","Bloyd","506");
 INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("754","1","2017","5400545333401300","Nataniel","993");
-INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("757","11","2016","5522049625340680","Káldi","960");
+INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("757","11","2016","5522049625340680","Kaldi","960");
 INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("760","4","2021","30048269422906","Ssenyonjo","522");
 INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("763","2","2020","5666675577612900","Diederic","743");
 INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("766","5","2021","8288151337840660","Dawes","92");
@@ -18759,7 +18759,7 @@ INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_y
 INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("2260","10","2018","5159162397822600","Kushecow","561");
 INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("2263","6","2015","4972620250407620","Kartallozi","264");
 INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("2266","5","2018","3728614368073870","Oralov","1585");
-INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("2269","7","2018","3728619438901130","Smolák","9944");
+INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("2269","7","2018","3728619438901130","Smolak","9944");
 INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("2272","11","2021","5221004586316010","Sumitimo","355");
 INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("2275","7","2019","4927911915966050","Landauer","400");
 INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("2278","12","2019","6011546165552730","Mundiasti","324");
@@ -18837,7 +18837,7 @@ INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_y
 INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("2494","2","2019","5463333355128210","Arcilla","22");
 INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("2497","12","2015","3720342193131680","Krkasharian","3248");
 INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("2500","10","2019","5505816664333600","Bychkov","688");
-INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("2503","8","2015","5301000074502420","Guérin","559");
+INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("2503","8","2015","5301000074502420","Guerin","559");
 INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("2506","6","2017","5443279583210630","Maco","656");
 INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("2509","8","2016","30286632282389","Das","871");
 INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("2512","2","2018","30320189452408","Bouajila","55");
@@ -19033,7 +19033,7 @@ INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_y
 INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("3082","12","2018","5413279058459610","Powe","649");
 INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("3085","11","2017","5137482911282830","Manipula","223");
 INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("3088","1","2018","5452819295418050","Levenberg","875");
-INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("3091","7","2015","3732278002970440","Lovász","6300");
+INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("3091","7","2015","3732278002970440","Lovasz","6300");
 INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("3094","3","2016","30311955341867","Cantoreew","660");
 INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("3097","6","2016","5419930743057070","Mylchreest","853");
 INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_year,credit_card_nb,credit_card_owner,credit_card_verification_security_code) VALUES ("3100","3","2020","5419181306785570","Shahverdiev","304");
@@ -20003,7 +20003,7 @@ INSERT INTO bcf_creditcard (credit_card_id,credit_card_exp_mth,credit_card_exp_y
 --IMAGE INITIALIZATION
 --------------------------------------------------------------------
 --------------------------------------------------------------------
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1,"png",512,"avatar_kaïra.bruer",96,19115,"\\src\\main\\resources\\avatar\\1.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1,"png",512,"avatar_kaira.bruer",96,19115,"\\src\\main\\resources\\avatar\\1.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (2,"png",512,"avatar_emmy.hashi",96,18530,"\\src\\main\\resources\\avatar\\2.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (3,"png",512,"avatar_janna.naretti",96,17910,"\\src\\main\\resources\\avatar\\3.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (4,"png",512,"avatar_severina.delic",96,14721,"\\src\\main\\resources\\avatar\\4.png",512);
@@ -20025,7 +20025,7 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (20,"png",512,"avatar_kathleen.paqu",96,15171,"\\src\\main\\resources\\avatar\\20.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (21,"png",512,"avatar_vaso.smajlaj",96,15871,"\\src\\main\\resources\\avatar\\21.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (22,"png",512,"avatar_nhị.mannella",96,10188,"\\src\\main\\resources\\avatar\\22.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (23,"png",512,"avatar_marotini.máselník",96,12845,"\\src\\main\\resources\\avatar\\23.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (23,"png",512,"avatar_marotini.maselnik",96,12845,"\\src\\main\\resources\\avatar\\23.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (24,"png",512,"avatar_kharel.amari",96,20326,"\\src\\main\\resources\\avatar\\24.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (25,"png",512,"avatar_lewnas.chokethajjsi",96,10719,"\\src\\main\\resources\\avatar\\25.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (26,"png",512,"avatar_durva.telele",96,17773,"\\src\\main\\resources\\avatar\\26.png",512);
@@ -20033,8 +20033,8 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (28,"png",512,"avatar_myriam.tagaloagautavai",96,14238,"\\src\\main\\resources\\avatar\\28.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (29,"png",512,"avatar_genadi.lielpeteris",96,9281,"\\src\\main\\resources\\avatar\\29.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (30,"png",512,"avatar_guillermo.kuang",96,7144,"\\src\\main\\resources\\avatar\\30.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (31,"png",512,"avatar_máedóc.omaar",96,7913,"\\src\\main\\resources\\avatar\\31.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (32,"png",512,"avatar_erlé.bare",96,14163,"\\src\\main\\resources\\avatar\\32.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (31,"png",512,"avatar_maedoc.omaar",96,7913,"\\src\\main\\resources\\avatar\\31.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (32,"png",512,"avatar_erle.bare",96,14163,"\\src\\main\\resources\\avatar\\32.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (33,"png",512,"avatar_darby.lukashenko",96,15129,"\\src\\main\\resources\\avatar\\33.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (34,"png",512,"avatar_sreynuon.tanaka",96,16243,"\\src\\main\\resources\\avatar\\34.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (35,"png",512,"avatar_iraun.onuegbu",96,12111,"\\src\\main\\resources\\avatar\\35.png",512);
@@ -20049,7 +20049,7 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (44,"png",512,"avatar_ilane.moumou",96,13468,"\\src\\main\\resources\\avatar\\44.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (45,"png",512,"avatar_selma.assiltaeff",96,8385,"\\src\\main\\resources\\avatar\\45.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (46,"png",512,"avatar_mahmoud.key",96,11479,"\\src\\main\\resources\\avatar\\46.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (47,"png",512,"avatar_méliné.kalla",96,17946,"\\src\\main\\resources\\avatar\\47.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (47,"png",512,"avatar_meline.kalla",96,17946,"\\src\\main\\resources\\avatar\\47.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (48,"png",512,"avatar_wilhelm.aljadiri",96,15196,"\\src\\main\\resources\\avatar\\48.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (49,"png",512,"avatar_claudie.mackall",96,11448,"\\src\\main\\resources\\avatar\\49.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (50,"png",512,"avatar_zenovia.oshtori",96,750,"\\src\\main\\resources\\avatar\\50.png",512);
@@ -20057,10 +20057,10 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (52,"png",512,"avatar_lysandros.ogunkoya",96,15255,"\\src\\main\\resources\\avatar\\52.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (53,"png",512,"avatar_qayda.cazbecoff",96,14113,"\\src\\main\\resources\\avatar\\53.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (54,"png",512,"avatar_dick.matveyev",96,11199,"\\src\\main\\resources\\avatar\\54.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (55,"png",512,"avatar_quốc hùng.defulre",96,6211,"\\src\\main\\resources\\avatar\\55.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (55,"png",512,"avatar_quốc hung.defulre",96,6211,"\\src\\main\\resources\\avatar\\55.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (56,"png",512,"avatar_laura.suba",96,14591,"\\src\\main\\resources\\avatar\\56.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (57,"png",512,"avatar_motonori.zohn",96,11975,"\\src\\main\\resources\\avatar\\57.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (58,"png",512,"avatar_tähti.akraka",96,1137,"\\src\\main\\resources\\avatar\\58.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (58,"png",512,"avatar_tahti.akraka",96,1137,"\\src\\main\\resources\\avatar\\58.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (59,"png",512,"avatar_manichi.piasecki",96,9967,"\\src\\main\\resources\\avatar\\59.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (60,"png",512,"avatar_bechir.donze",96,9545,"\\src\\main\\resources\\avatar\\60.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (61,"png",512,"avatar_eugenio.karimi",96,19333,"\\src\\main\\resources\\avatar\\61.png",512);
@@ -20073,21 +20073,21 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (68,"png",512,"avatar_lovisa.onigbinde",96,7504,"\\src\\main\\resources\\avatar\\68.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (69,"png",512,"avatar_mouslim.kovac",96,17546,"\\src\\main\\resources\\avatar\\69.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (70,"png",512,"avatar_rosanne.akens",96,15457,"\\src\\main\\resources\\avatar\\70.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (71,"png",512,"avatar_níkandros.tuman",96,11440,"\\src\\main\\resources\\avatar\\71.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (71,"png",512,"avatar_nikandros.tuman",96,11440,"\\src\\main\\resources\\avatar\\71.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (72,"png",512,"avatar_cary.ghumagulow",96,9148,"\\src\\main\\resources\\avatar\\72.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (73,"png",512,"avatar_kane.nurpeisoff",96,13044,"\\src\\main\\resources\\avatar\\73.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (74,"png",512,"avatar_loukas.ihaea",96,15995,"\\src\\main\\resources\\avatar\\74.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (75,"png",512,"avatar_krónos.franssens",96,12950,"\\src\\main\\resources\\avatar\\75.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (76,"png",512,"avatar_bartholomé.najjar",96,19102,"\\src\\main\\resources\\avatar\\76.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (77,"png",512,"avatar_rébecca.korkowski",96,17935,"\\src\\main\\resources\\avatar\\77.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (78,"png",512,"avatar_dorothée.emoemomai",96,19608,"\\src\\main\\resources\\avatar\\78.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (75,"png",512,"avatar_kronos.franssens",96,12950,"\\src\\main\\resources\\avatar\\75.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (76,"png",512,"avatar_bartholome.najjar",96,19102,"\\src\\main\\resources\\avatar\\76.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (77,"png",512,"avatar_rebecca.korkowski",96,17935,"\\src\\main\\resources\\avatar\\77.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (78,"png",512,"avatar_dorothee.emoemomai",96,19608,"\\src\\main\\resources\\avatar\\78.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (79,"png",512,"avatar_borhan.poukha",96,15645,"\\src\\main\\resources\\avatar\\79.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (80,"png",512,"avatar_artúr.saripella",96,3705,"\\src\\main\\resources\\avatar\\80.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (80,"png",512,"avatar_artur.saripella",96,3705,"\\src\\main\\resources\\avatar\\80.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (81,"png",512,"avatar_ho joo.khari",96,11012,"\\src\\main\\resources\\avatar\\81.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (82,"png",512,"avatar_kelly.vartukapteins",96,14429,"\\src\\main\\resources\\avatar\\82.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (83,"png",512,"avatar_winfrith.vanhee",96,19210,"\\src\\main\\resources\\avatar\\83.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (84,"png",512,"avatar_carly.sedivy",96,9591,"\\src\\main\\resources\\avatar\\84.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (85,"png",512,"avatar_yoéla.punati",96,19348,"\\src\\main\\resources\\avatar\\85.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (85,"png",512,"avatar_yoela.punati",96,19348,"\\src\\main\\resources\\avatar\\85.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (86,"png",512,"avatar_anan.gaiss",96,9526,"\\src\\main\\resources\\avatar\\86.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (87,"png",512,"avatar_quenan.karam",96,3748,"\\src\\main\\resources\\avatar\\87.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (88,"png",512,"avatar_hajnalka.magara",96,16263,"\\src\\main\\resources\\avatar\\88.png",512);
@@ -20107,15 +20107,15 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (102,"png",512,"avatar_mevenez.andreassen",96,6504,"\\src\\main\\resources\\avatar\\102.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (103,"png",512,"avatar_elena.bozinovski",96,13311,"\\src\\main\\resources\\avatar\\103.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (104,"png",512,"avatar_sabiha.sur",96,29484,"\\src\\main\\resources\\avatar\\104.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (105,"png",512,"avatar_kóïntos.puhitaniwharau",96,12101,"\\src\\main\\resources\\avatar\\105.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (106,"png",512,"avatar_achkhén.lapin",96,8385,"\\src\\main\\resources\\avatar\\106.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (105,"png",512,"avatar_kointos.puhitaniwharau",96,12101,"\\src\\main\\resources\\avatar\\105.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (106,"png",512,"avatar_achkhen.lapin",96,8385,"\\src\\main\\resources\\avatar\\106.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (107,"png",512,"avatar_femke.kudron",96,6279,"\\src\\main\\resources\\avatar\\107.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (108,"png",512,"avatar_madaa.halilov",96,10311,"\\src\\main\\resources\\avatar\\108.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (109,"png",512,"avatar_engracia.lavea",96,10815,"\\src\\main\\resources\\avatar\\109.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (110,"png",512,"avatar_toratane.khaki",96,10109,"\\src\\main\\resources\\avatar\\110.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (111,"png",512,"avatar_sachin.genchoglu",96,18482,"\\src\\main\\resources\\avatar\\111.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (112,"png",512,"avatar_teresa.smith",96,12081,"\\src\\main\\resources\\avatar\\112.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (113,"png",512,"avatar_vénustien.deja",96,9414,"\\src\\main\\resources\\avatar\\113.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (113,"png",512,"avatar_venustien.deja",96,9414,"\\src\\main\\resources\\avatar\\113.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (114,"png",512,"avatar_dini.katzel",96,6283,"\\src\\main\\resources\\avatar\\114.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (115,"png",512,"avatar_irenka.koulouris",96,15187,"\\src\\main\\resources\\avatar\\115.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (116,"png",512,"avatar_massime.libiran",96,15372,"\\src\\main\\resources\\avatar\\116.png",512);
@@ -20125,7 +20125,7 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (120,"png",512,"avatar_diego.linhart",96,8993,"\\src\\main\\resources\\avatar\\120.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (121,"png",512,"avatar_lydia.upendra",96,13103,"\\src\\main\\resources\\avatar\\121.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (122,"png",512,"avatar_albino.dhirwan",96,16698,"\\src\\main\\resources\\avatar\\122.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (123,"png",512,"avatar_angélika.gichonga",96,16609,"\\src\\main\\resources\\avatar\\123.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (123,"png",512,"avatar_angelika.gichonga",96,16609,"\\src\\main\\resources\\avatar\\123.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (124,"png",512,"avatar_shanese.alfassi",96,11541,"\\src\\main\\resources\\avatar\\124.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (125,"png",512,"avatar_tseten.mpheneka",96,13620,"\\src\\main\\resources\\avatar\\125.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (126,"png",512,"avatar_rodolf.cosaev",96,10634,"\\src\\main\\resources\\avatar\\126.png",512);
@@ -20156,7 +20156,7 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (151,"png",512,"avatar_boghos.lauzackas",96,9835,"\\src\\main\\resources\\avatar\\151.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (152,"png",512,"avatar_kristen.pejic",96,9221,"\\src\\main\\resources\\avatar\\152.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (153,"png",512,"avatar_ammar.kervezee",96,8060,"\\src\\main\\resources\\avatar\\153.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (154,"png",512,"avatar_âmidror.nakasone",96,15336,"\\src\\main\\resources\\avatar\\154.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (154,"png",512,"avatar_amidror.nakasone",96,15336,"\\src\\main\\resources\\avatar\\154.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (155,"png",512,"avatar_cai-fei.seider",96,14548,"\\src\\main\\resources\\avatar\\155.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (156,"png",512,"avatar_marion.genadiev",96,11045,"\\src\\main\\resources\\avatar\\156.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (157,"png",512,"avatar_cheng-ji.baart",96,13700,"\\src\\main\\resources\\avatar\\157.png",512);
@@ -20165,7 +20165,7 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (160,"png",512,"avatar_aquilina.kostner",96,7165,"\\src\\main\\resources\\avatar\\160.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (161,"png",512,"avatar_samit.ghacsybek",96,8392,"\\src\\main\\resources\\avatar\\161.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (162,"png",512,"avatar_aldred.hall",96,15734,"\\src\\main\\resources\\avatar\\162.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (163,"png",512,"avatar_mélia.wee",96,8534,"\\src\\main\\resources\\avatar\\163.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (163,"png",512,"avatar_melia.wee",96,8534,"\\src\\main\\resources\\avatar\\163.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (164,"png",512,"avatar_nazar.titschinger",96,13878,"\\src\\main\\resources\\avatar\\164.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (165,"png",512,"avatar_tafenda.amirov",96,8921,"\\src\\main\\resources\\avatar\\165.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (166,"png",512,"avatar_edurne.vandeneynde",96,14010,"\\src\\main\\resources\\avatar\\166.png",512);
@@ -20177,16 +20177,16 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (172,"png",512,"avatar_shahrukh.hyde",96,11461,"\\src\\main\\resources\\avatar\\172.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (173,"png",512,"avatar_xiaobo.lobo",96,13432,"\\src\\main\\resources\\avatar\\173.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (174,"png",512,"avatar_amado.gabriel",96,6854,"\\src\\main\\resources\\avatar\\174.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (175,"png",512,"avatar_stéonig.lastra",96,12654,"\\src\\main\\resources\\avatar\\175.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (175,"png",512,"avatar_steonig.lastra",96,12654,"\\src\\main\\resources\\avatar\\175.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (176,"png",512,"avatar_marianne.bironze",96,10344,"\\src\\main\\resources\\avatar\\176.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (177,"png",512,"avatar_gweltaz.kenallata",96,9110,"\\src\\main\\resources\\avatar\\177.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (178,"png",512,"avatar_aafrae.bounaas",96,11952,"\\src\\main\\resources\\avatar\\178.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (179,"png",512,"avatar_morvana.barton",96,13703,"\\src\\main\\resources\\avatar\\179.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (180,"png",512,"avatar_freideríkē.iloenyosi",96,11261,"\\src\\main\\resources\\avatar\\180.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (180,"png",512,"avatar_freiderikē.iloenyosi",96,11261,"\\src\\main\\resources\\avatar\\180.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (181,"png",512,"avatar_gaylor.whelan",96,17523,"\\src\\main\\resources\\avatar\\181.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (182,"png",512,"avatar_lorna.ilifuti",96,10505,"\\src\\main\\resources\\avatar\\182.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (183,"png",512,"avatar_ayacha.alindogan",96,14193,"\\src\\main\\resources\\avatar\\183.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (184,"png",512,"avatar_géraldine.matthias",96,10185,"\\src\\main\\resources\\avatar\\184.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (184,"png",512,"avatar_geraldine.matthias",96,10185,"\\src\\main\\resources\\avatar\\184.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (185,"png",512,"avatar_audra.yennenga",96,8659,"\\src\\main\\resources\\avatar\\185.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (186,"png",512,"avatar_rosnita.klysen",96,14031,"\\src\\main\\resources\\avatar\\186.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (187,"png",512,"avatar_bindu.hoye",96,12205,"\\src\\main\\resources\\avatar\\187.png",512);
@@ -20194,7 +20194,7 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (189,"png",512,"avatar_hasina.broy",96,12302,"\\src\\main\\resources\\avatar\\189.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (190,"png",512,"avatar_wachiwi.magsaysay",96,10400,"\\src\\main\\resources\\avatar\\190.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (191,"png",512,"avatar_margarethe.rizzo",96,8500,"\\src\\main\\resources\\avatar\\191.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (192,"png",512,"avatar_ragnfríðr.wedekind",96,9992,"\\src\\main\\resources\\avatar\\192.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (192,"png",512,"avatar_ragnfrior.wedekind",96,9992,"\\src\\main\\resources\\avatar\\192.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (193,"png",512,"avatar_lux.batas",96,10297,"\\src\\main\\resources\\avatar\\193.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (194,"png",512,"avatar_gajmer.labo",96,16988,"\\src\\main\\resources\\avatar\\194.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (195,"png",512,"avatar_geminiano.kaninsh",96,17507,"\\src\\main\\resources\\avatar\\195.png",512);
@@ -20221,24 +20221,24 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (216,"png",512,"avatar_krimhilde.lovinshek",96,17303,"\\src\\main\\resources\\avatar\\216.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (217,"png",512,"avatar_odd.manguingat",96,11430,"\\src\\main\\resources\\avatar\\217.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (218,"png",512,"avatar_keegan.de groote",96,16191,"\\src\\main\\resources\\avatar\\218.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (219,"png",512,"avatar_timotée.been",96,11084,"\\src\\main\\resources\\avatar\\219.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (220,"png",512,"avatar_ferkó.elmateri",96,10874,"\\src\\main\\resources\\avatar\\220.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (219,"png",512,"avatar_timotee.been",96,11084,"\\src\\main\\resources\\avatar\\219.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (220,"png",512,"avatar_ferko.elmateri",96,10874,"\\src\\main\\resources\\avatar\\220.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (221,"png",512,"avatar_petar.pernice",96,6836,"\\src\\main\\resources\\avatar\\221.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (222,"png",512,"avatar_lydia.selefa",96,8891,"\\src\\main\\resources\\avatar\\222.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (223,"png",512,"avatar_divyesh.bari",96,9685,"\\src\\main\\resources\\avatar\\223.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (224,"png",512,"avatar_hazbiye.nagamine",96,16049,"\\src\\main\\resources\\avatar\\224.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (225,"png",512,"avatar_talleen.apalkov",96,11006,"\\src\\main\\resources\\avatar\\225.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (226,"png",512,"avatar_amitxis.goitia",96,6718,"\\src\\main\\resources\\avatar\\226.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (227,"png",512,"avatar_kajaw.mårtensson",96,12209,"\\src\\main\\resources\\avatar\\227.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (227,"png",512,"avatar_kajaw.martensson",96,12209,"\\src\\main\\resources\\avatar\\227.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (228,"png",512,"avatar_garlonn.kaikaso",96,6807,"\\src\\main\\resources\\avatar\\228.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (229,"png",512,"avatar_kha.galue",96,13809,"\\src\\main\\resources\\avatar\\229.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (230,"png",512,"avatar_nataniel.vecozols",96,12626,"\\src\\main\\resources\\avatar\\230.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (231,"png",512,"avatar_andromache.miura",96,14118,"\\src\\main\\resources\\avatar\\231.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (232,"png",512,"avatar_hunter.paratini",96,17819,"\\src\\main\\resources\\avatar\\232.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (233,"png",512,"avatar_gaude.quintana",96,11636,"\\src\\main\\resources\\avatar\\233.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (234,"png",512,"avatar_thùy trang.sembiring",96,7605,"\\src\\main\\resources\\avatar\\234.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (234,"png",512,"avatar_thuy trang.sembiring",96,7605,"\\src\\main\\resources\\avatar\\234.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (235,"png",512,"avatar_merry.suleiman",96,9478,"\\src\\main\\resources\\avatar\\235.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (236,"png",512,"avatar_aristoyíton.beh",96,9893,"\\src\\main\\resources\\avatar\\236.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (236,"png",512,"avatar_aristoyiton.beh",96,9893,"\\src\\main\\resources\\avatar\\236.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (237,"png",512,"avatar_florise.ruoho",96,9534,"\\src\\main\\resources\\avatar\\237.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (238,"png",512,"avatar_dionisio.brock",96,9897,"\\src\\main\\resources\\avatar\\238.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (239,"png",512,"avatar_eugenius.crunn",96,9761,"\\src\\main\\resources\\avatar\\239.png",512);
@@ -20255,7 +20255,7 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (250,"png",512,"avatar_dao-zi.luks",96,22509,"\\src\\main\\resources\\avatar\\250.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (251,"png",512,"avatar_titiksha.bloyd",96,13599,"\\src\\main\\resources\\avatar\\251.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (252,"png",512,"avatar_golda.nataniel",96,14444,"\\src\\main\\resources\\avatar\\252.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (253,"png",512,"avatar_lam.káldi",96,11608,"\\src\\main\\resources\\avatar\\253.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (253,"png",512,"avatar_lam.kaldi",96,11608,"\\src\\main\\resources\\avatar\\253.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (254,"png",512,"avatar_judith.ssenyonjo",96,10713,"\\src\\main\\resources\\avatar\\254.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (255,"png",512,"avatar_sothy.diederic",96,14483,"\\src\\main\\resources\\avatar\\255.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (256,"png",512,"avatar_kavya.dawes",96,10670,"\\src\\main\\resources\\avatar\\256.png",512);
@@ -20266,31 +20266,31 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (261,"png",512,"avatar_lusine.vandentielke",96,11848,"\\src\\main\\resources\\avatar\\261.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (262,"png",512,"avatar_sigfrid.schillinger",96,11195,"\\src\\main\\resources\\avatar\\262.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (263,"png",512,"avatar_anni.hin",96,19161,"\\src\\main\\resources\\avatar\\263.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (264,"png",512,"avatar_ermokrátis.aljamri",96,6909,"\\src\\main\\resources\\avatar\\264.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (264,"png",512,"avatar_ermokratis.aljamri",96,6909,"\\src\\main\\resources\\avatar\\264.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (265,"png",512,"avatar_takao.ryou",96,11566,"\\src\\main\\resources\\avatar\\265.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (266,"png",512,"avatar_frank.laam",96,12179,"\\src\\main\\resources\\avatar\\266.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (267,"png",512,"avatar_mahmud.jusko",96,16776,"\\src\\main\\resources\\avatar\\267.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (268,"png",512,"avatar_armonie.khergamwala",96,7823,"\\src\\main\\resources\\avatar\\268.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (269,"png",512,"avatar_roula.zogby",96,9403,"\\src\\main\\resources\\avatar\\269.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (270,"png",512,"avatar_lilá.kowalkowski",96,6754,"\\src\\main\\resources\\avatar\\270.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (270,"png",512,"avatar_lila.kowalkowski",96,6754,"\\src\\main\\resources\\avatar\\270.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (271,"png",512,"avatar_chaltsione.nitesh",96,15275,"\\src\\main\\resources\\avatar\\271.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (272,"png",512,"avatar_osmane.vanrode",96,17657,"\\src\\main\\resources\\avatar\\272.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (273,"png",512,"avatar_hoel.summerhill",96,13080,"\\src\\main\\resources\\avatar\\273.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (274,"png",512,"avatar_lukas.sivec",96,9425,"\\src\\main\\resources\\avatar\\274.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (275,"png",512,"avatar_abdelouahab.shatimuene",96,7370,"\\src\\main\\resources\\avatar\\275.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (276,"png",512,"avatar_đông.kuyenda",96,10863,"\\src\\main\\resources\\avatar\\276.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (277,"png",512,"avatar_mikuláš.ekmalian",96,8500,"\\src\\main\\resources\\avatar\\277.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (276,"png",512,"avatar_đong.kuyenda",96,10863,"\\src\\main\\resources\\avatar\\276.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (277,"png",512,"avatar_mikulaš.ekmalian",96,8500,"\\src\\main\\resources\\avatar\\277.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (278,"png",512,"avatar_lernig.hammoudi",96,16802,"\\src\\main\\resources\\avatar\\278.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (279,"png",512,"avatar_maraĵa.povey",96,21849,"\\src\\main\\resources\\avatar\\279.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (280,"png",512,"avatar_âssaya.de fries",96,16011,"\\src\\main\\resources\\avatar\\280.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (280,"png",512,"avatar_assaya.de fries",96,16011,"\\src\\main\\resources\\avatar\\280.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (281,"png",512,"avatar_faustin.bustos",96,4901,"\\src\\main\\resources\\avatar\\281.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (282,"png",512,"avatar_kataline.oyorotena",96,12443,"\\src\\main\\resources\\avatar\\282.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (283,"png",512,"avatar_evangelina.balamut",96,9479,"\\src\\main\\resources\\avatar\\283.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (284,"png",512,"avatar_ásbjörn.hamaguchi",96,11254,"\\src\\main\\resources\\avatar\\284.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (284,"png",512,"avatar_asbjorn.hamaguchi",96,11254,"\\src\\main\\resources\\avatar\\284.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (285,"png",512,"avatar_đồng.pelikan",96,7441,"\\src\\main\\resources\\avatar\\285.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (286,"png",512,"avatar_feehin.donnelly",96,13719,"\\src\\main\\resources\\avatar\\286.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (287,"png",512,"avatar_sofia.tamamsheva",96,7207,"\\src\\main\\resources\\avatar\\287.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (288,"png",512,"avatar_vígi.sellers",96,19818,"\\src\\main\\resources\\avatar\\288.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (288,"png",512,"avatar_vigi.sellers",96,19818,"\\src\\main\\resources\\avatar\\288.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (289,"png",512,"avatar_ailpein.brodgandel",96,13700,"\\src\\main\\resources\\avatar\\289.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (290,"png",512,"avatar_loretta.yazdi",96,10064,"\\src\\main\\resources\\avatar\\290.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (291,"png",512,"avatar_jonatan.tsybulskaya",96,11389,"\\src\\main\\resources\\avatar\\291.png",512);
@@ -20302,9 +20302,9 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (297,"png",512,"avatar_stanko.rosko",96,6854,"\\src\\main\\resources\\avatar\\297.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (298,"png",512,"avatar_lao-che.steinhauser",96,12654,"\\src\\main\\resources\\avatar\\298.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (299,"png",512,"avatar_marie-line.guga",96,13082,"\\src\\main\\resources\\avatar\\299.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (300,"png",512,"avatar_sinésio.solomon",96,8912,"\\src\\main\\resources\\avatar\\300.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (300,"png",512,"avatar_sinesio.solomon",96,8912,"\\src\\main\\resources\\avatar\\300.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (301,"png",512,"avatar_valent.ramadhan",96,8240,"\\src\\main\\resources\\avatar\\301.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (302,"png",512,"avatar_bélâ.wheelock",96,20797,"\\src\\main\\resources\\avatar\\302.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (302,"png",512,"avatar_bela.wheelock",96,20797,"\\src\\main\\resources\\avatar\\302.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (303,"png",512,"avatar_rainer.agramonte",96,14403,"\\src\\main\\resources\\avatar\\303.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (304,"png",512,"avatar_masaru.irani",96,8271,"\\src\\main\\resources\\avatar\\304.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (305,"png",512,"avatar_rosa.heinrich",96,18506,"\\src\\main\\resources\\avatar\\305.png",512);
@@ -20319,7 +20319,7 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (314,"png",512,"avatar_roope.overbey",96,6754,"\\src\\main\\resources\\avatar\\314.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (315,"png",512,"avatar_govinda.gerada",96,15987,"\\src\\main\\resources\\avatar\\315.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (316,"png",512,"avatar_banu.dan",96,13876,"\\src\\main\\resources\\avatar\\316.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (317,"png",512,"avatar_eindriði.dedzeklis",96,11699,"\\src\\main\\resources\\avatar\\317.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (317,"png",512,"avatar_eindrioi.dedzeklis",96,11699,"\\src\\main\\resources\\avatar\\317.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (318,"png",512,"avatar_kanon.feldbaek",96,15585,"\\src\\main\\resources\\avatar\\318.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (319,"png",512,"avatar_tiljad.dittmer",96,16606,"\\src\\main\\resources\\avatar\\319.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (320,"png",512,"avatar_iltudenn.muya",96,14047,"\\src\\main\\resources\\avatar\\320.png",512);
@@ -20334,7 +20334,7 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (329,"png",512,"avatar_kilian.maea",96,10519,"\\src\\main\\resources\\avatar\\329.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (330,"png",512,"avatar_akihide.gontchar",96,11202,"\\src\\main\\resources\\avatar\\330.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (331,"png",512,"avatar_hadi.mandaba",96,11825,"\\src\\main\\resources\\avatar\\331.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (332,"png",512,"avatar_flôr.boakai",96,11335,"\\src\\main\\resources\\avatar\\332.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (332,"png",512,"avatar_flor.boakai",96,11335,"\\src\\main\\resources\\avatar\\332.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (333,"png",512,"avatar_haratch.londo",96,15376,"\\src\\main\\resources\\avatar\\333.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (334,"png",512,"avatar_seberino.allbach",96,7202,"\\src\\main\\resources\\avatar\\334.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (335,"png",512,"avatar_radouane.vanscaerdenburch",96,10327,"\\src\\main\\resources\\avatar\\335.png",512);
@@ -20342,7 +20342,7 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (337,"png",512,"avatar_ae-sook.acholonu",96,15642,"\\src\\main\\resources\\avatar\\337.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (338,"png",512,"avatar_tazvida.churki",96,14636,"\\src\\main\\resources\\avatar\\338.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (339,"png",512,"avatar_madou.dillon",96,13026,"\\src\\main\\resources\\avatar\\339.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (340,"png",512,"avatar_víktoras.tawil",96,12093,"\\src\\main\\resources\\avatar\\340.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (340,"png",512,"avatar_viktoras.tawil",96,12093,"\\src\\main\\resources\\avatar\\340.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (341,"png",512,"avatar_cynbel.kuga",96,15192,"\\src\\main\\resources\\avatar\\341.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (342,"png",512,"avatar_asselin.swani",96,11005,"\\src\\main\\resources\\avatar\\342.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (343,"png",512,"avatar_felix.espinoza",96,12048,"\\src\\main\\resources\\avatar\\343.png",512);
@@ -20360,7 +20360,7 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (355,"png",512,"avatar_chitrani.chipende",96,14470,"\\src\\main\\resources\\avatar\\355.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (356,"png",512,"avatar_goichi.pangalila",96,14279,"\\src\\main\\resources\\avatar\\356.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (357,"png",512,"avatar_aiert.warden",96,17037,"\\src\\main\\resources\\avatar\\357.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (358,"png",512,"avatar_herlé.aghmaliyev",96,14403,"\\src\\main\\resources\\avatar\\358.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (358,"png",512,"avatar_herle.aghmaliyev",96,14403,"\\src\\main\\resources\\avatar\\358.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (359,"png",512,"avatar_orsolya.coly",96,11898,"\\src\\main\\resources\\avatar\\359.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (360,"png",512,"avatar_zoumourrouda.michelson",96,14454,"\\src\\main\\resources\\avatar\\360.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (361,"png",512,"avatar_li qin.kovacich",96,21642,"\\src\\main\\resources\\avatar\\361.png",512);
@@ -20370,35 +20370,35 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (365,"png",512,"avatar_mircea.albani",96,15320,"\\src\\main\\resources\\avatar\\365.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (366,"png",512,"avatar_aatami.arakoni",96,11479,"\\src\\main\\resources\\avatar\\366.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (367,"png",512,"avatar_sonar.zino",96,11248,"\\src\\main\\resources\\avatar\\367.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (368,"png",512,"avatar_ermiñe.ikhouria",96,16830,"\\src\\main\\resources\\avatar\\368.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (368,"png",512,"avatar_ermine.ikhouria",96,16830,"\\src\\main\\resources\\avatar\\368.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (369,"png",512,"avatar_nareg.jacobs",96,11961,"\\src\\main\\resources\\avatar\\369.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (370,"png",512,"avatar_dorian.blauer",96,15785,"\\src\\main\\resources\\avatar\\370.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (371,"png",512,"avatar_eileithyia.milanes",96,9502,"\\src\\main\\resources\\avatar\\371.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (372,"png",512,"avatar_romain.lipko",96,4451,"\\src\\main\\resources\\avatar\\372.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (373,"png",512,"avatar_ortensia.hakantu",96,11224,"\\src\\main\\resources\\avatar\\373.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (374,"png",512,"avatar_manju.glynatsis",96,10897,"\\src\\main\\resources\\avatar\\374.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (375,"png",512,"avatar_fotiní.anthes",96,17598,"\\src\\main\\resources\\avatar\\375.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (375,"png",512,"avatar_fotini.anthes",96,17598,"\\src\\main\\resources\\avatar\\375.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (376,"png",512,"avatar_hayk.gurry",96,9606,"\\src\\main\\resources\\avatar\\376.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (377,"png",512,"avatar_saru.kirmani",96,13035,"\\src\\main\\resources\\avatar\\377.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (378,"png",512,"avatar_jenifer.chakrian",96,15191,"\\src\\main\\resources\\avatar\\378.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (379,"png",512,"avatar_rumahere.gillen",96,22457,"\\src\\main\\resources\\avatar\\379.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (380,"png",512,"avatar_viníncia.gelleg (ar)",96,16506,"\\src\\main\\resources\\avatar\\380.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (380,"png",512,"avatar_vinincia.gelleg (ar)",96,16506,"\\src\\main\\resources\\avatar\\380.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (381,"png",512,"avatar_huai-yi.raasti",96,11217,"\\src\\main\\resources\\avatar\\381.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (382,"png",512,"avatar_keltso.degn",96,9220,"\\src\\main\\resources\\avatar\\382.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (383,"png",512,"avatar_animish.mulia",96,13433,"\\src\\main\\resources\\avatar\\383.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (384,"png",512,"avatar_yaël.adjurru",96,10110,"\\src\\main\\resources\\avatar\\384.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (384,"png",512,"avatar_yael.adjurru",96,10110,"\\src\\main\\resources\\avatar\\384.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (385,"png",512,"avatar_hisamitsu.klimek",96,13080,"\\src\\main\\resources\\avatar\\385.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (386,"png",512,"avatar_agínoras.dagunduro",96,16940,"\\src\\main\\resources\\avatar\\386.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (386,"png",512,"avatar_aginoras.dagunduro",96,16940,"\\src\\main\\resources\\avatar\\386.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (387,"png",512,"avatar_aurora.habachi",96,12186,"\\src\\main\\resources\\avatar\\387.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (388,"png",512,"avatar_anastázie.sanz",96,18545,"\\src\\main\\resources\\avatar\\388.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (388,"png",512,"avatar_anastazie.sanz",96,18545,"\\src\\main\\resources\\avatar\\388.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (389,"png",512,"avatar_chouko.ventura",96,11541,"\\src\\main\\resources\\avatar\\389.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (390,"png",512,"avatar_poeiti.yeghian",96,13853,"\\src\\main\\resources\\avatar\\390.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (391,"png",512,"avatar_nolvan.decaroundelet",96,8668,"\\src\\main\\resources\\avatar\\391.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (392,"png",512,"avatar_serafim.felagai",96,11461,"\\src\\main\\resources\\avatar\\392.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (393,"png",512,"avatar_ëlimélëkh.yontcha",96,13432,"\\src\\main\\resources\\avatar\\393.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (393,"png",512,"avatar_elimelekh.yontcha",96,13432,"\\src\\main\\resources\\avatar\\393.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (394,"png",512,"avatar_andris.thaw",96,8475,"\\src\\main\\resources\\avatar\\394.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (395,"png",512,"avatar_birgitta.gregorcic",96,9757,"\\src\\main\\resources\\avatar\\395.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (396,"png",512,"avatar_haïgaram.gwalchmey",96,21715,"\\src\\main\\resources\\avatar\\396.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (396,"png",512,"avatar_haigaram.gwalchmey",96,21715,"\\src\\main\\resources\\avatar\\396.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (397,"png",512,"avatar_sindri.abbasi",96,12492,"\\src\\main\\resources\\avatar\\397.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (398,"png",512,"avatar_benito.wahab",96,7190,"\\src\\main\\resources\\avatar\\398.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (399,"png",512,"avatar_dolma.hatimbula",96,18793,"\\src\\main\\resources\\avatar\\399.png",512);
@@ -20407,7 +20407,7 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (402,"png",512,"avatar_broos.sild",96,10344,"\\src\\main\\resources\\avatar\\402.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (403,"png",512,"avatar_gyanwali.mjelde",96,16587,"\\src\\main\\resources\\avatar\\403.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (404,"png",512,"avatar_ryūtaro.oliversen",96,17507,"\\src\\main\\resources\\avatar\\404.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (405,"png",512,"avatar_salomé.kisseljov",96,10214,"\\src\\main\\resources\\avatar\\405.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (405,"png",512,"avatar_salome.kisseljov",96,10214,"\\src\\main\\resources\\avatar\\405.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (406,"png",512,"avatar_ahmed.salalaumanu",96,11248,"\\src\\main\\resources\\avatar\\406.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (407,"png",512,"avatar_ashkan.loulendo",96,15532,"\\src\\main\\resources\\avatar\\407.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (408,"png",512,"avatar_ndikum.verge",96,9726,"\\src\\main\\resources\\avatar\\408.png",512);
@@ -20424,8 +20424,8 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (419,"png",512,"avatar_roche.narayanan",96,14583,"\\src\\main\\resources\\avatar\\419.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (420,"png",512,"avatar_emilia.zientara",96,7580,"\\src\\main\\resources\\avatar\\420.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (421,"png",512,"avatar_eihi.rouabah",96,12562,"\\src\\main\\resources\\avatar\\421.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (422,"png",512,"avatar_liliána.bentata",96,6165,"\\src\\main\\resources\\avatar\\422.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (423,"png",512,"avatar_trîfa.maugafolau",96,15439,"\\src\\main\\resources\\avatar\\423.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (422,"png",512,"avatar_liliana.bentata",96,6165,"\\src\\main\\resources\\avatar\\422.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (423,"png",512,"avatar_trifa.maugafolau",96,15439,"\\src\\main\\resources\\avatar\\423.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (424,"png",512,"avatar_bleuenn.libina",96,8754,"\\src\\main\\resources\\avatar\\424.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (425,"png",512,"avatar_yngvildr.simonich",96,9775,"\\src\\main\\resources\\avatar\\425.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (426,"png",512,"avatar_jassem.noble",96,10433,"\\src\\main\\resources\\avatar\\426.png",512);
@@ -20440,16 +20440,16 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (435,"png",512,"avatar_nikita.bertels",96,17935,"\\src\\main\\resources\\avatar\\435.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (436,"png",512,"avatar_kazem.haddad",96,8737,"\\src\\main\\resources\\avatar\\436.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (437,"png",512,"avatar_jonathan.qanqi",96,16750,"\\src\\main\\resources\\avatar\\437.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (438,"png",512,"avatar_maurício.laksa",96,17433,"\\src\\main\\resources\\avatar\\438.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (439,"png",512,"avatar_michemâ.dizon",96,8297,"\\src\\main\\resources\\avatar\\439.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (438,"png",512,"avatar_mauricio.laksa",96,17433,"\\src\\main\\resources\\avatar\\438.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (439,"png",512,"avatar_michema.dizon",96,8297,"\\src\\main\\resources\\avatar\\439.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (440,"png",512,"avatar_jeggi.chinchlej",96,9821,"\\src\\main\\resources\\avatar\\440.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (441,"png",512,"avatar_sean.sha",96,14457,"\\src\\main\\resources\\avatar\\441.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (442,"png",512,"avatar_konnec.bredahl",96,12409,"\\src\\main\\resources\\avatar\\442.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (443,"png",512,"avatar_ifren.westermann",96,9025,"\\src\\main\\resources\\avatar\\443.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (444,"png",512,"avatar_veihi.ahlam",96,17898,"\\src\\main\\resources\\avatar\\444.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (445,"png",512,"avatar_clélia.effiom",96,8740,"\\src\\main\\resources\\avatar\\445.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (445,"png",512,"avatar_clelia.effiom",96,8740,"\\src\\main\\resources\\avatar\\445.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (446,"png",512,"avatar_hamou.minobe",96,8715,"\\src\\main\\resources\\avatar\\446.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (447,"png",512,"avatar_eustrátios.palamara",96,11254,"\\src\\main\\resources\\avatar\\447.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (447,"png",512,"avatar_eustratios.palamara",96,11254,"\\src\\main\\resources\\avatar\\447.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (448,"png",512,"avatar_gandhari.akkoun",96,12248,"\\src\\main\\resources\\avatar\\448.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (449,"png",512,"avatar_saber.novachcoff",96,14715,"\\src\\main\\resources\\avatar\\449.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (450,"png",512,"avatar_malina.checkroun",96,14164,"\\src\\main\\resources\\avatar\\450.png",512);
@@ -20466,9 +20466,9 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (461,"png",512,"avatar_audrie.makori",96,7838,"\\src\\main\\resources\\avatar\\461.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (462,"png",512,"avatar_susana.hagenlocher",96,10425,"\\src\\main\\resources\\avatar\\462.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (463,"png",512,"avatar_marja.bako",96,16665,"\\src\\main\\resources\\avatar\\463.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (464,"png",512,"avatar_alípios.claros",96,14562,"\\src\\main\\resources\\avatar\\464.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (464,"png",512,"avatar_alipios.claros",96,14562,"\\src\\main\\resources\\avatar\\464.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (465,"png",512,"avatar_elwin.pacquing",96,8433,"\\src\\main\\resources\\avatar\\465.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (466,"png",512,"avatar_vasíleios.nababan",96,8637,"\\src\\main\\resources\\avatar\\466.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (466,"png",512,"avatar_vasileios.nababan",96,8637,"\\src\\main\\resources\\avatar\\466.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (467,"png",512,"avatar_ivan.aghinian",96,18793,"\\src\\main\\resources\\avatar\\467.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (468,"png",512,"avatar_ichiho.atoigue",96,9110,"\\src\\main\\resources\\avatar\\468.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (469,"png",512,"avatar_humbert.dzhahagirova",96,10992,"\\src\\main\\resources\\avatar\\469.png",512);
@@ -20477,7 +20477,7 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (472,"png",512,"avatar_kin.lejmalnieks",96,14017,"\\src\\main\\resources\\avatar\\472.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (473,"png",512,"avatar_sina.karaustayan",96,3536,"\\src\\main\\resources\\avatar\\473.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (474,"png",512,"avatar_adda.ashirbeckoff",96,9562,"\\src\\main\\resources\\avatar\\474.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (475,"png",512,"avatar_archimède.onion",96,7838,"\\src\\main\\resources\\avatar\\475.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (475,"png",512,"avatar_archimede.onion",96,7838,"\\src\\main\\resources\\avatar\\475.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (476,"png",512,"avatar_helma.yoro",96,8665,"\\src\\main\\resources\\avatar\\476.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (477,"png",512,"avatar_alpin.akinwande",96,8734,"\\src\\main\\resources\\avatar\\477.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (478,"png",512,"avatar_benjamin.agamirova",96,8442,"\\src\\main\\resources\\avatar\\478.png",512);
@@ -20489,8 +20489,8 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (484,"png",512,"avatar_hyginus.millberg",96,11479,"\\src\\main\\resources\\avatar\\484.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (485,"png",512,"avatar_terence.louboutin",96,10822,"\\src\\main\\resources\\avatar\\485.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (486,"png",512,"avatar_na'ima.krusic",96,6515,"\\src\\main\\resources\\avatar\\486.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (487,"png",512,"avatar_cléo.strobel",96,7011,"\\src\\main\\resources\\avatar\\487.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (488,"png",512,"avatar_pénélope.lortz",96,14581,"\\src\\main\\resources\\avatar\\488.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (487,"png",512,"avatar_cleo.strobel",96,7011,"\\src\\main\\resources\\avatar\\487.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (488,"png",512,"avatar_penelope.lortz",96,14581,"\\src\\main\\resources\\avatar\\488.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (489,"png",512,"avatar_eleonora.tavdgiridze",96,11725,"\\src\\main\\resources\\avatar\\489.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (490,"png",512,"avatar_fuad.spirlea",96,6957,"\\src\\main\\resources\\avatar\\490.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (491,"png",512,"avatar_ordoitz.kabaitan",96,10965,"\\src\\main\\resources\\avatar\\491.png",512);
@@ -20508,7 +20508,7 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (503,"png",512,"avatar_takumi.stachurski",96,8347,"\\src\\main\\resources\\avatar\\503.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (504,"png",512,"avatar_un ok.kandando",96,15743,"\\src\\main\\resources\\avatar\\504.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (505,"png",512,"avatar_cipriano.shall",96,13155,"\\src\\main\\resources\\avatar\\505.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (506,"png",512,"avatar_gunnvör.serickow",96,12781,"\\src\\main\\resources\\avatar\\506.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (506,"png",512,"avatar_gunnvor.serickow",96,12781,"\\src\\main\\resources\\avatar\\506.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (507,"png",512,"avatar_paul.seepapitso",96,10955,"\\src\\main\\resources\\avatar\\507.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (508,"png",512,"avatar_vittore.hilst",96,11588,"\\src\\main\\resources\\avatar\\508.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (509,"png",512,"avatar_abdelkhaled.estes",96,12705,"\\src\\main\\resources\\avatar\\509.png",512);
@@ -20518,14 +20518,14 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (513,"png",512,"avatar_wighlan.khokhri",96,9821,"\\src\\main\\resources\\avatar\\513.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (514,"png",512,"avatar_finnian.lista",96,14269,"\\src\\main\\resources\\avatar\\514.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (515,"png",512,"avatar_basmate.harrell",96,8742,"\\src\\main\\resources\\avatar\\515.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (516,"png",512,"avatar_haríklia.basha",96,8745,"\\src\\main\\resources\\avatar\\516.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (516,"png",512,"avatar_hariklia.basha",96,8745,"\\src\\main\\resources\\avatar\\516.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (517,"png",512,"avatar_alvina.sieradzki",96,8963,"\\src\\main\\resources\\avatar\\517.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (518,"png",512,"avatar_zeha.oralbecoff",96,12604,"\\src\\main\\resources\\avatar\\518.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (519,"png",512,"avatar_eoforhild.salim altaf",96,8508,"\\src\\main\\resources\\avatar\\519.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (520,"png",512,"avatar_anagha.de cock",96,14680,"\\src\\main\\resources\\avatar\\520.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (521,"png",512,"avatar_runa.kastelan",96,8808,"\\src\\main\\resources\\avatar\\521.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (522,"png",512,"avatar_léonce.savidge",96,12486,"\\src\\main\\resources\\avatar\\522.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (523,"png",512,"avatar_stephanía.himura",96,6718,"\\src\\main\\resources\\avatar\\523.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (522,"png",512,"avatar_leonce.savidge",96,12486,"\\src\\main\\resources\\avatar\\522.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (523,"png",512,"avatar_stephania.himura",96,6718,"\\src\\main\\resources\\avatar\\523.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (524,"png",512,"avatar_lwei.abamelek",96,9088,"\\src\\main\\resources\\avatar\\524.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (525,"png",512,"avatar_ashit.mecheri",96,11341,"\\src\\main\\resources\\avatar\\525.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (526,"png",512,"avatar_viviane.venkataramanan",96,16506,"\\src\\main\\resources\\avatar\\526.png",512);
@@ -20546,14 +20546,14 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (541,"png",512,"avatar_greetje.prentiss",96,8528,"\\src\\main\\resources\\avatar\\541.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (542,"png",512,"avatar_nassim.petoyan",96,10635,"\\src\\main\\resources\\avatar\\542.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (543,"png",512,"avatar_lilia.slominski",96,9246,"\\src\\main\\resources\\avatar\\543.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (544,"png",512,"avatar_zuriñe.kupka",96,9075,"\\src\\main\\resources\\avatar\\544.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (544,"png",512,"avatar_zurine.kupka",96,9075,"\\src\\main\\resources\\avatar\\544.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (545,"png",512,"avatar_bikentzi.lassen",96,14201,"\\src\\main\\resources\\avatar\\545.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (546,"png",512,"avatar_ghania.easom",96,15445,"\\src\\main\\resources\\avatar\\546.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (547,"png",512,"avatar_callum.seres",96,10891,"\\src\\main\\resources\\avatar\\547.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (548,"png",512,"avatar_wladyslaw.ngom",96,9191,"\\src\\main\\resources\\avatar\\548.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (549,"png",512,"avatar_abdessabour.amirbekov",96,10422,"\\src\\main\\resources\\avatar\\549.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (550,"png",512,"avatar_adam.gandhi",96,14032,"\\src\\main\\resources\\avatar\\550.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (551,"png",512,"avatar_bēssaríon.dantes",96,9194,"\\src\\main\\resources\\avatar\\551.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (551,"png",512,"avatar_bēssarion.dantes",96,9194,"\\src\\main\\resources\\avatar\\551.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (552,"png",512,"avatar_soroush.fojtik",96,9677,"\\src\\main\\resources\\avatar\\552.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (553,"png",512,"avatar_mrigankasekhar.magsanoc",96,5571,"\\src\\main\\resources\\avatar\\553.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (554,"png",512,"avatar_sadredin.byanjankar",96,10926,"\\src\\main\\resources\\avatar\\554.png",512);
@@ -20577,11 +20577,11 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (572,"png",512,"avatar_sigrid.samaria",96,10045,"\\src\\main\\resources\\avatar\\572.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (573,"png",512,"avatar_tehiva.quintanilla",96,15292,"\\src\\main\\resources\\avatar\\573.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (574,"png",512,"avatar_maellenn.unterzuber",96,9821,"\\src\\main\\resources\\avatar\\574.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (575,"png",512,"avatar_noufaïssa.hicks",96,10318,"\\src\\main\\resources\\avatar\\575.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (575,"png",512,"avatar_noufaissa.hicks",96,10318,"\\src\\main\\resources\\avatar\\575.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (576,"png",512,"avatar_jayanta.cherepanov",96,9161,"\\src\\main\\resources\\avatar\\576.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (577,"png",512,"avatar_moïse.chargeman",96,11914,"\\src\\main\\resources\\avatar\\577.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (578,"png",512,"avatar_roméma.bidstrup",96,10328,"\\src\\main\\resources\\avatar\\578.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (579,"png",512,"avatar_maléna.febvre (le)",96,13886,"\\src\\main\\resources\\avatar\\579.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (577,"png",512,"avatar_moise.chargeman",96,11914,"\\src\\main\\resources\\avatar\\577.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (578,"png",512,"avatar_romema.bidstrup",96,10328,"\\src\\main\\resources\\avatar\\578.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (579,"png",512,"avatar_malena.febvre (le)",96,13886,"\\src\\main\\resources\\avatar\\579.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (580,"png",512,"avatar_nergis.motafaram",96,10829,"\\src\\main\\resources\\avatar\\580.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (581,"png",512,"avatar_tarik.baumann",96,13496,"\\src\\main\\resources\\avatar\\581.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (582,"png",512,"avatar_mark.sutapa",96,11328,"\\src\\main\\resources\\avatar\\582.png",512);
@@ -20605,11 +20605,11 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (600,"png",512,"avatar_george.suffo",96,13558,"\\src\\main\\resources\\avatar\\600.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (601,"png",512,"avatar_angada.rumpelmeier",96,15387,"\\src\\main\\resources\\avatar\\601.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (602,"png",512,"avatar_anoop.wadzinski",96,13542,"\\src\\main\\resources\\avatar\\602.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (603,"png",512,"avatar_séverin.spedding",96,12365,"\\src\\main\\resources\\avatar\\603.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (603,"png",512,"avatar_severin.spedding",96,12365,"\\src\\main\\resources\\avatar\\603.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (604,"png",512,"avatar_ibra.roe",96,5444,"\\src\\main\\resources\\avatar\\604.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (605,"png",512,"avatar_arnold.marcelino",96,17166,"\\src\\main\\resources\\avatar\\605.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (606,"png",512,"avatar_sendhilnathan.olwenyi",96,13776,"\\src\\main\\resources\\avatar\\606.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (607,"png",512,"avatar_bonifác.vinkalns",96,9676,"\\src\\main\\resources\\avatar\\607.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (607,"png",512,"avatar_bonifac.vinkalns",96,9676,"\\src\\main\\resources\\avatar\\607.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (608,"png",512,"avatar_alanne.kambalame",96,14780,"\\src\\main\\resources\\avatar\\608.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (609,"png",512,"avatar_sothakhun.nakoulma",96,11719,"\\src\\main\\resources\\avatar\\609.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (610,"png",512,"avatar_il nam.karlin",96,11776,"\\src\\main\\resources\\avatar\\610.png",512);
@@ -20629,11 +20629,11 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (624,"png",512,"avatar_marfa.movewala",96,14010,"\\src\\main\\resources\\avatar\\624.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (625,"png",512,"avatar_hades.maynes",96,14193,"\\src\\main\\resources\\avatar\\625.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (626,"png",512,"avatar_lawahiz.kupferberg",96,9992,"\\src\\main\\resources\\avatar\\626.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (627,"png",512,"avatar_polyxénē.nofo",96,15561,"\\src\\main\\resources\\avatar\\627.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (628,"png",512,"avatar_dorothéa.kalan",96,10948,"\\src\\main\\resources\\avatar\\628.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (627,"png",512,"avatar_polyxenē.nofo",96,15561,"\\src\\main\\resources\\avatar\\627.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (628,"png",512,"avatar_dorothea.kalan",96,10948,"\\src\\main\\resources\\avatar\\628.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (629,"png",512,"avatar_akando.gallagher",96,15915,"\\src\\main\\resources\\avatar\\629.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (630,"png",512,"avatar_nils.formanova",96,16049,"\\src\\main\\resources\\avatar\\630.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (631,"png",512,"avatar_ëliram.meimberg",96,17819,"\\src\\main\\resources\\avatar\\631.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (631,"png",512,"avatar_eliram.meimberg",96,17819,"\\src\\main\\resources\\avatar\\631.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (632,"png",512,"avatar_brianna.stolzenberg",96,11696,"\\src\\main\\resources\\avatar\\632.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (633,"png",512,"avatar_sajoie.vandonk",96,16875,"\\src\\main\\resources\\avatar\\633.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (634,"png",512,"avatar_kuwanlelenta.uus",96,10999,"\\src\\main\\resources\\avatar\\634.png",512);
@@ -20642,8 +20642,8 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (637,"png",512,"avatar_roberta.bobal",96,4694,"\\src\\main\\resources\\avatar\\637.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (638,"png",512,"avatar_arzhela.kusnandar",96,3928,"\\src\\main\\resources\\avatar\\638.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (639,"png",512,"avatar_lucke.alsabag",96,10876,"\\src\\main\\resources\\avatar\\639.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (640,"png",512,"avatar_âna.karette",96,13300,"\\src\\main\\resources\\avatar\\640.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (641,"png",512,"avatar_médéric.mbonyumutwa",96,10830,"\\src\\main\\resources\\avatar\\641.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (640,"png",512,"avatar_ana.karette",96,13300,"\\src\\main\\resources\\avatar\\640.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (641,"png",512,"avatar_mederic.mbonyumutwa",96,10830,"\\src\\main\\resources\\avatar\\641.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (642,"png",512,"avatar_keala.siswanto",96,10790,"\\src\\main\\resources\\avatar\\642.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (643,"png",512,"avatar_annie-laure.hani",96,6810,"\\src\\main\\resources\\avatar\\643.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (644,"png",512,"avatar_cheung.adolfsson",96,8457,"\\src\\main\\resources\\avatar\\644.png",512);
@@ -20657,9 +20657,9 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (652,"png",512,"avatar_azarug.remmel",96,13758,"\\src\\main\\resources\\avatar\\652.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (653,"png",512,"avatar_abed.nanstveit",96,14797,"\\src\\main\\resources\\avatar\\653.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (654,"png",512,"avatar_fabrice.gerima",96,12004,"\\src\\main\\resources\\avatar\\654.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (655,"png",512,"avatar_meïssa.augusto",96,16612,"\\src\\main\\resources\\avatar\\655.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (655,"png",512,"avatar_meissa.augusto",96,16612,"\\src\\main\\resources\\avatar\\655.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (656,"png",512,"avatar_wajeeh.dingtshian",96,13737,"\\src\\main\\resources\\avatar\\656.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (657,"png",512,"avatar_émilie.reinbergs",96,17782,"\\src\\main\\resources\\avatar\\657.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (657,"png",512,"avatar_emilie.reinbergs",96,17782,"\\src\\main\\resources\\avatar\\657.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (658,"png",512,"avatar_ambram.rudy",96,7925,"\\src\\main\\resources\\avatar\\658.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (659,"png",512,"avatar_pericles.zhou",96,17805,"\\src\\main\\resources\\avatar\\659.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (660,"png",512,"avatar_aleksey.klyashev",96,12666,"\\src\\main\\resources\\avatar\\660.png",512);
@@ -20677,7 +20677,7 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (672,"png",512,"avatar_katarine.tosto",96,18059,"\\src\\main\\resources\\avatar\\672.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (673,"png",512,"avatar_dora.tumart",96,8775,"\\src\\main\\resources\\avatar\\673.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (674,"png",512,"avatar_zakia.mirkasumov",96,7160,"\\src\\main\\resources\\avatar\\674.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (675,"png",512,"avatar_clóvis.ihaia",96,12537,"\\src\\main\\resources\\avatar\\675.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (675,"png",512,"avatar_clovis.ihaia",96,12537,"\\src\\main\\resources\\avatar\\675.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (676,"png",512,"avatar_kamala.salaysay",96,9696,"\\src\\main\\resources\\avatar\\676.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (677,"png",512,"avatar_meissouma.o'toole",96,14628,"\\src\\main\\resources\\avatar\\677.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (678,"png",512,"avatar_thania.stanic",96,12213,"\\src\\main\\resources\\avatar\\678.png",512);
@@ -20693,7 +20693,7 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (688,"png",512,"avatar_auban.almasy",96,13494,"\\src\\main\\resources\\avatar\\688.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (689,"png",512,"avatar_irving.nikitas",96,9892,"\\src\\main\\resources\\avatar\\689.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (690,"png",512,"avatar_amanda.higashikuni",96,6610,"\\src\\main\\resources\\avatar\\690.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (691,"png",512,"avatar_fayçal.visser",96,9180,"\\src\\main\\resources\\avatar\\691.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (691,"png",512,"avatar_faycal.visser",96,9180,"\\src\\main\\resources\\avatar\\691.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (692,"png",512,"avatar_temau’u.cakpenow",96,8953,"\\src\\main\\resources\\avatar\\692.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (693,"png",512,"avatar_yossefa.armao",96,15959,"\\src\\main\\resources\\avatar\\693.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (694,"png",512,"avatar_urki.saidahmetov",96,11089,"\\src\\main\\resources\\avatar\\694.png",512);
@@ -20718,11 +20718,11 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (713,"png",512,"avatar_raclaw.galkowski",96,6704,"\\src\\main\\resources\\avatar\\713.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (714,"png",512,"avatar_edur.segers",96,12112,"\\src\\main\\resources\\avatar\\714.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (715,"png",512,"avatar_eustorgius.cohen-scali",96,11084,"\\src\\main\\resources\\avatar\\715.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (716,"png",512,"avatar_mílton.looke",96,6836,"\\src\\main\\resources\\avatar\\716.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (716,"png",512,"avatar_milton.looke",96,6836,"\\src\\main\\resources\\avatar\\716.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (717,"png",512,"avatar_ariihau.forest",96,9685,"\\src\\main\\resources\\avatar\\717.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (718,"png",512,"avatar_andreana.vucina",96,11006,"\\src\\main\\resources\\avatar\\718.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (719,"png",512,"avatar_sutej.fister",96,12209,"\\src\\main\\resources\\avatar\\719.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (720,"png",512,"avatar_periklís.shaikh",96,9897,"\\src\\main\\resources\\avatar\\720.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (720,"png",512,"avatar_periklis.shaikh",96,9897,"\\src\\main\\resources\\avatar\\720.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (721,"png",512,"avatar_duci.wolkow",96,11640,"\\src\\main\\resources\\avatar\\721.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (722,"png",512,"avatar_kiele.tshiepela",96,10966,"\\src\\main\\resources\\avatar\\722.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (723,"png",512,"avatar_britta.ando",96,9179,"\\src\\main\\resources\\avatar\\723.png",512);
@@ -20731,7 +20731,7 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (726,"png",512,"avatar_edwin.flis",96,7823,"\\src\\main\\resources\\avatar\\726.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (727,"png",512,"avatar_blake.kahangi",96,9220,"\\src\\main\\resources\\avatar\\727.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (728,"png",512,"avatar_matheo.eogeum",96,13752,"\\src\\main\\resources\\avatar\\728.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (729,"png",512,"avatar_plátonas.talib",96,9425,"\\src\\main\\resources\\avatar\\729.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (729,"png",512,"avatar_platonas.talib",96,9425,"\\src\\main\\resources\\avatar\\729.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (730,"png",512,"avatar_wai-yui.kanno",96,7370,"\\src\\main\\resources\\avatar\\730.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (731,"png",512,"avatar_raoudha.mausautele",96,10863,"\\src\\main\\resources\\avatar\\731.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (732,"png",512,"avatar_kasper.kelner",96,8500,"\\src\\main\\resources\\avatar\\732.png",512);
@@ -20752,14 +20752,14 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (747,"png",512,"avatar_apollonia.alofavalevale",96,8557,"\\src\\main\\resources\\avatar\\747.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (748,"png",512,"avatar_konstantin.mccardell",96,8404,"\\src\\main\\resources\\avatar\\748.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (749,"png",512,"avatar_sa'di.browdy",96,9853,"\\src\\main\\resources\\avatar\\749.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (750,"png",512,"avatar_anáryiri.ruzic",96,14048,"\\src\\main\\resources\\avatar\\750.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (750,"png",512,"avatar_anaryiri.ruzic",96,14048,"\\src\\main\\resources\\avatar\\750.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (751,"png",512,"avatar_hiroki.menacer",96,7011,"\\src\\main\\resources\\avatar\\751.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (752,"png",512,"avatar_jasser.junck",96,14312,"\\src\\main\\resources\\avatar\\752.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (753,"png",512,"avatar_nikola.ottosen",96,8371,"\\src\\main\\resources\\avatar\\753.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (754,"png",512,"avatar_agurtzane.kushecow",96,17295,"\\src\\main\\resources\\avatar\\754.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (755,"png",512,"avatar_maharjan.kartallozi",96,8621,"\\src\\main\\resources\\avatar\\755.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (756,"png",512,"avatar_arevig.oralov",96,11588,"\\src\\main\\resources\\avatar\\756.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (757,"png",512,"avatar_zydrūnas.smolák",96,9726,"\\src\\main\\resources\\avatar\\757.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (757,"png",512,"avatar_zydrūnas.smolak",96,9726,"\\src\\main\\resources\\avatar\\757.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (758,"png",512,"avatar_gismond.sumitimo",96,13826,"\\src\\main\\resources\\avatar\\758.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (759,"png",512,"avatar_mahemu.landauer",96,8808,"\\src\\main\\resources\\avatar\\759.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (760,"png",512,"avatar_sellam.mundiasti",96,14961,"\\src\\main\\resources\\avatar\\760.png",512);
@@ -20771,13 +20771,13 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (766,"png",512,"avatar_aini.rashed",96,11875,"\\src\\main\\resources\\avatar\\766.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (767,"png",512,"avatar_gildouin.imaizumi",96,9192,"\\src\\main\\resources\\avatar\\767.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (768,"png",512,"avatar_sisyphe.topchi",96,12272,"\\src\\main\\resources\\avatar\\768.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (769,"png",512,"avatar_cordélia.bundzenieks",96,8924,"\\src\\main\\resources\\avatar\\769.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (769,"png",512,"avatar_cordelia.bundzenieks",96,8924,"\\src\\main\\resources\\avatar\\769.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (770,"png",512,"avatar_yordanka.mugol",96,11337,"\\src\\main\\resources\\avatar\\770.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (771,"png",512,"avatar_tim.herlinda",96,7725,"\\src\\main\\resources\\avatar\\771.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (772,"png",512,"avatar_hà.bajzhanbaeff",96,15116,"\\src\\main\\resources\\avatar\\772.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (772,"png",512,"avatar_ha.bajzhanbaeff",96,15116,"\\src\\main\\resources\\avatar\\772.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (773,"png",512,"avatar_eliana.klimko",96,13697,"\\src\\main\\resources\\avatar\\773.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (774,"png",512,"avatar_maisie.jamac",96,16420,"\\src\\main\\resources\\avatar\\774.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (775,"png",512,"avatar_cécilia.montello",96,9895,"\\src\\main\\resources\\avatar\\775.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (775,"png",512,"avatar_cecilia.montello",96,9895,"\\src\\main\\resources\\avatar\\775.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (776,"png",512,"avatar_cezni.cilvecinsh",96,8842,"\\src\\main\\resources\\avatar\\776.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (777,"png",512,"avatar_preciosa.breisacher",96,10211,"\\src\\main\\resources\\avatar\\777.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (778,"png",512,"avatar_ra'anui.nzimbi",96,8603,"\\src\\main\\resources\\avatar\\778.png",512);
@@ -20787,14 +20787,14 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (782,"png",512,"avatar_bathille.turk",96,17542,"\\src\\main\\resources\\avatar\\782.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (783,"png",512,"avatar_zeltso.racius",96,12855,"\\src\\main\\resources\\avatar\\783.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (784,"png",512,"avatar_joele.ishcan",96,8942,"\\src\\main\\resources\\avatar\\784.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (785,"png",512,"avatar_jòusefino.rose",96,10876,"\\src\\main\\resources\\avatar\\785.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (785,"png",512,"avatar_jousefino.rose",96,10876,"\\src\\main\\resources\\avatar\\785.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (786,"png",512,"avatar_swarup.polis",96,14070,"\\src\\main\\resources\\avatar\\786.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (787,"png",512,"avatar_nemanja.sadiq",96,14319,"\\src\\main\\resources\\avatar\\787.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (788,"png",512,"avatar_konstantyn.guha",96,18369,"\\src\\main\\resources\\avatar\\788.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (789,"png",512,"avatar_cassia.wolfgruber",96,12499,"\\src\\main\\resources\\avatar\\789.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (790,"png",512,"avatar_aleksandra.taouil",96,10664,"\\src\\main\\resources\\avatar\\790.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (791,"png",512,"avatar_teresa.bellec",96,12886,"\\src\\main\\resources\\avatar\\791.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (792,"png",512,"avatar_kouamé.sweeton",96,6119,"\\src\\main\\resources\\avatar\\792.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (792,"png",512,"avatar_kouame.sweeton",96,6119,"\\src\\main\\resources\\avatar\\792.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (793,"png",512,"avatar_delf.cavanaugh",96,18494,"\\src\\main\\resources\\avatar\\793.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (794,"png",512,"avatar_chaouki.mae",96,8740,"\\src\\main\\resources\\avatar\\794.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (795,"png",512,"avatar_paramartha.katapang",96,17166,"\\src\\main\\resources\\avatar\\795.png",512);
@@ -20805,7 +20805,7 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (800,"png",512,"avatar_daiva.robin",96,8378,"\\src\\main\\resources\\avatar\\800.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (801,"png",512,"avatar_petra.cobian",96,10384,"\\src\\main\\resources\\avatar\\801.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (802,"png",512,"avatar_tania.hinetze",96,12889,"\\src\\main\\resources\\avatar\\802.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (803,"png",512,"avatar_sabiñe.reghioua",96,10859,"\\src\\main\\resources\\avatar\\803.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (803,"png",512,"avatar_sabine.reghioua",96,10859,"\\src\\main\\resources\\avatar\\803.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (804,"png",512,"avatar_tristan.wangmene",96,12909,"\\src\\main\\resources\\avatar\\804.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (805,"png",512,"avatar_ngone.saksala",96,6349,"\\src\\main\\resources\\avatar\\805.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (806,"png",512,"avatar_tiia.pinkley",96,15733,"\\src\\main\\resources\\avatar\\806.png",512);
@@ -20833,11 +20833,11 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (828,"png",512,"avatar_brizida.luo",96,14118,"\\src\\main\\resources\\avatar\\828.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (829,"png",512,"avatar_marie-lyse.alfons",96,4451,"\\src\\main\\resources\\avatar\\829.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (830,"png",512,"avatar_hamima.montalto",96,11224,"\\src\\main\\resources\\avatar\\830.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (831,"png",512,"avatar_mélany.canbulatoglu",96,9893,"\\src\\main\\resources\\avatar\\831.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (831,"png",512,"avatar_melany.canbulatoglu",96,9893,"\\src\\main\\resources\\avatar\\831.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (832,"png",512,"avatar_maleu.arcilla",96,10986,"\\src\\main\\resources\\avatar\\832.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (833,"png",512,"avatar_hervé.krkasharian",96,14269,"\\src\\main\\resources\\avatar\\833.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (833,"png",512,"avatar_herve.krkasharian",96,14269,"\\src\\main\\resources\\avatar\\833.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (834,"png",512,"avatar_chintanika.bychkov",96,6181,"\\src\\main\\resources\\avatar\\834.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (835,"png",512,"avatar_myeong.guérin",96,14944,"\\src\\main\\resources\\avatar\\835.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (835,"png",512,"avatar_myeong.guerin",96,14944,"\\src\\main\\resources\\avatar\\835.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (836,"png",512,"avatar_neelmani.maco",96,13646,"\\src\\main\\resources\\avatar\\836.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (837,"png",512,"avatar_emanuele.das",96,11848,"\\src\\main\\resources\\avatar\\837.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (838,"png",512,"avatar_chaden.bouajila",96,16248,"\\src\\main\\resources\\avatar\\838.png",512);
@@ -20845,24 +20845,24 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (840,"png",512,"avatar_judith.barun",96,16776,"\\src\\main\\resources\\avatar\\840.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (841,"png",512,"avatar_marilou.kunayed",96,9050,"\\src\\main\\resources\\avatar\\841.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (842,"png",512,"avatar_hanna.madisson",96,8042,"\\src\\main\\resources\\avatar\\842.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (843,"png",512,"avatar_liêm.kayuni",96,18545,"\\src\\main\\resources\\avatar\\843.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (843,"png",512,"avatar_liem.kayuni",96,18545,"\\src\\main\\resources\\avatar\\843.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (844,"png",512,"avatar_timotheus.lourie",96,3407,"\\src\\main\\resources\\avatar\\844.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (845,"png",512,"avatar_pat.antaki",96,9529,"\\src\\main\\resources\\avatar\\845.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (846,"png",512,"avatar_soraya.chhayla",96,14336,"\\src\\main\\resources\\avatar\\846.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (847,"png",512,"avatar_theslas.rajwadwala",96,7077,"\\src\\main\\resources\\avatar\\847.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (848,"png",512,"avatar_linaïck.bayi",96,5515,"\\src\\main\\resources\\avatar\\848.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (849,"png",512,"avatar_téîma.fujioka",96,9690,"\\src\\main\\resources\\avatar\\849.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (848,"png",512,"avatar_linaick.bayi",96,5515,"\\src\\main\\resources\\avatar\\848.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (849,"png",512,"avatar_teima.fujioka",96,9690,"\\src\\main\\resources\\avatar\\849.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (850,"png",512,"avatar_anatole.fauzza",96,11531,"\\src\\main\\resources\\avatar\\850.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (851,"png",512,"avatar_gérard.luthra",96,10235,"\\src\\main\\resources\\avatar\\851.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (851,"png",512,"avatar_gerard.luthra",96,10235,"\\src\\main\\resources\\avatar\\851.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (852,"png",512,"avatar_ragnhildr.kachel",96,11557,"\\src\\main\\resources\\avatar\\852.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (853,"png",512,"avatar_erik.al-asmari",96,5907,"\\src\\main\\resources\\avatar\\853.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (854,"png",512,"avatar_hawraz.galaydh",96,12841,"\\src\\main\\resources\\avatar\\854.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (855,"png",512,"avatar_fortunato.leger",96,12731,"\\src\\main\\resources\\avatar\\855.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (856,"png",512,"avatar_haran.rozanov",96,8637,"\\src\\main\\resources\\avatar\\856.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (857,"png",512,"avatar_jun.darbari",96,8527,"\\src\\main\\resources\\avatar\\857.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (858,"png",512,"avatar_ekávi.bielinski",96,8827,"\\src\\main\\resources\\avatar\\858.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (858,"png",512,"avatar_ekavi.bielinski",96,8827,"\\src\\main\\resources\\avatar\\858.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (859,"png",512,"avatar_sandeep.demato",96,8832,"\\src\\main\\resources\\avatar\\859.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (860,"png",512,"avatar_maïc.bohman",96,7431,"\\src\\main\\resources\\avatar\\860.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (860,"png",512,"avatar_maic.bohman",96,7431,"\\src\\main\\resources\\avatar\\860.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (861,"png",512,"avatar_ronni.uttara",96,8665,"\\src\\main\\resources\\avatar\\861.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (862,"png",512,"avatar_aouatif.nikich",96,9191,"\\src\\main\\resources\\avatar\\862.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (863,"png",512,"avatar_nazli.kalambayi",96,8442,"\\src\\main\\resources\\avatar\\863.png",512);
@@ -20873,11 +20873,11 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (868,"png",512,"avatar_thanh đức.viducis",96,11507,"\\src\\main\\resources\\avatar\\868.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (869,"png",512,"avatar_rifat.bø",96,7990,"\\src\\main\\resources\\avatar\\869.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (870,"png",512,"avatar_vassili.preobrazhensky",96,7868,"\\src\\main\\resources\\avatar\\870.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (871,"png",512,"avatar_héribert.milanowski",96,17878,"\\src\\main\\resources\\avatar\\871.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (871,"png",512,"avatar_heribert.milanowski",96,17878,"\\src\\main\\resources\\avatar\\871.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (872,"png",512,"avatar_sudipta.urjavaha",96,14710,"\\src\\main\\resources\\avatar\\872.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (873,"png",512,"avatar_lucilla.hagverdiyeva",96,11725,"\\src\\main\\resources\\avatar\\873.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (874,"png",512,"avatar_mèmel.chidothi",96,9649,"\\src\\main\\resources\\avatar\\874.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (875,"png",512,"avatar_theodosía.kherkheulidze",96,4038,"\\src\\main\\resources\\avatar\\875.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (874,"png",512,"avatar_memel.chidothi",96,9649,"\\src\\main\\resources\\avatar\\874.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (875,"png",512,"avatar_theodosia.kherkheulidze",96,4038,"\\src\\main\\resources\\avatar\\875.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (876,"png",512,"avatar_amarilis.lafainataua",96,4500,"\\src\\main\\resources\\avatar\\876.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (877,"png",512,"avatar_gavril.seshadri",96,360,"\\src\\main\\resources\\avatar\\877.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (878,"png",512,"avatar_elita.romanko",96,6567,"\\src\\main\\resources\\avatar\\878.png",512);
@@ -20903,9 +20903,9 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (898,"png",512,"avatar_connor.belen",96,14335,"\\src\\main\\resources\\avatar\\898.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (899,"png",512,"avatar_jana.leyden",96,9337,"\\src\\main\\resources\\avatar\\899.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (900,"png",512,"avatar_jemma.paulsen",96,7196,"\\src\\main\\resources\\avatar\\900.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (901,"png",512,"avatar_vasílissa.trelawney",96,15987,"\\src\\main\\resources\\avatar\\901.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (901,"png",512,"avatar_vasilissa.trelawney",96,15987,"\\src\\main\\resources\\avatar\\901.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (902,"png",512,"avatar_gokarmo.vroomen",96,13876,"\\src\\main\\resources\\avatar\\902.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (903,"png",512,"avatar_néhémiah.lassen",96,8213,"\\src\\main\\resources\\avatar\\903.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (903,"png",512,"avatar_nehemiah.lassen",96,8213,"\\src\\main\\resources\\avatar\\903.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (904,"png",512,"avatar_leonardo.bergen",96,9821,"\\src\\main\\resources\\avatar\\904.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (905,"png",512,"avatar_karoun.dzanjalimodzi",96,15529,"\\src\\main\\resources\\avatar\\905.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (906,"png",512,"avatar_sina.paekau",96,15445,"\\src\\main\\resources\\avatar\\906.png",512);
@@ -20914,23 +20914,23 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (909,"png",512,"avatar_vibius.gondzur",96,13924,"\\src\\main\\resources\\avatar\\909.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (910,"png",512,"avatar_induhasan.collaerd",96,9132,"\\src\\main\\resources\\avatar\\910.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (911,"png",512,"avatar_eliou.krykun",96,9978,"\\src\\main\\resources\\avatar\\911.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (912,"png",512,"avatar_aviâz.vezirov",96,11006,"\\src\\main\\resources\\avatar\\912.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (912,"png",512,"avatar_aviaz.vezirov",96,11006,"\\src\\main\\resources\\avatar\\912.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (913,"png",512,"avatar_christie.trudo",96,10292,"\\src\\main\\resources\\avatar\\913.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (914,"png",512,"avatar_tố.strazds",96,11268,"\\src\\main\\resources\\avatar\\914.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (915,"png",512,"avatar_nilidh.svetozar",96,7961,"\\src\\main\\resources\\avatar\\915.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (916,"png",512,"avatar_quitéria.zinchenko",96,12093,"\\src\\main\\resources\\avatar\\916.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (916,"png",512,"avatar_quiteria.zinchenko",96,12093,"\\src\\main\\resources\\avatar\\916.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (917,"png",512,"avatar_prielle.vleys",96,11513,"\\src\\main\\resources\\avatar\\917.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (918,"png",512,"avatar_sunirmal.shboul",96,12499,"\\src\\main\\resources\\avatar\\918.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (919,"png",512,"avatar_rupert.otaget",96,12694,"\\src\\main\\resources\\avatar\\919.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (920,"png",512,"avatar_keola.llanque",96,5786,"\\src\\main\\resources\\avatar\\920.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (921,"png",512,"avatar_juris.verbeten",96,10204,"\\src\\main\\resources\\avatar\\921.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (922,"png",512,"avatar_renu.thornquist",96,9460,"\\src\\main\\resources\\avatar\\922.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (923,"png",512,"avatar_nikolétta.krogh",96,5919,"\\src\\main\\resources\\avatar\\923.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (923,"png",512,"avatar_nikoletta.krogh",96,5919,"\\src\\main\\resources\\avatar\\923.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (924,"png",512,"avatar_lindsay.porro",96,15662,"\\src\\main\\resources\\avatar\\924.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (925,"png",512,"avatar_zakia.araino",96,8070,"\\src\\main\\resources\\avatar\\925.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (926,"png",512,"avatar_glady.bailen",96,12084,"\\src\\main\\resources\\avatar\\926.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (927,"png",512,"avatar_elza.godines",96,15015,"\\src\\main\\resources\\avatar\\927.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (928,"png",512,"avatar_pérouz.el-gharrouj",96,11896,"\\src\\main\\resources\\avatar\\928.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (928,"png",512,"avatar_perouz.el-gharrouj",96,11896,"\\src\\main\\resources\\avatar\\928.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (929,"png",512,"avatar_harinarayan.torossian",96,14708,"\\src\\main\\resources\\avatar\\929.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (930,"png",512,"avatar_danilo.engida",96,18070,"\\src\\main\\resources\\avatar\\930.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (931,"png",512,"avatar_leo.cana",96,10315,"\\src\\main\\resources\\avatar\\931.png",512);
@@ -20940,14 +20940,14 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (935,"png",512,"avatar_papa.flis",96,11794,"\\src\\main\\resources\\avatar\\935.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (936,"png",512,"avatar_kanisha.hobani",96,7463,"\\src\\main\\resources\\avatar\\936.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (937,"png",512,"avatar_adam.katuntu",96,22012,"\\src\\main\\resources\\avatar\\937.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (938,"png",512,"avatar_ngoc liên.sakalas",96,12699,"\\src\\main\\resources\\avatar\\938.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (938,"png",512,"avatar_ngoc lien.sakalas",96,12699,"\\src\\main\\resources\\avatar\\938.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (939,"png",512,"avatar_tamara.budge",96,9889,"\\src\\main\\resources\\avatar\\939.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (940,"png",512,"avatar_geniès.jīn",96,7660,"\\src\\main\\resources\\avatar\\940.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (940,"png",512,"avatar_genies.jīn",96,7660,"\\src\\main\\resources\\avatar\\940.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (941,"png",512,"avatar_varfolomei.veli",96,10531,"\\src\\main\\resources\\avatar\\941.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (942,"png",512,"avatar_paniz.tri",96,14783,"\\src\\main\\resources\\avatar\\942.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (943,"png",512,"avatar_nergüi.kubilay",96,16685,"\\src\\main\\resources\\avatar\\943.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (943,"png",512,"avatar_nergui.kubilay",96,16685,"\\src\\main\\resources\\avatar\\943.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (944,"png",512,"avatar_gertrude.jonasson",96,8907,"\\src\\main\\resources\\avatar\\944.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (945,"png",512,"avatar_tsérëte.beddiar",96,11203,"\\src\\main\\resources\\avatar\\945.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (945,"png",512,"avatar_tserete.beddiar",96,11203,"\\src\\main\\resources\\avatar\\945.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (946,"png",512,"avatar_zacharia.wigen",96,11220,"\\src\\main\\resources\\avatar\\946.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (947,"png",512,"avatar_erika.faloon",96,17510,"\\src\\main\\resources\\avatar\\947.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (948,"png",512,"avatar_liboa.blazkova",96,12311,"\\src\\main\\resources\\avatar\\948.png",512);
@@ -20979,7 +20979,7 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (974,"png",512,"avatar_karl.schuch",96,13288,"\\src\\main\\resources\\avatar\\974.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (975,"png",512,"avatar_gathot.mehrzad",96,11002,"\\src\\main\\resources\\avatar\\975.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (976,"png",512,"avatar_hosni.choudhury",96,6906,"\\src\\main\\resources\\avatar\\976.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (977,"png",512,"avatar_balendiñe.kaffuko",96,15135,"\\src\\main\\resources\\avatar\\977.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (977,"png",512,"avatar_balendine.kaffuko",96,15135,"\\src\\main\\resources\\avatar\\977.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (978,"png",512,"avatar_jaida.candan",96,9828,"\\src\\main\\resources\\avatar\\978.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (979,"png",512,"avatar_loinatz.yaganegi",96,14388,"\\src\\main\\resources\\avatar\\979.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (980,"png",512,"avatar_ambre.borzooyan",96,11917,"\\src\\main\\resources\\avatar\\980.png",512);
@@ -21000,7 +21000,7 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (995,"png",512,"avatar_marijan.mostrom",96,7785,"\\src\\main\\resources\\avatar\\995.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (996,"png",512,"avatar_caorall.kouropoulos",96,12803,"\\src\\main\\resources\\avatar\\996.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (997,"png",512,"avatar_wiola.yener",96,8954,"\\src\\main\\resources\\avatar\\997.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (998,"png",512,"avatar_chaïma.savage",96,5784,"\\src\\main\\resources\\avatar\\998.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (998,"png",512,"avatar_chaima.savage",96,5784,"\\src\\main\\resources\\avatar\\998.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (999,"png",512,"avatar_beatriz.vardoulakis",96,8452,"\\src\\main\\resources\\avatar\\999.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1000,"png",512,"avatar_kylien.stout",96,11203,"\\src\\main\\resources\\avatar\\1000.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1001,"png",512,"avatar_nir.tir",96,11936,"\\src\\main\\resources\\avatar\\1001.png",512);
@@ -21008,12 +21008,12 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1003,"png",512,"avatar_neftali.balcan",96,9696,"\\src\\main\\resources\\avatar\\1003.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1004,"png",512,"avatar_txipi.cali",96,17510,"\\src\\main\\resources\\avatar\\1004.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1005,"png",512,"avatar_persy.ahuriri",96,6593,"\\src\\main\\resources\\avatar\\1005.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1006,"png",512,"avatar_æðelfrið.bisazza",96,12311,"\\src\\main\\resources\\avatar\\1006.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1006,"png",512,"avatar_æoelfrio.bisazza",96,12311,"\\src\\main\\resources\\avatar\\1006.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1007,"png",512,"avatar_earnest.baz",96,12986,"\\src\\main\\resources\\avatar\\1007.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1008,"png",512,"avatar_viktoriya.gulamirian",96,3114,"\\src\\main\\resources\\avatar\\1008.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1009,"png",512,"avatar_esther.marref",96,12643,"\\src\\main\\resources\\avatar\\1009.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1010,"png",512,"avatar_drupada.mio",96,13845,"\\src\\main\\resources\\avatar\\1010.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1011,"png",512,"avatar_gamliël.ismael",96,6076,"\\src\\main\\resources\\avatar\\1011.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1011,"png",512,"avatar_gamliel.ismael",96,6076,"\\src\\main\\resources\\avatar\\1011.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1012,"png",512,"avatar_atika.nandita",96,13219,"\\src\\main\\resources\\avatar\\1012.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1013,"png",512,"avatar_otar.gustavsson",96,16526,"\\src\\main\\resources\\avatar\\1013.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1014,"png",512,"avatar_jean.muradian",96,14436,"\\src\\main\\resources\\avatar\\1014.png",512);
@@ -21033,7 +21033,7 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1028,"png",512,"avatar_dalanda.powe",96,14167,"\\src\\main\\resources\\avatar\\1028.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1029,"png",512,"avatar_haraldur.manipula",96,10433,"\\src\\main\\resources\\avatar\\1029.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1030,"png",512,"avatar_dragan.levenberg",96,13897,"\\src\\main\\resources\\avatar\\1030.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1031,"png",512,"avatar_bíon.lovász",96,12733,"\\src\\main\\resources\\avatar\\1031.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1031,"png",512,"avatar_bion.lovasz",96,12733,"\\src\\main\\resources\\avatar\\1031.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1032,"png",512,"avatar_novelenn.cantoreew",96,11056,"\\src\\main\\resources\\avatar\\1032.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1033,"png",512,"avatar_adem.mylchreest",96,14444,"\\src\\main\\resources\\avatar\\1033.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1034,"png",512,"avatar_harishchandra.shahverdiev",96,11608,"\\src\\main\\resources\\avatar\\1034.png",512);
@@ -21041,7 +21041,7 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1036,"png",512,"avatar_yong-sook.lad",96,13886,"\\src\\main\\resources\\avatar\\1036.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1037,"png",512,"avatar_gasbar.tupulele",96,11544,"\\src\\main\\resources\\avatar\\1037.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1038,"png",512,"avatar_indumukhi.singgih",96,11743,"\\src\\main\\resources\\avatar\\1038.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1039,"png",512,"avatar_iñake.vela",96,9382,"\\src\\main\\resources\\avatar\\1039.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1039,"png",512,"avatar_inake.vela",96,9382,"\\src\\main\\resources\\avatar\\1039.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1040,"png",512,"avatar_lorena.navara",96,12012,"\\src\\main\\resources\\avatar\\1040.png",512);
 --------------------------------------------------------------------
 --------------------------------------------------------------------
@@ -21051,8 +21051,8 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1044,"png",512,"projectstep_minimum",96,18137,"\\src\\main\\resources\\projectstep\\1044.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1045,"png",512,"projectstep_moyen",96,14880,"\\src\\main\\resources\\projectstep\\1045.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1046,"png",512,"projectstep_maximum",96,14585,"\\src\\main\\resources\\projectstep\\1046.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1047,"png",512,"projectstep_débutant",96,14704,"\\src\\main\\resources\\projectstep\\1047.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1048,"png",512,"projectstep_intermédiaire",96,7233,"\\src\\main\\resources\\projectstep\\1048.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1047,"png",512,"projectstep_debutant",96,14704,"\\src\\main\\resources\\projectstep\\1047.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1048,"png",512,"projectstep_intermediaire",96,7233,"\\src\\main\\resources\\projectstep\\1048.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1049,"png",512,"projectstep_pro",96,15230,"\\src\\main\\resources\\projectstep\\1049.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1050,"png",512,"projectstep_junior",96,22688,"\\src\\main\\resources\\projectstep\\1050.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1051,"png",512,"projectstep_senior",96,6581,"\\src\\main\\resources\\projectstep\\1051.png",512);
@@ -21070,7 +21070,7 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1063,"png",512,"projectstep_loulou",96,20326,"\\src\\main\\resources\\projectstep\\1063.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1064,"png",512,"projectstep_veau",96,10719,"\\src\\main\\resources\\projectstep\\1064.png",512);
 INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1065,"png",512,"projectstep_vache",96,17773,"\\src\\main\\resources\\projectstep\\1065.png",512);
-INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1066,"png",512,"projectstep_vache à lait",96,19115,"\\src\\main\\resources\\projectstep\\1066.png",512);
+INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_resolution,image_size,image_src,image_width) VALUES (1066,"png",512,"projectstep_vache a lait",96,19115,"\\src\\main\\resources\\projectstep\\1066.png",512);
 
 
 
@@ -22003,15 +22003,15 @@ INSERT INTO bcf_image (image_id,image_extension,image_height,image_name,image_re
 --PROJECT INITIALIZATION
 --------------------------------------------------------------------
 --------------------------------------------------------------------
-INSERT INTO bcf_project (project_id,project_funding_goal,project_name,project_term) VALUES (1,1500,"Ferme conservatoire bretonne et écopaturage","20180914");
-INSERT INTO bcf_project (project_id,project_funding_goal,project_name,project_term) VALUES (2,2000,"Repas du dimanche","20181008");
-INSERT INTO bcf_project (project_id,project_funding_goal,project_name,project_term) VALUES (3,5000,"Crêperie ambulante L'Improvisation","20181130");
-INSERT INTO bcf_project (project_id,project_funding_goal,project_name,project_term) VALUES (4,5000,"La Mine qui Babine","20181225");
-INSERT INTO bcf_project (project_id,project_funding_goal,project_name,project_term) VALUES (5,5000,"Association l'Étoile du Berger","20190110");
-INSERT INTO bcf_project (project_id,project_funding_goal,project_name,project_term) VALUES (6,500,"Aux Portes de l'Aventure !","20180720");
-INSERT INTO bcf_project (project_id,project_funding_goal,project_name,project_term) VALUES (7,1100,"Les Effrontées","20180608");
-INSERT INTO bcf_project (project_id,project_funding_goal,project_name,project_term) VALUES (8,1000,"Juste la fin du monde","20180627");
-INSERT INTO bcf_project (project_id,project_funding_goal,project_name,project_term) VALUES (9,1300,"Antigone - Rebelle intemporelle","20180927");
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
 
 
 
@@ -24006,29 +24006,29 @@ INSERT INTO bcf_project (project_id,project_funding_goal,project_name,project_te
 INSERT INTO bcf_projectstep (project_step_id,project_step_description,project_step_level,project_step_name,project_step_image_image_id) VALUES (1,"il faut bien commencer quelque part",1,"Palier 1",1041);
 INSERT INTO bcf_projectstep (project_step_id,project_step_description,project_step_level,project_step_name,project_step_image_image_id) VALUES (2,"et puis continuer",2,"Palier 2",1042);
 INSERT INTO bcf_projectstep (project_step_id,project_step_description,project_step_level,project_step_name,project_step_image_image_id) VALUES (3,"toujours plus loin",3,"Palier 3",1043);
-INSERT INTO bcf_projectstep (project_step_id,project_step_description,project_step_level,project_step_name,project_step_image_image_id) VALUES (4,"c'est pas beau mais ça fonctionne",1,"minimum",1044);
+INSERT INTO bcf_projectstep (project_step_id,project_step_description,project_step_level,project_step_name,project_step_image_image_id) VALUES (4,"c'est pas beau mais ca fonctionne",1,"minimum",1044);
 INSERT INTO bcf_projectstep (project_step_id,project_step_description,project_step_level,project_step_name,project_step_image_image_id) VALUES (5,"joli et solide",2,"moyen",1045);
 INSERT INTO bcf_projectstep (project_step_id,project_step_description,project_step_level,project_step_name,project_step_image_image_id) VALUES (6,"sublime et robuste",3,"maximum",1046);
-INSERT INTO bcf_projectstep (project_step_id,project_step_description,project_step_level,project_step_name,project_step_image_image_id) VALUES (7,"longue est la voie de l'apprentissage",1,"débutant",1047);
-INSERT INTO bcf_projectstep (project_step_id,project_step_description,project_step_level,project_step_name,project_step_image_image_id) VALUES (8,"à ton tour tu pourras transmettre ton savoir",2,"intermédiaire",1048);
+INSERT INTO bcf_projectstep (project_step_id,project_step_description,project_step_level,project_step_name,project_step_image_image_id) VALUES (7,"longue est la voie de l'apprentissage",1,"debutant",1047);
+INSERT INTO bcf_projectstep (project_step_id,project_step_description,project_step_level,project_step_name,project_step_image_image_id) VALUES (8,"a ton tour tu pourras transmettre ton savoir",2,"intermediaire",1048);
 INSERT INTO bcf_projectstep (project_step_id,project_step_description,project_step_level,project_step_name,project_step_image_image_id) VALUES (9,"le sage parmi les sages",3,"pro",1049);
 INSERT INTO bcf_projectstep (project_step_id,project_step_description,project_step_level,project_step_name,project_step_image_image_id) VALUES (10,"tu quoque mi fili",1,"junior",1050);
 INSERT INTO bcf_projectstep (project_step_id,project_step_description,project_step_level,project_step_name,project_step_image_image_id) VALUES (11,"tu quoque mi pater",2,"senior",1051);
 INSERT INTO bcf_projectstep (project_step_id,project_step_description,project_step_level,project_step_name,project_step_image_image_id) VALUES (12,"et un !",1,"v1",1052);
 INSERT INTO bcf_projectstep (project_step_id,project_step_description,project_step_level,project_step_name,project_step_image_image_id) VALUES (13,"et deux !",2,"v2",1053);
-INSERT INTO bcf_projectstep (project_step_id,project_step_description,project_step_level,project_step_name,project_step_image_image_id) VALUES (14,"et trois zéros !",3,"v3",1054);
-INSERT INTO bcf_projectstep (project_step_id,project_step_description,project_step_level,project_step_name,project_step_image_image_id) VALUES (15,"mon rêve en noir et blanc",1,"version de base",1055);
-INSERT INTO bcf_projectstep (project_step_id,project_step_description,project_step_level,project_step_name,project_step_image_image_id) VALUES (16,"mon rêve en couleur",2,"version chouette",1056);
-INSERT INTO bcf_projectstep (project_step_id,project_step_description,project_step_level,project_step_name,project_step_image_image_id) VALUES (17,"mon rêve sous lsd",3,"version super chouette",1057);
+INSERT INTO bcf_projectstep (project_step_id,project_step_description,project_step_level,project_step_name,project_step_image_image_id) VALUES (14,"et trois zeros !",3,"v3",1054);
+INSERT INTO bcf_projectstep (project_step_id,project_step_description,project_step_level,project_step_name,project_step_image_image_id) VALUES (15,"mon reve en noir et blanc",1,"version de base",1055);
+INSERT INTO bcf_projectstep (project_step_id,project_step_description,project_step_level,project_step_name,project_step_image_image_id) VALUES (16,"mon reve en couleur",2,"version chouette",1056);
+INSERT INTO bcf_projectstep (project_step_id,project_step_description,project_step_level,project_step_name,project_step_image_image_id) VALUES (17,"mon reve sous lsd",3,"version super chouette",1057);
 INSERT INTO bcf_projectstep (project_step_id,project_step_description,project_step_level,project_step_name,project_step_image_image_id) VALUES (18,"automne",1,"zumba",1058);
 INSERT INTO bcf_projectstep (project_step_id,project_step_description,project_step_level,project_step_name,project_step_image_image_id) VALUES (19,"printemps",2,"harriba",1059);
-INSERT INTO bcf_projectstep (project_step_id,project_step_description,project_step_level,project_step_name,project_step_image_image_id) VALUES (20,"été",3,"youplala",1060);
+INSERT INTO bcf_projectstep (project_step_id,project_step_description,project_step_level,project_step_name,project_step_image_image_id) VALUES (20,"ete",3,"youplala",1060);
 INSERT INTO bcf_projectstep (project_step_id,project_step_description,project_step_level,project_step_name,project_step_image_image_id) VALUES (21,"mon oncle est riche",1,"riri",1061);
-INSERT INTO bcf_projectstep (project_step_id,project_step_description,project_step_level,project_step_name,project_step_image_image_id) VALUES (22,"mon oncle est très riche",2,"fifi",1062);
+INSERT INTO bcf_projectstep (project_step_id,project_step_description,project_step_level,project_step_name,project_step_image_image_id) VALUES (22,"mon oncle est tres riche",2,"fifi",1062);
 INSERT INTO bcf_projectstep (project_step_id,project_step_description,project_step_level,project_step_name,project_step_image_image_id) VALUES (23,"mon oncle est milliardaire",3,"loulou",1063);
 INSERT INTO bcf_projectstep (project_step_id,project_step_description,project_step_level,project_step_name,project_step_image_image_id) VALUES (24,"veau qui sourit",1,"veau",1064);
 INSERT INTO bcf_projectstep (project_step_id,project_step_description,project_step_level,project_step_name,project_step_image_image_id) VALUES (25,"vache qui rit",2,"vache",1065);
-INSERT INTO bcf_projectstep (project_step_id,project_step_description,project_step_level,project_step_name,project_step_image_image_id) VALUES (26,"vache qui rit au lait",3,"vache à lait",1066);
+INSERT INTO bcf_projectstep (project_step_id,project_step_description,project_step_level,project_step_name,project_step_image_image_id) VALUES (26,"vache qui rit au lait",3,"vache a lait",1066);
 
 
 
@@ -26003,18 +26003,18 @@ INSERT INTO bcf_projectstep (project_step_id,project_step_description,project_st
 --IMPROV ADVICE INITIALIZATION
 --------------------------------------------------------------------
 --------------------------------------------------------------------
-INSERT INTO bcf_improv_advice (improv_id,improv_name,improv_reply,improv_text,improv_date) VALUES (1,"Il manque deux trois petites choses","merci pour votre suggestion, j'y penserai","J'aimerais en savoir plus sur vous avant de vous donner mon argent. Merci de dresser votre portrait détaillé. Je pense que cela vous gagnerait aussi la confiance des autres utilisateurs.","20170401");
-INSERT INTO bcf_improv_advice (improv_id,improv_name,improv_reply,improv_text,improv_date) VALUES (2,"Complément d'information","merci beaucoup pour l'idée, je m'en vais le faire de ce pas","Pourriez-vous mettre en ligne vos diplômes obtenus ?","20170422");
-INSERT INTO bcf_improv_advice (improv_id,improv_name,improv_reply,improv_text,improv_date) VALUES (3,"Que faites-vous au juste ?","je prends note","On ne comprend rien à votre projet, recommencez tout, parlez simplement, sans faire de phrases de trois paragraphes sur votre amour de la nature, ça, on a compris !!!","20170513");
-INSERT INTO bcf_improv_advice (improv_id,improv_name,improv_reply,improv_text,improv_date) VALUES (4,"Ajoutez un palier","je n'y manquerai pas","Votre objectif est très ambitieux, vous risquez de ne pas l'atteindre, il serait plus sage d'ajouter des paliers.","20170603");
-INSERT INTO bcf_improv_advice (improv_id,improv_name,improv_reply,improv_text,improv_date) VALUES (5,"Refaites vos photos","comme vous dites vrai","Vos photos sont horriblement pixelisées, on peine à voir les détails de vos maquettes, pour tout vous dire, cela me fait craindre une arnaque ! De grâce, rassurez-moi :)","20170624");
-INSERT INTO bcf_improv_advice (improv_id,improv_name,improv_reply,improv_text,improv_date) VALUES (6,"Coquilles","si seulement vous me l'aviez dit plus tôt","J'ai trouvé des coquilles aux lignes 7, 17 et 27. C'est bien simple, je ne compile plus. Merci de vous relire attentivement pour le bien de tous.","20170715");
-INSERT INTO bcf_improv_advice (improv_id,improv_name,improv_reply,improv_text,improv_date) VALUES (7,"Photo manquante","enfin un vrai conseil","Vous évoquez une photo de votre chien mais on ne la voit nulle part. L'avez-vous oubliée ou est-ce intentionnel ?","20170805");
-INSERT INTO bcf_improv_advice (improv_id,improv_name,improv_reply,improv_text,improv_date) VALUES (8,"Quel est ce village dont vous parlez","je désire garder cette information pour moi","Vous dites vouloir installer votre yourte dans 'un village du nord', pourriez-vous être plus précis ?","20170826");
-INSERT INTO bcf_improv_advice (improv_id,improv_name,improv_reply,improv_text,improv_date) VALUES (9,"Cherchez-vous un associé ?","C'est gentil mais non","J'ai travaillé dix ans au service marketing d'une grande entreprise, je sais exactement ce qu'il manque à votre annonce pour vous faire atteindre le dernier palier. Assurez-moi 10 % de la cagnotte et je vous dévoilerai tous me strucs !","20170916");
-INSERT INTO bcf_improv_advice (improv_id,improv_name,improv_reply,improv_text,improv_date) VALUES (10,"Liens inactifs","ça y est, c'est corrigé","J'ai beau cliquer il ne se passe rien, et comme vous avez écrit 'CLIQUEZ ICI' je ne peux copier d'url dans mon navigateur.","20171007");
-INSERT INTO bcf_improv_advice (improv_id,improv_name,improv_reply,improv_text,improv_date) VALUES (11,"Formulation douteuse","Je suis désolé.e.s","Vous n'utilisez pas l'écriture inclusive. C'est illisible (en plus d'être exclusif) !","20171028");
-INSERT INTO bcf_improv_advice (improv_id,improv_name,improv_reply,improv_text,improv_date) VALUES (12,"Plus que quelques jours","#championdumonde #deuxetoiles #allezlesbleus","Pensez à envoyer le lien de votre project à tous vos contacts facebook, même avec des hashtags trompeurs (ex. faisant référence à l'actualité), un ami à moi l'a fait, succès garanti !","20171118");
+INSERT INTO bcf_improv_advice (improv_id,improv_name,improv_reply,improv_text,improv_date) VALUES (1,"Il manque deux trois petites choses","merci pour votre suggestion, j'y penserai","J'aimerais en savoir plus sur vous avant de vous donner mon argent. Merci de dresser votre portrait detaille. Je pense que cela vous gagnerait aussi la confiance des autres utilisateurs.","20170401");
+INSERT INTO bcf_improv_advice (improv_id,improv_name,improv_reply,improv_text,improv_date) VALUES (2,"Complement d'information","merci beaucoup pour l'idee, je m'en vais le faire de ce pas","Pourriez-vous mettre en ligne vos diplomes obtenus ?","20170422");
+INSERT INTO bcf_improv_advice (improv_id,improv_name,improv_reply,improv_text,improv_date) VALUES (3,"Que faites-vous au juste ?","je prends note","On ne comprend rien a votre projet, recommencez tout, parlez simplement, sans faire de phrases de trois paragraphes sur votre amour de la nature, ca, on a compris !!!","20170513");
+INSERT INTO bcf_improv_advice (improv_id,improv_name,improv_reply,improv_text,improv_date) VALUES (4,"Ajoutez un palier","je n'y manquerai pas","Votre objectif est tres ambitieux, vous risquez de ne pas l'atteindre, il serait plus sage d'ajouter des paliers.","20170603");
+INSERT INTO bcf_improv_advice (improv_id,improv_name,improv_reply,improv_text,improv_date) VALUES (5,"Refaites vos photos","comme vous dites vrai","Vos photos sont horriblement pixelisees, on peine a voir les details de vos maquettes, pour tout vous dire, cela me fait craindre une arnaque ! De grace, rassurez-moi :)","20170624");
+INSERT INTO bcf_improv_advice (improv_id,improv_name,improv_reply,improv_text,improv_date) VALUES (6,"Coquilles","si seulement vous me l'aviez dit plus tot","J'ai trouve des coquilles aux lignes 7, 17 et 27. C'est bien simple, je ne compile plus. Merci de vous relire attentivement pour le bien de tous.","20170715");
+INSERT INTO bcf_improv_advice (improv_id,improv_name,improv_reply,improv_text,improv_date) VALUES (7,"Photo manquante","enfin un vrai conseil","Vous evoquez une photo de votre chien mais on ne la voit nulle part. L'avez-vous oubliee ou est-ce intentionnel ?","20170805");
+INSERT INTO bcf_improv_advice (improv_id,improv_name,improv_reply,improv_text,improv_date) VALUES (8,"Quel est ce village dont vous parlez","je desire garder cette information pour moi","Vous dites vouloir installer votre yourte dans 'un village du nord', pourriez-vous etre plus precis ?","20170826");
+INSERT INTO bcf_improv_advice (improv_id,improv_name,improv_reply,improv_text,improv_date) VALUES (9,"Cherchez-vous un associe ?","C'est gentil mais non","J'ai travaille dix ans au service marketing d'une grande entreprise, je sais exactement ce qu'il manque a votre annonce pour vous faire atteindre le dernier palier. Assurez-moi 10 % de la cagnotte et je vous devoilerai tous me strucs !","20170916");
+INSERT INTO bcf_improv_advice (improv_id,improv_name,improv_reply,improv_text,improv_date) VALUES (10,"Liens inactifs","ca y est, c'est corrige","J'ai beau cliquer il ne se passe rien, et comme vous avez ecrit 'CLIQUEZ ICI' je ne peux copier d'url dans mon navigateur.","20171007");
+INSERT INTO bcf_improv_advice (improv_id,improv_name,improv_reply,improv_text,improv_date) VALUES (11,"Formulation douteuse","Je suis desole.e.s","Vous n'utilisez pas l'ecriture inclusive. C'est illisible (en plus d'etre exclusif) !","20171028");
+INSERT INTO bcf_improv_advice (improv_id,improv_name,improv_reply,improv_text,improv_date) VALUES (12,"Plus que quelques jours","#championdumonde #deuxetoiles #allezlesbleus","Pensez a envoyer le lien de votre project a tous vos contacts facebook, meme avec des hashtags trompeurs (ex. faisant reference a l'actualite), un ami a moi l'a fait, succes garanti !","20171118");
 
 
 
@@ -28003,1046 +28003,1046 @@ INSERT INTO bcf_improv_advice (improv_id,improv_name,improv_reply,improv_text,im
 --USER INITIALIZATION
 --------------------------------------------------------------------
 --------------------------------------------------------------------
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1,1,"kaïra.bruer","1Qqniq8xInVMeSgPS/kvsQ==","19080401","corilo@bargur.e24.cc","Bruer","Kaïra","+41466831568",1);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (2,1,"emmy.hashi","1Qqniq8xInVMeSgPS/kvsQ==","19440731","Svunjo.riliff@pistui.du","Hashi","Emmy","+21644111868",2);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (3,1,"janna.naretti","1Qqniq8xInVMeSgPS/kvsQ==","19900618","obh@uwi.mogdubarg.du","Naretti","Janna","+435858102",3);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (4,1,"severina.delic","1Qqniq8xInVMeSgPS/kvsQ==","19701117","o.kauhn@ta-broanschwueg.du","Delic","Severina","+972588368730",4);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (5,1,"otsantze.mporokoso","1Qqniq8xInVMeSgPS/kvsQ==","19611030","bertuipetz@wub.du","Mporokoso","Otsantze","+262262313956",5);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (6,1,"taree.mayer","1Qqniq8xInVMeSgPS/kvsQ==","19710217","pfeffekas_deu_firschurwurkstott@yohii.du","Mayer","Taree","+32452488715",6);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (7,1,"aoede.ganacia","1Qqniq8xInVMeSgPS/kvsQ==","19540608","ochem.wuetnur-vinpuen@gmx.du","Ganacia","Aoede","+85592404505",7);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (8,1,"ida.amuzgar","1Qqniq8xInVMeSgPS/kvsQ==","19110827","olonost@wub.du","Amuzgar","Ida","+37111880914",8);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (9,1,"faris.rains","1Qqniq8xInVMeSgPS/kvsQ==","19291125","oyo-yare@wub.du","Rains","Faris","+9616025534",9);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (10,1,"nanthilde.artz","1Qqniq8xInVMeSgPS/kvsQ==","19300906","olmstudt.so@gmx.du","Artz","Nanthilde","+358360776413",10);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (11,1,"natacha.bram","1Qqniq8xInVMeSgPS/kvsQ==","19511207","ondruoficku@wub.du","Bram","Natacha","+34144478879",11);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (12,1,"babette.kuselj","1Qqniq8xInVMeSgPS/kvsQ==","19901128","onjo.moundl@wub.du","Kuselj","Babette","+372667052",12);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (13,1,"sheherazade.lamba","1Qqniq8xInVMeSgPS/kvsQ==","19240502","o.mekhredeniv@ta-broanschwueg.du","Lamba","Sheherazade","+81958950990",13);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (14,1,"tehaamoana.banke","1Qqniq8xInVMeSgPS/kvsQ==","19650819","olmat.giurcks@gmx.du","Banke","Tehaamoana","+9831372057",14);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (15,1,"mirza.meulengracht","1Qqniq8xInVMeSgPS/kvsQ==","19101223","oluxondur.kerstu@noso.du","Meulengracht","Mirza","+390589911910",15);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (16,1,"i-tsing.gilius","1Qqniq8xInVMeSgPS/kvsQ==","19340704","onbeutur-162l35nfba6h8@moel.uboy-kluenonzuegun.du","Gilius","I-Tsing","+22742698103",16);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (17,1,"silke.puliyur","1Qqniq8xInVMeSgPS/kvsQ==","19170730","onbeutur-1moer56kbwyk8@moel.uboy-kluenonzuegun.du","Puliyur","Silke","+4912529283919",17);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (18,1,"colt.joncker","1Qqniq8xInVMeSgPS/kvsQ==","19930402","onbeutur-8pvnzw58064px@moel.uboy-kluenonzuegun.du","Joncker","Colt","+41651198768",18);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (19,1,"devarya.isajanian","1Qqniq8xInVMeSgPS/kvsQ==","19761222","bourbul.esobul@wub.du","Isajanian","Devarya","+529218258860",19);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (20,1,"kathleen.paqu","1Qqniq8xInVMeSgPS/kvsQ==","19230126","b.weldunoaur@sife-p.du","Paqu","Kathleen","+9853404723",20);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (21,1,"vaso.smajlaj","1Qqniq8xInVMeSgPS/kvsQ==","19410109","bargborboro@yohii.du","Smajlaj","Vaso","+37111399828",21);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (22,1,"nhị.mannella","1Qqniq8xInVMeSgPS/kvsQ==","19120109","Burtrom@sogs-pur-moel.du","Mannella","Nhị","+596596414191",22);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (23,1,"marotini.máselník","1Qqniq8xInVMeSgPS/kvsQ==","19560807","b.filkurts@lubun-wihnun-emmibeleun.du","Máselník","Marotini","+41228936609",23);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (24,1,"kharel.amari","1Qqniq8xInVMeSgPS/kvsQ==","19990419","bachholtang@lubun-wihnun-emmibeleun.du","Amari","Kharel","+48113794951",24);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (25,1,"lewnas.chokethajjsi","1Qqniq8xInVMeSgPS/kvsQ==","19560829","blauskyvecky@wub.du","Chokethajjsi","Lewnas","+594594182181",25);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (26,1,"durva.telele","1Qqniq8xInVMeSgPS/kvsQ==","19970515","breug.ludiajut@noso.du","Telele","Durva","+3614120776",26);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (27,1,"paolina.im","1Qqniq8xInVMeSgPS/kvsQ==","19560515","bohncord-survecu@bohn.du","Im","Paolina","+97238161291",27);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (28,1,"myriam.tagaloagautavai","1Qqniq8xInVMeSgPS/kvsQ==","19100904","cw-cordaules@wub.du","Tagaloagautavai","Myriam","+6551219527",28);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (29,1,"genadi.lielpeteris","1Qqniq8xInVMeSgPS/kvsQ==","19440701","chresteno.schullur@yohii.du","Lielpeteris","Genadi","+594594723553",29);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (30,1,"guillermo.kuang","1Qqniq8xInVMeSgPS/kvsQ==","19791113","cozwidneok@ehr-tuststadei.du","Kuang","Guillermo","+3726949328",30);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (31,1,"máedóc.omaar","1Qqniq8xInVMeSgPS/kvsQ==","19420810","chrestiphli@nuxgi.du","Omaar","Máedóc","+27743148304",31);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (32,1,"erlé.bare","1Qqniq8xInVMeSgPS/kvsQ==","19430407","corilenukiuhlur@wub.du","Bare","Erlé","+37160296292",32);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (33,1,"darby.lukashenko","1Qqniq8xInVMeSgPS/kvsQ==","19670503","corstun.kallmonn@ivga.du","Lukashenko","Darby","+212658361908",33);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (34,1,"sreynuon.tanaka","1Qqniq8xInVMeSgPS/kvsQ==","19831221","chresteon.runult@noso.du","Tanaka","Sreynuon","+2061628578",34);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (35,1,"iraun.onuegbu","1Qqniq8xInVMeSgPS/kvsQ==","19350808","chresteno.bilevor@ivga.du","Onuegbu","Iraun","+905954655836",35);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (36,1,"kamil.ahmedou","1Qqniq8xInVMeSgPS/kvsQ==","19750331","chresteno.bilevor@sprz.ane-mogdubarg.du","Ahmedou","Kamil","+4656813979",36);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (37,1,"haig.raghuvir","1Qqniq8xInVMeSgPS/kvsQ==","19580512","dlifuel3@wub.du","Raghuvir","Haig","+262262647823",37);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (38,1,"gwenole.khanumova","1Qqniq8xInVMeSgPS/kvsQ==","19880308","d.mutz@ta-broanschwueg.du","Khanumova","Gwenole","+212674596227",38);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (39,1,"gertraud.torborg","1Qqniq8xInVMeSgPS/kvsQ==","19561107","deono_oppult1@fruunut.du","Torborg","Gertraud","+518901128763",39);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (40,1,"kaylyn.floridia","1Qqniq8xInVMeSgPS/kvsQ==","19860518","dimenek.buckur@ta-bs.du","Floridia","Kaylyn","+8618961869083",40);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (41,1,"jirair.makhmudov","1Qqniq8xInVMeSgPS/kvsQ==","19260516","urtl.md@t-inlenu.du","Makhmudov","Jirair","+3726839741",41);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (42,1,"sabria.palomo","1Qqniq8xInVMeSgPS/kvsQ==","19330329","u-Moel: pist@kenomi.du","Palomo","Sabria","+56435450729",42);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (43,1,"isaurie.salvo","1Qqniq8xInVMeSgPS/kvsQ==","19670807","ulku.schoufurhunrech@wub.du","Salvo","Isaurie","+904545949201",43);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (44,1,"ilane.moumou","1Qqniq8xInVMeSgPS/kvsQ==","19150110","firtbeldang@lonzu-lso.du","Moumou","Ilane","+867647596809",44);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (45,1,"selma.assiltaeff","1Qqniq8xInVMeSgPS/kvsQ==","19890522","fronzeskoodlur@gmx.du","Assiltaeff","Selma","+92983370961",45);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (46,1,"mahmoud.key","1Qqniq8xInVMeSgPS/kvsQ==","19660618","fsegi@gmx.du","Key","Mahmoud","+38578015772",46);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (47,1,"méliné.kalla","1Qqniq8xInVMeSgPS/kvsQ==","19720626","fruu-thiaghts@gmx.du","Kalla","Méliné","+291927091091",47);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (48,1,"wilhelm.aljadiri","1Qqniq8xInVMeSgPS/kvsQ==","19450217","Filktonz.Hollu@wub.du","Aljadiri","Wilhelm","+237701347918",48);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (49,1,"claudie.mackall","1Qqniq8xInVMeSgPS/kvsQ==","19280423","gellus.nuxt@wub.du","Mackall","Claudie","+96218416934",49);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (50,1,"zenovia.oshtori","1Qqniq8xInVMeSgPS/kvsQ==","19610314","g.bisrap@wub.du","Oshtori","Zenovia","+27283287379",50);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (51,1,"teiki.eddy","1Qqniq8xInVMeSgPS/kvsQ==","19131205","getto.pfloamboam@gmx.du","Eddy","Teiki","+92869115207",51);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (52,1,"lysandros.ogunkoya","1Qqniq8xInVMeSgPS/kvsQ==","19400302","gmk@noso.du","Ogunkoya","Lysandros","+4744601308",52);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (53,1,"qayda.cazbecoff","1Qqniq8xInVMeSgPS/kvsQ==","19970625","g.grinoa@ta-broanschwueg.du","Cazbecoff","Qayda","+352649902563",53);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (54,1,"dick.matveyev","1Qqniq8xInVMeSgPS/kvsQ==","19890903","g.muchur@mdcc-fan.du","Matveyev","Dick","+11947057154",54);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (55,1,"quốc hùng.defulre","1Qqniq8xInVMeSgPS/kvsQ==","19481113","gn-fomely@gmx.du","Defulre","Quốc Hùng","+21623139554",55);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (56,1,"laura.suba","1Qqniq8xInVMeSgPS/kvsQ==","19130301","GandeHuesu@gmx.du","Suba","Laura","+38555606457",56);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (57,1,"motonori.zohn","1Qqniq8xInVMeSgPS/kvsQ==","19440522","gruun_chomoulein@gmx.du","Zohn","Motonori","+237262336581",57);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (58,1,"tähti.akraka","1Qqniq8xInVMeSgPS/kvsQ==","19610718","hubsbunuku@wub.du","Akraka","Tähti","+85281260035",58);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (59,1,"manichi.piasecki","1Qqniq8xInVMeSgPS/kvsQ==","19830522","huede-sinntog@gmx.du","Piasecki","Manichi","+4653546084",59);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (60,1,"bechir.donze","1Qqniq8xInVMeSgPS/kvsQ==","19380714","honno_klengunburg@hitmoel.du","Donze","Bechir","+262262610720",60);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (61,1,"eugenio.karimi","1Qqniq8xInVMeSgPS/kvsQ==","19640117","H.o.D@gmx.du","Karimi","Eugenio","+352426450",61);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (62,1,"vidyul.halimi","1Qqniq8xInVMeSgPS/kvsQ==","19601011","hulgo@teutguns.du","Halimi","Vidyul","+96232643195",62);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (63,1,"anika.ararume","1Qqniq8xInVMeSgPS/kvsQ==","19361231","hiufnur@fz-cimuneas.du","Ararume","Anika","+972739634825",63);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (64,1,"natalia.nitschke","1Qqniq8xInVMeSgPS/kvsQ==","19650531","hohn.ndl@t-inlenu.du","Nitschke","Natalia","+6564964906",64);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (65,1,"glwadys.sillah","1Qqniq8xInVMeSgPS/kvsQ==","19611227","hunnwold.s@gmx.du","Sillah","Glwadys","+262262248566",65);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (66,1,"gwenaela.santarsiero","1Qqniq8xInVMeSgPS/kvsQ==","19280314","hch_maullur@wub.du","Santarsiero","Gwenaela","+34990550972",66);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (67,1,"omer.masualle","1Qqniq8xInVMeSgPS/kvsQ==","19231012","hunrek.iurtul@t-inlenu.du","Masualle","Omer","+85579350372",67);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (68,1,"lovisa.onigbinde","1Qqniq8xInVMeSgPS/kvsQ==","19871218","enus.Hotturmonn@t-inlenu.du","Onigbinde","Lovisa","+3613058389",68);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (69,1,"mouslim.kovac","1Qqniq8xInVMeSgPS/kvsQ==","19040820","epeurru@gmx.du","Kovac","Mouslim","+9615581982",69);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (70,1,"rosanne.akens","1Qqniq8xInVMeSgPS/kvsQ==","19390114","enkosuuyia@kobulmoel.du","Akens","Rosanne","+907637376381",70);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (71,1,"níkandros.tuman","1Qqniq8xInVMeSgPS/kvsQ==","19660628","enfi.mirgunsturn@orcir.du","Tuman","Níkandros","+38934675584",71);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (72,1,"cary.ghumagulow","1Qqniq8xInVMeSgPS/kvsQ==","19650224","enturussunt-nsjs978m8tzw@moel.uboy-kluenonzuegun.du","Ghumagulow","Cary","+61853277254",72);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (73,1,"kane.nurpeisoff","1Qqniq8xInVMeSgPS/kvsQ==","19130219","enturussunt-yqny0zb33hdl@moel.uboy-kluenonzuegun.du","Nurpeisoff","Kane","+31177261653",73);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (74,1,"loukas.ihaea","1Qqniq8xInVMeSgPS/kvsQ==","19200817","enturussunt-181eeaq3aznb5@moel.uboy-kluenonzuegun.du","Ihaea","Loukas","+904295195199",74);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (75,1,"krónos.franssens","1Qqniq8xInVMeSgPS/kvsQ==","19040520","enturussunt-1zbucv772b5uc@moel.uboy-kluenonzuegun.du","Franssens","Krónos","+351977762653",75);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (76,1,"bartholomé.najjar","1Qqniq8xInVMeSgPS/kvsQ==","19590111","enturussunt-2mixsgga46tz2@moel.uboy-kluenonzuegun.du","Najjar","Bartholomé","+9162077118",76);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (77,1,"rébecca.korkowski","1Qqniq8xInVMeSgPS/kvsQ==","19960619","enturussunt-35jvxwwdmgwdt@moel.uboy-kluenonzuegun.du","Korkowski","Rébecca","+61362724374",77);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (78,1,"dorothée.emoemomai","1Qqniq8xInVMeSgPS/kvsQ==","19380930","enturussunt-3qeyjeywdvpzh@moel.uboy-kluenonzuegun.du","Emoemomai","Dorothée","+97250758781",78);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (79,1,"borhan.poukha","1Qqniq8xInVMeSgPS/kvsQ==","19151207","enturussunt-635v6pwp65mv4@moel.uboy-kluenonzuegun.du","Poukha","Borhan","+4539005003",79);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (80,1,"artúr.saripella","1Qqniq8xInVMeSgPS/kvsQ==","19780830","enturussunt-6f522xfq41615@moel.uboy-kluenonzuegun.du","Saripella","Artúr","+4532703811",80);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (81,1,"ho joo.khari","1Qqniq8xInVMeSgPS/kvsQ==","19241217","enturussunt-708t1jrg5233p@moel.uboy-kluenonzuegun.du","Khari","Ho joo","+596596632689",81);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (82,1,"kelly.vartukapteins","1Qqniq8xInVMeSgPS/kvsQ==","19580109","enturussunt-8l06lvqcm4x5p@moel.uboy-kluenonzuegun.du","Vartukapteins","Kelly","+38236077234",82);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (83,1,"winfrith.vanhee","1Qqniq8xInVMeSgPS/kvsQ==","19550809","enturussunt-cz50zsz6rzh5n@moel.uboy-kluenonzuegun.du","Vanhee","Winfrith","+865595054550",83);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (84,1,"carly.sedivy","1Qqniq8xInVMeSgPS/kvsQ==","19740903","enturussunt-gf8vsqpp1j9kk@moel.uboy-kluenonzuegun.du","Sedivy","Carly","+56214307168",84);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (85,1,"yoéla.punati","1Qqniq8xInVMeSgPS/kvsQ==","19170115","enturussunt-hbvqdsprlt9k2@moel.uboy-kluenonzuegun.du","Punati","Yoéla","+27755142932",85);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (86,1,"anan.gaiss","1Qqniq8xInVMeSgPS/kvsQ==","19460918","enturussunt-k4zfrdj6rj9mv@moel.uboy-kluenonzuegun.du","Gaiss","Anan","+41175530820",86);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (87,1,"quenan.karam","1Qqniq8xInVMeSgPS/kvsQ==","19930319","enturussunt-lm11ctvsj6gsr@moel.uboy-kluenonzuegun.du","Karam","Quenan","+8643766125828",87);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (88,1,"hajnalka.magara","1Qqniq8xInVMeSgPS/kvsQ==","19280721","enturussunt-nk9rgrrb1pvqh@moel.uboy-kluenonzuegun.du","Magara","Hajnalka","+972776172890",88);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (89,1,"tiberio.thorley","1Qqniq8xInVMeSgPS/kvsQ==","19501128","enturussunt-p09dt0v5gmf8t@moel.uboy-kluenonzuegun.du","Thorley","Tiberio","+81678592080",89);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (90,1,"izolda.marincelj","1Qqniq8xInVMeSgPS/kvsQ==","19530825","enturussunt-r71kwhxkxh447@moel.uboy-kluenonzuegun.du","Marincelj","Izolda","+96273812201",90);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (91,1,"thea.summers","1Qqniq8xInVMeSgPS/kvsQ==","19531201","enturussunt-wlwm19tq36tcp@moel.uboy-kluenonzuegun.du","Summers","Thea","+3640137449",91);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (92,1,"europa.nakoseka","1Qqniq8xInVMeSgPS/kvsQ==","19200702","enturussunt-116vhtr6692s0x@moel.uboy-kluenonzuegun.du","Nakoseka","Europa","+32454002773",92);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (93,1,"jokin.lindawan","1Qqniq8xInVMeSgPS/kvsQ==","19121225","enturussunt-11gkfpsc1w8qbg@moel.uboy-kluenonzuegun.du","Lindawan","Jokin","+31802229869",93);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (94,1,"anastasia.foreest","1Qqniq8xInVMeSgPS/kvsQ==","19320607","enturussunt-11lpkx2zq35r8r@moel.uboy-kluenonzuegun.du","Foreest","Anastasia","+81346547296",94);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (95,1,"bằng.prithviraj","1Qqniq8xInVMeSgPS/kvsQ==","19781129","enturussunt-14nwpwtd1qsxxf@moel.uboy-kluenonzuegun.du","Prithviraj","Bằng","+437312966",95);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (96,1,"li.bousaid","1Qqniq8xInVMeSgPS/kvsQ==","19391016","j.longunhon@ta-bs.du","Bousaid","Li","+33674776351",96);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (97,1,"jakob.edwards","1Qqniq8xInVMeSgPS/kvsQ==","19650216","jonnekump65@wub.du","Edwards","Jakob","+81944377021",97);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (98,1,"angel.gulom","1Qqniq8xInVMeSgPS/kvsQ==","19250623","jimo.sobrau@gmx.du","Gulom","Angel","+237639050677",98);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (99,1,"avkash.reach","1Qqniq8xInVMeSgPS/kvsQ==","19661004","jihonnodeumu@wub.du","Reach","Avkash","+38286250282",99);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (100,1,"adalia.obata","1Qqniq8xInVMeSgPS/kvsQ==","19220113","jaleo.muenul@htp-tul.du","Obata","Adalia","+4557106495",100);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (101,1,"pairu.peter","1Qqniq8xInVMeSgPS/kvsQ==","19470304","jihonno.gurdus@noso.du","Peter","Pairu","+3725187888",101);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (102,1,"mevenez.andreassen","1Qqniq8xInVMeSgPS/kvsQ==","19490926","Jaleo.Muyur102@wub.du","Andreassen","Mevenez","+38510492597",102);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (103,1,"elena.bozinovski","1Qqniq8xInVMeSgPS/kvsQ==","19071230","kintokt@ochtsomkuet-mogdubarg.du","Bozinovski","Elena","+3657186376",103);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (104,1,"sabiha.sur","1Qqniq8xInVMeSgPS/kvsQ==","19590617","kursten.kienu@coretos-mogdubarg-stodt.du","Sur","Sabiha","+9612067610",104);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (105,1,"kóïntos.puhitaniwharau","1Qqniq8xInVMeSgPS/kvsQ==","19281018","kiuneg_fronku@wub.du","Puhitaniwharau","Kóïntos","+96298102843",105);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (106,1,"achkhén.lapin","1Qqniq8xInVMeSgPS/kvsQ==","19441101","kintokt@pfurduwourts.du","Lapin","Achkhén","+3238020198",106);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (107,1,"femke.kudron","1Qqniq8xInVMeSgPS/kvsQ==","19970511","k.gasuwske@wub.du","Kudron","Femke","+2086103563",107);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (108,1,"madaa.halilov","1Qqniq8xInVMeSgPS/kvsQ==","19321006","kothorenoniutzul@gmx.du","Halilov","Madaa","+358585274074",108);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (109,1,"engracia.lavea","1Qqniq8xInVMeSgPS/kvsQ==","19921104","kortun@munschpappu.du","Lavea","Engracia","+8614398827674",109);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (110,1,"toratane.khaki","1Qqniq8xInVMeSgPS/kvsQ==","19531227","kessoa@btv-md.du","Khaki","Toratane","+906621750443",110);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (111,1,"sachin.genchoglu","1Qqniq8xInVMeSgPS/kvsQ==","19930322","Kintokt@muenfurnbas.du","Genchoglu","Sachin","+237251199753",111);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (112,1,"teresa.smith","1Qqniq8xInVMeSgPS/kvsQ==","19540724","kozzurgbr@wub.du","Smith","Teresa","+94593144453",112);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (113,1,"vénustien.deja","1Qqniq8xInVMeSgPS/kvsQ==","19610330","kbikulmonn@gmx.du","Deja","Vénustien","+9186930143",113);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (114,1,"dini.katzel","1Qqniq8xInVMeSgPS/kvsQ==","19090430","kostunlueur@gmx.du","Katzel","Dini","+6475416871",114);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (115,1,"irenka.koulouris","1Qqniq8xInVMeSgPS/kvsQ==","19930627","kaleck-fiti@t-inlenu.du","Koulouris","Irenka","+358280825316",115);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (116,1,"massime.libiran","1Qqniq8xInVMeSgPS/kvsQ==","19990628","kandunsurvecu@sw-mogdubarg.du","Libiran","Massime","+375773723693",116);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (117,1,"augusta.mccrory","1Qqniq8xInVMeSgPS/kvsQ==","19710519","kandunbutruaang@emminut.du","Mccrory","Augusta","+352957350",117);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (118,1,"will.nekola","1Qqniq8xInVMeSgPS/kvsQ==","19830404","loresso.culenu@wub.du","Nekola","Will","+352203793",118);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (119,1,"rayen.martinovich","1Qqniq8xInVMeSgPS/kvsQ==","19170126","lusur@vilksstemmu.du","Martinovich","Rayen","+3288265410",119);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (120,1,"diego.linhart","1Qqniq8xInVMeSgPS/kvsQ==","19180420","LodyHunry@wub.du","Linhart","Diego","+594594605204",120);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (121,1,"lydia.upendra","1Qqniq8xInVMeSgPS/kvsQ==","19740805","leso_wurb@wub.du","Upendra","Lydia","+97295382589",121);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (122,1,"albino.dhirwan","1Qqniq8xInVMeSgPS/kvsQ==","19501016","liaes.geuss@fruunut.du","Dhirwan","Albino","+291130808866",122);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (123,1,"angélika.gichonga","1Qqniq8xInVMeSgPS/kvsQ==","19090814","lesseu-fronk@gmx.du","Gichonga","Angélika","+237222122558",123);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (124,1,"shanese.alfassi","1Qqniq8xInVMeSgPS/kvsQ==","19980518","LihfenkSelku@orcir.du","Alfassi","Shanese","+3610282849",124);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (125,1,"tseten.mpheneka","1Qqniq8xInVMeSgPS/kvsQ==","19540120","Loaro-veunkun@orcir.du","Mpheneka","Tseten","+37251112641",125);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (126,1,"rodolf.cosaev","1Qqniq8xInVMeSgPS/kvsQ==","19770914","luondur.derks@gmx.du","Cosaev","Rodolf","+864414103829",126);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (127,1,"kapardini.jup","1Qqniq8xInVMeSgPS/kvsQ==","19420812","ladgur.seppul@noso.du","Jup","Kapardini","+972539361028",127);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (128,1,"stanislav.lavrov","1Qqniq8xInVMeSgPS/kvsQ==","19391114","luno.bornufsku@wub.du","Lavrov","Stanislav","+372390998",128);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (129,1,"ariadna.alsuhayli","1Qqniq8xInVMeSgPS/kvsQ==","19540520","Monaulo.Dallen-Veuhwug@ivga.du","Alsuhayli","Ariadna","+4689658887",129);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (130,1,"matilde.almamun","1Qqniq8xInVMeSgPS/kvsQ==","19150909","moret_baurgur@gmx.du","Almamun","Matilde","+351488236517",130);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (131,1,"yasunobu.shokimov","1Qqniq8xInVMeSgPS/kvsQ==","19361224","monaulo.nubul@wub.du","Shokimov","Yasunobu","+22754894305",131);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (132,1,"zuri.rippel","1Qqniq8xInVMeSgPS/kvsQ==","19580716","morekomossogu@holdunslubun.du","Rippel","Zuri","+27431658895",132);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (133,1,"chameli.camisa","1Qqniq8xInVMeSgPS/kvsQ==","19731122","melbu333@yohii.du","Camisa","Chameli","+358134011209",133);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (134,1,"lida.vargas","1Qqniq8xInVMeSgPS/kvsQ==","19350822","moduluenu.stabbu@pistui.du","Vargas","Lida","+8618904024898",134);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (135,1,"madri.salumets","1Qqniq8xInVMeSgPS/kvsQ==","19221013","mamhs@gmx.du","Salumets","Madri","+31553456157",135);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (136,1,"abdessetar.marnell","1Qqniq8xInVMeSgPS/kvsQ==","19180117","moreas@gremoad.mu","Marnell","Abdessetar","+393843548147",136);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (137,1,"jati.whitted","1Qqniq8xInVMeSgPS/kvsQ==","19941115","mhoront@gmx.du","Whitted","Jati","+96210639500",137);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (138,1,"guzman.urynbassarov","1Qqniq8xInVMeSgPS/kvsQ==","19771127","mkeuvur@tlenk.du","Urynbassarov","Guzman","+237280296448",138);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (139,1,"radomila.ernits","1Qqniq8xInVMeSgPS/kvsQ==","19410625","mien.md@wub.du","Ernits","Radomila","+32459503287",139);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (140,1,"zimria.farahifar","1Qqniq8xInVMeSgPS/kvsQ==","19160601","m_huss83@wub.du","Farahifar","Zimria","+862817426653",140);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (141,1,"emma.laus","1Qqniq8xInVMeSgPS/kvsQ==","19180102","mindnocht@kobulmoel.du","Laus","Emma","+3725222050",141);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (142,1,"khalidou.van","1Qqniq8xInVMeSgPS/kvsQ==","19300422","mbornuwetz@yohii.du","Van","Khalidou","+262262790241",142);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (143,1,"rukmini.aginago","1Qqniq8xInVMeSgPS/kvsQ==","19070819","mola.purliw@pistui.du","Aginago","Rukmini","+32455166983",143);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (144,1,"madhu.matsunaga","1Qqniq8xInVMeSgPS/kvsQ==","19230111","morlun.sasku@yohii.du","Matsunaga","Madhu","+37251538522",144);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (145,1,"casimiro.faiiuga","1Qqniq8xInVMeSgPS/kvsQ==","19220606","moreonnup_1923@yohii.du","Faiiuga","Casimiro","+2017735815",145);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (146,1,"houmam.matthiasen","1Qqniq8xInVMeSgPS/kvsQ==","19711026","mottheos.2odlur@yohii.du","Matthiasen","Houmam","+212643763763",146);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (147,1,"arkhip.mamishova","1Qqniq8xInVMeSgPS/kvsQ==","19721030","mottheos.lirunz@vlh.du","Mamishova","Arkhip","+262262855538",147);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (148,1,"florette.wathika","1Qqniq8xInVMeSgPS/kvsQ==","19680215","moreu-laesu-lunz@t-inlenu.du","Wathika","Florette","+390463008389",148);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (149,1,"roald.noss","1Qqniq8xInVMeSgPS/kvsQ==","19951027","morten.biuttchur@gmx.du","Noss","Roald","+3726479999",149);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (150,1,"choulagai.luka","1Qqniq8xInVMeSgPS/kvsQ==","19360429","morten.biuttchur@noso.du","Luka","Choulagai","+14285981759",150);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (151,1,"boghos.lauzackas","1Qqniq8xInVMeSgPS/kvsQ==","19780111","murtunschorlittu@wub.du","Lauzackas","Boghos","+393143647455",151);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (152,1,"kristen.pejic","1Qqniq8xInVMeSgPS/kvsQ==","19370603","mogdubarg.171-Vurmettlang@orbuetsoguntar.du","Pejic","Kristen","+6446545906",152);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (153,1,"ammar.kervezee","1Qqniq8xInVMeSgPS/kvsQ==","19640310","niro_bithu@wub.du","Kervezee","Ammar","+390331921468",153);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (154,1,"âmidror.nakasone","1Qqniq8xInVMeSgPS/kvsQ==","19550519","n.lauttjihonn@hitmoel.du","Nakasone","Âmidror","+85552277305",154);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (155,1,"cai-fei.seider","1Qqniq8xInVMeSgPS/kvsQ==","19350703","Neno.lembrick@wub.du","Seider","Cai-Fei","+9880849526",155);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (156,1,"marion.genadiev","1Qqniq8xInVMeSgPS/kvsQ==","19120915","nirburt.onkunboaur@gmx.du","Genadiev","Marion","+4642167676",156);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (157,1,"cheng-ji.baart","1Qqniq8xInVMeSgPS/kvsQ==","19050208","pist@kenomi.du","Baart","Cheng-Ji","+56868345180",157);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (158,1,"ambrosia.wone","1Qqniq8xInVMeSgPS/kvsQ==","19390408","pur.lynn@gmx.du","Wone","Ambrosia","+85328180083",158);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (159,1,"yukimura.yerzinkian","1Qqniq8xInVMeSgPS/kvsQ==","19570515","Purdyluen@gmx.du","Yerzinkian","Yukimura","+4677329242",159);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (160,1,"aquilina.kostner","1Qqniq8xInVMeSgPS/kvsQ==","19301026","piststullu@fo-md.ifd.mf.sochsun-onholt.du","Kostner","Aquilina","+381531775331",160);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (161,1,"samit.ghacsybek","1Qqniq8xInVMeSgPS/kvsQ==","19461114","potreck.jangk@noso.du","Ghacsybek","Samit","+901330353600",161);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (162,1,"aldred.hall","1Qqniq8xInVMeSgPS/kvsQ==","19401106","poalo.solosfurnonduz@ivga.du","Hall","Aldred","+3725976850",162);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (163,1,"mélia.wee","1Qqniq8xInVMeSgPS/kvsQ==","19350102","qeging-wubur@wub.du","Wee","Mélia","+590590693181",163);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (164,1,"nazar.titschinger","1Qqniq8xInVMeSgPS/kvsQ==","19021223","ruechult.kursten@gmx.du","Titschinger","Nazar","+4684837374",164);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (165,1,"tafenda.amirov","1Qqniq8xInVMeSgPS/kvsQ==","19390526","rugeno.koppus@gmx.du","Amirov","Tafenda","+420189465289",165);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (166,1,"edurne.vandeneynde","1Qqniq8xInVMeSgPS/kvsQ==","19270616","selku.prongu@wub.du","Vandeneynde","Edurne","+85515590129",166);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (167,1,"afanasy.saeterstoel","1Qqniq8xInVMeSgPS/kvsQ==","19770727","sasobarg@gmx.du","Saeterstoel","Afanasy","+3612374353",167);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (168,1,"makenna.kheranian","1Qqniq8xInVMeSgPS/kvsQ==","19480407","sasonnu-ohruns@wub.du","Kheranian","Makenna","+3725166452",168);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (169,1,"bikr.raccio","1Qqniq8xInVMeSgPS/kvsQ==","19320107","sapobst@wub.du","Raccio","Bikr","+909316367773",169);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (170,1,"kenan.poulet","1Qqniq8xInVMeSgPS/kvsQ==","19531008","s.tschuntschur@notaroto-mogdubarg.du","Poulet","Kenan","+85228160663",170);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (171,1,"leofflæd.omapoy","1Qqniq8xInVMeSgPS/kvsQ==","19391104","selku@czemuk.du","Omapoy","Leofflæd","+519938284868",171);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (172,1,"shahrukh.hyde","1Qqniq8xInVMeSgPS/kvsQ==","19471125","survecu@olux-munau.du","Hyde","Shahrukh","+11773833",172);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (173,1,"xiaobo.lobo","1Qqniq8xInVMeSgPS/kvsQ==","19100307","sgorris@wub.du","Lobo","XiaoBo","+37254806683",173);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (174,1,"amado.gabriel","1Qqniq8xInVMeSgPS/kvsQ==","19890916","scholtur@troenlenu.du","Gabriel","Amado","+525472387156",174);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (175,1,"stéonig.lastra","1Qqniq8xInVMeSgPS/kvsQ==","19020818","sobenu.deppul@gmx.du","Lastra","Stéonig","+4568177378",175);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (176,1,"marianne.bironze","1Qqniq8xInVMeSgPS/kvsQ==","19171203","svun.hunnwold@noso.du","Bironze","Marianne","+972526516304",176);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (177,1,"gweltaz.kenallata","1Qqniq8xInVMeSgPS/kvsQ==","19220620","stuphon.schalz@noso.du","Kenallata","Gweltaz","+94336003873",177);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (178,1,"aafrae.bounaas","1Qqniq8xInVMeSgPS/kvsQ==","19061031","Soscho.Fretzsch@hs-onholt.du","Bounaas","Aafrae","+3726983368",178);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (179,1,"morvana.barton","1Qqniq8xInVMeSgPS/kvsQ==","19221025","svun-ruechstuen@wub.du","Barton","Morvana","+37256216807",179);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (180,1,"freideríkē.iloenyosi","1Qqniq8xInVMeSgPS/kvsQ==","19330123","stodtplonangsomt@mogdubarg.du","Iloenyosi","Freideríkē","+420924949632",180);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (181,1,"gaylor.whelan","1Qqniq8xInVMeSgPS/kvsQ==","19761202","stuphoneu.mutzgur@gmx.du","Whelan","Gaylor","+421777003304",181);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (182,1,"lorna.ilifuti","1Qqniq8xInVMeSgPS/kvsQ==","19680306","stuphon.schnuburgur@wub.du","Ilifuti","Lorna","+421835954197",182);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (183,1,"ayacha.alindogan","1Qqniq8xInVMeSgPS/kvsQ==","19350322","subosteon.schmurmbuck@noso.du","Alindogan","Ayacha","+594594338926",183);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (184,1,"géraldine.matthias","1Qqniq8xInVMeSgPS/kvsQ==","19070602","tbithu@ane-brumun.du","Matthias","Géraldine","+38592461698",184);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (185,1,"audra.yennenga","1Qqniq8xInVMeSgPS/kvsQ==","19970417","twettur: @meliasu","Yennenga","Audra","+50940077092",185);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (186,1,"rosnita.klysen","1Qqniq8xInVMeSgPS/kvsQ==","19990703","troeneng.ois@ta-bs.du","Klysen","Rosnita","+237214111174",186);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (187,1,"bindu.hoye","1Qqniq8xInVMeSgPS/kvsQ==","19710620","thimsun-miagul@fruunut.du","Hoye","Bindu","+528568027165",187);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (188,1,"antonine.perko","1Qqniq8xInVMeSgPS/kvsQ==","19511112","thirstun.bithu@gmx.du","Perko","Antonine","+3639905621",188);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (189,1,"hasina.broy","1Qqniq8xInVMeSgPS/kvsQ==","19071124","troenengsenfi.ois@ta-bs.du","Broy","Hasina","+4912266263576",189);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (190,1,"wachiwi.magsaysay","1Qqniq8xInVMeSgPS/kvsQ==","19390413","a.riliff@sgbloagild.du","Magsaysay","Wachiwi","+291196567742",190);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (191,1,"margarethe.rizzo","1Qqniq8xInVMeSgPS/kvsQ==","19591014","alreku.greusmonn@noso.du","Rizzo","Margarethe","+381646657617",191);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (192,1,"ragnfríðr.wedekind","1Qqniq8xInVMeSgPS/kvsQ==","19840831","volunten@gremoad.mu","Wedekind","Ragnfríðr","+93873770952",192);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (193,1,"lux.batas","1Qqniq8xInVMeSgPS/kvsQ==","19590130","wilf@btv-md.du","Batas","Lux","+9820589044",193);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (194,1,"gajmer.labo","1Qqniq8xInVMeSgPS/kvsQ==","19801103","w.tuabul@gmx.du","Labo","Gajmer","+92561646302",194);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (195,1,"geminiano.kaninsh","1Qqniq8xInVMeSgPS/kvsQ==","19820517","wgomhossul@wub.du","Kaninsh","Geminiano","+33311406508",195);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (196,1,"fanch.barro","1Qqniq8xInVMeSgPS/kvsQ==","19650926","wolturselku@nuxgi.du","Barro","Fanch","+212615246158",196);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (197,1,"emmerich.wamala","1Qqniq8xInVMeSgPS/kvsQ==","19150605","wilfsendy18@yohii.du","Wamala","Emmerich","+421509776412",197);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (198,1,"dua.kar","1Qqniq8xInVMeSgPS/kvsQ==","19220813","xondro.vilkmonn@gmx.du","Kar","Dua","+393652670860",198);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (199,1,"vitaliano.askerova","1Qqniq8xInVMeSgPS/kvsQ==","19970810","cintoct@lotutuolust.irg","Askerova","Vitaliano","+94230062095",199);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (200,1,"theokritos.brocato","1Qqniq8xInVMeSgPS/kvsQ==","19621201","n.feord@ipunmoelbix.irg","Brocato","Theokritos","+96247490391",200);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (201,1,"acantha.turyaculow","1Qqniq8xInVMeSgPS/kvsQ==","19001015","riben.geboad@grusellu.irg","Turyaculow","Acantha","+13599539709",201);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (202,1,"suzana.klymenko","1Qqniq8xInVMeSgPS/kvsQ==","19350123","siascreptein@unurgeu-portoguu.irg","Klymenko","Suzana","+38972342396",202);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (203,1,"arminius.sausais","1Qqniq8xInVMeSgPS/kvsQ==","19780123","cb@tomm-kruez.bzh","Sausais","Arminius","+390156979324",203);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (204,1,"liora.faalepele","1Qqniq8xInVMeSgPS/kvsQ==","19350220","cintoct@omzurnuvuz.bzh","Faalepele","Liora","+352943791",204);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (205,1,"gautstafr.diallo","1Qqniq8xInVMeSgPS/kvsQ==","19380429","cintoct@brutinsdus4vunts.bzh","Diallo","Gautstafr","+22380072018",205);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (206,1,"coleen.laye","1Qqniq8xInVMeSgPS/kvsQ==","19401217","dostam@dostam.bzh","Laye","Coleen","+4575882009",206);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (207,1,"qiong.adrar","1Qqniq8xInVMeSgPS/kvsQ==","19761218","glunn.diajut@gizmoel.bzh","Adrar","Qiong","+212680629844",207);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (208,1,"ralia.saether","1Qqniq8xInVMeSgPS/kvsQ==","19340810","rh@ccpld.bzh","Saether","Ralia","+3669519719",208);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (209,1,"eleana.musayev","1Qqniq8xInVMeSgPS/kvsQ==","19260802","raby_horp@yohii.ci.ak","Musayev","Eleana","+3726866602",209);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (210,1,"aurelle.yilma","1Qqniq8xInVMeSgPS/kvsQ==","19771127","ronmora1926@yohii.ci.ak","Yilma","Aurelle","+262262319108",210);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (211,1,"guellala.lundberg","1Qqniq8xInVMeSgPS/kvsQ==","19110929","toreq_qarushe@hitmoel.ci.ak","Lundberg","Guellala","+351979638332",211);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (212,1,"garisht.albar","1Qqniq8xInVMeSgPS/kvsQ==","19890405","uluktro121@hitmoel.cim","Albar","Garisht","+37252818662",212);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (213,1,"dijana.abaygar","1Qqniq8xInVMeSgPS/kvsQ==","19650716","molokbiarr@gmoel.cim","Abaygar","Dijana","+9615232057",213);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (214,1,"nangai.schnitzler","1Qqniq8xInVMeSgPS/kvsQ==","19800611","skondur.jm@gmoel.cim","Schnitzler","Nangai","+33204862937",214);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (215,1,"enrique.haag","1Qqniq8xInVMeSgPS/kvsQ==","19440718","vencuu.richull@gmoel.cim","Haag","Enrique","+37129763778",215);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (216,1,"krimhilde.lovinshek","1Qqniq8xInVMeSgPS/kvsQ==","19250221","29j5mv4ukkp38cmea707a0gjwntm@ruply.oerbnb.cim","Lovinshek","Krimhilde","+352460798",216);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (217,1,"odd.manguingat","1Qqniq8xInVMeSgPS/kvsQ==","19840302","3deqxigjc6fc44m03ndk3005h1di@ruply.oerbnb.cim","Manguingat","Odd","+22733516694",217);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (218,1,"keegan.de groote","1Qqniq8xInVMeSgPS/kvsQ==","19740607","onno.arboch@gmoel.cim","De Groote","Keegan","+34375103673",218);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (219,1,"timotée.been","1Qqniq8xInVMeSgPS/kvsQ==","19480828","ontju.giurz@yohii.cim","Been","Timotée","+862922056851",219);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (220,1,"ferkó.elmateri","1Qqniq8xInVMeSgPS/kvsQ==","19270607","onjoschlundur@hitmoel.cim","Elmateri","Ferkó","+587792226189",220);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (221,1,"petar.pernice","1Qqniq8xInVMeSgPS/kvsQ==","19220828","ospmoe@yohii.cim","Pernice","Petar","+393264792091",221);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (222,1,"lydia.selefa","1Qqniq8xInVMeSgPS/kvsQ==","19240912","occauel@rudoctein-duvulippuz.cim","Selefa","Lydia","+38571885035",222);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (223,1,"divyesh.bari","1Qqniq8xInVMeSgPS/kvsQ==","19700828","oagurolu@gmoel.cim","Bari","Divyesh","+352859837",223);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (224,1,"hazbiye.nagamine","1Qqniq8xInVMeSgPS/kvsQ==","19201120","o.cosqaen@gmoel.cim","Nagamine","Hazbiye","+6583955769",224);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (225,1,"talleen.apalkov","1Qqniq8xInVMeSgPS/kvsQ==","19911004","o.cozibin@gmoel.cim","Apalkov","Talleen","+381562121515",225);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (226,1,"amitxis.goitia","1Qqniq8xInVMeSgPS/kvsQ==","19140131","ogollondb@gmoel.cim","Goitia","Amitxis","+36202814289",226);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (227,1,"kajaw.mårtensson","1Qqniq8xInVMeSgPS/kvsQ==","19390514","omul.hoze@gmoel.cim","Mårtensson","Kajaw","+381111178375",227);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (228,1,"garlonn.kaikaso","1Qqniq8xInVMeSgPS/kvsQ==","19680725","onodudo92@gmoel.cim","Kaikaso","Garlonn","+3726465220",228);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (229,1,"kha.galue","1Qqniq8xInVMeSgPS/kvsQ==","19660601","or.gollut@gmoel.cim","Galue","Kha","+4771065342",229);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (230,1,"nataniel.vecozols","1Qqniq8xInVMeSgPS/kvsQ==","19610630","os.tyridu@gmoel.cim","Vecozols","Nataniel","+41970298372",230);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (231,1,"andromache.miura","1Qqniq8xInVMeSgPS/kvsQ==","19241212","oelysoetih@gmoel.cim","Miura","Andromache","+4643088886",231);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (232,1,"hunter.paratini","1Qqniq8xInVMeSgPS/kvsQ==","19510815","onoeglacos@gmoel.cim","Paratini","Hunter","+237689296373",232);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (233,1,"gaude.quintana","1Qqniq8xInVMeSgPS/kvsQ==","19680117","olt: gifirbriku_90@hitmoel.cim","Quintana","Gaude","+6438216085",233);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (234,1,"thùy trang.sembiring","1Qqniq8xInVMeSgPS/kvsQ==","19050215","Soskeo, feschur.sossee201@gmoel.cim","Sembiring","Thùy Trang","+8612800330436",234);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (235,1,"merry.suleiman","1Qqniq8xInVMeSgPS/kvsQ==","19230301","onoes.hort@gmoel.cim","Suleiman","Merry","+2026081986",235);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (236,1,"aristoyíton.beh","1Qqniq8xInVMeSgPS/kvsQ==","19930114","olux.geroad@gmoel.cim","Beh","Aristoyíton","+85239326120",236);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (237,1,"florise.ruoho","1Qqniq8xInVMeSgPS/kvsQ==","19581003","olhoaswoldt@giiglumoel.cim","Ruoho","Florise","+12247732",237);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (238,1,"dionisio.brock","1Qqniq8xInVMeSgPS/kvsQ==","19860822","olecu.dodoax@gmoel.cim","Brock","Dionisio","+50923309168",238);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (239,1,"eugenius.crunn","1Qqniq8xInVMeSgPS/kvsQ==","19240303","onnuokolitto@gmoel.cim","Crunn","Eugenius","+590590519127",239);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (240,1,"aldegonde.quibranza","1Qqniq8xInVMeSgPS/kvsQ==","19321014","onti.mint.fr@gmoel.cim","Quibranza","Aldegonde","+587700069849",240);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (241,1,"berenger.tariku","1Qqniq8xInVMeSgPS/kvsQ==","19980626","ovenoshgs315@gmoel.cim","Tariku","Berenger","+972798229830",241);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (242,1,"amela.bershad","1Qqniq8xInVMeSgPS/kvsQ==","19740729","odulu.siaport@gmoel.cim","Bershad","Amela","+390969019866",242);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (243,1,"odelia.manukyan","1Qqniq8xInVMeSgPS/kvsQ==","19270419","odulu.siaport@giiglumoel.cim","Manukyan","Odelia","+352102840",243);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (244,1,"noam.sharaafi","1Qqniq8xInVMeSgPS/kvsQ==","19421029","one.scheffnur@mu.cim","Sharaafi","Noam","+352688064214",244);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (245,1,"iza.lobachyov","1Qqniq8xInVMeSgPS/kvsQ==","19141126","onoullupegnoad@gmoel.cim","Lobachyov","Iza","+9154985223",245);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (246,1,"martial.heinen","1Qqniq8xInVMeSgPS/kvsQ==","19520908","onnuloarumoreu@oil.cim","Heinen","Martial","+92983166486",246);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (247,1,"ensio.madhi","1Qqniq8xInVMeSgPS/kvsQ==","19791109","onnumeudiurrur@oil.cim","Madhi","Ensio","+584202539391",247);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (248,1,"maarika.metzger","1Qqniq8xInVMeSgPS/kvsQ==","19970124","oxullu.pituoax@gmoel.cim","Metzger","Maarika","+8631478401574",248);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (249,1,"niĉjo.saveljic","1Qqniq8xInVMeSgPS/kvsQ==","19960221","ognuslhurmetogu@gmoel.cim","Saveljic","Niĉjo","+97269955658",249);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (250,1,"dao-zi.luks","1Qqniq8xInVMeSgPS/kvsQ==","19841018","omondenu.loamint@gmoel.cim","Luks","Dao-Zi","+262262589051",250);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (251,1,"titiksha.bloyd","1Qqniq8xInVMeSgPS/kvsQ==","19501006","oaruleun.muarecu@gmoel.cim","Bloyd","Titiksha","+555182969473",251);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (252,1,"golda.nataniel","1Qqniq8xInVMeSgPS/kvsQ==","19730519","olt: riben.geboad@gmoel.cim","Nataniel","Golda","+237236378720",252);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (253,1,"lam.káldi","1Qqniq8xInVMeSgPS/kvsQ==","19470310","olloudenu.ul.bonno@gmoel.cim","Káldi","Lam","+4919244749884",253);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (254,1,"judith.ssenyonjo","1Qqniq8xInVMeSgPS/kvsQ==","19370215","olt: moduluenustabbu@hitmoel.cim","Ssenyonjo","Judith","+352252340",254);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (255,1,"sothy.diederic","1Qqniq8xInVMeSgPS/kvsQ==","19970208","ontienu.jiardon.2005@gmoel.cim","Diederic","Sothy","+21664421326",255);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (256,1,"kavya.dawes","1Qqniq8xInVMeSgPS/kvsQ==","19710416","Breug.lu.diajut@gmoel.cim","Dawes","Kavya","+92954100237",256);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (257,1,"đurađ.warobay","1Qqniq8xInVMeSgPS/kvsQ==","19391027","boxmoreu@gmoel.cim","Warobay","Đurađ","+585606973283",257);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (258,1,"stan.mpaso","1Qqniq8xInVMeSgPS/kvsQ==","19021209","bclurhan@gmoel.cim","Mpaso","Stan","+31131136715",258);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (259,1,"wendelin.pajek","1Qqniq8xInVMeSgPS/kvsQ==","19470508","b0alz0r56@hitmoel.cim","Pajek","Wendelin","+352775395",259);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (260,1,"auric.meherbani","1Qqniq8xInVMeSgPS/kvsQ==","19750209","bachujaleo@gmoel.cim","Meherbani","Auric","+6442603405",260);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (261,1,"lusine.vandentielke","1Qqniq8xInVMeSgPS/kvsQ==","19500216","bwckunnudy@gmoel.cim","Vandentielke","Lusine","+35576492596",261);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (262,1,"sigfrid.schillinger","1Qqniq8xInVMeSgPS/kvsQ==","19281025","bunutnats_666@hitmoel.cim","Schillinger","Sigfrid","+3675210758",262);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (263,1,"anni.hin","1Qqniq8xInVMeSgPS/kvsQ==","19010806","breugludiajut@gmoel.cim","Hin","Anni","+35529286594",263);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (264,1,"ermokrátis.aljamri","1Qqniq8xInVMeSgPS/kvsQ==","19770608","bochulut.fulex@gmoel.cim","Aljamri","Ermokrátis","+32453202372",264);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (265,1,"takao.ryou","1Qqniq8xInVMeSgPS/kvsQ==","19980213","biarjitvurineqau@gmoel.cim","Ryou","Takao","+38577983803",265);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (266,1,"frank.laam","1Qqniq8xInVMeSgPS/kvsQ==","19841013","bunjomen.jidor276@gmoel.cim","Laam","Frank","+3654352251",266);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (267,1,"mahmud.jusko","1Qqniq8xInVMeSgPS/kvsQ==","19470315","cnel@ikkozui.cim","Jusko","Mahmud","+4747960613",267);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (268,1,"armonie.khergamwala","1Qqniq8xInVMeSgPS/kvsQ==","19060122","chopur_@hitmoel.cim","Khergamwala","Armonie","+372412739",268);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (269,1,"roula.zogby","1Qqniq8xInVMeSgPS/kvsQ==","19961031","cuburnor@gmoel.cim","Zogby","Roula","+8648588095129",269);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (270,1,"lilá.kowalkowski","1Qqniq8xInVMeSgPS/kvsQ==","19560227","cotyg.yvur@gmoel.cim","Kowalkowski","Lilá","+594594586258",270);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (271,1,"chaltsione.nitesh","1Qqniq8xInVMeSgPS/kvsQ==","19280817","cloerudarit@hitmoel.cim","Nitesh","Chaltsione","+38293227559",271);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (272,1,"osmane.vanrode","1Qqniq8xInVMeSgPS/kvsQ==","19040314","clum.wunyaon@gmoel.cim","Vanrode","Osmane","+2027555925",272);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (273,1,"hoel.summerhill","1Qqniq8xInVMeSgPS/kvsQ==","19780112","citenotlacos@gmoel.cim","Summerhill","Hoel","+6569911893",273);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (274,1,"lukas.sivec","1Qqniq8xInVMeSgPS/kvsQ==","19560627","clumpeoamogei@gmoel.cim","Sivec","Lukas","+596596342716",274);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (275,1,"abdelouahab.shatimuene","1Qqniq8xInVMeSgPS/kvsQ==","19790210","cyrel.grovullu@gmoel.cim","Shatimuene","Abdelouahab","+3223134603",275);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (276,1,"đông.kuyenda","1Qqniq8xInVMeSgPS/kvsQ==","19230504","chresteonrunult@oil.cim","Kuyenda","Đông","+48630831871",276);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (277,1,"mikuláš.ekmalian","1Qqniq8xInVMeSgPS/kvsQ==","19301024","cloressu.boellual@gmoel.cim","Ekmalian","Mikuláš","+9199440220",277);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (278,1,"lernig.hammoudi","1Qqniq8xInVMeSgPS/kvsQ==","19580131","doved.hulunu.35@gmoel.cim","Hammoudi","Lernig","+556340267271",278);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (279,1,"maraĵa.povey","1Qqniq8xInVMeSgPS/kvsQ==","19821026","dghklzg@hitmoel.cim","Povey","Maraĵa","+94282179742",279);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (280,1,"âssaya.de fries","1Qqniq8xInVMeSgPS/kvsQ==","19031004","dorkglibet@gmoel.cim","De Fries","Âssaya","+291516147677",280);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (281,1,"faustin.bustos","1Qqniq8xInVMeSgPS/kvsQ==","19810810","dmnpegnoad@gmoel.cim","Bustos","Faustin","+17907090",281);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (282,1,"kataline.oyorotena","1Qqniq8xInVMeSgPS/kvsQ==","19711114","dobuellu007@hitmoel.cim","Oyorotena","Kataline","+863527319231",282);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (283,1,"evangelina.balamut","1Qqniq8xInVMeSgPS/kvsQ==","19001108","dovedirguar@hitmoel.cim","Balamut","Evangelina","+4559036506",283);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (284,1,"ásbjörn.hamaguchi","1Qqniq8xInVMeSgPS/kvsQ==","19400301","dovedia10.v@gmoel.cim","Hamaguchi","Ásbjörn","+528676249279",284);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (285,1,"đồng.pelikan","1Qqniq8xInVMeSgPS/kvsQ==","19330211","doved.mutz67@gmoel.cim","Pelikan","Đồng","+48436312516",285);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (286,1,"feehin.donnelly","1Qqniq8xInVMeSgPS/kvsQ==","19901026","doneko.risote@gmoel.cim","Donnelly","Feehin","+9160548346",286);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (287,1,"sofia.tamamsheva","1Qqniq8xInVMeSgPS/kvsQ==","19070228","donnylutrigli@gmoel.cim","Tamamsheva","Sofia","+358359059772",287);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (288,1,"vígi.sellers","1Qqniq8xInVMeSgPS/kvsQ==","19190110","dulugotein.portecaleurs@lonuf.cim","Sellers","Vígi","+212535862159",288);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (289,1,"ailpein.brodgandel","1Qqniq8xInVMeSgPS/kvsQ==","19940110","ultyridu@gmoel.cim","Brodgandel","Ailpein","+34152809067",289);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (290,1,"loretta.yazdi","1Qqniq8xInVMeSgPS/kvsQ==","19850417","um.frigur@gmoel.cim","Yazdi","Loretta","+38978473805",290);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (291,1,"jonatan.tsybulskaya","1Qqniq8xInVMeSgPS/kvsQ==","19810915","umldubounu@gmoel.cim","Tsybulskaya","Jonatan","+19566194956",291);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (292,1,"young im.hoogeveen","1Qqniq8xInVMeSgPS/kvsQ==","19630318","udum.ofondu@gmoel.cim","Hoogeveen","Young im","+85584497338",292);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (293,1,"chouhaiba.haque","1Qqniq8xInVMeSgPS/kvsQ==","19181012","uniro.hurmetu@gmoel.cim","Haque","Chouhaiba","+41834837970",293);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (294,1,"denise.talainuupo","1Qqniq8xInVMeSgPS/kvsQ==","19210718","uniro.nekilos@gmoel.cim","Talainuupo","Denise","+596596786533",294);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (295,1,"federico.frangulian","1Qqniq8xInVMeSgPS/kvsQ==","19810607","uteunnu.dupores@gmoel.cim","Frangulian","Federico","+972581566800",295);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (296,1,"anne-elise.victor","1Qqniq8xInVMeSgPS/kvsQ==","19161229","uljor.okhgornash@gmoel.cim","Victor","Anne-elise","+9194300050",296);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (297,1,"stanko.rosko","1Qqniq8xInVMeSgPS/kvsQ==","19561115","ummonaul.molobry@gmoel.cim","Rosko","Stanko","+291862012094",297);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (298,1,"lao-che.steinhauser","1Qqniq8xInVMeSgPS/kvsQ==","19270809","FrunchBL@gwplc.cim","Steinhauser","Lao-Che","+352624196501",298);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (299,1,"marie-line.guga","1Qqniq8xInVMeSgPS/kvsQ==","19970506","fpluneuru@cesbei.cim","Guga","Marie-Line","+237233041436",299);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (300,1,"sinésio.solomon","1Qqniq8xInVMeSgPS/kvsQ==","19020303","foeoznole94@yohii.cim","Solomon","Sinésio","+81174800594",300);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (301,1,"valent.ramadhan","1Qqniq8xInVMeSgPS/kvsQ==","19130416","fro.wettmonn@gmoel.cim","Ramadhan","Valent","+352610153830",301);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (302,1,"bélâ.wheelock","1Qqniq8xInVMeSgPS/kvsQ==","19050607","fobeun.juon69@gmoel.cim","Wheelock","Bélâ","+237233871531",302);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (303,1,"rainer.agramonte","1Qqniq8xInVMeSgPS/kvsQ==","19791028","flurisu_riagu@hitmoel.cim","Agramonte","Rainer","+590590161442",303);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (304,1,"masaru.irani","1Qqniq8xInVMeSgPS/kvsQ==","19081129","fonny.pluneuru@gmoel.cim","Irani","Masaru","+594594771629",304);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (305,1,"rosa.heinrich","1Qqniq8xInVMeSgPS/kvsQ==","19350416","forshod.ozkure@yohii.cim","Heinrich","Rosa","+972775627712",305);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (306,1,"jokum.kosencha","1Qqniq8xInVMeSgPS/kvsQ==","19741010","fustevolbulton@gmoel.cim","Kosencha","Jokum","+61195135318",306);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (307,1,"damianos.boumezbeur","1Qqniq8xInVMeSgPS/kvsQ==","19010628","fiacord_morein@hitmoel.cim","Boumezbeur","Damianos","+9131609511",307);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (308,1,"crissolorio.mayne","1Qqniq8xInVMeSgPS/kvsQ==","19530629","folknirmon.kimm@gmoel.cim","Mayne","Crissolorio","+96283022807",308);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (309,1,"myung-dae.qhunu","1Qqniq8xInVMeSgPS/kvsQ==","19290329","frujomoduluenustuen@gmoel.cim","Qhunu","Myung-Dae","+93875683409",309);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (310,1,"lamia.poma","1Qqniq8xInVMeSgPS/kvsQ==","19141110","gkiuhlur2008@gmoel.cim","Poma","Lamia","+381113946035",310);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (311,1,"auregane.cassingena","1Qqniq8xInVMeSgPS/kvsQ==","19320809","gf@kotlo.du.cim","Cassingena","Auregane","+18126392",311);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (312,1,"phương anh.bulahan","1Qqniq8xInVMeSgPS/kvsQ==","19471127","gaehitm@gmoel.cim","Bulahan","Phương Anh","+421384537380",312);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (313,1,"faana.abadi","1Qqniq8xInVMeSgPS/kvsQ==","19570509","gadajord@gmoel.cim","Abadi","Faana","+435088020",313);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (314,1,"roope.overbey","1Qqniq8xInVMeSgPS/kvsQ==","19360925","gaegaedaj@gmoel.cim","Overbey","Roope","+3259382399",314);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (315,1,"govinda.gerada","1Qqniq8xInVMeSgPS/kvsQ==","19231222","gormischko@gmoel.cim","Gerada","Govinda","+56359238358",315);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (316,1,"banu.dan","1Qqniq8xInVMeSgPS/kvsQ==","19770723","g.gollechut@seomcinsuel.cim","Dan","Banu","+596596755228",316);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (317,1,"eindriði.dedzeklis","1Qqniq8xInVMeSgPS/kvsQ==","19820129","garvonleord@gmoel.cim","Dedzeklis","Eindriði","+61211430875",317);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (318,1,"kanon.feldbaek","1Qqniq8xInVMeSgPS/kvsQ==","19820117","gel.chorpunut@gwplc.cim","Feldbaek","Kanon","+31768359330",318);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (319,1,"tiljad.dittmer","1Qqniq8xInVMeSgPS/kvsQ==","19260711","gobreul.soesin@gmoel.cim","Dittmer","Tiljad","+375179793212",319);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (320,1,"iltudenn.muya","1Qqniq8xInVMeSgPS/kvsQ==","19761125","goatheur.huntz@gmoel.cim","Muya","Iltudenn","+372196014",320);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (321,1,"michaela.bonhomme","1Qqniq8xInVMeSgPS/kvsQ==","19050407","Grugieru.lobon@gmoel.cim","Bonhomme","Michaela","+393285480923",321);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (322,1,"siwili.bie","1Qqniq8xInVMeSgPS/kvsQ==","19910423","gaelhum.vollot@gmoel.cim","Bie","Siwili","+972778708192",322);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (323,1,"heddi.kamyabpour","1Qqniq8xInVMeSgPS/kvsQ==","19300330","goullu.ludiajut@gmoel.cim","Kamyabpour","heddi","+22924428148",323);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (324,1,"janet.mustafaev","1Qqniq8xInVMeSgPS/kvsQ==","19241029","goullu.lu.diajut@gmoel.cim","Mustafaev","Janet","+516834940942",324);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (325,1,"kasandra.motos","1Qqniq8xInVMeSgPS/kvsQ==","19960315","goullu.lugiagauc@gmoel.cim","Motos","Kasandra","+8618916529195",325);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (326,1,"paulius.reeves","1Qqniq8xInVMeSgPS/kvsQ==","19280214","gelburt.bronchut@gmoel.cim","Reeves","Paulius","+421320454887",326);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (327,1,"gratien.pozdnyakov","1Qqniq8xInVMeSgPS/kvsQ==","19700215","gaelloamu.jalleun@gmoel.cim","Pozdnyakov","Gratien","+32456560574",327);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (328,1,"miamo.subramanien","1Qqniq8xInVMeSgPS/kvsQ==","19560917","gaelloamu.sweotuk@gmoel.cim","Subramanien","Miamo","+352755024",328);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (329,1,"kilian.maea","1Qqniq8xInVMeSgPS/kvsQ==","19160403","gaelloamu_poatrit@hitmoel.cim","Maea","Kilian","+92175332017",329);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (330,1,"akihide.gontchar","1Qqniq8xInVMeSgPS/kvsQ==","19760619","gourtnuruekronupihl@giiglumoel.cim","Gontchar","Akihide","+4715615900",330);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (331,1,"hadi.mandaba","1Qqniq8xInVMeSgPS/kvsQ==","19300620","gouton.retzuntholur@gmoel.cim","Mandaba","Hadi","+585740995853",331);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (332,1,"flôr.boakai","1Qqniq8xInVMeSgPS/kvsQ==","19040607","goduo.cobonellosillt@gmoel.cim","Boakai","Flôr","+81471322884",332);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (333,1,"haratch.londo","1Qqniq8xInVMeSgPS/kvsQ==","19211220","hagautcu@gmoel.cim","Londo","Haratch","+375699250817",333);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (334,1,"seberino.allbach","1Qqniq8xInVMeSgPS/kvsQ==","19510710","honnuspreus@hitmoel.cim","Allbach","Seberino","+3239091093",334);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (335,1,"radouane.vanscaerdenburch","1Qqniq8xInVMeSgPS/kvsQ==","19760109","hellmotthuw@yohii.cim","Vanscaerdenburch","Radouane","+48659723090",335);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (336,1,"rossy.robert","1Qqniq8xInVMeSgPS/kvsQ==","19290630","hulunugiden78@gmoel.cim","Robert","Rossy","+85328350731",336);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (337,1,"ae-sook.acholonu","1Qqniq8xInVMeSgPS/kvsQ==","19770402","hunrek.uechunhordt@gmoel.cim","Acholonu","Ae-Sook","+352878026",337);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (338,1,"tazvida.churki","1Qqniq8xInVMeSgPS/kvsQ==","19750531","evon.morcheko@gmoel.cim","Churki","Tazvida","+50999067205",338);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (339,1,"madou.dillon","1Qqniq8xInVMeSgPS/kvsQ==","19531120","eM: MSN: b0alz0r56@hitmoel.cim","Dillon","Madou","+594594113756",339);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (340,1,"víktoras.tawil","1Qqniq8xInVMeSgPS/kvsQ==","19121011","eM: MSN: qenxen260@hitmoel.cim","Tawil","Víktoras","+586900910006",340);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (341,1,"cynbel.kuga","1Qqniq8xInVMeSgPS/kvsQ==","19090511","eM: MSN: thublaufix78@hitmoel.cim","Kuga","Cynbel","+33333557558",341);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (342,1,"asselin.swani","1Qqniq8xInVMeSgPS/kvsQ==","19751122","jonecu.folknur@giiglumoel.cim","Swani","Asselin","+22955849936",342);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (343,1,"felix.espinoza","1Qqniq8xInVMeSgPS/kvsQ==","19361211","jputet21@gmoel.cim","Espinoza","Felix","+863810652459",343);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (344,1,"marta.paluska","1Qqniq8xInVMeSgPS/kvsQ==","19971007","jaurgunt@giiglumoel.cim","Paluska","Marta","+85230155933",344);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (345,1,"timoteus.delfs","1Qqniq8xInVMeSgPS/kvsQ==","19200921","jivuncu.c@gmoel.cim","Delfs","Timoteus","+38560981149",345);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (346,1,"vittorio.laughlin","1Qqniq8xInVMeSgPS/kvsQ==","19570417","j.ozliaone@gmoel.cim","Laughlin","Vittorio","+863323062236",346);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (347,1,"blanche.chirlee","1Qqniq8xInVMeSgPS/kvsQ==","19270613","junn.tron23@giiglumoel.cim","Chirlee","Blanche","+9153467434",347);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (348,1,"beorhtric.shifrin","1Qqniq8xInVMeSgPS/kvsQ==","19640410","jockknibbu98@gmoel.cim","Shifrin","Beorhtric","+291470771209",348);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (349,1,"yenni.zinkunegi","1Qqniq8xInVMeSgPS/kvsQ==","19090614","jockknibbu98@giiglumoel.cim","Zinkunegi","Yenni","+27284910158",349);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (350,1,"alfontso.wusstig","1Qqniq8xInVMeSgPS/kvsQ==","19791209","jurimu.gaulun@gmoel.cim","Wusstig","Alfontso","+596596476159",350);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (351,1,"khayyam.carreno","1Qqniq8xInVMeSgPS/kvsQ==","19970923","jurimucorin80@gmoel.cim","Carreno","Khayyam","+861157725822",351);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (352,1,"brahma.faamolemole","1Qqniq8xInVMeSgPS/kvsQ==","19240306","jihonn.riachoassuu@gmoel.cim","Faamolemole","Brahma","+517828145272",352);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (353,1,"raganhildis.djober","1Qqniq8xInVMeSgPS/kvsQ==","19541103","kotjo.klumm.gm@gmoel.cim","Djober","Raganhildis","+11529361363",353);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (354,1,"nikunj.erving","1Qqniq8xInVMeSgPS/kvsQ==","19581129","kursten@wuntzuk.cim","Erving","Nikunj","+4918767781699",354);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (355,1,"chitrani.chipende","1Qqniq8xInVMeSgPS/kvsQ==","19221128","koy_ji@hitmoel.cim","Chipende","Chitrani","+291662765990",355);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (356,1,"goichi.pangalila","1Qqniq8xInVMeSgPS/kvsQ==","19920227","kalmie@gmoel.cim","Pangalila","Goichi","+351665673588",356);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (357,1,"aiert.warden","1Qqniq8xInVMeSgPS/kvsQ==","19980720","kintokt@vidofinu.cim","Warden","Aiert","+8619294487822",357);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (358,1,"herlé.aghmaliyev","1Qqniq8xInVMeSgPS/kvsQ==","19581110","korsilni@gmoel.cim","Aghmaliyev","Herlé","+61648239055",358);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (359,1,"orsolya.coly","1Qqniq8xInVMeSgPS/kvsQ==","19500710","kuvkoy2017@gmoel.cim","Coly","Orsolya","+4914572438144",359);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (360,1,"zoumourrouda.michelson","1Qqniq8xInVMeSgPS/kvsQ==","19810210","kuven.rindit@gmoel.cim","Michelson","Zoumourrouda","+56126085538",360);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (361,1,"li qin.kovacich","1Qqniq8xInVMeSgPS/kvsQ==","19870409","kuvunludiajut@gmoel.cim","Kovacich","Li Qin","+861011327963",361);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (362,1,"firmus.patel","1Qqniq8xInVMeSgPS/kvsQ==","19190421","kuvun.ludiajut@gmoel.cim","Patel","Firmus","+4727635901",362);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (363,1,"jude.royos","1Qqniq8xInVMeSgPS/kvsQ==","19620614","kuvun.ludiajut@giiglumoel.cim","Royos","Jude","+972796920107",363);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (364,1,"manohar.elmabrouk","1Qqniq8xInVMeSgPS/kvsQ==","19110925","ksuneo.bockurt@gmoel.cim","Elmabrouk","Manohar","+972545323468",364);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (365,1,"mircea.albani","1Qqniq8xInVMeSgPS/kvsQ==","19460822","kallmonncorstun@gmoel.cim","Albani","Mircea","+525199854819",365);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (366,1,"aatami.arakoni","1Qqniq8xInVMeSgPS/kvsQ==","19901210","kothorenouhifmonn@giiglumoel.cim","Arakoni","Aatami","+4539021989",366);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (367,1,"sonar.zino","1Qqniq8xInVMeSgPS/kvsQ==","19040112","lonuf@lonuf.cim","Zino","Sonar","+37127024342",367);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (368,1,"ermiñe.ikhouria","1Qqniq8xInVMeSgPS/kvsQ==","19070309","lodiayo@gmoel.cim","Ikhouria","Ermiñe","+8629109948964",368);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (369,1,"nareg.jacobs","1Qqniq8xInVMeSgPS/kvsQ==","19240522","loly3096@gmoel.cim","Jacobs","Nareg","+421224610024",369);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (370,1,"dorian.blauer","1Qqniq8xInVMeSgPS/kvsQ==","19030201","lesovkrigu@oil.cim","Blauer","Dorian","+3244201891",370);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (371,1,"eileithyia.milanes","1Qqniq8xInVMeSgPS/kvsQ==","19961009","lupossumits@gmoel.cim","Milanes","Eileithyia","+352679647419",371);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (372,1,"romain.lipko","1Qqniq8xInVMeSgPS/kvsQ==","19630724","luarsiafflu@gmoel.cim","Lipko","Romain","+390253122901",372);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (373,1,"ortensia.hakantu","1Qqniq8xInVMeSgPS/kvsQ==","19740731","luf.jinothon@gmoel.cim","Hakantu","Ortensia","+94376666949",373);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (374,1,"manju.glynatsis","1Qqniq8xInVMeSgPS/kvsQ==","19080609","lesu.hurmetu@gmoel.cim","Glynatsis","Manju","+2383529738",374);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (375,1,"fotiní.anthes","1Qqniq8xInVMeSgPS/kvsQ==","19050222","loaruvurhoughu@hitmoel.cim","Anthes","Fotiní","+27797966990",375);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (376,1,"hayk.gurry","1Qqniq8xInVMeSgPS/kvsQ==","19480307","moduluenustabbu@hitmoel.cim","Gurry","Hayk","+21614543639",376);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (377,1,"saru.kirmani","1Qqniq8xInVMeSgPS/kvsQ==","19541005","mechol@mecholkisenske.cim","Kirmani","Saru","+393746721308",377);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (378,1,"jenifer.chakrian","1Qqniq8xInVMeSgPS/kvsQ==","19740504","myhutk@gmoel.cim","Chakrian","Jenifer","+22919592554",378);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (379,1,"rumahere.gillen","1Qqniq8xInVMeSgPS/kvsQ==","19950331","m.ussolhe@lonuf.cim","Gillen","Rumahere","+212576226217",379);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (380,1,"viníncia.gelleg (ar)","1Qqniq8xInVMeSgPS/kvsQ==","19800105","moeno.bzh@gmoel.cim","Gelleg (ar)","Viníncia","+3725461089",380);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (381,1,"huai-yi.raasti","1Qqniq8xInVMeSgPS/kvsQ==","19720722","morcaessu@gmoel.cim","Raasti","Huai-Yi","+519783440689",381);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (382,1,"keltso.degn","1Qqniq8xInVMeSgPS/kvsQ==","19950823","menemil89@gmoel.cim","Degn","Keltso","+393729647016",382);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (383,1,"animish.mulia","1Qqniq8xInVMeSgPS/kvsQ==","19140126","moenuolecu@gmoel.cim","Mulia","Animish","+12871614103",383);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (384,1,"yaël.adjurru","1Qqniq8xInVMeSgPS/kvsQ==","19900131","mojo.sohru@gmoel.cim","Adjurru","Yaël","+22362464739",384);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (385,1,"hisamitsu.klimek","1Qqniq8xInVMeSgPS/kvsQ==","19500828","mojo.sohru@giiglumoel.cim","Klimek","Hisamitsu","+38942033882",385);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (386,1,"agínoras.dagunduro","1Qqniq8xInVMeSgPS/kvsQ==","19070404","mechuldgt1@gmoel.cim","Dagunduro","Agínoras","+556036474835",386);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (387,1,"aurora.habachi","1Qqniq8xInVMeSgPS/kvsQ==","19120826","m.minsorrot@gmoel.cim","Habachi","Aurora","+262262857110",387);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (388,1,"anastázie.sanz","1Qqniq8xInVMeSgPS/kvsQ==","19410405","moul.gorruc@gmoeli.cim","Sanz","Anastázie","+437938375",388);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (389,1,"chouko.ventura","1Qqniq8xInVMeSgPS/kvsQ==","19730827","morenu.begi@gmoel.cim","Ventura","Chouko","+525693384661",389);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (390,1,"poeiti.yeghian","1Qqniq8xInVMeSgPS/kvsQ==","19641006","messnufurut@hitmoel.cim","Yeghian","Poeiti","+22734094137",390);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (391,1,"nolvan.decaroundelet","1Qqniq8xInVMeSgPS/kvsQ==","19591219","moreu.brulut@gmoel.cim","Decaroundelet","Nolvan","+85328396711",391);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (392,1,"serafim.felagai","1Qqniq8xInVMeSgPS/kvsQ==","19120320","morein.jaleit@gmoel.cim","Felagai","Serafim","+81910755546",392);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (393,1,"ëlimélëkh.yontcha","1Qqniq8xInVMeSgPS/kvsQ==","19440718","morein.lublin@hitmoel.cim","Yontcha","ëlimélëkh","+594594211217",393);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (394,1,"andris.thaw","1Qqniq8xInVMeSgPS/kvsQ==","19440129","mott.o.bosten@gmoel.cim","Thaw","Andris","+6516993719",394);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (395,1,"birgitta.gregorcic","1Qqniq8xInVMeSgPS/kvsQ==","19211016","moxemu.braont@gmoel.cim","Gregorcic","Birgitta","+3726995115",395);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (396,1,"haïgaram.gwalchmey","1Qqniq8xInVMeSgPS/kvsQ==","19140705","moul.lu.diajut@gmoel.cim","Gwalchmey","Haïgaram","+17820488587",396);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (397,1,"sindri.abbasi","1Qqniq8xInVMeSgPS/kvsQ==","19040710","moul_lu_diajut@hitmoel.cim","Abbasi","Sindri","+41651572660",397);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (398,1,"benito.wahab","1Qqniq8xInVMeSgPS/kvsQ==","19810106","morc.mallur.90@gmoel.cim","Wahab","Benito","+512359071324",398);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (399,1,"dolma.hatimbula","1Qqniq8xInVMeSgPS/kvsQ==","19290529","mellut.comellu@gmoel.cim","Hatimbula","Dolma","+92733209533",399);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (400,1,"daniel.branstad","1Qqniq8xInVMeSgPS/kvsQ==","19160610","meiro.rolombin@gmoel.cim","Branstad","Daniel","+81112741744",400);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (401,1,"soraya.kozak","1Qqniq8xInVMeSgPS/kvsQ==","19641112","motheua.biachon@gmoel.cim","Kozak","Soraya","+6431865771",401);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (402,1,"broos.sild","1Qqniq8xInVMeSgPS/kvsQ==","19380527","minghuol.moxemu@gmoel.cim","Sild","Broos","+352394551",402);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (403,1,"gyanwali.mjelde","1Qqniq8xInVMeSgPS/kvsQ==","19261220","moreonnu.ollonec@gmoel.cim","Mjelde","Gyanwali","+431343803",403);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (404,1,"ryūtaro.oliversen","1Qqniq8xInVMeSgPS/kvsQ==","19930825","moreonnu.gaegnut@gmoel.cim","Oliversen","Ryūtaro","+8615998587191",404);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (405,1,"salomé.kisseljov","1Qqniq8xInVMeSgPS/kvsQ==","19580101","motheua.coroduac@iatliik.cim","Kisseljov","Salomé","+41488762894",405);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (406,1,"ahmed.salalaumanu","1Qqniq8xInVMeSgPS/kvsQ==","19380224","motheua.ruvuruoa@gmoel.cim","Salalaumanu","Ahmed","+94393713052",406);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (407,1,"ashkan.loulendo","1Qqniq8xInVMeSgPS/kvsQ==","19640119","milenus.notholeu@gmoel.cim","Loulendo","Ashkan","+212545143469",407);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (408,1,"ndikum.verge","1Qqniq8xInVMeSgPS/kvsQ==","19130107","mottheua.revuroen@gmoel.cim","Verge","Ndikum","+9814683891",408);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (409,1,"argam.korona","1Qqniq8xInVMeSgPS/kvsQ==","19381024","melliaut.gaelloamu@gmoel.cim","Korona","Argam","+522212047667",409);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (410,1,"armando.bataringaya","1Qqniq8xInVMeSgPS/kvsQ==","19430305","nenocl244@gmoel.cim","Bataringaya","Armando","+93264138625",410);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (411,1,"mani.togonon","1Qqniq8xInVMeSgPS/kvsQ==","19961019","nodugu.feord@gmoel.cim","Togonon","Mani","+22723913175",411);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (412,1,"urbe.yampa","1Qqniq8xInVMeSgPS/kvsQ==","19820201","neoll.bardin@hitmoel.cim","Yampa","Urbe","+35548173365",412);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (413,1,"viktoras.mensch","1Qqniq8xInVMeSgPS/kvsQ==","19590612","necilos.giry@gmoel.cim","Mensch","Viktoras","+352624865996",413);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (414,1,"magdalene.bard","1Qqniq8xInVMeSgPS/kvsQ==","19060607","necilos.poass@gmoel.cim","Bard","Magdalene","+61140293096",414);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (415,1,"aurubita.selekta","1Qqniq8xInVMeSgPS/kvsQ==","19700425","nullynotocho14@gmoel.cim","Selekta","Aurubita","+212673806132",415);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (416,1,"muriel.pavlovcic","1Qqniq8xInVMeSgPS/kvsQ==","19661222","nilwunn.burten@copgumene.cim","Pavlovcic","Muriel","+94434525279",416);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (417,1,"mirembe.de paula","1Qqniq8xInVMeSgPS/kvsQ==","19950226","nekilos.brasteuc@gmoel.cim","De Paula","Mirembe","+596596843978",417);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (418,1,"kuno.mccosh","1Qqniq8xInVMeSgPS/kvsQ==","19310323","ijoy71@gmoel.cim","McCosh","Kuno","+421296131648",418);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (419,1,"roche.narayanan","1Qqniq8xInVMeSgPS/kvsQ==","19811202","irvugu@gmoel.cim","Narayanan","Roche","+237942565160",419);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (420,1,"emilia.zientara","1Qqniq8xInVMeSgPS/kvsQ==","19850715","ikkozui@ikkozui.cim","Zientara","Emilia","+97221227107",420);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (421,1,"eihi.rouabah","1Qqniq8xInVMeSgPS/kvsQ==","19210104","ileveur.produoa@gmoel.cim","Rouabah","Eihi","+85328896784",421);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (422,1,"liliána.bentata","1Qqniq8xInVMeSgPS/kvsQ==","19030122","ileveur.lorriqau@gmoel.cim","Bentata","Liliána","+212516225108",422);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (423,1,"trîfa.maugafolau","1Qqniq8xInVMeSgPS/kvsQ==","19670116","pciatull@gmoel.cim","Maugafolau","Trîfa","+972755484636",423);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (424,1,"bleuenn.libina","1Qqniq8xInVMeSgPS/kvsQ==","19360320","poal.mellin4@gmoel.cim","Libina","Bleuenn","+56131322853",424);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (425,1,"yngvildr.simonich","1Qqniq8xInVMeSgPS/kvsQ==","19260130","potchwirkteno@gmoel.cim","Simonich","Yngvildr","+8673929052383",425);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (426,1,"jassem.noble","1Qqniq8xInVMeSgPS/kvsQ==","19581012","potreckburtrond56700@gmoel.cim","Noble","Jassem","+97249455744",426);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (427,1,"laura.arhar","1Qqniq8xInVMeSgPS/kvsQ==","19051220","qenxen260@hitmoel.cim","Arhar","Laura","+50970715974",427);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (428,1,"toma.topelius","1Qqniq8xInVMeSgPS/kvsQ==","19080913","qaunten.guirgu.atc@gmoel.cim","Topelius","Toma","+21664984028",428);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (429,1,"lucilia.vetrov","1Qqniq8xInVMeSgPS/kvsQ==","19051118","raby1026@gmoel.cim","Vetrov","Lucilia","+906382325850",429);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (430,1,"karolina.sarafian","1Qqniq8xInVMeSgPS/kvsQ==","19580314","recishiasu@hitmoel.cim","Sarafian","Karolina","+81584282556",430);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (431,1,"shakila.pikus","1Qqniq8xInVMeSgPS/kvsQ==","19231110","rucratumunt@olhyongu.cim","Pikus","Shakila","+27153269209",431);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (432,1,"mandal.freeman","1Qqniq8xInVMeSgPS/kvsQ==","19550602","riben.geboad@gmoel.cim","Freeman","Mandal","+596596532193",432);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (433,1,"abel.sheed","1Qqniq8xInVMeSgPS/kvsQ==","19891101","rinonpoatrit@gmoel.cim","Sheed","Abel","+237670384635",433);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (434,1,"rizal.ospanov","1Qqniq8xInVMeSgPS/kvsQ==","19081129","roaben.moanoa@gmoel.cim","Ospanov","Rizal","+36203269128",434);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (435,1,"nikita.bertels","1Qqniq8xInVMeSgPS/kvsQ==","19450218","rizunn.moozrs@gmoel.cim","Bertels","Nikita","+61293201184",435);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (436,1,"kazem.haddad","1Qqniq8xInVMeSgPS/kvsQ==","19720107","rady.foachuax@gmoel.cim","Haddad","Kazem","+4598960107",436);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (437,1,"jonathan.qanqi","1Qqniq8xInVMeSgPS/kvsQ==","19470727","rimoen.poatrit@gmoel.cim","Qanqi","Jonathan","+15354226306",437);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (438,1,"maurício.laksa","1Qqniq8xInVMeSgPS/kvsQ==","19751105","rochul.lufuavru@gmoel.cim","Laksa","Maurício","+555371506796",438);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (439,1,"michemâ.dizon","1Qqniq8xInVMeSgPS/kvsQ==","19660901","rimoen.cachuvol@gmoel.cim","Dizon","Michemâ","+358320277400",439);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (440,1,"jeggi.chinchlej","1Qqniq8xInVMeSgPS/kvsQ==","19461209","rabycudorstrengs@gmoel.cim","Chinchlej","Jeggi","+212649644066",440);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (441,1,"sean.sha","1Qqniq8xInVMeSgPS/kvsQ==","19640520","rimoen.debottesto@gmoel.cim","Sha","Sean","+9819066641",441);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (442,1,"konnec.bredahl","1Qqniq8xInVMeSgPS/kvsQ==","19750528","rimoen.boyino.raez@gmoel.cim","Bredahl","Konnec","+9619551195",442);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (443,1,"ifren.westermann","1Qqniq8xInVMeSgPS/kvsQ==","19350914","some-270@hitmoel.cim","Westermann","Ifren","+32455588455",443);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (444,1,"veihi.ahlam","1Qqniq8xInVMeSgPS/kvsQ==","19920705","s.rei@ltd-liaesblonc.cim","Ahlam","Veihi","+9823543284",444);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (445,1,"clélia.effiom","1Qqniq8xInVMeSgPS/kvsQ==","19950205","sqaentun@gmoel.cim","Effiom","Clélia","+862688512016",445);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (446,1,"hamou.minobe","1Qqniq8xInVMeSgPS/kvsQ==","19121206","s.felasch@gmoel.cim","Minobe","Hamou","+34663542223",446);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (447,1,"eustrátios.palamara","1Qqniq8xInVMeSgPS/kvsQ==","19521119","sulen_put@yohii.cim","Palamara","Eustrátios","+22915454189",447);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (448,1,"gandhari.akkoun","1Qqniq8xInVMeSgPS/kvsQ==","19620910","sortire_jg@hitmoel.cim","Akkoun","Gandhari","+421469238772",448);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (449,1,"saber.novachcoff","1Qqniq8xInVMeSgPS/kvsQ==","19830110","submoestru@gmoel.cim","Novachcoff","Saber","+35581424291",449);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (450,1,"malina.checkroun","1Qqniq8xInVMeSgPS/kvsQ==","19740912","soyono.ling@copgumene.cim","Checkroun","Malina","+237676262954",450);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (451,1,"barran.larkin","1Qqniq8xInVMeSgPS/kvsQ==","19730127","s.puchunezko@gmoel.cim","Larkin","Barran","+421194159414",451);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (452,1,"adam.balajadia","1Qqniq8xInVMeSgPS/kvsQ==","19940908","somwyleu2501@gmoel.cim","Balajadia","Adam","+2066157420",452);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (453,1,"basma.badat","1Qqniq8xInVMeSgPS/kvsQ==","19790826","sifeluhansuc@gmoel.cim","Badat","Basma","+32459510440",453);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (454,1,"manuel.guirat","1Qqniq8xInVMeSgPS/kvsQ==","19251016","survonn.huria@gmoel.cim","Guirat","Manuel","+972741291986",454);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (455,1,"wottey.farhat","1Qqniq8xInVMeSgPS/kvsQ==","19420510","semin.fussord@gmoel.cim","Farhat","Wottey","+596596619636",455);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (456,1,"dhriti.rittenberg","1Qqniq8xInVMeSgPS/kvsQ==","19871118","sobenulengunur@gmoel.cim","Rittenberg","Dhriti","+36207218884",456);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (457,1,"gloria.klysen","1Qqniq8xInVMeSgPS/kvsQ==","19120316","sobenulengunur@giiglumoel.cim","Klysen","Gloria","+9613197309",457);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (458,1,"perla.hanna","1Qqniq8xInVMeSgPS/kvsQ==","19950719","sciplungrunogu@gmoel.cim","Hanna","Perla","+2389654875",458);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (459,1,"samara.tafer","1Qqniq8xInVMeSgPS/kvsQ==","19930120","sonstuphle_1026@hitmoel.cim","Tafer","Samara","+512786159771",459);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (460,1,"argyrṓ.iaccarino","1Qqniq8xInVMeSgPS/kvsQ==","19450613","soroh.udembiarg@gmoel.cim","Iaccarino","Argyrṓ","+237664516951",460);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (461,1,"audrie.makori","1Qqniq8xInVMeSgPS/kvsQ==","19230621","sonyoila_okenilo@yohii.cim","Makori","Audrie","+41467561883",461);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (462,1,"susana.hagenlocher","1Qqniq8xInVMeSgPS/kvsQ==","19580218","subosteon.kasmec@gmoel.cim","Hagenlocher","Susana","+381366506428",462);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (463,1,"marja.bako","1Qqniq8xInVMeSgPS/kvsQ==","19161218","sipheo.osiwskojo@gmoel.cim","Bako","Marja","+38972984090",463);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (464,1,"alípios.claros","1Qqniq8xInVMeSgPS/kvsQ==","19610410","thuruseo.ponneng@giiglumoel.cim","Claros","Alípios","+56854079625",464);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (465,1,"elwin.pacquing","1Qqniq8xInVMeSgPS/kvsQ==","19530123","tupicl@hitmoel.cim","Pacquing","Elwin","+590590244011",465);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (466,1,"vasíleios.nababan","1Qqniq8xInVMeSgPS/kvsQ==","19240507","teveme@oil.cim","Nababan","Vasíleios","+551053720680",466);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (467,1,"ivan.aghinian","1Qqniq8xInVMeSgPS/kvsQ==","19481110","tbs1980@gmoel.cim","Aghinian","Ivan","+93392033355",467);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (468,1,"ichiho.atoigue","1Qqniq8xInVMeSgPS/kvsQ==","19291012","tem.siwry@gmoel.cim","Atoigue","Ichiho","+590590674911",468);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (469,1,"humbert.dzhahagirova","1Qqniq8xInVMeSgPS/kvsQ==","19361010","tibeos8610@gmoel.cim","Dzhahagirova","Humbert","+2381567879",469);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (470,1,"gilberto.renard","1Qqniq8xInVMeSgPS/kvsQ==","19680722","trangtenlu81@gmoel.cim","Renard","Gilberto","+372250138",470);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (471,1,"iftene.vidvan","1Qqniq8xInVMeSgPS/kvsQ==","19250308","tarobikulmonn@gmoel.cim","Vidvan","Iftene","+4763312467",471);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (472,1,"kin.lejmalnieks","1Qqniq8xInVMeSgPS/kvsQ==","19920107","tumiegnogu.se11@gmoel.cim","Lejmalnieks","Kin","+48228463543",472);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (473,1,"sina.karaustayan","1Qqniq8xInVMeSgPS/kvsQ==","19760624","theboadduffoyut@gmoel.cim","Karaustayan","Sina","+420907664002",473);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (474,1,"adda.ashirbeckoff","1Qqniq8xInVMeSgPS/kvsQ==","19060216","alyssu.jogit@hitmoel.cim","Ashirbeckoff","Adda","+33300390011",474);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (475,1,"archimède.onion","1Qqniq8xInVMeSgPS/kvsQ==","19230825","anpovuotiars@gmoel.cim","Onion","Archimède","+4718096659",475);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (476,1,"helma.yoro","1Qqniq8xInVMeSgPS/kvsQ==","19100429","asur 2: dobuellu007@hitmoel.cim","Yoro","Helma","+2066710871",476);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (477,1,"alpin.akinwande","1Qqniq8xInVMeSgPS/kvsQ==","19730720","asur 2: messnufurut@hitmoel.cim","Akinwande","Alpin","+94115385324",477);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (478,1,"benjamin.agamirova","1Qqniq8xInVMeSgPS/kvsQ==","19220115","asur 2: mene_mie_muah@hitmoel.cim","Agamirova","Benjamin","+41918596862",478);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (479,1,"sa'id.kotyk","1Qqniq8xInVMeSgPS/kvsQ==","19531126","volunten.dapeteur@gmoel.cim","Kotyk","Sa'id","+93112069352",479);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (480,1,"bata.elaraichi","1Qqniq8xInVMeSgPS/kvsQ==","19780826","wundrech.kotren@gmoel.cim","Elaraichi","Bata","+19781922351",480);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (481,1,"pierre-henri.moses","1Qqniq8xInVMeSgPS/kvsQ==","19230503","x.burgomene@gmoel.cim","Moses","Pierre-Henri","+85284713150",481);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (482,1,"kazushi.helgason","1Qqniq8xInVMeSgPS/kvsQ==","19280901","yionn.vu@giiglumoel.cim","Helgason","Kazushi","+4621917117",482);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (483,1,"mikhal.flegmann","1Qqniq8xInVMeSgPS/kvsQ==","19430410","yalonhsa@hitmoel.cim","Flegmann","Mikhal","+41789263041",483);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (484,1,"hyginus.millberg","1Qqniq8xInVMeSgPS/kvsQ==","19371114","ozkoreo.rodmon@gmoel.cim","Millberg","Hyginus","+35586060564",484);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (485,1,"terence.louboutin","1Qqniq8xInVMeSgPS/kvsQ==","19410610","zuphires.burnord@hitmoel.cim","Louboutin","Terence","+291725876323",485);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (486,1,"na'ima.krusic","1Qqniq8xInVMeSgPS/kvsQ==","19931122","g.kraugur@golotuc.enfi","Krusic","Na'ima","+31888724317",486);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (487,1,"cléo.strobel","1Qqniq8xInVMeSgPS/kvsQ==","19540328","jocqaus@vurreur.enfi","Strobel","Cléo","+9618930687",487);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (488,1,"pénélope.lortz","1Qqniq8xInVMeSgPS/kvsQ==","19590709","survecu@boahoas.enfi","Lortz","Pénélope","+867545263555",488);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (489,1,"eleonora.tavdgiridze","1Qqniq8xInVMeSgPS/kvsQ==","19290117","mosiascreptein@crudet-ciipurotef.ciip","Tavdgiridze","Eleonora","+393120356249",489);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (490,1,"fuad.spirlea","1Qqniq8xInVMeSgPS/kvsQ==","19400329","occauel@poysdusvollinsduveloenu.fr","Spirlea","Fuad","+38221671924",490);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (491,1,"ordoitz.kabaitan","1Qqniq8xInVMeSgPS/kvsQ==","19780428","onoeglacos@wonodii.fr","Kabaitan","Ordoitz","+38227073354",491);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (492,1,"jamshad.arregi","1Qqniq8xInVMeSgPS/kvsQ==","19051129","oarirupeoa@hitmoel.fr","Arregi","Jamshad","+6579096071",492);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (493,1,"tasanee.gailitis","1Qqniq8xInVMeSgPS/kvsQ==","19860822","ognus.lacos@pilu-umplie.fr","Gailitis","Tasanee","+94772240642",493);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (494,1,"geraldo.krek","1Qqniq8xInVMeSgPS/kvsQ==","19600918","onnu.gurmoen@irongu.fr","Krek","Geraldo","+85328987716",494);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (495,1,"kathrin.apollo","1Qqniq8xInVMeSgPS/kvsQ==","19730427","ognirmondcraul@yohii.fr","Apollo","Kathrin","+85328201503",495);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (496,1,"suleta.tjun","1Qqniq8xInVMeSgPS/kvsQ==","19500607","ortharthiavunen@yohii.fr","Tjun","Suleta","+38976560202",496);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (497,1,"sahori.punzalan","1Qqniq8xInVMeSgPS/kvsQ==","19550930","ohmud_lossiaud81@hitmoel.fr","Punzalan","Sahori","+2067007376",497);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (498,1,"hermine.jewell","1Qqniq8xInVMeSgPS/kvsQ==","19370721","otuleurduschomps@yohii.fr","Jewell","Hermine","+596596523498",498);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (499,1,"fathoune.shusteric","1Qqniq8xInVMeSgPS/kvsQ==","19500118","onsulmu.lu-brizuc@uta.atc.fr","Shusteric","Fathoune","+3618049964",499);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (500,1,"balaaditya.terrier","1Qqniq8xInVMeSgPS/kvsQ==","19660221","breug.d@irongu.fr","Terrier","Balaaditya","+36201776587",500);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (501,1,"felipe.rabinovich","1Qqniq8xInVMeSgPS/kvsQ==","19000208","breug.d@wonodii.fr","Rabinovich","Felipe","+81737435987",501);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (502,1,"vaihei.boyce","1Qqniq8xInVMeSgPS/kvsQ==","19750928","bludiaju@uta.atc.fr","Boyce","Vaihei","+902578432050",502);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (503,1,"takumi.stachurski","1Qqniq8xInVMeSgPS/kvsQ==","19690416","brutognu@ufs.sontu.fr","Stachurski","Takumi","+36206525702",503);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (504,1,"un ok.kandando","1Qqniq8xInVMeSgPS/kvsQ==","19490408","boptpeoamogei@hitmoel.fr","Kandando","Un ok","+61530723158",504);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (505,1,"cipriano.shall","1Qqniq8xInVMeSgPS/kvsQ==","19390811","bunjomen.moos@emeu.fr","Shall","Cipriano","+9612325594",505);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (506,1,"gunnvör.serickow","1Qqniq8xInVMeSgPS/kvsQ==","19850512","brani.dubounu@wonodii.fr","Serickow","Gunnvör","+12081473",506);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (507,1,"paul.seepapitso","1Qqniq8xInVMeSgPS/kvsQ==","19790625","b.lugaelliazec@yohii.fr","Seepapitso","Paul","+85559093121",507);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (508,1,"vittore.hilst","1Qqniq8xInVMeSgPS/kvsQ==","19480710","bunudectu.tialluc@irongu.fr","Hilst","Vittore","+3616283162",508);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (509,1,"abdelkhaled.estes","1Qqniq8xInVMeSgPS/kvsQ==","19140520","chapoa.r@irongu.fr","Estes","Abdelkhaled","+513103478979",509);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (510,1,"narkisse.santika","1Qqniq8xInVMeSgPS/kvsQ==","19540308","cucelupenc@irongu.fr","Santika","Narkisse","+85328732418",510);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (511,1,"aubertin.storjohann","1Qqniq8xInVMeSgPS/kvsQ==","19110109","cloro.muret@yohii.fr","Storjohann","Aubertin","+6437341256",511);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (512,1,"beartlai.acquah","1Qqniq8xInVMeSgPS/kvsQ==","19120909","culenuloanuy@irongu.fr","Acquah","Beartlai","+4796243430",512);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (513,1,"wighlan.khokhri","1Qqniq8xInVMeSgPS/kvsQ==","19861118","citenotlacos@nuaf.fr","Khokhri","Wighlan","+420628956857",513);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (514,1,"finnian.lista","1Qqniq8xInVMeSgPS/kvsQ==","19540224","culenuchicibin@hitmoel.fr","Lista","Finnian","+81813564351",514);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (515,1,"basmate.harrell","1Qqniq8xInVMeSgPS/kvsQ==","19441014","cloeru.pirteur@uta.atc.fr","Harrell","Basmate","+8618027070049",515);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (516,1,"haríklia.basha","1Qqniq8xInVMeSgPS/kvsQ==","19520220","chontol.poatrit@wonodii.fr","Basha","Haríklia","+35579552346",516);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (517,1,"alvina.sieradzki","1Qqniq8xInVMeSgPS/kvsQ==","19880805","chorlittu.fiarmy@hitmoel.fr","Sieradzki","Alvina","+9617596226",517);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (518,1,"zeha.oralbecoff","1Qqniq8xInVMeSgPS/kvsQ==","19151123","clumuncu.mendrun@riaun.orche.fr","Oralbecoff","Zeha","+351489545655",518);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (519,1,"eoforhild.salim altaf","1Qqniq8xInVMeSgPS/kvsQ==","19890910","clumunt.schuabur@uta.atc.fr","Salim Altaf","Eoforhild","+521160369908",519);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (520,1,"anagha.de cock","1Qqniq8xInVMeSgPS/kvsQ==","19341122","cintoct-77oc3ppwz@mussogureu.lubincien.fr","De Cock","Anagha","+50920029496",520);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (521,1,"runa.kastelan","1Qqniq8xInVMeSgPS/kvsQ==","19770317","cintoct-zimuhhr4t@mussogureu.lubincien.fr","Kastelan","Runa","+9618593371",521);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (522,1,"léonce.savidge","1Qqniq8xInVMeSgPS/kvsQ==","19860718","ciaduoloenmechulu@irongu.fr","Savidge","Léonce","+61134709544",522);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (523,1,"stephanía.himura","1Qqniq8xInVMeSgPS/kvsQ==","19350416","ciauttus_ciauttus_9@hitmoel.fr","Himura","Stephanía","+19243586",523);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (524,1,"lwei.abamelek","1Qqniq8xInVMeSgPS/kvsQ==","19000930","dorghist60@hitmoel.fr","Abamelek","Lwei","+27748499717",524);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (525,1,"ashit.mecheri","1Qqniq8xInVMeSgPS/kvsQ==","19001009","doved.vaing@uta.atc.fr","Mecheri","Ashit","+2085189917",525);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (526,1,"viviane.venkataramanan","1Qqniq8xInVMeSgPS/kvsQ==","19600127","doneuldiajut@irongu.fr","Venkataramanan","Viviane","+237683767867",526);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (527,1,"androcles.mosyakov","1Qqniq8xInVMeSgPS/kvsQ==","19940923","doneul.ludiajut@ahb.fr","Mosyakov","Androcles","+3726972520",527);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (528,1,"urban.petras","1Qqniq8xInVMeSgPS/kvsQ==","19831129","uvulyn.c@hitmoel.fr","Petras","Urban","+21685533559",528);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (529,1,"stecy.munyonga","1Qqniq8xInVMeSgPS/kvsQ==","19560720","uagguneu25@levu.fr","Munyonga","Stecy","+590590993408",529);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (530,1,"emer.zekri","1Qqniq8xInVMeSgPS/kvsQ==","19291231","olt: moenodewonu@hitmoel.fr","Zekri","Emer","+972725355535",530);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (531,1,"ganendra.chernetsky","1Qqniq8xInVMeSgPS/kvsQ==","19170916","olt: petchianu56_56@hitmoel.fr","Chernetsky","Ganendra","+291587281106",531);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (532,1,"justin.tesfay","1Qqniq8xInVMeSgPS/kvsQ==","19790712","olt: Rutreuvol-uxpurt@hitmoel.fr","Tesfay","Justin","+93279067395",532);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (533,1,"friedrich.noronen","1Qqniq8xInVMeSgPS/kvsQ==","19930525","asur 2: kujihn@hitmoel.fr","Noronen","Friedrich","+420189074985",533);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (534,1,"lucie.kralicek","1Qqniq8xInVMeSgPS/kvsQ==","19700907","asur 2: tetu_riri@hitmoel.fr","Kralicek","Lucie","+237259016576",534);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (535,1,"perepere.laziyev","1Qqniq8xInVMeSgPS/kvsQ==","19291004","uscorgits.siledoerus@yohii.fr","Laziyev","Perepere","+6489446954",535);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (536,1,"melanija.shimohira","1Qqniq8xInVMeSgPS/kvsQ==","19750119","f.uleit@poysdusvollinsduveloenu.fr","Shimohira","Melanija","+420297526464",536);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (537,1,"manfred.huseynov","1Qqniq8xInVMeSgPS/kvsQ==","19281031","fost-duod@hitmoel.fr","Huseynov","Manfred","+3725101047",537);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (538,1,"teasag.williams","1Qqniq8xInVMeSgPS/kvsQ==","19950715","frudurec.furru@fruu.fr","Williams","Teasag","+212555519048",538);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (539,1,"abarne.laolagi","1Qqniq8xInVMeSgPS/kvsQ==","19530309","gbl444@hitmoel.fr","Laolagi","Abarne","+38226783372",539);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (540,1,"onyejiuwa.souto","1Qqniq8xInVMeSgPS/kvsQ==","19960903","gblindut@hitmoel.fr","Souto","Onyejiuwa","+6496496759",540);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (541,1,"greetje.prentiss","1Qqniq8xInVMeSgPS/kvsQ==","19440626","glunn.diajut@irongu.fr","Prentiss","Greetje","+351430613856",541);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (542,1,"nassim.petoyan","1Qqniq8xInVMeSgPS/kvsQ==","19751208","gwunn.bruord@wonodii.fr","Petoyan","Nassim","+48183065758",542);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (543,1,"lilia.slominski","1Qqniq8xInVMeSgPS/kvsQ==","19711005","gwunn-bruord@irongu.fr","Slominski","Lilia","+420316618162",543);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (544,1,"zuriñe.kupka","1Qqniq8xInVMeSgPS/kvsQ==","19860810","goullu.ludiajut@yohii.fr","Kupka","Zuriñe","+237678228873",544);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (545,1,"bikentzi.lassen","1Qqniq8xInVMeSgPS/kvsQ==","19781120","goullu.lugiaguc@hitmoel.fr","Lassen","Bikentzi","+85255991133",545);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (546,1,"ghania.easom","1Qqniq8xInVMeSgPS/kvsQ==","19300907","gaunoullu.hulia@irongu.fr","Easom","Ghania","+352541063",546);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (547,1,"callum.seres","1Qqniq8xInVMeSgPS/kvsQ==","19300327","goullu.lugiagauc@hitmoel.fr","Seres","Callum","+420866894406",547);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (548,1,"wladyslaw.ngom","1Qqniq8xInVMeSgPS/kvsQ==","19360216","gaelloamu.melliaut@uta.atc.fr","Ngom","Wladyslaw","+352673147074",548);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (549,1,"abdessabour.amirbekov","1Qqniq8xInVMeSgPS/kvsQ==","19570218","gaelloamulugolli56@hitmoel.fr","Amirbekov","Abdessabour","+21670685778",549);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (550,1,"adam.gandhi","1Qqniq8xInVMeSgPS/kvsQ==","19110508","gobreulu.irboch-len@atc.fr","Gandhi","Adam","+21648381442",550);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (551,1,"bēssaríon.dantes","1Qqniq8xInVMeSgPS/kvsQ==","19000322","hulunu.selvuru@irongu.fr","Dantes","Bēssaríon","+3618176955",551);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (552,1,"soroush.fojtik","1Qqniq8xInVMeSgPS/kvsQ==","19480619","eM: MSN: loaliii@hitmoel.fr","Fojtik","Soroush","+35521758386",552);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (553,1,"mrigankasekhar.magsanoc","1Qqniq8xInVMeSgPS/kvsQ==","19850525","eM: MSN: D.Theboad@hitmoel.fr","Magsanoc","Mrigankasekhar","+4536676358",553);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (554,1,"sadredin.byanjankar","1Qqniq8xInVMeSgPS/kvsQ==","19151029","eM: MSN: rochia6889@hitmoel.fr","Byanjankar","Sadredin","+21667368568",554);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (555,1,"elchahid.best","1Qqniq8xInVMeSgPS/kvsQ==","19020513","juon-doved88@levu.fr","Best","Elchahid","+12887774",555);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (556,1,"liam.vandewiele","1Qqniq8xInVMeSgPS/kvsQ==","19941225","jiseonu.lubros@irongu.fr","Vandewiele","Liam","+4668243999",556);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (557,1,"lonato.kawasie","1Qqniq8xInVMeSgPS/kvsQ==","19910110","jinothon.mureunnu@cmb.fr","Kawasie","Lonato","+2384806524",557);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (558,1,"nella.linard","1Qqniq8xInVMeSgPS/kvsQ==","19590729","juon-runu.donjia-bruezh@wonodii.fr","Linard","Nella","+866318840714",558);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (559,1,"yukisada.ferro","1Qqniq8xInVMeSgPS/kvsQ==","19470128","kujihn@hitmoel.fr","Ferro","Yukisada","+3726892616",559);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (560,1,"sanwari.shakra","1Qqniq8xInVMeSgPS/kvsQ==","19571025","knebols@hitmoel.fr","Shakra","Sanwari","+553847686300",560);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (561,1,"valens.navarro","1Qqniq8xInVMeSgPS/kvsQ==","19060528","kotulleg@yohii.fr","Navarro","Valens","+3726884061",561);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (562,1,"bibigul.henry","1Qqniq8xInVMeSgPS/kvsQ==","19220607","kizh-niu@irongu.fr","Henry","Bibigul","+237690377505",562);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (563,1,"shuang.salama","1Qqniq8xInVMeSgPS/kvsQ==","19450708","kuven.rindit1@irongu.fr","Salama","Shuang","+4796307446",563);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (564,1,"ziri.abossolombo","1Qqniq8xInVMeSgPS/kvsQ==","19230520","kizh: glunn.diajut@irongu.fr","Abossolombo","Ziri","+584842323755",564);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (565,1,"marie-claude.kamoun","1Qqniq8xInVMeSgPS/kvsQ==","19790913","luo.bilu@yohii.fr","Kamoun","Marie-Claude","+358364166170",565);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (566,1,"rosanne.dunstan","1Qqniq8xInVMeSgPS/kvsQ==","19660907","l.murleur@sfr.fr","Dunstan","Rosanne","+861937648870",566);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (567,1,"marie-eve.omesh","1Qqniq8xInVMeSgPS/kvsQ==","19460505","luo.jogit@hitmoel.fr","Omesh","Marie-Eve","+56673068654",567);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (568,1,"berdjouhie.kosub","1Qqniq8xInVMeSgPS/kvsQ==","19030103","lubehon.jp@olecuodsl.fr","Kosub","Berdjouhie","+12713142",568);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (569,1,"jossie.calixto","1Qqniq8xInVMeSgPS/kvsQ==","19460107","lgrottuoa89@yohii.fr","Calixto","Jossie","+34731967145",569);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (570,1,"mitsutoshi.yateen","1Qqniq8xInVMeSgPS/kvsQ==","19921116","liaes.romen@fruu.fr","Yateen","Mitsutoshi","+596596975677",570);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (571,1,"krystiana.khanal","1Qqniq8xInVMeSgPS/kvsQ==","19740706","lo-pialuttu-un-compognu@hitmoel.fr","Khanal","Krystiana","+37251959712",571);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (572,1,"sigrid.samaria","1Qqniq8xInVMeSgPS/kvsQ==","19071210","mglui@nuaf.fr","Samaria","Sigrid","+38240445610",572);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (573,1,"tehiva.quintanilla","1Qqniq8xInVMeSgPS/kvsQ==","19050113","moadumoduc@yohii.fr","Quintanilla","Tehiva","+85596860632",573);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (574,1,"maellenn.unterzuber","1Qqniq8xInVMeSgPS/kvsQ==","19570707","mory.briyur@nontusmutripilu.fr","Unterzuber","Maellenn","+4638307385",574);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (575,1,"noufaïssa.hicks","1Qqniq8xInVMeSgPS/kvsQ==","19830513","mogdebullugi@irongu.fr","Hicks","Noufaïssa","+375213499064",575);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (576,1,"jayanta.cherepanov","1Qqniq8xInVMeSgPS/kvsQ==","19990628","moad.selvuru@irongu.fr","Cherepanov","Jayanta","+48692874060",576);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (577,1,"moïse.chargeman","1Qqniq8xInVMeSgPS/kvsQ==","19351224","morenu.dubounu@wonodii.fr","Chargeman","Moïse","+352634047491",577);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (578,1,"roméma.bidstrup","1Qqniq8xInVMeSgPS/kvsQ==","19290309","morten.gifford@uta.atc.fr","Bidstrup","Roméma","+41451746299",578);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (579,1,"maléna.febvre (le)","1Qqniq8xInVMeSgPS/kvsQ==","19820813","morysuludiajut@olecuodsl.fr","Febvre (le)","Maléna","+34420680349",579);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (580,1,"nergis.motafaram","1Qqniq8xInVMeSgPS/kvsQ==","19680410","morysuludiajut@fruu.fr","Motafaram","Nergis","+8617508191641",580);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (581,1,"tarik.baumann","1Qqniq8xInVMeSgPS/kvsQ==","19240704","mulesso.darond@emeu.fr","Baumann","Tarik","+50921657787",581);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (582,1,"mark.sutapa","1Qqniq8xInVMeSgPS/kvsQ==","19000119","moenomolossegnu@olecuodsl.fr","Sutapa","Mark","+9619600597",582);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (583,1,"hadar.larranaga","1Qqniq8xInVMeSgPS/kvsQ==","19720401","moenomolossegnu@hitmoel.fr","Larranaga","Hadar","+237624071636",583);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (584,1,"micheal.mesman","1Qqniq8xInVMeSgPS/kvsQ==","19690630","motheua.ruvuruoa@emeu.fr","Mesman","Micheal","+93403335505",584);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (585,1,"ruzica.mogila","1Qqniq8xInVMeSgPS/kvsQ==","19881204","moreu-idelu.lacos@irongu.fr","Mogila","Ruzica","+85328494408",585);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (586,1,"adelina.llywelyn","1Qqniq8xInVMeSgPS/kvsQ==","19010103","moreu-idelu.lacos@runnus.enro.fr","Llywelyn","Adelina","+375307697914",586);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (587,1,"kovida.matiyaga","1Qqniq8xInVMeSgPS/kvsQ==","19940310","moreu-onnu.troesnul@atc.fr","Matiyaga","Kovida","+19204882",587);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (588,1,"amalia.shtylla","1Qqniq8xInVMeSgPS/kvsQ==","19571117","muvuno.gaelliazec-giarut@cenumothuqau-brutognu.fr","Shtylla","Amalia","+22767914922",588);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (589,1,"afiya.bajada","1Qqniq8xInVMeSgPS/kvsQ==","19720422","nizbruezh@fruu.fr","Bajada","Afiya","+6565463983",589);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (590,1,"katina.khalerar","1Qqniq8xInVMeSgPS/kvsQ==","19911106","nels.riyut@emeu.fr","Khalerar","Katina","+94627745453",590);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (591,1,"heli.tiratsuyan","1Qqniq8xInVMeSgPS/kvsQ==","19120518","nully.giduy@turretierus-runnus.fr","Tiratsuyan","Heli","+551654182269",591);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (592,1,"ilio.praves","1Qqniq8xInVMeSgPS/kvsQ==","19180614","niumeu.benord@emeu.fr","Praves","Ilio","+36201833314",592);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (593,1,"mohamed.manakian","1Qqniq8xInVMeSgPS/kvsQ==","19080327","nuleo.ciartoes@levu.fr","Manakian","Mohamed","+972770351962",593);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (594,1,"kolitza.ulubabian","1Qqniq8xInVMeSgPS/kvsQ==","19100721","nilwunn.gurvoes@riaun.orche.fr","Ulubabian","Kolitza","+9850426076",594);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (595,1,"utz.khanzadian","1Qqniq8xInVMeSgPS/kvsQ==","19440909","ilacos@runnus.enro.fr","Khanzadian","Utz","+420152113382",595);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (596,1,"shoto.fronczak","1Qqniq8xInVMeSgPS/kvsQ==","19861231","ilechli17@hitmoel.fr","Fronczak","Shoto","+2062277919",596);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (597,1,"chiemeka.maj","1Qqniq8xInVMeSgPS/kvsQ==","19790412","pialpir@hitmoel.fr","Maj","Chiemeka","+421849372641",597);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (598,1,"alfeu.matus","1Qqniq8xInVMeSgPS/kvsQ==","19680510","pebovord@hitmoel.fr","Matus","Alfeu","+9612649373",598);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (599,1,"lysandra.nuriev","1Qqniq8xInVMeSgPS/kvsQ==","19010612","pheleppu-pm@hitmoel.fr","Nuriev","Lysandra","+594594678812",599);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (600,1,"george.suffo","1Qqniq8xInVMeSgPS/kvsQ==","19900305","potreckdruon@yohii.fr","Suffo","George","+375619971893",600);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (601,1,"angada.rumpelmeier","1Qqniq8xInVMeSgPS/kvsQ==","19601124","peurru.betian@wonodii.fr","Rumpelmeier","Angada","+32452763913",601);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (602,1,"anoop.wadzinski","1Qqniq8xInVMeSgPS/kvsQ==","19740718","potnotludiajut@fruu.fr","Wadzinski","Anoop","+37158626335",602);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (603,1,"séverin.spedding","1Qqniq8xInVMeSgPS/kvsQ==","19270330","potreck.burutte@cugutul.fr","Spedding","Séverin","+85257874548",603);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (604,1,"ibra.roe","1Qqniq8xInVMeSgPS/kvsQ==","19110104","peu.oni.obrutul@fruu.fr","Roe","Ibra","+36209230408",604);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (605,1,"arnold.marcelino","1Qqniq8xInVMeSgPS/kvsQ==","19821102","punnodeg.kohultu@irongu.fr","Marcelino","Arnold","+16806540221",605);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (606,1,"sendhilnathan.olwenyi","1Qqniq8xInVMeSgPS/kvsQ==","19550331","potreck_diachumunt@hitmoel.fr","Olwenyi","SendhilNathan","+85265671827",606);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (607,1,"bonifác.vinkalns","1Qqniq8xInVMeSgPS/kvsQ==","19070204","qaunten.guirgu@fruu.fr","Vinkalns","Bonifác","+6559170060",607);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (608,1,"alanne.kambalame","1Qqniq8xInVMeSgPS/kvsQ==","19050228","qaumuru.jihonnu@irongu.fr","Kambalame","Alanne","+4915520975939",608);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (609,1,"sothakhun.nakoulma","1Qqniq8xInVMeSgPS/kvsQ==","19480830","rims411@hitmoel.fr","Nakoulma","Sothakhun","+237299361663",609);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (610,1,"il nam.karlin","1Qqniq8xInVMeSgPS/kvsQ==","19100414","rewolcop@yohii.fr","Karlin","Il nam","+6459018602",610);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (611,1,"icare.askorbe","1Qqniq8xInVMeSgPS/kvsQ==","19700914","r_vuessed@yohii.fr","Askorbe","Icare","+37158719631",611);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (612,1,"cameron.lavatai","1Qqniq8xInVMeSgPS/kvsQ==","19500626","rumy_lopolas@hitmoel.fr","Lavatai","Cameron","+594594834264",612);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (613,1,"jaunti.nkunda","1Qqniq8xInVMeSgPS/kvsQ==","19220930","rucratumunt-purmonunt-4@nontusmutripilu.fr","Nkunda","Jaunti","+212579692445",613);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (614,1,"madenig.schmidt","1Qqniq8xInVMeSgPS/kvsQ==","19150716","sludiajut@sfr.fr","Schmidt","Madenig","+22315814460",614);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (615,1,"leno.kovalik","1Qqniq8xInVMeSgPS/kvsQ==","19230802","sturunn.t@wonodii.fr","Kovalik","Leno","+556589233292",615);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (616,1,"cristoforo.mendoza","1Qqniq8xInVMeSgPS/kvsQ==","19110208","s.lu.bizuc@irongu.fr","Mendoza","Cristoforo","+3618215520",616);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (617,1,"sara.kasymoff","1Qqniq8xInVMeSgPS/kvsQ==","19330618","siezec1388@irongu.fr","Kasymoff","Sara","+557107138105",617);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (618,1,"reinald.gayibov","1Qqniq8xInVMeSgPS/kvsQ==","19360504","sipheupeoa@yohii.fr","Gayibov","Reinald","+351115497818",618);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (619,1,"dario.mattocks","1Qqniq8xInVMeSgPS/kvsQ==","19380515","suv.loarunt@fruu.fr","Mattocks","Dario","+3659890229",619);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (620,1,"avihou.boase","1Qqniq8xInVMeSgPS/kvsQ==","19370318","supherith669@hitmoel.fr","Boase","Avihou","+96280247219",620);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (621,1,"dhanajit.majchrzak","1Qqniq8xInVMeSgPS/kvsQ==","19421113","stufporodesu@levu.fr","Majchrzak","Dhanajit","+22921894610",621);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (622,1,"okura.munk","1Qqniq8xInVMeSgPS/kvsQ==","19631126","selvuru.lacos@irongu.fr","Munk","Okura","+38262078341",622);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (623,1,"kylian.pullman","1Qqniq8xInVMeSgPS/kvsQ==","19651121","semin.fussord@hitmoel.fr","Pullman","Kylian","+50941014060",623);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (624,1,"marfa.movewala","1Qqniq8xInVMeSgPS/kvsQ==","19021005","selvuru.rimonu@irongu.fr","Movewala","Marfa","+36203594367",624);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (625,1,"hades.maynes","1Qqniq8xInVMeSgPS/kvsQ==","19020124","tupicl2@irongu.fr","Maynes","Hades","+420771342610",625);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (626,1,"lawahiz.kupferberg","1Qqniq8xInVMeSgPS/kvsQ==","19250818","tetu_riri@hitmoel.fr","Kupferberg","Lawahiz","+352880707",626);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (627,1,"polyxénē.nofo","1Qqniq8xInVMeSgPS/kvsQ==","19610617","thimos.burneur@uta.atc.fr","Nofo","Polyxénē","+527898536390",627);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (628,1,"dorothéa.kalan","1Qqniq8xInVMeSgPS/kvsQ==","19011208","temithuu.peurru@uta.atc.fr","Kalan","Dorothéa","+56458410821",628);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (629,1,"akando.gallagher","1Qqniq8xInVMeSgPS/kvsQ==","19450607","tyriduloaru-morenu@hitmoel.fr","Gallagher","Akando","+420749394445",629);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (630,1,"nils.formanova","1Qqniq8xInVMeSgPS/kvsQ==","19471204","an.pte.tiar@hitmoel.fr","Formanova","Nils","+372816910",630);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (631,1,"ëliram.meimberg","1Qqniq8xInVMeSgPS/kvsQ==","19780126","asur 2: pebovord@hitmoel.fr","Meimberg","ëliram","+581517963089",631);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (632,1,"brianna.stolzenberg","1Qqniq8xInVMeSgPS/kvsQ==","19890301","asur 2: petebialut56@hitmoel.fr","Stolzenberg","Brianna","+21642520793",632);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (633,1,"sajoie.vandonk","1Qqniq8xInVMeSgPS/kvsQ==","19770301","asur 2: nekilos.brasteuc@hitmoel.fr","Vandonk","Sajoie","+212653947855",633);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (634,1,"kuwanlelenta.uus","1Qqniq8xInVMeSgPS/kvsQ==","19700612","asur 2: ciauttus_ciauttus_9@hitmoel.fr","Uus","Kuwanlelenta","+56871086701",634);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (635,1,"edwige.basher","1Qqniq8xInVMeSgPS/kvsQ==","19471019","volunten.dapeteur@emeu.fr","Basher","Edwige","+3611335691",635);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (636,1,"pathin.leninwala","1Qqniq8xInVMeSgPS/kvsQ==","19471002","wineagaoe@hitmoel.fr","Leninwala","Pathin","+48717433681",636);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (637,1,"roberta.bobal","1Qqniq8xInVMeSgPS/kvsQ==","19670718","yvon.sogeno02@hitmoel.fr","Bobal","Roberta","+557393556036",637);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (638,1,"arzhela.kusnandar","1Qqniq8xInVMeSgPS/kvsQ==","19190311","uteunnu@dupor.es","Kusnandar","Arzhela","+212577826665",638);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (639,1,"lucke.alsabag","1Qqniq8xInVMeSgPS/kvsQ==","19570913","xmpp: uteunnu@dupor.es","Alsabag","Lucke","+972718274036",639);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (640,1,"âna.karette","1Qqniq8xInVMeSgPS/kvsQ==","19141217","027jihonn.miren@pilu-umplie.nut","Karette","Âna","+867336354145",640);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (641,1,"médéric.mbonyumutwa","1Qqniq8xInVMeSgPS/kvsQ==","19081112","onnuttu.hangur@gmx.nut","Mbonyumutwa","Médéric","+2381322925",641);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (642,1,"keala.siswanto","1Qqniq8xInVMeSgPS/kvsQ==","19470423","odmen05@tonzmetmer.ot","Siswanto","Keala","+381667164399",642);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (643,1,"annie-laure.hani","1Qqniq8xInVMeSgPS/kvsQ==","19281222","odmen05@tonz-met-mer.nut","Hani","Annie-Laure","+866181335964",643);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (644,1,"cheung.adolfsson","1Qqniq8xInVMeSgPS/kvsQ==","19760510","ognus-oloen@lopistu.nut","Adolfsson","Cheung","+97255858714",644);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (645,1,"adila.uchida","1Qqniq8xInVMeSgPS/kvsQ==","19760614","oloen.pieslonu@lopistu.nut","Uchida","Adila","+3618620146",645);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (646,1,"maxime.vanholst","1Qqniq8xInVMeSgPS/kvsQ==","19431224","onoullu--lacos@lopistu.nut","Vanholst","Maxime","+9136554483",646);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (647,1,"bista.budziszewski","1Qqniq8xInVMeSgPS/kvsQ==","19230720","ontienu.mintunin@trumplen-atc.nut","Budziszewski","Bista","+22947423421",647);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (648,1,"hassoun.tanudjaja","1Qqniq8xInVMeSgPS/kvsQ==","19640225","cucelu.yonn@lopistu.nut","Tanudjaja","Hassoun","+38590916068",648);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (649,1,"baldur.arif","1Qqniq8xInVMeSgPS/kvsQ==","19030624","cothurenu.mogeirone@lopistu.nut","Arif","Baldur","+3286086696",649);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (650,1,"georgette.sahar","1Qqniq8xInVMeSgPS/kvsQ==","19910906","dulphenu.bochulureu@lopistu.nut","Sahar","Georgette","+37256504661",650);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (651,1,"garbixo.chipy","1Qqniq8xInVMeSgPS/kvsQ==","19360505","uscorgits.siledoerus@resuap.nut","Chipy","Garbixo","+237214123596",651);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (652,1,"azarug.remmel","1Qqniq8xInVMeSgPS/kvsQ==","19590420","girellu@resuap.nut","Remmel","Azarug","+237280833132",652);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (653,1,"abed.nanstveit","1Qqniq8xInVMeSgPS/kvsQ==","19031107","genuttu.lucour@lopistu.nut","Nanstveit","Abed","+36201356038",653);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (654,1,"fabrice.gerima","1Qqniq8xInVMeSgPS/kvsQ==","19261215","gaellurmi.daoalt@lopistu.nut","Gerima","Fabrice","+352914911",654);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (655,1,"meïssa.augusto","1Qqniq8xInVMeSgPS/kvsQ==","19780418","Hons.Deukmonn@deu-iptemestun.nut","Augusto","Meïssa","+3617957421",655);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (656,1,"wajeeh.dingtshian","1Qqniq8xInVMeSgPS/kvsQ==","19030904","juonnuttugrass@gmx.nut","Dingtshian","Wajeeh","+37175053899",656);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (657,1,"émilie.reinbergs","1Qqniq8xInVMeSgPS/kvsQ==","19740824","jx.jx@lopistu.nut","Reinbergs","Émilie","+36202158793",657);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (658,1,"ambram.rudy","1Qqniq8xInVMeSgPS/kvsQ==","19200316","ju.fiarmy@lopistu.nut","Rudy","Ambram","+291675576695",658);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (659,1,"pericles.zhou","1Qqniq8xInVMeSgPS/kvsQ==","19191129","kuklu@gmx.nut","Zhou","Pericles","+372161070",659);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (660,1,"aleksey.klyashev","1Qqniq8xInVMeSgPS/kvsQ==","19720417","kintokt@tueloati.nut","Klyashev","Aleksey","+2382188140",660);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (661,1,"moira.bulatao","1Qqniq8xInVMeSgPS/kvsQ==","19641021","leso.skapen@gmx.nut","Bulatao","Moira","+38538524882",661);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (662,1,"izko.kanybeck","1Qqniq8xInVMeSgPS/kvsQ==","19460527","lusanscinsceunts@lopistu.nut","Kanybeck","Izko","+85577119740",662);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (663,1,"hani.rekunen","1Qqniq8xInVMeSgPS/kvsQ==","19430727","mogdoluno.longur@gmx.ot","Rekunen","Hani","+594594348748",663);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (664,1,"phoebe.bajracharya","1Qqniq8xInVMeSgPS/kvsQ==","19440325","mechulu.lomineco@tescole.et","Bajracharya","Phoebe","+237266156921",664);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (665,1,"ibrahim.piekos","1Qqniq8xInVMeSgPS/kvsQ==","19230821","potnotludiajut@cugutul.nut","Piekos","Ibrahim","+372922022",665);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (666,1,"abdelhaye.badhni","1Qqniq8xInVMeSgPS/kvsQ==","19600314","potreck.burutte@cugutul.nut","Badhni","Abdelhaye","+381336413257",666);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (667,1,"wojciecha.vietnieks","1Qqniq8xInVMeSgPS/kvsQ==","19490620","rugeno.schworzur@gmx.nut","Vietnieks","Wojciecha","+212646043561",667);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (668,1,"linor.cnaitho","1Qqniq8xInVMeSgPS/kvsQ==","19350327","sybessin@lopistu.nut","Cnaitho","Linor","+38572188174",668);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (669,1,"art.caballero","1Qqniq8xInVMeSgPS/kvsQ==","19321211","sijoschnetzul@gmx.nut","Caballero","Art","+3672051811",669);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (670,1,"corrado.zizka","1Qqniq8xInVMeSgPS/kvsQ==","19250714","thimos.burneur@lopistu.nut","Zizka","Corrado","+4919956482529",670);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (671,1,"veda.nguni","1Qqniq8xInVMeSgPS/kvsQ==","19680513","ale.din@gmx.nut","Nguni","Veda","+4778378231",671);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (672,1,"katarine.tosto","1Qqniq8xInVMeSgPS/kvsQ==","19251204","ontin@om-nuws.ua","Tosto","Katarine","+439097928",672);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (673,1,"dora.tumart","1Qqniq8xInVMeSgPS/kvsQ==","19811218","ReiaSSuJ@uroa.uda","Tumart","Dora","+4585753422",673);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (674,1,"zakia.mirkasumov","1Qqniq8xInVMeSgPS/kvsQ==","19740812","bloblo.corilo@bargur.e24.cc","Mirkasumov","Zakia","+372205141",674);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (675,1,"clóvis.ihaia","1Qqniq8xInVMeSgPS/kvsQ==","19621108","bloblo.Svunjo.riliff@pistui.du","Ihaia","Clóvis","+3725454628",675);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (676,1,"kamala.salaysay","1Qqniq8xInVMeSgPS/kvsQ==","19241126","bloblo.obh@uwi.mogdubarg.du","Salaysay","Kamala","+38559414042",676);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (677,1,"meissouma.o'toole","1Qqniq8xInVMeSgPS/kvsQ==","19651108","bloblo.o.kauhn@ta-broanschwueg.du","O'toole","Meissouma","+97287399466",677);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (678,1,"thania.stanic","1Qqniq8xInVMeSgPS/kvsQ==","19871117","bloblo.bertuipetz@wub.du","Stanic","Thania","+237263063119",678);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (679,1,"alissandre.dejesus","1Qqniq8xInVMeSgPS/kvsQ==","19390320","bloblo.pfeffekas_deu_firschurwurkstott@yohii.du","Dejesus","Alissandre","+56136788761",679);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (680,1,"wilhem.yamissi","1Qqniq8xInVMeSgPS/kvsQ==","19560920","bloblo.ochem.wuetnur-vinpuen@gmx.du","Yamissi","Wilhem","+33535063290",680);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (681,1,"amzun.ayo","1Qqniq8xInVMeSgPS/kvsQ==","19751220","bloblo.olonost@wub.du","Ayo","Amzun","+594594415479",681);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (682,1,"anibal.toluuluu","1Qqniq8xInVMeSgPS/kvsQ==","19911202","bloblo.oyo-yare@wub.du","Toluuluu","Anibal","+4685598040",682);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (683,1,"wefa.mussabeckov","1Qqniq8xInVMeSgPS/kvsQ==","19500409","bloblo.olmstudt.so@gmx.du","Mussabeckov","Wefa","+94324337705",683);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (684,1,"bitasok.lund","1Qqniq8xInVMeSgPS/kvsQ==","19530909","bloblo.ondruoficku@wub.du","Lund","Bitasok","+22986878109",684);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (685,1,"melsas.darabi","1Qqniq8xInVMeSgPS/kvsQ==","19030611","bloblo.onjo.moundl@wub.du","Darabi","Melsas","+35568308932",685);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (686,1,"kathryn.nicosia","1Qqniq8xInVMeSgPS/kvsQ==","19710717","bloblo.o.mekhredeniv@ta-broanschwueg.du","Nicosia","Kathryn","+212559940929",686);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (687,1,"tin.narato","1Qqniq8xInVMeSgPS/kvsQ==","19420717","bloblo.olmat.giurcks@gmx.du","Narato","Tin","+523080258145",687);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (688,1,"auban.almasy","1Qqniq8xInVMeSgPS/kvsQ==","19600528","bloblo.oluxondur.kerstu@noso.du","Almasy","Auban","+34710594616",688);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (689,1,"irving.nikitas","1Qqniq8xInVMeSgPS/kvsQ==","19940729","bloblo.onbeutur-162l35nfba6h8@moel.uboy-kluenonzuegun.du","Nikitas","Irving","+35542351294",689);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (690,1,"amanda.higashikuni","1Qqniq8xInVMeSgPS/kvsQ==","19780813","bloblo.onbeutur-1moer56kbwyk8@moel.uboy-kluenonzuegun.du","Higashikuni","Amanda","+393909855719",690);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (691,1,"fayçal.visser","1Qqniq8xInVMeSgPS/kvsQ==","19890603","bloblo.onbeutur-8pvnzw58064px@moel.uboy-kluenonzuegun.du","Visser","Fayçal","+9611240735",691);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (692,1,"temau’u.cakpenow","1Qqniq8xInVMeSgPS/kvsQ==","19310606","bloblo.bourbul.esobul@wub.du","Cakpenow","Temau’u","+434889811",692);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (693,1,"yossefa.armao","1Qqniq8xInVMeSgPS/kvsQ==","19830115","bloblo.b.weldunoaur@sife-p.du","Armao","Yossefa","+375364376770",693);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (694,1,"urki.saidahmetov","1Qqniq8xInVMeSgPS/kvsQ==","19000103","bloblo.bargborboro@yohii.du","Saidahmetov","Urki","+8617808777696",694);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (695,1,"sybil.hatungimana","1Qqniq8xInVMeSgPS/kvsQ==","19570605","bloblo.Burtrom@sogs-pur-moel.du","Hatungimana","Sybil","+581279525807",695);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (696,1,"massis.fukuyama","1Qqniq8xInVMeSgPS/kvsQ==","19130110","bloblo.b.filkurts@lubun-wihnun-emmibeleun.du","Fukuyama","Massis","+6568057831",696);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (697,1,"zipriano.kimbangui","1Qqniq8xInVMeSgPS/kvsQ==","19700304","bloblo.bachholtang@lubun-wihnun-emmibeleun.du","Kimbangui","Zipriano","+37164489861",697);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (698,1,"ana.picasso","1Qqniq8xInVMeSgPS/kvsQ==","19141229","bloblo.blauskyvecky@wub.du","Picasso","Ana","+9612084769",698);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (699,1,"ibhya.mincy","1Qqniq8xInVMeSgPS/kvsQ==","19710211","bloblo.breug.ludiajut@noso.du","Mincy","Ibhya","+358960026498",699);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (700,1,"atsege.jakubec","1Qqniq8xInVMeSgPS/kvsQ==","19521028","bloblo.bohncord-survecu@bohn.du","Jakubec","Atsege","+863548546059",700);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (701,1,"dimitri.gaber","1Qqniq8xInVMeSgPS/kvsQ==","19431126","bloblo.cw-cordaules@wub.du","Gaber","Dimitri","+31747659067",701);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (702,1,"duma.khatib","1Qqniq8xInVMeSgPS/kvsQ==","19340403","bloblo.chresteno.schullur@yohii.du","Khatib","Duma","+22956875837",702);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (703,1,"haloke.dekaerne","1Qqniq8xInVMeSgPS/kvsQ==","19791120","bloblo.cozwidneok@ehr-tuststadei.du","Dekaerne","Haloke","+85328895079",703);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (704,1,"paskell.mamalepot","1Qqniq8xInVMeSgPS/kvsQ==","19730509","bloblo.chrestiphli@nuxgi.du","Mamalepot","Paskell","+522877334210",704);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (705,1,"ueva.steier","1Qqniq8xInVMeSgPS/kvsQ==","19040819","bloblo.corilenukiuhlur@wub.du","Steier","Ueva","+212646545617",705);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (706,1,"luisiana.dority","1Qqniq8xInVMeSgPS/kvsQ==","19600807","bloblo.corstun.kallmonn@ivga.du","Dority","Luisiana","+865450283727",706);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (707,1,"logan.golda","1Qqniq8xInVMeSgPS/kvsQ==","19790121","bloblo.chresteon.runult@noso.du","Golda","Logan","+519045917551",707);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (708,1,"izumi.dostal","1Qqniq8xInVMeSgPS/kvsQ==","19780902","bloblo.chresteno.bilevor@ivga.du","Dostal","Izumi","+3725194561",708);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (709,1,"aras.majidov","1Qqniq8xInVMeSgPS/kvsQ==","19140814","bloblo.chresteno.bilevor@sprz.ane-mogdubarg.du","Majidov","Aras","+2385028158",709);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (710,1,"qi-zhen.zaleski","1Qqniq8xInVMeSgPS/kvsQ==","19541209","bloblo.dlifuel3@wub.du","Zaleski","Qi-Zhen","+14678682",710);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (711,1,"krešo.lersch","1Qqniq8xInVMeSgPS/kvsQ==","19060130","bloblo.d.mutz@ta-broanschwueg.du","Lersch","Krešo","+237620962500",711);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (712,1,"muda.ndour","1Qqniq8xInVMeSgPS/kvsQ==","19371101","bloblo.deono_oppult1@fruunut.du","Ndour","Muda","+21630675713",712);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (713,1,"raclaw.galkowski","1Qqniq8xInVMeSgPS/kvsQ==","19990318","bloblo.dimenek.buckur@ta-bs.du","Galkowski","Raclaw","+19571855",713);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (714,1,"edur.segers","1Qqniq8xInVMeSgPS/kvsQ==","19210415","bloblo.urtl.md@t-inlenu.du","Segers","Edur","+381603113869",714);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (715,1,"eustorgius.cohen-scali","1Qqniq8xInVMeSgPS/kvsQ==","19140424","bloblo.u-Moel: pist@kenomi.du","Cohen-Scali","Eustorgius","+521511523693",715);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (716,1,"mílton.looke","1Qqniq8xInVMeSgPS/kvsQ==","19021011","bloblo.ulku.schoufurhunrech@wub.du","Looke","Mílton","+9617960743",716);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (717,1,"ariihau.forest","1Qqniq8xInVMeSgPS/kvsQ==","19060310","bloblo.firtbeldang@lonzu-lso.du","Forest","Ariihau","+3270535266",717);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (718,1,"andreana.vucina","1Qqniq8xInVMeSgPS/kvsQ==","19470912","bloblo.fronzeskoodlur@gmx.du","Vucina","Andreana","+868976634215",718);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (719,1,"sutej.fister","1Qqniq8xInVMeSgPS/kvsQ==","19251202","bloblo.fsegi@gmx.du","Fister","Sutej","+41385834108",719);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (720,1,"periklís.shaikh","1Qqniq8xInVMeSgPS/kvsQ==","19731115","bloblo.fruu-thiaghts@gmx.du","Shaikh","Periklís","+4567396152",720);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (721,1,"duci.wolkow","1Qqniq8xInVMeSgPS/kvsQ==","19711204","bloblo.Filktonz.Hollu@wub.du","Wolkow","Duci","+22724852111",721);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (722,1,"kiele.tshiepela","1Qqniq8xInVMeSgPS/kvsQ==","19521111","bloblo.gellus.nuxt@wub.du","Tshiepela","Kiele","+9611105494",722);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (723,1,"britta.ando","1Qqniq8xInVMeSgPS/kvsQ==","19770925","bloblo.g.bisrap@wub.du","Ando","Britta","+21623321444",723);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (724,1,"bisht.heikkinen","1Qqniq8xInVMeSgPS/kvsQ==","19220406","bloblo.getto.pfloamboam@gmx.du","Heikkinen","Bisht","+2381742619",724);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (725,1,"inakanta.sialei","1Qqniq8xInVMeSgPS/kvsQ==","19550302","bloblo.gmk@noso.du","Sialei","Inakanta","+16820821",725);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (726,1,"edwin.flis","1Qqniq8xInVMeSgPS/kvsQ==","19910303","bloblo.g.grinoa@ta-broanschwueg.du","Flis","Edwin","+6575582972",726);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (727,1,"blake.kahangi","1Qqniq8xInVMeSgPS/kvsQ==","19050101","bloblo.g.muchur@mdcc-fan.du","Kahangi","Blake","+38537474465",727);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (728,1,"matheo.eogeum","1Qqniq8xInVMeSgPS/kvsQ==","19130324","bloblo.gn-fomely@gmx.du","Eogeum","Matheo","+2078529162",728);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (729,1,"plátonas.talib","1Qqniq8xInVMeSgPS/kvsQ==","19690224","bloblo.GandeHuesu@gmx.du","Talib","Plátonas","+212696989324",729);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (730,1,"wai-yui.kanno","1Qqniq8xInVMeSgPS/kvsQ==","19640515","bloblo.gruun_chomoulein@gmx.du","Kanno","Wai-Yui","+3643915003",730);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (731,1,"raoudha.mausautele","1Qqniq8xInVMeSgPS/kvsQ==","19510329","bloblo.hubsbunuku@wub.du","Mausautele","Raoudha","+596596654095",731);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (732,1,"kasper.kelner","1Qqniq8xInVMeSgPS/kvsQ==","19540728","bloblo.huede-sinntog@gmx.du","Kelner","Kasper","+36204314793",732);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (733,1,"paul.chacic","1Qqniq8xInVMeSgPS/kvsQ==","19880214","bloblo.honno_klengunburg@hitmoel.du","Chacic","Paul","+972550296981",733);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (734,1,"niyath.lalita","1Qqniq8xInVMeSgPS/kvsQ==","19710709","bloblo.H.o.D@gmx.du","Lalita","Niyath","+901831179566",734);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (735,1,"brenda.rackow","1Qqniq8xInVMeSgPS/kvsQ==","19550527","bloblo.hulgo@teutguns.du","Rackow","Brenda","+8688786774981",735);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (736,1,"mori.brezina","1Qqniq8xInVMeSgPS/kvsQ==","19081027","bloblo.hiufnur@fz-cimuneas.du","Brezina","Mori","+3725821079",736);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (737,1,"uzza.karayeva","1Qqniq8xInVMeSgPS/kvsQ==","19060805","bloblo.hohn.ndl@t-inlenu.du","Karayeva","Uzza","+4913513139914",737);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (738,1,"eshanya.aurrekoetxea","1Qqniq8xInVMeSgPS/kvsQ==","19051112","bloblo.hunnwold.s@gmx.du","Aurrekoetxea","Eshanya","+48834756977",738);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (739,1,"faimere.bicery","1Qqniq8xInVMeSgPS/kvsQ==","19400808","bloblo.hch_maullur@wub.du","Bicery","Faimere","+97283750746",739);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (740,1,"dunnchad.bratuz","1Qqniq8xInVMeSgPS/kvsQ==","19670815","bloblo.hunrek.iurtul@t-inlenu.du","Bratuz","Dunnchad","+22740113791",740);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (741,1,"paylig.tongpalan","1Qqniq8xInVMeSgPS/kvsQ==","19021120","bloblo.enus.Hotturmonn@t-inlenu.du","Tongpalan","Paylig","+438907628",741);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (742,1,"gislaine.gaztaka","1Qqniq8xInVMeSgPS/kvsQ==","19710814","bloblo.epeurru@gmx.du","Gaztaka","Gislaine","+96225868044",742);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (743,1,"rafika.plichta","1Qqniq8xInVMeSgPS/kvsQ==","19231005","bloblo.enkosuuyia@kobulmoel.du","Plichta","Rafika","+50923154787",743);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (744,1,"gillianne.macek","1Qqniq8xInVMeSgPS/kvsQ==","19860827","bloblo.enfi.mirgunsturn@orcir.du","Macek","Gillianne","+390212425303",744);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (745,1,"lilibeth.amokachi","1Qqniq8xInVMeSgPS/kvsQ==","19960208","bloblo.enturussunt-nsjs978m8tzw@moel.uboy-kluenonzuegun.du","Amokachi","Lilibeth","+48161791233",745);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (746,1,"helga.njoo","1Qqniq8xInVMeSgPS/kvsQ==","19520907","bloblo.enturussunt-yqny0zb33hdl@moel.uboy-kluenonzuegun.du","Njoo","Helga","+902637361878",746);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (747,1,"apollonia.alofavalevale","1Qqniq8xInVMeSgPS/kvsQ==","19701130","bloblo.enturussunt-181eeaq3aznb5@moel.uboy-kluenonzuegun.du","Alofavalevale","Apollonia","+38260767238",747);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (748,1,"konstantin.mccardell","1Qqniq8xInVMeSgPS/kvsQ==","19160612","bloblo.enturussunt-1zbucv772b5uc@moel.uboy-kluenonzuegun.du","McCardell","Konstantin","+38296780329",748);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (749,1,"sa'di.browdy","1Qqniq8xInVMeSgPS/kvsQ==","19870209","bloblo.enturussunt-2mixsgga46tz2@moel.uboy-kluenonzuegun.du","Browdy","Sa'di","+352222214",749);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (750,1,"anáryiri.ruzic","1Qqniq8xInVMeSgPS/kvsQ==","19090913","bloblo.enturussunt-35jvxwwdmgwdt@moel.uboy-kluenonzuegun.du","Ruzic","Anáryiri","+907280676798",750);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (751,1,"hiroki.menacer","1Qqniq8xInVMeSgPS/kvsQ==","19470316","bloblo.enturussunt-3qeyjeywdvpzh@moel.uboy-kluenonzuegun.du","Menacer","Hiroki","+861707717449",751);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (752,1,"jasser.junck","1Qqniq8xInVMeSgPS/kvsQ==","19461123","bloblo.enturussunt-635v6pwp65mv4@moel.uboy-kluenonzuegun.du","Junck","Jasser","+3617853072",752);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (753,1,"nikola.ottosen","1Qqniq8xInVMeSgPS/kvsQ==","19430306","bloblo.enturussunt-6f522xfq41615@moel.uboy-kluenonzuegun.du","Ottosen","Nikola","+38229315524",753);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (754,1,"agurtzane.kushecow","1Qqniq8xInVMeSgPS/kvsQ==","19221221","bloblo.enturussunt-708t1jrg5233p@moel.uboy-kluenonzuegun.du","Kushecow","Agurtzane","+351307021097",754);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (755,1,"maharjan.kartallozi","1Qqniq8xInVMeSgPS/kvsQ==","19480322","bloblo.enturussunt-8l06lvqcm4x5p@moel.uboy-kluenonzuegun.du","Kartallozi","Maharjan","+48493287142",755);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (756,1,"arevig.oralov","1Qqniq8xInVMeSgPS/kvsQ==","19030816","bloblo.enturussunt-cz50zsz6rzh5n@moel.uboy-kluenonzuegun.du","Oralov","Arevig","+512840657213",756);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (757,1,"zydrūnas.smolák","1Qqniq8xInVMeSgPS/kvsQ==","19210117","bloblo.enturussunt-gf8vsqpp1j9kk@moel.uboy-kluenonzuegun.du","Smolák","zydrūnas","+421845463504",757);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (758,1,"gismond.sumitimo","1Qqniq8xInVMeSgPS/kvsQ==","19250420","bloblo.enturussunt-hbvqdsprlt9k2@moel.uboy-kluenonzuegun.du","Sumitimo","Gismond","+56982254092",758);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (759,1,"mahemu.landauer","1Qqniq8xInVMeSgPS/kvsQ==","19550615","bloblo.enturussunt-k4zfrdj6rj9mv@moel.uboy-kluenonzuegun.du","Landauer","Mahemu","+93364499389",759);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (760,1,"sellam.mundiasti","1Qqniq8xInVMeSgPS/kvsQ==","19940120","bloblo.enturussunt-lm11ctvsj6gsr@moel.uboy-kluenonzuegun.du","Mundiasti","Sellam","+4918174625756",760);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (761,1,"floriana.tell","1Qqniq8xInVMeSgPS/kvsQ==","19210413","bloblo.enturussunt-nk9rgrrb1pvqh@moel.uboy-kluenonzuegun.du","Tell","Floriana","+375833252106",761);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (762,1,"rudolf.andrijashevic","1Qqniq8xInVMeSgPS/kvsQ==","19880526","bloblo.enturussunt-p09dt0v5gmf8t@moel.uboy-kluenonzuegun.du","Andrijashevic","Rudolf","+3726781988",762);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (763,1,"faisal.shiotani","1Qqniq8xInVMeSgPS/kvsQ==","19261016","bloblo.enturussunt-r71kwhxkxh447@moel.uboy-kluenonzuegun.du","Shiotani","Faisal","+41225123807",763);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (764,1,"jany.boye","1Qqniq8xInVMeSgPS/kvsQ==","19060502","bloblo.enturussunt-wlwm19tq36tcp@moel.uboy-kluenonzuegun.du","Boye","Jany","+34121908818",764);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (765,1,"paol.yepmou","1Qqniq8xInVMeSgPS/kvsQ==","19321208","bloblo.enturussunt-116vhtr6692s0x@moel.uboy-kluenonzuegun.du","Yepmou","Paol","+50978469160",765);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (766,1,"aini.rashed","1Qqniq8xInVMeSgPS/kvsQ==","19370505","bloblo.enturussunt-11gkfpsc1w8qbg@moel.uboy-kluenonzuegun.du","Rashed","Aini","+358455646831",766);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (767,1,"gildouin.imaizumi","1Qqniq8xInVMeSgPS/kvsQ==","19191109","bloblo.enturussunt-11lpkx2zq35r8r@moel.uboy-kluenonzuegun.du","Imaizumi","Gildouin","+61443125672",767);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (768,1,"sisyphe.topchi","1Qqniq8xInVMeSgPS/kvsQ==","19020917","bloblo.enturussunt-14nwpwtd1qsxxf@moel.uboy-kluenonzuegun.du","Topchi","Sisyphe","+22365494213",768);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (769,1,"cordélia.bundzenieks","1Qqniq8xInVMeSgPS/kvsQ==","19580620","bloblo.j.longunhon@ta-bs.du","Bundzenieks","Cordélia","+3725888024",769);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (770,1,"yordanka.mugol","1Qqniq8xInVMeSgPS/kvsQ==","19660406","bloblo.jonnekump65@wub.du","Mugol","Yordanka","+6595184258",770);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (771,1,"tim.herlinda","1Qqniq8xInVMeSgPS/kvsQ==","19461208","bloblo.jimo.sobrau@gmx.du","Herlinda","Tim","+590590699871",771);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (772,1,"hà.bajzhanbaeff","1Qqniq8xInVMeSgPS/kvsQ==","19370322","bloblo.jihonnodeumu@wub.du","Bajzhanbaeff","Hà","+37198888444",772);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (773,1,"eliana.klimko","1Qqniq8xInVMeSgPS/kvsQ==","19050521","bloblo.jaleo.muenul@htp-tul.du","Klimko","Eliana","+352642318769",773);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (774,1,"maisie.jamac","1Qqniq8xInVMeSgPS/kvsQ==","19220314","bloblo.jihonno.gurdus@noso.du","Jamac","Maisie","+35549817882",774);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (775,1,"cécilia.montello","1Qqniq8xInVMeSgPS/kvsQ==","19761212","bloblo.Jaleo.Muyur102@wub.du","Montello","Cécilia","+352812445",775);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (776,1,"cezni.cilvecinsh","1Qqniq8xInVMeSgPS/kvsQ==","19460926","bloblo.kintokt@ochtsomkuet-mogdubarg.du","Cilvecinsh","Cezni","+38295282490",776);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (777,1,"preciosa.breisacher","1Qqniq8xInVMeSgPS/kvsQ==","19921127","bloblo.kursten.kienu@coretos-mogdubarg-stodt.du","Breisacher","Preciosa","+864764568547",777);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (778,1,"ra'anui.nzimbi","1Qqniq8xInVMeSgPS/kvsQ==","19020603","bloblo.kiuneg_fronku@wub.du","Nzimbi","Ra'anui","+212572922009",778);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (779,1,"reginald.frank","1Qqniq8xInVMeSgPS/kvsQ==","19320730","bloblo.kintokt@pfurduwourts.du","Frank","Reginald","+94936697472",779);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (780,1,"hafiza.thom","1Qqniq8xInVMeSgPS/kvsQ==","19320102","bloblo.k.gasuwske@wub.du","Thom","Hafiza","+21689250760",780);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (781,1,"gladys.robulis","1Qqniq8xInVMeSgPS/kvsQ==","19510307","bloblo.kothorenoniutzul@gmx.du","Robulis","Gladys","+558156602598",781);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (782,1,"bathille.turk","1Qqniq8xInVMeSgPS/kvsQ==","19860306","bloblo.kortun@munschpappu.du","Turk","Bathille","+421738103278",782);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (783,1,"zeltso.racius","1Qqniq8xInVMeSgPS/kvsQ==","19780909","bloblo.kessoa@btv-md.du","Racius","Zeltso","+38269364505",783);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (784,1,"joele.ishcan","1Qqniq8xInVMeSgPS/kvsQ==","19490715","bloblo.Kintokt@muenfurnbas.du","Ishcan","Joele","+85285949010",784);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (785,1,"jòusefino.rose","1Qqniq8xInVMeSgPS/kvsQ==","19810127","bloblo.kozzurgbr@wub.du","Rose","Jòusefino","+38587685634",785);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (786,1,"swarup.polis","1Qqniq8xInVMeSgPS/kvsQ==","19821003","bloblo.kbikulmonn@gmx.du","Polis","Swarup","+50996836977",786);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (787,1,"nemanja.sadiq","1Qqniq8xInVMeSgPS/kvsQ==","19621001","bloblo.kostunlueur@gmx.du","Sadiq","Nemanja","+590590350925",787);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (788,1,"konstantyn.guha","1Qqniq8xInVMeSgPS/kvsQ==","19801231","bloblo.kaleck-fiti@t-inlenu.du","Guha","Konstantyn","+8631616010942",788);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (789,1,"cassia.wolfgruber","1Qqniq8xInVMeSgPS/kvsQ==","19051207","bloblo.kandunsurvecu@sw-mogdubarg.du","Wolfgruber","Cassia","+581889982902",789);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (790,1,"aleksandra.taouil","1Qqniq8xInVMeSgPS/kvsQ==","19310524","bloblo.kandunbutruaang@emminut.du","Taouil","Aleksandra","+375846049222",790);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (791,1,"teresa.bellec","1Qqniq8xInVMeSgPS/kvsQ==","19450611","bloblo.loresso.culenu@wub.du","Bellec","Teresa","+212614336296",791);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (792,1,"kouamé.sweeton","1Qqniq8xInVMeSgPS/kvsQ==","19330129","bloblo.lusur@vilksstemmu.du","Sweeton","Kouamé","+22769794747",792);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (793,1,"delf.cavanaugh","1Qqniq8xInVMeSgPS/kvsQ==","19660919","bloblo.LodyHunry@wub.du","Cavanaugh","Delf","+41908106454",793);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (794,1,"chaouki.mae","1Qqniq8xInVMeSgPS/kvsQ==","19340509","bloblo.leso_wurb@wub.du","Mae","Chaouki","+9613438803",794);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (795,1,"paramartha.katapang","1Qqniq8xInVMeSgPS/kvsQ==","19570215","bloblo.liaes.geuss@fruunut.du","Katapang","Paramartha","+596596155241",795);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (796,1,"ilona.titanian","1Qqniq8xInVMeSgPS/kvsQ==","19471113","bloblo.lesseu-fronk@gmx.du","Titanian","Ilona","+37149846922",796);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (797,1,"bachir.bratush","1Qqniq8xInVMeSgPS/kvsQ==","19061014","bloblo.LihfenkSelku@orcir.du","Bratush","Bachir","+972512962388",797);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (798,1,"sheela.alubaha","1Qqniq8xInVMeSgPS/kvsQ==","19371115","bloblo.Loaro-veunkun@orcir.du","Alubaha","Sheela","+2082402999",798);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (799,1,"bilitis.ashburner","1Qqniq8xInVMeSgPS/kvsQ==","19240729","bloblo.luondur.derks@gmx.du","Ashburner","Bilitis","+61146595834",799);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (800,1,"daiva.robin","1Qqniq8xInVMeSgPS/kvsQ==","19720429","bloblo.ladgur.seppul@noso.du","Robin","Daiva","+2385789115",800);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (801,1,"petra.cobian","1Qqniq8xInVMeSgPS/kvsQ==","19440112","bloblo.luno.bornufsku@wub.du","Cobian","Petra","+390873481310",801);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (802,1,"tania.hinetze","1Qqniq8xInVMeSgPS/kvsQ==","19010601","bloblo.Monaulo.Dallen-Veuhwug@ivga.du","Hinetze","Tania","+81548798101",802);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (803,1,"sabiñe.reghioua","1Qqniq8xInVMeSgPS/kvsQ==","19390421","bloblo.moret_baurgur@gmx.du","Reghioua","Sabiñe","+421847469693",803);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (804,1,"tristan.wangmene","1Qqniq8xInVMeSgPS/kvsQ==","19420116","bloblo.monaulo.nubul@wub.du","Wangmene","Tristan","+18034869571",804);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (805,1,"ngone.saksala","1Qqniq8xInVMeSgPS/kvsQ==","19540416","bloblo.morekomossogu@holdunslubun.du","Saksala","Ngone","+41743436670",805);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (806,1,"tiia.pinkley","1Qqniq8xInVMeSgPS/kvsQ==","19120404","bloblo.melbu333@yohii.du","Pinkley","Tiia","+3617437530",806);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (807,1,"anshuman.plaes","1Qqniq8xInVMeSgPS/kvsQ==","19810317","bloblo.moduluenu.stabbu@pistui.du","Plaes","Anshuman","+2385186563",807);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (808,1,"raffi.woldegiorgis","1Qqniq8xInVMeSgPS/kvsQ==","19840929","bloblo.mamhs@gmx.du","Woldegiorgis","Raffi","+237415803969",808);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (809,1,"eustaquio.sejtbekoff","1Qqniq8xInVMeSgPS/kvsQ==","19721116","bloblo.moreas@gremoad.mu","Sejtbekoff","Eustaquio","+48284265900",809);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (810,1,"pippa.hoyos","1Qqniq8xInVMeSgPS/kvsQ==","19090228","bloblo.mhoront@gmx.du","Hoyos","Pippa","+92968041263",810);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (811,1,"kostantzio.tingenek","1Qqniq8xInVMeSgPS/kvsQ==","19671105","bloblo.mkeuvur@tlenk.du","Tingenek","Kostantzio","+81251489544",811);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (812,1,"eyota.bajah","1Qqniq8xInVMeSgPS/kvsQ==","19380912","bloblo.mien.md@wub.du","Bajah","Eyota","+34556006802",812);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (813,1,"naod.madali","1Qqniq8xInVMeSgPS/kvsQ==","19770301","bloblo.m_huss83@wub.du","Madali","Naod","+4916818591108",813);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (814,1,"powaqa.ahmetbekoff","1Qqniq8xInVMeSgPS/kvsQ==","19750517","bloblo.mindnocht@kobulmoel.du","Ahmetbekoff","Powaqa","+393819786739",814);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (815,1,"ahiram.carao","1Qqniq8xInVMeSgPS/kvsQ==","19730326","bloblo.mbornuwetz@yohii.du","Carao","Ahiram","+352672275796",815);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (816,1,"floriana.didrihsons","1Qqniq8xInVMeSgPS/kvsQ==","19090802","bloblo.mola.purliw@pistui.du","Didrihsons","Floriana","+262262631162",816);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (817,1,"bouzian.dhruba","1Qqniq8xInVMeSgPS/kvsQ==","19290902","bloblo.morlun.sasku@yohii.du","Dhruba","Bouzian","+37183481665",817);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (818,1,"keti.gras","1Qqniq8xInVMeSgPS/kvsQ==","19500901","bloblo.moreonnup_1923@yohii.du","Gras","Keti","+237686568245",818);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (819,1,"gianni.mususu","1Qqniq8xInVMeSgPS/kvsQ==","19490531","bloblo.mottheos.2odlur@yohii.du","Mususu","Gianni","+861376674529",819);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (820,1,"sigimund.vanderye","1Qqniq8xInVMeSgPS/kvsQ==","19621012","bloblo.mottheos.lirunz@vlh.du","Vanderye","Sigimund","+590590559647",820);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (821,1,"asna.domantay","1Qqniq8xInVMeSgPS/kvsQ==","19451206","bloblo.moreu-laesu-lunz@t-inlenu.du","Domantay","Asna","+3662517192",821);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (822,1,"xabadin.riggins","1Qqniq8xInVMeSgPS/kvsQ==","19881019","bloblo.morten.biuttchur@gmx.du","Riggins","Xabadin","+22354109921",822);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (823,1,"davut.dukov","1Qqniq8xInVMeSgPS/kvsQ==","19870119","bloblo.morten.biuttchur@noso.du","Dukov","Davut","+85298455811",823);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (824,1,"regan.seveaona","1Qqniq8xInVMeSgPS/kvsQ==","19570421","bloblo.murtunschorlittu@wub.du","Seveaona","Regan","+85549032546",824);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (825,1,"aiko.aggabao","1Qqniq8xInVMeSgPS/kvsQ==","19010624","bloblo.mogdubarg.171-Vurmettlang@orbuetsoguntar.du","Aggabao","Aiko","+4918787321180",825);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (826,1,"pepijn.faqir","1Qqniq8xInVMeSgPS/kvsQ==","19580705","bloblo.niro_bithu@wub.du","Faqir","Pepijn","+8614254655295",826);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (827,1,"soana.naamdari","1Qqniq8xInVMeSgPS/kvsQ==","19730114","bloblo.n.lauttjihonn@hitmoel.du","Naamdari","Soana","+9186190502",827);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (828,1,"brizida.luo","1Qqniq8xInVMeSgPS/kvsQ==","19800426","bloblo.Neno.lembrick@wub.du","Luo","Brizida","+3255129756",828);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (829,1,"marie-lyse.alfons","1Qqniq8xInVMeSgPS/kvsQ==","19060316","bloblo.nirburt.onkunboaur@gmx.du","Alfons","Marie-Lyse","+212661497694",829);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (830,1,"hamima.montalto","1Qqniq8xInVMeSgPS/kvsQ==","19430224","bloblo.pist@kenomi.du","Montalto","Hamima","+352643526",830);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (831,1,"mélany.canbulatoglu","1Qqniq8xInVMeSgPS/kvsQ==","19361121","bloblo.pur.lynn@gmx.du","Canbulatoglu","Mélany","+97287219249",831);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (832,1,"maleu.arcilla","1Qqniq8xInVMeSgPS/kvsQ==","19341012","bloblo.Purdyluen@gmx.du","Arcilla","Maleu","+85286820867",832);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (833,1,"hervé.krkasharian","1Qqniq8xInVMeSgPS/kvsQ==","19570520","bloblo.piststullu@fo-md.ifd.mf.sochsun-onholt.du","Krkasharian","Hervé","+17706161",833);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (834,1,"chintanika.bychkov","1Qqniq8xInVMeSgPS/kvsQ==","19470413","bloblo.potreck.jangk@noso.du","Bychkov","Chintanika","+37254574394",834);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (835,1,"myeong.guérin","1Qqniq8xInVMeSgPS/kvsQ==","19301006","bloblo.poalo.solosfurnonduz@ivga.du","Guérin","Myeong","+590590905517",835);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (836,1,"neelmani.maco","1Qqniq8xInVMeSgPS/kvsQ==","19640402","bloblo.qeging-wubur@wub.du","Maco","Neelmani","+351544591144",836);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (837,1,"emanuele.das","1Qqniq8xInVMeSgPS/kvsQ==","19270512","bloblo.ruechult.kursten@gmx.du","Das","Emanuele","+6499078847",837);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (838,1,"chaden.bouajila","1Qqniq8xInVMeSgPS/kvsQ==","19570821","bloblo.rugeno.koppus@gmx.du","Bouajila","Chaden","+97299830187",838);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (839,1,"cristiana.moana","1Qqniq8xInVMeSgPS/kvsQ==","19530825","bloblo.selku.prongu@wub.du","Moana","Cristiana","+3263258484",839);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (840,1,"judith.barun","1Qqniq8xInVMeSgPS/kvsQ==","19741213","bloblo.sasobarg@gmx.du","Barun","Judith","+85530254253",840);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (841,1,"marilou.kunayed","1Qqniq8xInVMeSgPS/kvsQ==","19541027","bloblo.sasonnu-ohruns@wub.du","Kunayed","Marilou","+32456206903",841);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (842,1,"hanna.madisson","1Qqniq8xInVMeSgPS/kvsQ==","19380829","bloblo.sapobst@wub.du","Madisson","Hanna","+237670350211",842);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (843,1,"liêm.kayuni","1Qqniq8xInVMeSgPS/kvsQ==","19130225","bloblo.s.tschuntschur@notaroto-mogdubarg.du","Kayuni","Liêm","+4729567710",843);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (844,1,"timotheus.lourie","1Qqniq8xInVMeSgPS/kvsQ==","19270701","bloblo.selku@czemuk.du","Lourie","Timotheus","+27298922518",844);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (845,1,"pat.antaki","1Qqniq8xInVMeSgPS/kvsQ==","19870331","bloblo.survecu@olux-munau.du","Antaki","Pat","+3725880375",845);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (846,1,"soraya.chhayla","1Qqniq8xInVMeSgPS/kvsQ==","19641012","bloblo.sgorris@wub.du","Chhayla","Soraya","+8680190310560",846);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (847,1,"theslas.rajwadwala","1Qqniq8xInVMeSgPS/kvsQ==","19160408","bloblo.scholtur@troenlenu.du","Rajwadwala","Theslas","+22742025670",847);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (848,1,"linaïck.bayi","1Qqniq8xInVMeSgPS/kvsQ==","19270903","bloblo.sobenu.deppul@gmx.du","Bayi","Linaïck","+3251910689",848);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (849,1,"téîma.fujioka","1Qqniq8xInVMeSgPS/kvsQ==","19631025","bloblo.svun.hunnwold@noso.du","Fujioka","Téîma","+93449439609",849);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (850,1,"anatole.fauzza","1Qqniq8xInVMeSgPS/kvsQ==","19050201","bloblo.stuphon.schalz@noso.du","Fauzza","Anatole","+27281791905",850);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (851,1,"gérard.luthra","1Qqniq8xInVMeSgPS/kvsQ==","19950115","bloblo.Soscho.Fretzsch@hs-onholt.du","Luthra","Gérard","+212671633574",851);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (852,1,"ragnhildr.kachel","1Qqniq8xInVMeSgPS/kvsQ==","19401028","bloblo.svun-ruechstuen@wub.du","Kachel","Ragnhildr","+393546335332",852);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (853,1,"erik.al-asmari","1Qqniq8xInVMeSgPS/kvsQ==","19380803","bloblo.stodtplonangsomt@mogdubarg.du","Al-Asmari","Erik","+85328101158",853);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (854,1,"hawraz.galaydh","1Qqniq8xInVMeSgPS/kvsQ==","19780528","bloblo.stuphoneu.mutzgur@gmx.du","Galaydh","Hawraz","+92553038429",854);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (855,1,"fortunato.leger","1Qqniq8xInVMeSgPS/kvsQ==","19010609","bloblo.stuphon.schnuburgur@wub.du","Leger","Fortunato","+93119412885",855);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (856,1,"haran.rozanov","1Qqniq8xInVMeSgPS/kvsQ==","19900405","bloblo.subosteon.schmurmbuck@noso.du","Rozanov","Haran","+3282667708",856);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (857,1,"jun.darbari","1Qqniq8xInVMeSgPS/kvsQ==","19180209","bloblo.tbithu@ane-brumun.du","Darbari","Jun","+33163352409",857);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (858,1,"ekávi.bielinski","1Qqniq8xInVMeSgPS/kvsQ==","19930502","bloblo.twettur: @meliasu","Bielinski","Ekávi","+22396975159",858);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (859,1,"sandeep.demato","1Qqniq8xInVMeSgPS/kvsQ==","19500731","bloblo.troeneng.ois@ta-bs.du","Demato","Sandeep","+34983156577",859);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (860,1,"maïc.bohman","1Qqniq8xInVMeSgPS/kvsQ==","19780320","bloblo.thimsun-miagul@fruunut.du","Bohman","Maïc","+4919995113849",860);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (861,1,"ronni.uttara","1Qqniq8xInVMeSgPS/kvsQ==","19270630","bloblo.thirstun.bithu@gmx.du","Uttara","Ronni","+420482612180",861);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (862,1,"aouatif.nikich","1Qqniq8xInVMeSgPS/kvsQ==","19690629","bloblo.troenengsenfi.ois@ta-bs.du","Nikich","Aouatif","+9130576626",862);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (863,1,"nazli.kalambayi","1Qqniq8xInVMeSgPS/kvsQ==","19540807","bloblo.a.riliff@sgbloagild.du","Kalambayi","Nazli","+41919532902",863);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (864,1,"robert.ebba","1Qqniq8xInVMeSgPS/kvsQ==","19840605","bloblo.alreku.greusmonn@noso.du","Ebba","Robert","+3725849391",864);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (865,1,"elorri.dumalag","1Qqniq8xInVMeSgPS/kvsQ==","19250722","bloblo.volunten@gremoad.mu","Dumalag","Elorri","+37253147364",865);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (866,1,"sokhon.undasynoff","1Qqniq8xInVMeSgPS/kvsQ==","19141122","bloblo.wilf@btv-md.du","Undasynoff","Sokhon","+972510749186",866);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (867,1,"ariane.cromartie","1Qqniq8xInVMeSgPS/kvsQ==","19610528","bloblo.w.tuabul@gmx.du","Cromartie","Ariane","+22397328372",867);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (868,1,"thanh đức.viducis","1Qqniq8xInVMeSgPS/kvsQ==","19570120","bloblo.wgomhossul@wub.du","Viducis","Thanh Đức","+212535029610",868);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (869,1,"rifat.bø","1Qqniq8xInVMeSgPS/kvsQ==","19600828","bloblo.wolturselku@nuxgi.du","Bø","Rifat","+41461613017",869);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (870,1,"vassili.preobrazhensky","1Qqniq8xInVMeSgPS/kvsQ==","19980315","bloblo.wilfsendy18@yohii.du","Preobrazhensky","Vassili","+372443365",870);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (871,1,"héribert.milanowski","1Qqniq8xInVMeSgPS/kvsQ==","19081018","bloblo.xondro.vilkmonn@gmx.du","Milanowski","Héribert","+553388783995",871);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (872,1,"sudipta.urjavaha","1Qqniq8xInVMeSgPS/kvsQ==","19080110","bloblo.cintoct@lotutuolust.irg","Urjavaha","Sudipta","+375435705635",872);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (873,1,"lucilla.hagverdiyeva","1Qqniq8xInVMeSgPS/kvsQ==","19960921","bloblo.n.feord@ipunmoelbix.irg","Hagverdiyeva","Lucilla","+3725139888",873);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (874,1,"mèmel.chidothi","1Qqniq8xInVMeSgPS/kvsQ==","19130120","bloblo.riben.geboad@grusellu.irg","Chidothi","Mèmel","+352997290",874);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (875,1,"theodosía.kherkheulidze","1Qqniq8xInVMeSgPS/kvsQ==","19081114","bloblo.siascreptein@unurgeu-portoguu.irg","Kherkheulidze","Theodosía","+9820680855",875);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (876,1,"amarilis.lafainataua","1Qqniq8xInVMeSgPS/kvsQ==","19650922","bloblo.cb@tomm-kruez.bzh","Lafainataua","Amarilis","+393148706692",876);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (877,1,"gavril.seshadri","1Qqniq8xInVMeSgPS/kvsQ==","19410131","bloblo.cintoct@omzurnuvuz.bzh","Seshadri","Gavril","+31950938827",877);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (878,1,"elita.romanko","1Qqniq8xInVMeSgPS/kvsQ==","19760518","bloblo.cintoct@brutinsdus4vunts.bzh","Romanko","Elita","+351642873015",878);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (879,1,"on.lavrencic","1Qqniq8xInVMeSgPS/kvsQ==","19021021","bloblo.dostam@dostam.bzh","Lavrencic","On","+41316439924",879);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (880,1,"bertile.barends","1Qqniq8xInVMeSgPS/kvsQ==","19171102","bloblo.glunn.diajut@gizmoel.bzh","Barends","Bertile","+38955230986",880);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (881,1,"thu sương.mould","1Qqniq8xInVMeSgPS/kvsQ==","19740604","bloblo.rh@ccpld.bzh","Mould","Thu Sương","+32458777178",881);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (882,1,"qacheti.nool","1Qqniq8xInVMeSgPS/kvsQ==","19450213","bloblo.raby_horp@yohii.ci.ak","Nool","Qacheti","+92671837262",882);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (883,1,"kimi.dorn","1Qqniq8xInVMeSgPS/kvsQ==","19630209","bloblo.ronmora1926@yohii.ci.ak","Dorn","Kimi","+554424123146",883);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (884,1,"shilpakar.mckinley","1Qqniq8xInVMeSgPS/kvsQ==","19960815","bloblo.toreq_qarushe@hitmoel.ci.ak","McKinley","Shilpakar","+50928360125",884);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (885,1,"kristiina.benguigui","1Qqniq8xInVMeSgPS/kvsQ==","19180313","bloblo.uluktro121@hitmoel.cim","Benguigui","Kristiina","+3683547092",885);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (886,1,"joachim.di pierro","1Qqniq8xInVMeSgPS/kvsQ==","19580918","bloblo.molokbiarr@gmoel.cim","Di Pierro","Joachim","+3619430702",886);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (887,1,"chenorik.ziebosch","1Qqniq8xInVMeSgPS/kvsQ==","19760823","bloblo.skondur.jm@gmoel.cim","Ziebosch","Chenorik","+13630405",887);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (888,1,"garland.tatlumahi","1Qqniq8xInVMeSgPS/kvsQ==","19230528","bloblo.vencuu.richull@gmoel.cim","Tatlumahi","Garland","+94474010270",888);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (889,1,"neal.matoušek","1Qqniq8xInVMeSgPS/kvsQ==","19720301","bloblo.29j5mv4ukkp38cmea707a0gjwntm@ruply.oerbnb.cim","Matoušek","Neal","+85328211411",889);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (890,1,"gaudry.tanse","1Qqniq8xInVMeSgPS/kvsQ==","19390401","bloblo.3deqxigjc6fc44m03ndk3005h1di@ruply.oerbnb.cim","Tanse","Gaudry","+869714480665",890);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (891,1,"gnangra.siagogo","1Qqniq8xInVMeSgPS/kvsQ==","19091223","bloblo.onno.arboch@gmoel.cim","Siagogo","Gnangra","+436460025",891);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (892,1,"jyotiranjan.tarshis","1Qqniq8xInVMeSgPS/kvsQ==","19260920","bloblo.ontju.giurz@yohii.cim","Tarshis","Jyotiranjan","+237239255230",892);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (893,1,"noshi.amalsad","1Qqniq8xInVMeSgPS/kvsQ==","19230619","bloblo.onjoschlundur@hitmoel.cim","Amalsad","Noshi","+8615094123938",893);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (894,1,"barnard.qavuvu","1Qqniq8xInVMeSgPS/kvsQ==","19870202","bloblo.ospmoe@yohii.cim","Qavuvu","Barnard","+262262458763",894);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (895,1,"constantin.elmahdi","1Qqniq8xInVMeSgPS/kvsQ==","19450801","bloblo.occauel@rudoctein-duvulippuz.cim","Elmahdi","Constantin","+291931152821",895);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (896,1,"yin.tra","1Qqniq8xInVMeSgPS/kvsQ==","19960303","bloblo.oagurolu@gmoel.cim","Tra","Yin","+85328924839",896);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (897,1,"wieslaw.kamdar","1Qqniq8xInVMeSgPS/kvsQ==","19550828","bloblo.o.cosqaen@gmoel.cim","Kamdar","Wieslaw","+38542602852",897);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (898,1,"connor.belen","1Qqniq8xInVMeSgPS/kvsQ==","19130108","bloblo.o.cozibin@gmoel.cim","Belen","Connor","+3725442690",898);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (899,1,"jana.leyden","1Qqniq8xInVMeSgPS/kvsQ==","19780808","bloblo.ogollondb@gmoel.cim","Leyden","Jana","+3612646125",899);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (900,1,"jemma.paulsen","1Qqniq8xInVMeSgPS/kvsQ==","19130209","bloblo.omul.hoze@gmoel.cim","Paulsen","Jemma","+3726112328",900);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (901,1,"vasílissa.trelawney","1Qqniq8xInVMeSgPS/kvsQ==","19861103","bloblo.onodudo92@gmoel.cim","Trelawney","Vasílissa","+519314891587",901);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (902,1,"gokarmo.vroomen","1Qqniq8xInVMeSgPS/kvsQ==","19360804","bloblo.or.gollut@gmoel.cim","Vroomen","Gokarmo","+22339350640",902);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (903,1,"néhémiah.lassen","1Qqniq8xInVMeSgPS/kvsQ==","19790428","bloblo.os.tyridu@gmoel.cim","Lassen","Néhémiah","+584102005299",903);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (904,1,"leonardo.bergen","1Qqniq8xInVMeSgPS/kvsQ==","19250213","bloblo.oelysoetih@gmoel.cim","Bergen","Leonardo","+41873630779",904);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (905,1,"karoun.dzanjalimodzi","1Qqniq8xInVMeSgPS/kvsQ==","19240713","bloblo.onoeglacos@gmoel.cim","Dzanjalimodzi","Karoun","+6433134663",905);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (906,1,"sina.paekau","1Qqniq8xInVMeSgPS/kvsQ==","19650207","bloblo.olt: gifirbriku_90@hitmoel.cim","Paekau","Sina","+972722250461",906);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (907,1,"naresh.mati","1Qqniq8xInVMeSgPS/kvsQ==","19601231","bloblo.Soskeo, feschur.sossee201@gmoel.cim","Mati","Naresh","+352622299625",907);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (908,1,"alzbeta.jegede","1Qqniq8xInVMeSgPS/kvsQ==","19961127","bloblo.onoes.hort@gmoel.cim","Jegede","Alzbeta","+521120131264",908);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (909,1,"vibius.gondzur","1Qqniq8xInVMeSgPS/kvsQ==","19541223","bloblo.olux.geroad@gmoel.cim","Gondzur","Vibius","+351421109439",909);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (910,1,"induhasan.collaerd","1Qqniq8xInVMeSgPS/kvsQ==","19360907","bloblo.olhoaswoldt@giiglumoel.cim","Collaerd","Induhasan","+594594999210",910);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (911,1,"eliou.krykun","1Qqniq8xInVMeSgPS/kvsQ==","19390811","bloblo.olecu.dodoax@gmoel.cim","Krykun","Eliou","+594594304484",911);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (912,1,"aviâz.vezirov","1Qqniq8xInVMeSgPS/kvsQ==","19720815","bloblo.onnuokolitto@gmoel.cim","Vezirov","Aviâz","+8612397244821",912);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (913,1,"christie.trudo","1Qqniq8xInVMeSgPS/kvsQ==","19780127","bloblo.onti.mint.fr@gmoel.cim","Trudo","Christie","+37253613317",913);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (914,1,"tố.strazds","1Qqniq8xInVMeSgPS/kvsQ==","19760521","bloblo.ovenoshgs315@gmoel.cim","Strazds","Tố","+31729091405",914);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (915,1,"nilidh.svetozar","1Qqniq8xInVMeSgPS/kvsQ==","19360220","bloblo.odulu.siaport@gmoel.cim","Svetozar","Nilidh","+36205154328",915);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (916,1,"quitéria.zinchenko","1Qqniq8xInVMeSgPS/kvsQ==","19320604","bloblo.odulu.siaport@giiglumoel.cim","Zinchenko","Quitéria","+512053170647",916);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (917,1,"prielle.vleys","1Qqniq8xInVMeSgPS/kvsQ==","19560512","bloblo.one.scheffnur@mu.cim","Vleys","Prielle","+38994239066",917);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (918,1,"sunirmal.shboul","1Qqniq8xInVMeSgPS/kvsQ==","19670401","bloblo.onoullupegnoad@gmoel.cim","Shboul","Sunirmal","+3265184475",918);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (919,1,"rupert.otaget","1Qqniq8xInVMeSgPS/kvsQ==","19510729","bloblo.onnuloarumoreu@oil.cim","Otaget","Rupert","+35540061486",919);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (920,1,"keola.llanque","1Qqniq8xInVMeSgPS/kvsQ==","19120630","bloblo.onnumeudiurrur@oil.cim","Llanque","Keola","+22347220093",920);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (921,1,"juris.verbeten","1Qqniq8xInVMeSgPS/kvsQ==","19730328","bloblo.oxullu.pituoax@gmoel.cim","Verbeten","Juris","+372629671",921);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (922,1,"renu.thornquist","1Qqniq8xInVMeSgPS/kvsQ==","19810426","bloblo.ognuslhurmetogu@gmoel.cim","Thornquist","Renu","+33786135446",922);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (923,1,"nikolétta.krogh","1Qqniq8xInVMeSgPS/kvsQ==","19390717","bloblo.omondenu.loamint@gmoel.cim","Krogh","Nikolétta","+352688543069",923);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (924,1,"lindsay.porro","1Qqniq8xInVMeSgPS/kvsQ==","19830924","bloblo.oaruleun.muarecu@gmoel.cim","Porro","Lindsay","+85260192821",924);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (925,1,"zakia.araino","1Qqniq8xInVMeSgPS/kvsQ==","19850128","bloblo.olt: riben.geboad@gmoel.cim","Araino","Zakia","+97239312862",925);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (926,1,"glady.bailen","1Qqniq8xInVMeSgPS/kvsQ==","19520628","bloblo.olloudenu.ul.bonno@gmoel.cim","Bailen","Glady","+237683396570",926);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (927,1,"elza.godines","1Qqniq8xInVMeSgPS/kvsQ==","19120415","bloblo.olt: moduluenustabbu@hitmoel.cim","Godines","Elza","+22344518050",927);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (928,1,"pérouz.el-gharrouj","1Qqniq8xInVMeSgPS/kvsQ==","19521229","bloblo.ontienu.jiardon.2005@gmoel.cim","El-Gharrouj","Pérouz","+212556211800",928);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (929,1,"harinarayan.torossian","1Qqniq8xInVMeSgPS/kvsQ==","19070628","bloblo.Breug.lu.diajut@gmoel.cim","Torossian","Harinarayan","+4727323793",929);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (930,1,"danilo.engida","1Qqniq8xInVMeSgPS/kvsQ==","19960724","bloblo.boxmoreu@gmoel.cim","Engida","Danilo","+375550474291",930);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (931,1,"leo.cana","1Qqniq8xInVMeSgPS/kvsQ==","19420207","bloblo.bclurhan@gmoel.cim","Cana","Leo","+352285200",931);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (932,1,"trisha.risiott","1Qqniq8xInVMeSgPS/kvsQ==","19571129","bloblo.b0alz0r56@hitmoel.cim","Risiott","Trisha","+237496280913",932);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (933,1,"oderico.intxaurraga","1Qqniq8xInVMeSgPS/kvsQ==","19971219","bloblo.bachujaleo@gmoel.cim","Intxaurraga","Oderico","+9867851730",933);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (934,1,"venceslau.horowitz","1Qqniq8xInVMeSgPS/kvsQ==","19011024","bloblo.bwckunnudy@gmoel.cim","Horowitz","Venceslau","+553291426177",934);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (935,1,"papa.flis","1Qqniq8xInVMeSgPS/kvsQ==","19620218","bloblo.bunutnats_666@hitmoel.cim","Flis","Papa","+96261902835",935);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (936,1,"kanisha.hobani","1Qqniq8xInVMeSgPS/kvsQ==","19770227","bloblo.breugludiajut@gmoel.cim","Hobani","Kanisha","+41840160135",936);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (937,1,"adam.katuntu","1Qqniq8xInVMeSgPS/kvsQ==","19850501","bloblo.bochulut.fulex@gmoel.cim","Katuntu","Adam","+352157780",937);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (938,1,"ngoc liên.sakalas","1Qqniq8xInVMeSgPS/kvsQ==","19171204","bloblo.biarjitvurineqau@gmoel.cim","Sakalas","Ngoc Liên","+33133569771",938);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (939,1,"tamara.budge","1Qqniq8xInVMeSgPS/kvsQ==","19270810","bloblo.bunjomen.jidor276@gmoel.cim","Budge","Tamara","+4631536149",939);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (940,1,"geniès.jīn","1Qqniq8xInVMeSgPS/kvsQ==","19650523","bloblo.cnel@ikkozui.cim","Jīn","Geniès","+421410162123",940);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (941,1,"varfolomei.veli","1Qqniq8xInVMeSgPS/kvsQ==","19460428","bloblo.chopur_@hitmoel.cim","Veli","Varfolomei","+4757388601",941);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (942,1,"paniz.tri","1Qqniq8xInVMeSgPS/kvsQ==","19710729","bloblo.cuburnor@gmoel.cim","Tri","Paniz","+6546727397",942);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (943,1,"nergüi.kubilay","1Qqniq8xInVMeSgPS/kvsQ==","19720327","bloblo.cotyg.yvur@gmoel.cim","Kubilay","Nergüi","+41219600999",943);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (944,1,"gertrude.jonasson","1Qqniq8xInVMeSgPS/kvsQ==","19530906","bloblo.cloerudarit@hitmoel.cim","Jonasson","Gertrude","+22730614786",944);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (945,1,"tsérëte.beddiar","1Qqniq8xInVMeSgPS/kvsQ==","19511224","bloblo.clum.wunyaon@gmoel.cim","Beddiar","Tsérëte","+972556700505",945);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (946,1,"zacharia.wigen","1Qqniq8xInVMeSgPS/kvsQ==","19210711","bloblo.citenotlacos@gmoel.cim","Wigen","Zacharia","+3611098534",946);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (947,1,"erika.faloon","1Qqniq8xInVMeSgPS/kvsQ==","19830707","bloblo.clumpeoamogei@gmoel.cim","Faloon","Erika","+420161264814",947);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (948,1,"liboa.blazkova","1Qqniq8xInVMeSgPS/kvsQ==","19261008","bloblo.cyrel.grovullu@gmoel.cim","Blazkova","Liboa","+4585948420",948);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (949,1,"victorine.shriver","1Qqniq8xInVMeSgPS/kvsQ==","19870804","bloblo.chresteonrunult@oil.cim","Shriver","Victorine","+390889504388",949);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (950,1,"amaro.escoto","1Qqniq8xInVMeSgPS/kvsQ==","19461115","bloblo.cloressu.boellual@gmoel.cim","Escoto","Amaro","+37258092547",950);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (951,1,"alegria.mashurian","1Qqniq8xInVMeSgPS/kvsQ==","19230906","bloblo.doved.hulunu.35@gmoel.cim","Mashurian","Alegria","+41542925782",951);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (952,1,"adwoa.bankwala","1Qqniq8xInVMeSgPS/kvsQ==","19990612","bloblo.dghklzg@hitmoel.cim","Bankwala","Adwoa","+2383289443",952);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (953,1,"saleh.maccormaic","1Qqniq8xInVMeSgPS/kvsQ==","19001219","bloblo.dorkglibet@gmoel.cim","Maccormaic","Saleh","+372773063",953);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (954,1,"mudrika.sawhney","1Qqniq8xInVMeSgPS/kvsQ==","19310727","bloblo.dmnpegnoad@gmoel.cim","Sawhney","Mudrika","+22986876709",954);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (955,1,"hekate.mwashya","1Qqniq8xInVMeSgPS/kvsQ==","19441007","bloblo.dobuellu007@hitmoel.cim","Mwashya","Hekate","+36203731464",955);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (956,1,"luciana.rezonja","1Qqniq8xInVMeSgPS/kvsQ==","19670602","bloblo.dovedirguar@hitmoel.cim","Rezonja","Luciana","+358781028262",956);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (957,1,"uilleam.kuret","1Qqniq8xInVMeSgPS/kvsQ==","19480603","bloblo.dovedia10.v@gmoel.cim","Kuret","Uilleam","+2387104258",957);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (958,1,"tusti.ortona","1Qqniq8xInVMeSgPS/kvsQ==","19660110","bloblo.doved.mutz67@gmoel.cim","Ortona","Tusti","+33168938051",958);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (959,1,"raginhard.schutt","1Qqniq8xInVMeSgPS/kvsQ==","19810327","bloblo.doneko.risote@gmoel.cim","Schutt","Raginhard","+375990060881",959);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (960,1,"nury.mua","1Qqniq8xInVMeSgPS/kvsQ==","19981012","bloblo.donnylutrigli@gmoel.cim","Mua","Nury","+38951849848",960);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (961,1,"aymeri.wolin","1Qqniq8xInVMeSgPS/kvsQ==","19900723","bloblo.dulugotein.portecaleurs@lonuf.cim","Wolin","Aymeri","+390403541226",961);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (962,1,"julien.gala","1Qqniq8xInVMeSgPS/kvsQ==","19391028","bloblo.ultyridu@gmoel.cim","Gala","Julien","+352206610",962);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (963,1,"moemi.jouaiti","1Qqniq8xInVMeSgPS/kvsQ==","19540223","bloblo.um.frigur@gmoel.cim","Jouaiti","Moemi","+48758765589",963);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (964,1,"alohilani.slaski","1Qqniq8xInVMeSgPS/kvsQ==","19680705","bloblo.umldubounu@gmoel.cim","Slaski","Alohilani","+93238845207",964);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (965,1,"bahoz.bormann","1Qqniq8xInVMeSgPS/kvsQ==","19330727","bloblo.udum.ofondu@gmoel.cim","Bormann","Bahoz","+3613426240",965);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (966,1,"zelia.destournel","1Qqniq8xInVMeSgPS/kvsQ==","19380319","bloblo.uniro.hurmetu@gmoel.cim","Destournel","Zelia","+61617931676",966);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (967,1,"janko.thobega","1Qqniq8xInVMeSgPS/kvsQ==","19880926","bloblo.uniro.nekilos@gmoel.cim","Thobega","Janko","+9819058698",967);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (968,1,"stephanie.widjaja","1Qqniq8xInVMeSgPS/kvsQ==","19081111","bloblo.uteunnu.dupores@gmoel.cim","Widjaja","Stephanie","+6595984733",968);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (969,1,"benilde.alakbarov","1Qqniq8xInVMeSgPS/kvsQ==","19260729","bloblo.uljor.okhgornash@gmoel.cim","Alakbarov","Benilde","+22356901724",969);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (970,1,"donatianne.elshigail","1Qqniq8xInVMeSgPS/kvsQ==","19881129","bloblo.ummonaul.molobry@gmoel.cim","Elshigail","Donatianne","+9140610497",970);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (971,1,"magdalone.kepic","1Qqniq8xInVMeSgPS/kvsQ==","19291222","bloblo.FrunchBL@gwplc.cim","Kepic","Magdalone","+9617616055",971);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (972,1,"fatine.akimoto","1Qqniq8xInVMeSgPS/kvsQ==","19651218","bloblo.fpluneuru@cesbei.cim","Akimoto","Fatine","+972530667600",972);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (973,1,"gerulf.ondarreta","1Qqniq8xInVMeSgPS/kvsQ==","19020910","bloblo.foeoznole94@yohii.cim","Ondarreta","Gerulf","+8657680905470",973);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (974,1,"karl.schuch","1Qqniq8xInVMeSgPS/kvsQ==","19260811","bloblo.fro.wettmonn@gmoel.cim","Schuch","Karl","+92272703190",974);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (975,1,"gathot.mehrzad","1Qqniq8xInVMeSgPS/kvsQ==","19370120","bloblo.fobeun.juon69@gmoel.cim","Mehrzad","Gathot","+358553087709",975);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (976,1,"hosni.choudhury","1Qqniq8xInVMeSgPS/kvsQ==","19061030","bloblo.flurisu_riagu@hitmoel.cim","Choudhury","Hosni","+9616313673",976);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (977,1,"balendiñe.kaffuko","1Qqniq8xInVMeSgPS/kvsQ==","19930926","bloblo.fonny.pluneuru@gmoel.cim","Kaffuko","Balendiñe","+3726300001",977);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (978,1,"jaida.candan","1Qqniq8xInVMeSgPS/kvsQ==","19550906","bloblo.forshod.ozkure@yohii.cim","Candan","Jaida","+37255089552",978);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (979,1,"loinatz.yaganegi","1Qqniq8xInVMeSgPS/kvsQ==","19540419","bloblo.fustevolbulton@gmoel.cim","Yaganegi","Loinatz","+9619736635",979);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (980,1,"ambre.borzooyan","1Qqniq8xInVMeSgPS/kvsQ==","19151103","bloblo.fiacord_morein@hitmoel.cim","Borzooyan","Ambre","+6537674570",980);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (981,1,"achiq.leyba","1Qqniq8xInVMeSgPS/kvsQ==","19590906","bloblo.folknirmon.kimm@gmoel.cim","Leyba","Achiq","+97258142792",981);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (982,1,"ute.lahouti","1Qqniq8xInVMeSgPS/kvsQ==","19961120","bloblo.frujomoduluenustuen@gmoel.cim","Lahouti","Ute","+352120431",982);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (983,1,"fernandina.mcgettrick","1Qqniq8xInVMeSgPS/kvsQ==","19820711","bloblo.gkiuhlur2008@gmoel.cim","McGettrick","Fernandina","+97294115893",983);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (984,1,"anandita.maguyuk","1Qqniq8xInVMeSgPS/kvsQ==","19581227","bloblo.gf@kotlo.du.cim","Maguyuk","Anandita","+92697344736",984);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (985,1,"florentin.tasheneff","1Qqniq8xInVMeSgPS/kvsQ==","19460129","bloblo.gaehitm@gmoel.cim","Tasheneff","Florentin","+31489479291",985);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (986,1,"nicostratus.boudjenah","1Qqniq8xInVMeSgPS/kvsQ==","19950525","bloblo.gadajord@gmoel.cim","Boudjenah","Nicostratus","+22945787515",986);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (987,1,"raquel.ivey","1Qqniq8xInVMeSgPS/kvsQ==","19220126","bloblo.gaegaedaj@gmoel.cim","Ivey","Raquel","+22946633361",987);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (988,1,"mikha.tevikian","1Qqniq8xInVMeSgPS/kvsQ==","19680114","bloblo.gormischko@gmoel.cim","Tevikian","Mikha","+38999421932",988);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (989,1,"abdeladhim.napper","1Qqniq8xInVMeSgPS/kvsQ==","19260214","bloblo.g.gollechut@seomcinsuel.cim","Napper","Abdeladhim","+85328321055",989);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (990,1,"franklino.karakhanov","1Qqniq8xInVMeSgPS/kvsQ==","19540714","bloblo.garvonleord@gmoel.cim","Karakhanov","Franklino","+437320922",990);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (991,1,"sudipti.ducker","1Qqniq8xInVMeSgPS/kvsQ==","19171119","bloblo.gel.chorpunut@gwplc.cim","Ducker","Sudipti","+31437407997",991);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (992,1,"sonal.bagapov","1Qqniq8xInVMeSgPS/kvsQ==","19160620","bloblo.gobreul.soesin@gmoel.cim","Bagapov","Sonal","+85512739784",992);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (993,1,"marcio.coufal","1Qqniq8xInVMeSgPS/kvsQ==","19861201","bloblo.goatheur.huntz@gmoel.cim","Coufal","Marcio","+9849295534",993);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (994,1,"qamar.urakoy","1Qqniq8xInVMeSgPS/kvsQ==","19340317","bloblo.Grugieru.lobon@gmoel.cim","Urakoy","Qamar","+8674529848574",994);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (995,1,"marijan.mostrom","1Qqniq8xInVMeSgPS/kvsQ==","19141104","bloblo.gaelhum.vollot@gmoel.cim","Mostrom","Marijan","+863285462168",995);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (996,1,"caorall.kouropoulos","1Qqniq8xInVMeSgPS/kvsQ==","19160924","bloblo.goullu.ludiajut@gmoel.cim","Kouropoulos","Caorall","+972555559146",996);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (997,1,"wiola.yener","1Qqniq8xInVMeSgPS/kvsQ==","19930608","bloblo.goullu.lu.diajut@gmoel.cim","Yener","Wiola","+8674741029160",997);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (998,1,"chaïma.savage","1Qqniq8xInVMeSgPS/kvsQ==","19190420","bloblo.goullu.lugiagauc@gmoel.cim","Savage","Chaïma","+431694310",998);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (999,1,"beatriz.vardoulakis","1Qqniq8xInVMeSgPS/kvsQ==","19210610","bloblo.gelburt.bronchut@gmoel.cim","Vardoulakis","Beatriz","+85224419144",999);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1000,1,"kylien.stout","1Qqniq8xInVMeSgPS/kvsQ==","19670707","bloblo.gaelloamu.jalleun@gmoel.cim","Stout","Kylien","+3726414299",1000);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1001,1,"nir.tir","1Qqniq8xInVMeSgPS/kvsQ==","19990114","bloblo.gaelloamu.sweotuk@gmoel.cim","Tir","Nir","+41665367336",1001);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1002,1,"hosanne.mon","1Qqniq8xInVMeSgPS/kvsQ==","19190920","bloblo.gaelloamu_poatrit@hitmoel.cim","Mon","Hosanne","+291798873014",1002);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1003,1,"neftali.balcan","1Qqniq8xInVMeSgPS/kvsQ==","19890414","bloblo.gourtnuruekronupihl@giiglumoel.cim","Balcan","Neftali","+22375700300",1003);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1004,1,"txipi.cali","1Qqniq8xInVMeSgPS/kvsQ==","19181006","bloblo.gouton.retzuntholur@gmoel.cim","Cali","Txipi","+862093996713",1004);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1005,1,"persy.ahuriri","1Qqniq8xInVMeSgPS/kvsQ==","19751231","bloblo.goduo.cobonellosillt@gmoel.cim","Ahuriri","Persy","+22790227557",1005);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1006,1,"æðelfrið.bisazza","1Qqniq8xInVMeSgPS/kvsQ==","19110920","bloblo.hagautcu@gmoel.cim","Bisazza","Æðelfrið","+590590685608",1006);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1007,1,"earnest.baz","1Qqniq8xInVMeSgPS/kvsQ==","19380302","bloblo.honnuspreus@hitmoel.cim","Baz","Earnest","+6452095868",1007);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1008,1,"viktoriya.gulamirian","1Qqniq8xInVMeSgPS/kvsQ==","19020624","bloblo.hellmotthuw@yohii.cim","Gulamirian","Viktoriya","+38990512183",1008);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1009,1,"esther.marref","1Qqniq8xInVMeSgPS/kvsQ==","19060623","bloblo.hulunugiden78@gmoel.cim","Marref","Esther","+596596168070",1009);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1010,1,"drupada.mio","1Qqniq8xInVMeSgPS/kvsQ==","19670708","bloblo.hunrek.uechunhordt@gmoel.cim","Mio","Drupada","+8614682052312",1010);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1011,1,"gamliël.ismael","1Qqniq8xInVMeSgPS/kvsQ==","19940728","bloblo.evon.morcheko@gmoel.cim","Ismael","Gamliël","+237534535591",1011);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1012,1,"atika.nandita","1Qqniq8xInVMeSgPS/kvsQ==","19990302","bloblo.eM: MSN: b0alz0r56@hitmoel.cim","Nandita","Atika","+9616987955",1012);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1013,1,"otar.gustavsson","1Qqniq8xInVMeSgPS/kvsQ==","19090305","bloblo.eM: MSN: qenxen260@hitmoel.cim","Gustavsson","Otar","+8617137574154",1013);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1014,1,"jean.muradian","1Qqniq8xInVMeSgPS/kvsQ==","19490802","bloblo.eM: MSN: thublaufix78@hitmoel.cim","Muradian","Jean","+375120912619",1014);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1015,1,"okropir.limcangco","1Qqniq8xInVMeSgPS/kvsQ==","19680322","bloblo.jonecu.folknur@giiglumoel.cim","Limcangco","Okropir","+37258371333",1015);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1016,1,"andolin.hartwig","1Qqniq8xInVMeSgPS/kvsQ==","19691026","bloblo.jputet21@gmoel.cim","Hartwig","Andolin","+21667324755",1016);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1017,1,"virginio.pankonin","1Qqniq8xInVMeSgPS/kvsQ==","19761101","bloblo.jaurgunt@giiglumoel.cim","Pankonin","Virginio","+22393926883",1017);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1018,1,"djouhar.petri","1Qqniq8xInVMeSgPS/kvsQ==","19631222","bloblo.jivuncu.c@gmoel.cim","Petri","Djouhar","+27414468365",1018);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1019,1,"thaddeus.voorhees","1Qqniq8xInVMeSgPS/kvsQ==","19570919","bloblo.j.ozliaone@gmoel.cim","Voorhees","Thaddeus","+93526349816",1019);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1020,1,"gunjana.defevere","1Qqniq8xInVMeSgPS/kvsQ==","19850517","bloblo.junn.tron23@giiglumoel.cim","Defevere","Gunjana","+50981730221",1020);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1021,1,"azur.langland","1Qqniq8xInVMeSgPS/kvsQ==","19640415","bloblo.jockknibbu98@gmoel.cim","Langland","Azur","+237283507389",1021);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1022,1,"purushottama.ridpath","1Qqniq8xInVMeSgPS/kvsQ==","19780904","bloblo.jockknibbu98@giiglumoel.cim","Ridpath","Purushottama","+32456649242",1022);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1023,1,"stanka.nabendu","1Qqniq8xInVMeSgPS/kvsQ==","19650819","bloblo.jurimu.gaulun@gmoel.cim","Nabendu","Stanka","+92754466141",1023);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1024,1,"saskia.tsushima","1Qqniq8xInVMeSgPS/kvsQ==","19300516","bloblo.jurimucorin80@gmoel.cim","Tsushima","Saskia","+584515336846",1024);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1025,1,"vannina.silven","1Qqniq8xInVMeSgPS/kvsQ==","19980118","bloblo.jihonn.riachoassuu@gmoel.cim","Silven","Vannina","+96211767385",1025);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1026,1,"dayita.boka","1Qqniq8xInVMeSgPS/kvsQ==","19111023","bloblo.kotjo.klumm.gm@gmoel.cim","Boka","Dayita","+92961284873",1026);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1027,1,"paskella.nando","1Qqniq8xInVMeSgPS/kvsQ==","19020209","bloblo.kursten@wuntzuk.cim","Nando","Paskella","+431336906",1027);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1028,1,"dalanda.powe","1Qqniq8xInVMeSgPS/kvsQ==","19370809","bloblo.koy_ji@hitmoel.cim","Powe","Dalanda","+212585398815",1028);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1029,1,"haraldur.manipula","1Qqniq8xInVMeSgPS/kvsQ==","19760110","bloblo.kalmie@gmoel.cim","Manipula","Haraldur","+237370788717",1029);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1030,1,"dragan.levenberg","1Qqniq8xInVMeSgPS/kvsQ==","19860328","bloblo.kintokt@vidofinu.cim","Levenberg","Dragan","+351575538203",1030);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1031,1,"bíon.lovász","1Qqniq8xInVMeSgPS/kvsQ==","19730925","bloblo.korsilni@gmoel.cim","Lovász","Bíon","+352640459687",1031);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1032,1,"novelenn.cantoreew","1Qqniq8xInVMeSgPS/kvsQ==","19370805","bloblo.kuvkoy2017@gmoel.cim","Cantoreew","Novelenn","+32457782831",1032);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1033,1,"adem.mylchreest","1Qqniq8xInVMeSgPS/kvsQ==","19860120","bloblo.kuven.rindit@gmoel.cim","Mylchreest","Adem","+48122622019",1033);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1034,1,"harishchandra.shahverdiev","1Qqniq8xInVMeSgPS/kvsQ==","19300107","bloblo.kuvunludiajut@gmoel.cim","Shahverdiev","Harishchandra","+9611199440",1034);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1035,1,"czeslawa.bahori","1Qqniq8xInVMeSgPS/kvsQ==","19880120","bloblo.kuvun.ludiajut@gmoel.cim","Bahori","Czeslawa","+22731424038",1035);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1036,1,"yong-sook.lad","1Qqniq8xInVMeSgPS/kvsQ==","19680922","bloblo.kuvun.ludiajut@giiglumoel.cim","Lad","Yong-Sook","+96265956776",1036);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1037,1,"gasbar.tupulele","1Qqniq8xInVMeSgPS/kvsQ==","19020211","bloblo.ksuneo.bockurt@gmoel.cim","Tupulele","Gasbar","+352605847",1037);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1038,1,"indumukhi.singgih","1Qqniq8xInVMeSgPS/kvsQ==","19710529","bloblo.kallmonncorstun@gmoel.cim","Singgih","Indumukhi","+33134386408",1038);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1039,1,"iñake.vela","1Qqniq8xInVMeSgPS/kvsQ==","19490901","bloblo.kothorenouhifmonn@giiglumoel.cim","Vela","Iñake","+93952148774",1039);
-INSERT INTO bcf_user (security_user_id,security_user_enable,login,security_user_password,user_birth_date,user_email,user_family_name,user_first_name,user_phone_number,user_avatar_image_id) VALUES (1040,1,"lorena.navara","1Qqniq8xInVMeSgPS/kvsQ==","19010125","bloblo.s.rei@ltd-liaesblonc.cim","Navara","Lorena","+861925019273",1040);
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
 
 
 
@@ -54003,35 +54003,35 @@ INSERT INTO bcf_user_user_projects (user_security_user_id,user_projects_project_
 --CREDITCARD CREDIT CARD CONTRIBUTIONS INITIALIZATION
 --------------------------------------------------------------------
 --------------------------------------------------------------------
-INSERT INTO bcf_creditcard_credit_card_contributions (credit_card_credit_card_id,credit_card_contributions_contribution_id) VALUES (1666,1);
-INSERT INTO bcf_creditcard_credit_card_contributions (credit_card_credit_card_id,credit_card_contributions_contribution_id) VALUES (1402,2);
-INSERT INTO bcf_creditcard_credit_card_contributions (credit_card_credit_card_id,credit_card_contributions_contribution_id) VALUES (493,3);
-INSERT INTO bcf_creditcard_credit_card_contributions (credit_card_credit_card_id,credit_card_contributions_contribution_id) VALUES (991,4);
-INSERT INTO bcf_creditcard_credit_card_contributions (credit_card_credit_card_id,credit_card_contributions_contribution_id) VALUES (181,5);
-INSERT INTO bcf_creditcard_credit_card_contributions (credit_card_credit_card_id,credit_card_contributions_contribution_id) VALUES (2842,6);
-INSERT INTO bcf_creditcard_credit_card_contributions (credit_card_credit_card_id,credit_card_contributions_contribution_id) VALUES (235,7);
-INSERT INTO bcf_creditcard_credit_card_contributions (credit_card_credit_card_id,credit_card_contributions_contribution_id) VALUES (397,8);
-INSERT INTO bcf_creditcard_credit_card_contributions (credit_card_credit_card_id,credit_card_contributions_contribution_id) VALUES (1321,9);
-INSERT INTO bcf_creditcard_credit_card_contributions (credit_card_credit_card_id,credit_card_contributions_contribution_id) VALUES (1006,10);
-INSERT INTO bcf_creditcard_credit_card_contributions (credit_card_credit_card_id,credit_card_contributions_contribution_id) VALUES (3058,11);
-INSERT INTO bcf_creditcard_credit_card_contributions (credit_card_credit_card_id,credit_card_contributions_contribution_id) VALUES (910,12);
-INSERT INTO bcf_creditcard_credit_card_contributions (credit_card_credit_card_id,credit_card_contributions_contribution_id) VALUES (580,13);
-INSERT INTO bcf_creditcard_credit_card_contributions (credit_card_credit_card_id,credit_card_contributions_contribution_id) VALUES (2005,14);
-INSERT INTO bcf_creditcard_credit_card_contributions (credit_card_credit_card_id,credit_card_contributions_contribution_id) VALUES (2719,15);
-INSERT INTO bcf_creditcard_credit_card_contributions (credit_card_credit_card_id,credit_card_contributions_contribution_id) VALUES (2017,16);
-INSERT INTO bcf_creditcard_credit_card_contributions (credit_card_credit_card_id,credit_card_contributions_contribution_id) VALUES (2848,17);
-INSERT INTO bcf_creditcard_credit_card_contributions (credit_card_credit_card_id,credit_card_contributions_contribution_id) VALUES (1189,18);
-INSERT INTO bcf_creditcard_credit_card_contributions (credit_card_credit_card_id,credit_card_contributions_contribution_id) VALUES (1711,19);
-INSERT INTO bcf_creditcard_credit_card_contributions (credit_card_credit_card_id,credit_card_contributions_contribution_id) VALUES (2458,20);
-INSERT INTO bcf_creditcard_credit_card_contributions (credit_card_credit_card_id,credit_card_contributions_contribution_id) VALUES (757,21);
-INSERT INTO bcf_creditcard_credit_card_contributions (credit_card_credit_card_id,credit_card_contributions_contribution_id) VALUES (1060,22);
-INSERT INTO bcf_creditcard_credit_card_contributions (credit_card_credit_card_id,credit_card_contributions_contribution_id) VALUES (1348,23);
-INSERT INTO bcf_creditcard_credit_card_contributions (credit_card_credit_card_id,credit_card_contributions_contribution_id) VALUES (436,24);
-INSERT INTO bcf_creditcard_credit_card_contributions (credit_card_credit_card_id,credit_card_contributions_contribution_id) VALUES (2554,25);
-INSERT INTO bcf_creditcard_credit_card_contributions (credit_card_credit_card_id,credit_card_contributions_contribution_id) VALUES (2092,26);
-INSERT INTO bcf_creditcard_credit_card_contributions (credit_card_credit_card_id,credit_card_contributions_contribution_id) VALUES (1762,27);
-INSERT INTO bcf_creditcard_credit_card_contributions (credit_card_credit_card_id,credit_card_contributions_contribution_id) VALUES (2341,28);
-INSERT INTO bcf_creditcard_credit_card_contributions (credit_card_credit_card_id,credit_card_contributions_contribution_id) VALUES (2815,29);
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
+#NOM?
 
 
 
